@@ -1,0 +1,6 @@
+#!/bin/sh
+
+if [ ! $DISABLE_GUARDIAN ]; then
+    tac /var/lib/myfrdcsa/codebases/minor/guardian/data-git/todos.txt | tail -n 11
+    out-of-date.pl -f /var/lib/myfrdcsa/codebases/minor/guardian/data-git/todos.txt
+fi

@@ -1,0 +1,596 @@
+Ontology of Tasks and Methods*
+B. Chandrasekaran1, J. R. Josephson1 and V. Richard Benjamins2
+1
+2
+Laboratory for AI Research, The Ohio State University, Columbus, OH 43210,
+chandra,jj@cis.ohio-state.edu, http://www.cis.ohio-state.edu/lair/
+Dept. of Social Science Informatics (SWI), University of Amsterdam, Roetersstraat 15,
+1018 WB Amsterdam, The Netherlands, richard@swi.psy.uva.nl,
+http://www.swi.psy.uva.nl/usr/richard/home.html
+Abstract.
+Much of the work on ontologies in AI has focused on describing some aspect
+of reality: objects, relations, states of affairs, events, and processes in the world.
+A goal is
+to make knowledge sharable, by encoding domain knowledge using a standard
+vocabulary based on the ontology.
+A parallel attempt at identifying the ontology of
+problem-solving knowledge has a goal of sharable problem-solving methods.
+For
+example, when one is dealing with abductive inference problems, the following are some
+of the terms that occur in the representation of problem-solving methods: hypotheses,
+explanatory coverage, evidence, likelihood, plausibility, composite hypothesis, etc.
+Method ontology is, in good part, goal- and method-specific.
+``Generic Tasks,''
+``Heuristic Classification,'' ``Task-specific Architectures,'' ``Task-method Structures,''
+``Inference Structures'' and ``Task Structures'' are representative bodies of work in the
+knowledge-systems area that have focused on domain-independent problem-solving
+methods.
+However, connections have not been made to work that is explicitly concerned
+with domain ontologies.
+Making such connections is the goal of this paper.
+This paper is
+part review and part synthesis.
+1 Ontologies as Content Theories
+In philosophy, ontology is the study of the kinds of things that exist.
+Ontologies are often said,
+colorfully, to "carve the world at its joints."
+In AI, the term has largely come to mean one of two
+related things.
+•
+A representation vocabulary, typically specialized to some domain or subject matter.
+More precisely, it is not the vocabulary as such that qualifies as an ontology, but the
+Earlier versions of this paper have been presented at the 1997 AAAI Spring Symposium and the1998 Banff
+Knowledge Acquisition Workshop.
+The current version has been substantially expanded.
+conceptualizations that the terms in the vocabulary are intended to capture.
+For example,
+the ontology doesn't change by translating the terms from pseudo-English to pseudoFrench.
+In engineering design, one might talk about the ontology of the domain of
+electronic devices.
+Such an ontology might have conceptual elements such as
+``transistors,'' ``operational amplifiers,'' ``voltages,'' and so on, and relations between
+these elements, such as one class of devices is a subtype or a part of another, or that
+certain terms are properties of certain devices.
+Identifying such terms --and the
+underlying conceptualizations-- generally requires careful analysis of the kinds of objects
+and relations that can exist in the domain.
+In what has come to be called ``Upper
+Ontologies,'' i.e., ontologies that describe generic knowledge that holds across many
+fields, the analysis required to establish the ontologies is a major research challenge.
+•
+Occasionally, a body of knowledge describing some domain, typically a common sense
+knowledge domain, using such a representation vocabulary.
+For example, CYC (Lenat &
+Guha, 1990 ) often refers to its knowledge representation of some area of knowledge as
+its ontology.
+In this paper, we use the term ontology in the first sense, except that we broaden the notion of
+knowledge to include knowledge about problem solving.
+Our goal is both to review the work on
+ontology of problem solving knowledge and to propose a framework in which new work may be
+carried on more productively.
+The current interest in ontologies is really the latest version of our field's alternation of focus
+between content theories and mechanism theories.
+Sometimes everyone gets excited by some
+mechanism, such as rule systems, frame languages, neural nets, fuzzy logic, constraint
+propagation, unification, etc. The mechanisms are proposed as the secret of making intelligent
+machines.
+At other times, there is a realization that, however wonderful the mechanism, it cannot
+do much without a good content theory of the domain on which to set the mechanism to work.
+Moreover, it is often realized that once a good content theory is available, many different
+mechanisms might be used equally well to implement effective systems, all using essentially the
+same content (Chandrasekaran, 1994).
+In AI, there have been several attempts to characterize the essence of what it means to have a
+content theory.
+McCarthy and Hayes' (McCarthy & Hayes, 1969) Epistemic versus Heuristic
+distinction, Marr's three levels (Marr, 1982) --Information Processing Strategy level, algorithms
+and data structures level, and physical mechanisms level-- and Newell's Knowledge Level versus
+Symbol Levels (Newell, 1982) all grapple in their own ways with characterizing content.
+Ontologies are quintessentially content theories.
+1.1 Why Are Ontologies Important?
+Ontological analysis clarifies the structure of knowledge.
+The first reason is that they form the
+heart of any system of knowledge representation.
+If we do not have the conceptualizations that
+underlie knowledge, then we do not have a vocabulary for representing knowledge.
+Thus the first
+step in knowledge representation is performing an effective ontological analysis of some field of
+knowledge.
+Weak analyses lead to incoherent knowledge bases.
+A good example of the need for
+2
+good analysis comes from the field of databases (Wieringa & de Jonge , 1995).
+Consider a
+domain in which there are people, some of whom are students, some professors, some are other
+type of employees, some are females and some males.
+For quite some time, a simple ontology
+was used in which the classes of students, employees, professors, males and females were
+represented as ``types of'' humans.
+Soon this caused problems because it was noted that students
+could also be employees at times and can also stop being students.
+Further ontological analysis
+showed that ``students,'' ``employees,'' etc. are not ``types-of'' humans, but rather they are
+``roles'' that humans can play, unlike categories such as ``females,'' which are in fact a ``type-of''
+humans.
+Clarifying the ontology of this data domain made it possible to avoid various difficulties
+in reasoning about the data.
+Analysis of this sort that reveals the subtle connections between
+terms can often be quite challenging to perform.
+Ontologies enable knowledge sharing.
+The second reason why ontologies are important is that
+they provide a means for sharing knowledge.
+We just described how demanding it can be to
+come up with the appropriate conceptualizations for representing some area of knowledge.
+Suppose we do such an analysis and arrive at a satisfactory set of conceptualizations, and terms
+standing for them, for some area of knowledge, say, the domain of ``electronic devices.'' The
+resulting ontology would likely include terms such as ``transistors,'' and ``diodes,'' and more
+general terms such as ``functions,'' ``causal processes,'' ``modes'', and also terms in the electrical
+domain, such as "voltage," that would be necessary to represent the behavior of these devices.
+It
+is important to note that the ontology − defined by the basic concepts involved and their relations
+− is intrinsic to the domain, apart from a choice of vocabulary to represent it.
+If we can come up
+with a set of terms to stand for the conceptualizations, and a syntax for encoding the
+conceptualizations and the relations among them, then the efforts that went into analysis can be
+encoded into an ontology.
+This ontology can be shared with others who have similar needs for
+knowledge representation in that domain, avoiding the need for replicating the knowledge
+analysis.
+These ontologies can form the basis for domain-specific knowledge representation
+languages.
+In contrast to the previous generation of knowledge-representation languages, such as
+KL-One, these domain-specific languages may be termed ``content-rich.'' That is, they have a
+large number of terms that embody a complex content theory of the domain.
+Given such an ontology, specific knowledge bases describing specific situations can be built.
+For
+example, manufacturers of electronic devices could build catalogs that describe their products.
+With the shared vocabulary and syntax, such catalogs could be shared easily, and used in
+automated design systems.
+This kind of sharing vastly increases the potential for reuse of
+knowledge.
+We will now briefly review the basics of work on ontology to set the stage for discussing a
+specific type of ontology, that of problem solving knowledge.
+1.2 Terms for Describing the World
+An ontology helps us to describe facts, beliefs, hypotheses, and predictions about the world in
+general, or in a limited domain, if that is what is needed.
+Constructing ontologies for representing
+factual knowledge is still an on-going research enterprise.
+Ontologies range in abstraction from
+very general terms that lie at the heart of our understanding and descriptive capabilities in all
+3
+domains, to terms that are restricted to specific domains of knowledge.
+Basic phenomena of
+space, time, parts and subparts apply to all domains, while the concept of malfunction applies to
+engineered or biological domains, and even more specifically, the concept of hepatitis applies to
+medicine.
+These examples also suggest that there is no sharp line of abstraction separating the
+general from the domain- specific.
+Domains come in differing degrees of generality.
+Ontologies
+required to describe knowledge of some domain may require, in addition to domain-specific
+terms, terms from higher levels of generality.
+Terms at very general levels of description are
+often said to be part of the so-called ``upper ontology.'' There are many open research issues
+about the correct ways to analyze knowledge at this level, and disagreements and open problems
+abound.
+To give some idea of the issues involved, here is a quote from a recent call for papers:
+(1)
+``On the one hand there are entities, such as processes and events, which have temporal
+parts...
+On the other hand there are entities, such as material objects, which are always
+present in their entirety at any time at which they exist at all.
+The categorical distinction
+between entities which do, and entities which do not have temporal parts is grounded in
+common sense.
+Yet various philosophers have been inclined to oppose it.
+Some ... have
+defended an ontology consisting exclusively of things with no temporal parts.
+Whiteheadians have favored ontologies including only temporally extended processes.
+Quine has endorsed a four-dimensional ontology in which the distinction between objects
+and processes vanishes and every entity comprises simply the content of some arbitrarily
+demarcated portion of space-time.
+One further option, embraced by philosophers such as
+David Lewis, accepts the opposition between objects and processes, while still finding a
+way to allow that all entities have both spatial and temporal parts.''
+Sowa (Sowa, 1997), CYC (Lenat & Guha, 1990) and Guarino (Guarino, 1995) are some
+researchers in AI who have proposed alternative upper ontologies.
+As a practical matter, there is
+agreement that there are objects in the world; these objects have properties that can take values;
+the objects may exist in various relations with each other; the properties and relations may
+change over time; there are events that occur at different time instants; there are processes in
+which objects participate and that occur over time; the world and its objects can be in different
+states; events may cause other events as effects; and objects may have parts.
+Further, perhaps
+not as basic facts of the world but as ways of organizing them, is the notion of classes, instances,
+and subclasses, where ``classhood'' is associated with shared properties.
+Thus, Is-A relations
+indicating subclass relations are fundamental for ontology representations.
+The representational repertoire of objects, relations, states, events and processes does not say
+anything about what classes of these entities exist.
+They are left as commitments to be made by
+the person modeling the domain of interest.
+Even at very general levels, such commitments
+already appear.
+Many ontologies agree to have as root the class ``thing'' or ``entity'', but already
+at the next more specific level, they start to diverge, a fact which is nicely illustrated by the
+slightly different taxonomies of the top levels in existing ontology projects such as CYC,
+Wordnet, Generalized Upper Model, Gensim, etc.
+(see Fridman-Noy & Hafner, 1997 for an
+overview).
+The more specific the domain to be modeled, the more the ontological commitments.
+For example, someone, faced with expressing his knowledge of a certain part of the world, might
+assert that there are certain categories of things called animals, minerals and plants, that Has4
+Life(x), and Contains- carbon(x) are relevant properties for the objects; that Larger-than(x,y),
+Can-eat(x,y) are two relations that may hold between any two objects.
+These commitments are
+not arbitrary --any old declaration of classes and relations will not do.
+For them to be useful,
+such commitments should reflect some underlying reality, should reflect real existence.
+Thus the
+philosophical term ``ontology'' is especially appropriate for such commitments.
+As mentioned, there is no sharp division between domain-independent and domain-specific
+ontologies for representing knowledge.
+For example, the terms object, physical object, device,
+engine, and diesel engine, all describe objects, but in an order of increasing domain- specificity.
+Similarly, terms for relations between objects can span a range as well: e.g.,
+connected(component1, component2) relation can be specialized as electrically-connected,
+physically-attached, magnetically-connected and so on.
+Ontologies are terms that are needed to
+describe the world, but an ontology for representing domain facts can of course be used to
+represent non-facts, hopes, expectations, etc.
+Two Levels of Ontology.
+Research on ontologies generally proceeds by asking the question,
+``What is the ontology of P?'' where P is some type of entity, process or phenomenon.
+P may be
+something very general and ubiquitous such as ``causal processes,'' or ``liquids.'' Or P can be of
+narrower scope such as ``devices,'' or ``diseases of biological organisms.'' It is usual to identify
+two levels at which such an analysis is often conducted, and correspondingly, two levels of
+ontology for P can be distinguished (this distinction is reminiscent of the distinction between
+core and peripheral ontologies in (van Heijst et al., 1997)).
+At the first level, one identifies the basic conceptualizations needed to talk about all instances of
+P. For example, the first level ontology of ``causal process'' would include such concepts as
+``time instants,'' ``systems,'' ``system properties,'' ``system states,'' ``causes of change states,'' and
+``effects (also states).'' We need this vocabulary to talk about causal.
+At the second level, one
+would identify and name different types of P, and relate the typology to additional constraints on,
+or types of, the concepts in the first-level ontology.
+For the causal process example, we might
+identify two types of causal processes, ``discrete causal processes,'' and ``continuous causal
+processes.'' These terms, and the corresponding conceptualizations, are also parts of the
+ontology of the phenomenon being analyzed.
+Second-level ontology is essentially open-ended:
+new types may be identified at any time.
+How task-dependent are ontologies?
+What kinds of things actually exist does not depend on what
+our goals are.
+In that sense, ontologies are not task-dependent.
+On the other hand, exactly what
+aspects of reality in some domain get identified and written down in a particular ontology
+depends on what tasks the ontology is being built for.
+An ontology of the domain of fruits would
+focus on some aspects of reality if it is being written for selecting pesticides, and on different
+aspects if it is being written to help chefs select fruits for cooking.
+As we will see, assumptions
+or requirements of problem-solving methods can capture explicitly the way in which ontologies
+are task-dependent (Fensel & Benjamins, 1996).
+Assumptions are therefore a key-factor in
+practical sharing of ontologies.
+Technology for Ontology Sharing.
+There have been several recent attempts at creating
+engineering frameworks in which to construct ontologies.
+Neches, et al.
+(Neches et al., 1991)
+5
+describe an enabling technology called KIF intended to facilitate expression of domain factual
+knowledge using a formalism based on augmented Predicate Calculus.
+A language called
+Ontolingua (Gruber, 1993) has been proposed to aid in the construction of portable ontologies.
+In Europe, the CommonKADS project has taken a similar approach to modeling domain
+knowledge (Schreiber et al., 1994).
+These languages use various versions of Predicate Calculus
+as the basic formalism.
+Predicate Calculus facilitates the representation of objects, properties,
+relations, and classes.
+Variations such as Situational Calculus can be used to introduce time so
+that states, events and processes can be represented.
+If the idea of knowledge is extended to
+include images and other sense modalities, radically different kinds of representation may be
+needed.
+For now, PC provides a good starting point for ontology-sharing technologies.
+Using a logical notation for writing and sharing ontologies does not imply any commitment to
+implementing the knowledge system in that or a related logic.
+One is simply taking a Knowledge
+Level stance in describing the knowledge system, whatever the means of implementation.
+In this
+view, we can ask of any intelligent system, even one implemented in, say, neural networks,
+``What does the system know?''
+We are now ready to discuss the ontology of a specific phenomenon, that of problem-solving.
+We think that almost all the work on ontologies, until recently (Fensel et al., 1997, Mizoguchi et
+al., 1995), has been focused on one dimension of knowledge content.
+In order to explain this
+claim, we will need to identify different dimensions to the study of ontologies.
+We turn next to
+this task.
+1.3 Dimensions for Ontology Specification in Knowledge Systems
+In building a problem-solver, we need two types of knowledge:
+1.
+Domain factual knowledge: Knowledge about the objective realities in the domain of
+interest (Objects, relations, events, states, causal relations, etc.)
+2.
+Problem-solving knowledge: Knowledge about how to achieve various goals.
+A piece of
+this knowledge might be in the form of a problem-solving method (PSM) specifying, in a
+domain-independent manner, how a class of goals can be accomplished.
+Early research in KBS mixed together both factual and problem-solving knowledge into highly
+domain-specific rules and called all of it ``domain knowledge.'' As research progressed, however,
+it became clear that there were systematic regularities in how domain knowledge (we'll use
+``domain knowledge'' as a short hand for ``domain factual knowledge'') was used for different
+goals.
+It also became clear that this knowledge could be abstracted and reused.
+The domain knowledge dimension has been the overwhelming focus of most of the AI
+investigations on ontologies.
+In our view, the historical reasons for this are the following.
+In AI,
+there have been two distinct sets of practical applications of knowledge representation.
+One of
+them has been the area that started out as Expert Systems, but has evolved into a somewhat
+broader area called Knowledge-Based Problem-Solving (KBPS).
+Another area within AI that has
+also needed knowledge representation is natural language understanding (NLU).
+Ontological
+analysis is typically required to identify appropriate semantic structures for an understanding
+6
+program to map utterances to.
+Knowledge also plays a crucial role in disambiguation.
+Database
+and information systems communities have also recently begun to take interest in ontology
+issues.
+In practice, much of the work on ontologies, and in knowledge representation in general,
+has been driven more by concern with the needs of these communities, and these needs have
+mostly to do with the structure of what we have called factual knowledge.
+NLU and database
+systems typically do not do much problem solving of the sort done by KBPS systems.
+KBPS systems on the other hand clearly need to be concerned with uses of the knowledge for
+complex chains of reasoning.
+Thus the field of KBPS came to a realization in quick order that in
+addition to factual knowledge there is also knowledge about how to use the knowledge to
+achieve problem-solving goals.
+In fact, the so-called "second generation" research in knowledge
+systems was fueled by this emphasis on methods appropriate for different types of problems.
+Most of the work on knowledge representation that has gone on within the KBPS community is
+not even known to the general knowledge-representation community.
+The dimension of representing problem-solving knowledge will be the focus of this paper.
+We
+will begin by analyzing the ontology of a problem-solver, and note the role of problem-solving
+knowledge in it.
+We will ask: What is problem-solving knowledge made of?
+What are methods?
+What specific methods are there for what kinds of problems?
+What is the relationship between
+method ontologies and factual-knowledge ontologies?
+We will also discuss sharing and reusing
+method knowledge, since these are the major motivations of this line of research.
+2 Ontology of a Problem Solver
+The major elements of a first-level ontology of a generic instance of problem solver are the
+following:
+1.
+A problem-solving goal
+2.
+Domain data describing the problem-instance
+3.
+Problem-solving state
+4.
+Problem-solving knowledge (PSK)
+5.
+Domain factual knowledge (DFK)
+The underlying picture is that the problem-solver's state changes as a result of applying problem
+solving knowledge and domain knowledge to problem data.
+Eventually, a part of its state
+description might contain a solution to the goal, at which point the problem solving process
+stops.
+It might also stop when, given its knowledge and data, no progress toward the goal is
+possible.
+This description most likely does not suffice for all forms of what one might consider
+problem-solving.
+For example, distributed problem solving, where a number of independent
+agents collectively solve problems might require extensions to our description.
+However, for the
+points we wish to make, this characterization is a good starting place.
+7
+2.1 Problem-Solving Goals
+A simple example of a problem-solving goal is a diagnostic goal, "Explain abnormal
+observations of a system."
+This goal description is composed of two parts, an "attitude" term
+(Explain) that takes as argument an external world description (abnormal observations).
+This
+applies to goal descriptions in general.
+They are made up of attitude terms about world
+descriptions.
+Thus, the first-level ontology for goals is simply "attitudes on world descriptions."
+Of course, fully a describing a goal instance would require using attitude terms as well as the
+terms needed for their arguments, i.e., the DFK ontology that enables one to describe world
+states, events, object configurations, and process descriptions.
+We have mentioned that second level ontology terms arise by specializing first level ontology
+terms and identifying appropriate constraints between them.
+"Diagnostic goal" is a second-level
+term in the goal ontology; it is obtained by specializing the attitude term to "Explain" and
+constraining its argument to be world descriptions of the form "abnormal observations."
+Other
+attitude types are: ``make true that,'' ``prevent,'' "determine whether," "identify," and ``assign
+likelihood to.''
+Planning systems have goals to generate actions needed to achieve certain desired world states or
+avoid undesired ones.
+Design systems have goals of synthesizing object configurations that will
+behave in desired ways.
+Prediction or simulation systems have the goal of predicting future
+world states, and so on.
+Thus diagnose, design, plan, predict, etc., are some of the common terms
+in the second-level ontology for problem-solving goals.
+Classification goals are very common in
+knowledge systems as well.
+Many of these second-level elements of the goal ontology were
+identified during the research on task-oriented approaches.
+In fact, the term ``task'' was used to
+refer to goal types of certain generality (2).
+Tasks come in a range of generality: ``diagnose
+medical problems,'' is more specific than ``diagnose systems,'' but is more general than
+``diagnose liver illnesses.'' ``Explain observations,'' is more general than ``diagnose.'' ``Explain
+observations'' can cover many other task types besides diagnosis.
+2.2 Data Describing the Problem Instance
+A problem instance is also described in terms of domain factual ontology.
+In diagnosis, it is a set
+of observations.
+In prediction, it is description of actions and conditions that obtain in some
+world.
+In design, it is a set of constraints and specifications.
+A problem instance for a logistic
+planner might be a set of specific supply items to be delivered to specific locations and under
+specific weather, transportation and storage availability conditions.
+The ontology of problem instance data is the same as that of domain factual knowledge.
+The
+second-level ontology for problem instance data parallels that of the goal.
+Data for diagnostic
+goals are variously called normal and abnormal observations, and symptoms; for design goals,
+they are specifications, constraints, and functions; for prediction goals, they are initial
+conditions, and actions, and so on.
+8
+2.3 Problem States
+The problem-solver creates and changes a number of internal objects during the process of
+problem solving.
+A problem state is a set of values of state variables representing these internal
+objects.
+Problem state includes information about current goals and subgoals.
+It would also
+include all knowledge inferred during problem solving: e.g., elements of candidate solutions,
+their plausibility values, rejected solutions and reasons for them.
+In the case of diagnosis,
+problem state would contain information such as: current diagnostic hypotheses, observations
+explained by hypothesis H, the best hypotheses so far.
+In the case of design, problem state would
+contain information such as: partial design, design candidate, specifications satisfied by the
+design candidate, best candidate so far.
+Thus task types determine types of problem state
+variables.
+Active problem-solving goals and subgoals constitute a distinguished part of the
+problem state description.
+As problem solving proceeds, some of the subgoals are achieved, new
+subgoals are created, and some goals are abandoned.
+2.4 Problem-Solving Knowledge
+The basic unit of problem solving knowledge (PSK) is a mapping of the following form:
+<conditions on the problem state (including goals)>
+<conditions on domain knowledge>
+<conditions on data describing the problem instance>
+−>
+changes to <problem state (including goal components)>
+The above is not intended to be seen as a rule (which is an implementation formalism in KBS),
+but as a Knowledge Level description of a basic unit of problem- solving knowledge.
+It describes
+what the first-level ontology of a reasoning step is. It says that problem-solving behavior is
+responsive to the current state of problem solving (including goals), and uses domain knowledge
+and problem data to make changes to problem state, achieve goals and to set up subgoals, and to
+obtain additional data.
+For example, a piece of diagnostic problem-solving knowledge might be
+(3):
+``If the problem state includes the goal Evaluate hypothesis H, and if domain knowledge
+indicates that H can be evaluated as confirmed if the observations O1, ..., On have the
+values v1, ..., vn respectively, and if O1, ..., On do have values v1, ..., vn in the data
+describing the problem instance, then evaluate H as confirmed.''
+Problem-solving knowledge may be indexed by the goal it serves (in the example, Evaluate
+hypothesis).
+This facilitates sharing of this type of knowledge.
+It can be applied to any domain in
+which we need to assess hypotheses as long as we have the domain knowledge corresponding to
+the ``observations −> hypothesis'' part in the reasoning step.
+This is a key part of our analysis:
+the above is not a rule such as a rule of Mycin, in which domain factual knowledge and problemsolving knowledge were combined.
+It is an abstract description of a piece of problem-solving
+knowledge.
+9
+Problem Solver Element
+Problem Solving Goal
+First Level Ontology
+Attitude terms whose arguments are world
+descriptions (see Domain Factual
+Knowledge (DFK) below)
+Second Level Ontology
+Explain, determine whether,
+identify, classify, construct
+Diagnosis Example:
+Explain abnormal observations in
+terms of malfunction causes
+Problem instance data
+DFK terms (see below)
+Diagnosis Example:
+Sensor values, abnormal values,.:
+Problem state components
+Solution candidates, parts of solutions,
+goal, subgoals, solution valuation, satisfied
+and unsatisfied problem requirements,..
+Diagnosis Example:
+Malfunction hypotheses: solution
+candidates, parts of solution
+Confirmed |rejected hypotheses,
+plausibility of hypotheses: solution
+valuation
+Explained and unexplained
+observations: satisfied and
+unsatisfied problem requirements
+Evaluate malfunction hypothesis:
+subgoal
+Problem Solving
+Knowledge
+Conditions on (sub)goal, state, problem
+instance data, DFK, changes to state
+Ontology of goal, state, and data
+given above.
+Change of state in the
+form: change hypothesis
+evaluations, set up explanatory,
+data seeking, and parsimony
+subgoals
+Domain Factual
+Knowledge
+Objects, properties, states, processes,
+classes,..
+Devices, functions, malfunctions,
+modes, causes and effects,
+observations, behavior,
+components, …
+Table 1.
+Ontology of a problem solver and its elements.
+The example of diagnosis is used to
+illustrate second-level ontology.
+PSK units may come at different degrees of abstraction, based on how abstract the indexing
+goals are.
+The goal may range in abstractions: for example, from ``Establish hypothesis,'' through
+``Establish diagnostic hypothesis,'' to ``Establish device malfunction,'' to ``Establish diode
+failure.'' Actual implementations in specific domains may combine problem-solving knowledge
+and domain knowledge, the way early rule-based systems did.
+For example, a system may have a
+rule of the form:
+``If the goal is to establish diode malfunction, then if voltage vi = 0, then confirm diode malfunction.''
+10
+This unit of problem-solving knowledge is harder to share across domains, even though for this
+specific domain it may have exactly the same result as the application of the more abstract PSK
+unit.
+2.5 Domain Knowledge
+We have already discussed the issues in describing factual knowledge in the world: Objects,
+properties, relations, classes and subclasses, states, processes, events, and parts are some of the
+elements in that ontology.
+We have also indicated that the ontology for domain knowledge is
+determined by the needs of the goal and the problem-solving knowledge.
+A second level
+ontology for diagnostic systems would contain terms such as device, event, component, and
+component connection, function, malfunction, symptom, and normal/abnormal behavior, and
+relational knowledge of the sort Can-cause(malfunction, {observation | malfunction}).
+The
+domain knowledge might also have knowledge of the causal processes that realize the function
+of a device.
+Similar analyses can be made for other tasks.
+The second-level ontology for domain
+knowledge for design and diagnosis has much in common: the concepts of devices, components
+and causal relations.
+Table 1 is a summary description of the elements of a problem solver and their ontology.
+2.6 Relations between Different Elements of the Problem-Solving Ontology
+Elements of a problem-solver use domain knowledge of specific types, and place mutual
+ontological constraints.
+McDermott coined the term knowledge roles to refer to how problemsolving knowledge required domain knowledge of certain types.

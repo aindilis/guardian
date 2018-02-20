@@ -1,0 +1,620 @@
+Task ontology: Ontology for building
+conceptual problem solving models
+Mitsuru IKEDA1 Kazuhisa SETA1 Osamu KAKUSHO2
+Riichiro MIZOGUCHI1
+Abstract.
+We have investigated the property of problem solving knowledge
+and tried to design its ontology, that is, Task ontology.
+The main purpose of
+this paper is to illustrate a Conceptual LEvel Programming Environment
+(named CLEPE) as an implemented system based on Task ontology.
+CLEPE
+provides three major advantages as follows.
+(A) It provides human-friendly
+primitives in terms of which users can easily describe their own problem
+solving process (descriptiveness, readability).
+(B) The systems with task
+ontology can simulate the problem solving process at an abstract level in
+terms of conceptual level primitives (conceptual level operationality).
+(C) It
+provides ontology author with an environment for building task ontology so
+that he/she can build a consistent and useful ontology.
+In this paper, firstly
+we briefly introduce the concept of task ontology.
+Secondly, CLEPE and its
+design principle is described.
+In CLEPE, one can represent his/her own
+problem solving knowledge and realize the conceptual-level execution.
+1.
+Introduction
+Knowledge becomes usable and useful only when it fits to the
+use-context.
+This is the justification of the expert system technology
+whose power relies heavily on heuristic knowledge or expertise of
+domain experts rather than objective knowledge like domain theory.
+Expert system technology has obtained high performance at the cost
+of non-reusability of knowledge and low productivity of the
+knowledge base development.
+As is well-known, overcoming such
+difficulties has been the major goal in knowledge engineering
+community for years.
+The key ideas include decomposition of
+expertise into two kinds of knowledge: Task-dependent knowledge
+and domain-dependent knowledge.
+The early work on the former is
+found in [Chandrasekaran 86], [Clancey 85], [McDermott 88]
+followed by KADS[Wielinga 92], Protege [Puerta, 1992] and
+MULTIS[Mizoguchi 92],[Tijerino 93a] , [Mizoguchi 95].
+The authors
+have proposed the concept of task ontology[Mizoguchi 92] to
+formalize the knowledge for problem solving domain-independently.
+Similar ideas have discussedextensively in knowledge acquisition
+community.
+The term "task ontology" can be intepreted in two ways: (1) Tasksubtask decomposition together with task categorization such as
+diagnosis, scheduling, design, etc. and (2) An ontology for specifying
+problem solving processes*.
+The latter shares the word usage with
+"domain ontology" which means an ontology of a domian and
+specifies concetps and relations appearing in a domain of interest.
+"Domain ontology" does not mean domain-subdomain
+decomposition.
+Likewise, by "task ontology", we here mean the latter,
+that is, an ontology specifying concepts and relations appearing in a
+task of interest.
+Roughly speaking, one could imagine task ontology is a union or
+1
+2
+ISIR Osaka University, 8-1, Mihogaoka, Ibaraki, Osaka, 567, Japan
+Faculty of Economics and Information Science, Hyogo University, 2301,
+Sihn-zaike, Hiraoka-machi, Kakogawa, Hyogo, 675-01, Japan
+unification of diagnostic task ontology, control task ontology, design
+task ontology, scheduling task ontology and so on.
+It may be right.
+But, we do not discuss such a unified ontology in this paper, instead,
+we discuss the issue with a specific task in our mind in order to make
+the ontology more task-specific than "method ontology"[Heist
+97][Chandrsekaran,98] which deals with rather general concepts
+independently both of domain and task.
+One of the issues related to task-domain decomposition is:
+Although the decomposition contributes to reuse of knowledge, it is
+not easy to find the appropriate place in the problem solving process
+where each piece of domain knowledge should be put.
+Our task
+ontology research was initiated taking such an issue into account
+from the beginning.
+It includes two kinds of concepts related to
+activity and role of an object to which an activity applies.
+The latter
+represents the role which the object bound to plays during the problem
+solving process.
+The advantage of task ontology is that it specifies
+not only skeleton of the problem solving process but also context
+where domain concepts are used.
+This characteristic gives several
+remakable utility discussed below.
+MULTIS, a task structure acquisition interview system, has been
+built based on task ontology [Mizoguchi 92][Tijerino 93] . Task
+ontology of MULTIS has been evaluated by describing task structures
+of several expert systems which evaluators, members of a consortium,
+were involved in their development.
+The evaluation shows our task
+ontology has sufficient expressive power for scheduling task
+structures.
+However, in MULTIS project, we just showed the
+possibility of task ontology but the whole ideas have not been
+formalized well.
+The formalization is needed badly to attain our
+research goal.
+The following four issues seem to be helpful in
+attempting sketch out our research on task ontology engineering.
+A. Clarify the area of task ontology by specifying task sharing
+between a computer and a human.
+B. Build task ontology.
+C. Specify the relation between task ontology and general
+ontology.
+D. Design a framework to bridge the gap between the model
+described based on the ontology and the runnable
+computational model.
+The goals of our research on task ontology are to make problem
+solving knowledge explicit and exemplify its availability through
+the development of CLEPE: Conceptual LEvel Programming
+Environment.
+CLEPE provides three major advantages as follows.
+(A) It provides human-friendly primitives in terms of which users
+can easily describe their own problem solving process
+(descriptiveness, readability).
+(B) The systems with task ontology
+We know the term "problem-solving ontology" is better than the term
+"task ontology" as a terminological point of view.
+But, we followed
+the convention word useage in the knolwedge-based systems
+community in which we call diagonsis, design, etc. a task.
+can simulate the problem solving process at an abstract level in terms
+of conceptual level primitives (conceptual level operationality).
+(C)
+It provides ontology author with an environment for building task
+ontology so that he/she can build a consistent and useful ontology.
+In this paper we firstly discuss the basic issue on the concept of task
+ontology and then describe the design principle of CLEPE as a form
+of ontology use.
+2.
+Conceptual Level Programming
+Environment
+An ontology explicitly represents the meaning of concepts and the
+relation among them.
+To obtain a sophisticated ontology, we need a
+methodology for ontology construction.
+And we also need to
+demonstrate its effective use to convince people.
+Our final goal is to
+build an integrated enviroment for building and use of an ontology.
+As a first step, the goals of this research is mainly concerned with
+task ontology.
+In this context, CLEPE has been designed for both of
+development and use of ontology.
+From one aspect it is an
+environment to build the task ontology, and from the other it is an
+environment to describe one's problem solving knowledge in terms
+of the ontology.
+The main role of task ontology author is to analyze the problem
+solving knowledge and to build the task ontology which can be easily
+acceptable to end-users . To support the ontology author's work,
+CLEPE provides Task Ontology representation Language (named
+TOL) and an environment for editing and browsing the ontology.
+It is a quite time consuming work for end-users to describe their
+own problem solving processes in a rigid form.
+To lighten the load
+of end-users, it is important for task ontology to reflect their common
+conceptual understanding of problem solving.
+On the other hand,
+from computers standpoint, the description of the problem solving
+process should be rigid enough to specify the computational
+semantics.
+We may say that this conflict is a common problem of
+programming languages for end-user(s).
+The key to the problem is
+to shift task ontology close to users and to embody the function to
+fill the gap between end-users and computers.
+CLEPE has the ability
+to make up for the deficit of user's description and to reconstruct
+rigid specification of the computation.
+2.1 Task Ontology
+Now let us go into the detail of task ontology.
+Roughly speaking
+ontology is composed of two parts, that is, taxonomy and axioms.
+Taxonomy is a hierarchical system of concepts and axioms are
+established rules, principles, or laws among the concepts.
+From the
+viewpoint of the ontology use, axioms specify the competence of
+ontology.
+In other words, a class of the questions to which the answers
+can be derived from the axiom specifies the competence of the
+ontology.
+Following the analogy of natural language processing, we can
+easily understand the role of task ontology as a system of semantic
+features to represent the meaning of the problem solving description.
+The advantages of the integration of task ontology into CLEPE is as
+follows:
+A. Task ontology provides human-friendly primitives in terms
+of which users can easily describe their own problem solving
+processes (descriptiveness, readability).
+B. The system can simulate the problem solving processes at
+the conceptual level and show users the execution process
+in terms of conceptual level primitives (conceptual level
+operationality).
+C. The systemtranslates problem solving knowledge into symbol
+level code (symbol level operationality).
+For the moment, it may be useful to look more closely at the
+functional feature of task ontology.
+Here, let us introduce three models
+M(A), M(B), and M(C), which embody the functions A, B, and C
+listed above, respectively.
+According to the analogy of natural
+language again, M(A) corresponds to the lexical level of natural
+language, M(B) is an internal model of intended meaning represented
+by the sentences, and M(C) has a capability to simulate the dynamic,
+concrete story implied by the sentences.
+From now on, M(A), M(B) and M(C) are called "lexical level
+model", "conceptual level model", and "symbol level model",
+respectively.
+Lexical level model mainly deals with the syntactic
+aspect of the problem solving description, and conceptual level model
+captures conceptual level meaning of the description.
+Symbol level
+model corresponds to runnable program and specifies the
+computational semantics of the problem solving.
+Table 1 shows a configuration of task ontology.
+Task ontology is
+composed of three layers.
+The top layer is called lexical level ontology
+(TO/K-L) in terms of which M(A) is represented.
+The middle layer
+is called conceptual level ontology (TO/K-C) which specifies
+Table 1.
+Configuration of task ontology
+Ontology
+Vocabulary
+Task Ontology (TO)
+Vocabulary for representing
+problem solving process
+Execution model based on correspondence
+between TO/K and TO/S
+Vocabulary for representing
+conceptual level execution
+process
+Correspondence between TO/K-L and TO/K-C
+(pragmatic meaning),
+Conceptual level execution model
+Knowledge Level
+Ontology
+(TO/K)
+Axiom
+LexicalLevel Ontology Generic vocabulary (generic noun,
+(TO/K-L)
+generic verb, generic adjective,etc.)
+Nodes and links constitute GPN
+Syntactic rules in generic process
+Conceptual Level
+Ontology (TO/K-C)
+Effects as meaning of activity
+Symbol Level Library
+(TO/S)
+Vocabulary stands for
+objects and task activities
+(Program components at symbol level)
+Meaning of generic process (syntactic meaning)
+Axiom related to execution process of task
+based on symbol level computational semantics
+w Generic Vocabulary
+Assign
+Pulp
+Select
+Check
+Generic Verb
+Update
+Generic Noun
+RSC
+Generic Constraint
+RCP
+Nurse
+Material
+Guard
+Human
+Worker
+Facility
+Blast Furnace
+Space
+Machine
+Job
+Berth
+Schedule
+Generic Adjective
+Data/Information
+Attribute
+Schedule Representation
+Generic Adverb
+Figure 1.
+Part of lexical level ontology
+computational semantics of M(B).
+Knowledge level ontology is
+composed of general terms for these two ontologies.
+Lexical level
+ontology specifies the language in terms of which end-users
+externalize their own knowledge of the target task, while conceptual
+level ontology is an ontology which represents the contents of
+knowledge in their minds.
+Figure 1 shows a hierarchy of lexical level ontology.
+All the
+concepts of lexical level ontology are organized into word classes,
+such as, generic verb, generic noun, generic adjective etc. The
+determination of the abstraction level of task ontology requires a
+close consideration on granularity and generality.
+Representation of
+two sentences with the same meaning in terms of lexical level
+ontology should be the same.
+These observations suggest lexical level
+task ontology consists of the following four kinds of concepts:
+(1) Generic nouns representing objects reflecting their roles
+appearing in the problem solving process,
+(2) Generic verbs representing unit activities appearing in the
+problem solving process,
+(3) Generic adjectives modifying the objects, and
+(4) Other words specific to the task.
+Task ontology for scheduling tasks, for example, looks as follows:
+Generic Nouns: Schedule recipient, Schedule resource, Due
+date, Solution representation, Constraints, Goal, Priority,
+Generic Verbs: Assign, Classify, Pick up, Select, Relax, Neglect
+Generic Adjective: Unassigned, The last, etc.
+Others: Strong constraint, Constraint predicates, Constraint
+attributes, etc.
+In the conceptual level ontology, the concepts to represent our
+perception of problem solving are organized into generic concept
+class, such as, activity, object, status, and so on.
+There are some
+relations among the two worlds, i.e., lexical world and conceptual
+world.
+Intuitively generic verb, generic noun, and generic adjective
+in lexical world correspond to activity, object, and status in the
+conceptual world, respectively.
+TO/S is a collection of symbol level
+CLOS code fragments.
+Thus, task ontology provides primitives in
+terms of which we can describe problem solving context and makes
+it easy to put domain knowledge into problem solving context, since
+it provides us with abstract roles of various objects which could be
+instantiated to domain-specific objects.
+Domain knowledge organized
+without paying attention to its usage is difficult to find out how to
+incorporate what portion of it into a specific problem solving process.
+In the above examples, Schedule recipient and Schedule resource
+represent two major objects in the scheduling task domain and its
+roles.
+One of the most important characteristics of task ontology is
+that meanings of verbs are also defined at the symbol level, that is, at
+least one executable code is associated with each verb to enable
+semiautomatic generation of runnable problem solving engine for
+the target task.
+Figure 2 shows an image of interface for users.
+The network in
+the figure is called Generic Process Network (GPN).
+GPN represents
+user's problem solving process in terms of lexical level ontology.
+Each node of the GPN is separated into two parts.
+The upper part
+represents a concrete process in terms of natural language, and the
+lower is a generic process which is a task ontology translation of the
+upper part.
+Generic processes are represented in terms of generic
+terms which are defined on the lexical level task ontology (TOK/L).
+Basically the generic process has a form as follows:
+Generic process = Generic verb + Generic noun
+Typical examples includes classify-schedule_resource(RSC),
+sequence-schedule_recipient(RCP), pickup-RCP, select-RSC, assignRSC_schedule_RCP, update-priority, relax-constraint, and so on.
+A
+generic term, which acts as component of generic process, is the
+smallest concept of lexical level task ontology concepts.
+The author of Generic Process Network (GPN) firstly inputs the
+upper part of GPN node and then translates it into generic process.
+The link of GPN represents the control flow of problem solving.
+A
+GPN can be thought of as task flow defined in terms of general,
+reusable component that describes meaningful stages of the problem
+solving process.
+A GPN does not represent data flow explicitly, though it manages
+it implicitly and presents it to the user during the interpretation process
+to verify the correctness of the GPN built.
+The GPN is used by the
+GPNC (Generic-Process-Network Compiler) to generate code of the
+problem solving process.
+specifies the semantics of task specific ontology.
+We think separation
+of core task ontology and task specific ontology is a key to task
+ontology engineering.
+In this paper, we use the terms OA(C-Task)
+and OA(Task-S) to refer to the core task ontology author and task
+specific ontology author, respectively.
+2.3 Examples of task ontology description
+Fig.2 A screen image of CLEPE
+2.2 Task ontology representation
+We have been developing a language TOL, a Task Ontology
+representation Language.
+Before going into TOL specification, a few
+remarks should be made concerning general requirements for
+ontology representation language.
+When we build an ontology, it is important to see the target world
+from a viewpoint of one's purpose.
+In our research on task ontology,
+there are two viewpoints, that is, task-type independent one and tasktype specific one.
+Task type is a kind of categorization of tasks, for
+example, scheduling task-type, bookkeeping task-type and so on.
+In
+general, conceptual recognition of problem solving and the
+vocabulary used for describing it largely depend on task-types.
+Hence
+we cannot build human friendly ontology if we ignore the task-type
+specific characteristics.
+On the other hand, we have to note the tasktype independent viewpoint is also very important to capture general
+problem solving concepts and to make problem solving knowledge
+more reusable.
+We divide task ontology into two types, that is, task specific
+ontology (Task-S) and core task ontology (C-Task).
+Task specific
+ontology is an explicit description of task types specific
+characteristics.
+Core task ontology provides ontology authors with a
+set of task type independent primitives to build task specific ontology.
+To embody these two viewpoints, TOL should allow ontology
+authors to represent relations between task specific ontology and core
+task ontology explicitly.
+To put the matter simply, core task ontology
+The correspondence relation between a concept of conceptual level
+ontology and one of lexical level ontology, as has been suggested, is
+important for task ontology definition.
+Take "a set of assignments" from scheduling task-type as an
+example.
+Our conceptual understanding about "a set of assignments" in a
+problem solving context is that it runs through GPN changing its
+status successively, for example, "not completed" at first, then
+"completed but inappropriate" and finally "appropriate".
+When we
+externalize this understanding, we would choose one word from three
+different words, that is, "partial solution", "temporary solution", and
+"final solution", according to the status of the object.
+The point of this example is that, the single conceptual level object
+could be represented by more than one different lexical level terms
+in GPN.
+The upper part of Figure 3 shows a definition of a generic noun
+class of "temporary solution" included in lexical level ontology.
+Note
+that the reserved keywords of lexical level ontology and conceptual
+level ontology definition are specified by core task ontology.
+"DefineTol-noun", for example, is a reserved word used for generic-noun
+class definition.
+The necessary slots in the body of Define-Tol-noun
+are also specified by C-Task ontology.
+By ":cor-object", for example,
+correspondence between lexical level ontology and conceptual level
+ontology needs to be specified in the body of Define-Tol-noun form.
+"temporary-solution" is defined as a generic-noun of lexical level
+task ontology.
+The meaning of the body of the definition is "it is a
+subclass of assignment-set (:class-hierarchy), the class of the
+corresponding object should be O-assignment-set and the status of
+the object should be S-temporary (completed but inappropriate)".
+On the other hand, the lower parts of Figure 3 shows the definition
+of the object of conceptual level task ontology.
+In the definition, we
+specify class hierarchy (:class-hierarchy), permanent property of the
+object (:object-spec), and set of status constraints by which the status
+of the object in a certain task context can be represented (:statusspec).
+"O-assignment-set" is defined as a class of conceptual level
+task ontology objects.
+The specification of the class is divided into
+two categories, that is,: object-spec and :status-spec.
+:object-spec
+specifies permanent property of objects, while :status-spec represents
+a list of state in which the object would get in a certain problem
+solving context.
+(Tol-noun temporary-solution (?t-sol)
+:class-hierachy (subclass-of temporary-solution assignment-set)
+:cor-object (?O-ass-set :constraints (instance-of ?O-ass-set O-assignment-set))
+:status-spec ((S-temporary ?O-ass-set)))
+(Tol-object O-assignment-set (?$O-ass)
+:class-hierachy (subclass-of assignment-set object)
+:object-spec (?$O-ass :constraints
+(forall ?O-ass
+(=> (member ?O-ass ?$O-ass)
+(instance-of ?O-ass O-assignment))))
+:status-spec (?status-spec :constraints
+(member ?status-spec
+((not (s-temporary ?$O-ass)) (s-partial ?$O-ass)
+(s-temporal ?$O-ass)(s-optimal ?$O-ass)))))
+Figure.
+3 Definition of a noun gtemporal-solution and object assignment-setÅh
+We think that systematic organization of task ontology presented
+thus far could be a basic framework of ontology construction and
+use.
+3.
+Design principle
+CLEPE is a comprehensive environment on which two types of
+authors, that is, ontology authors and GPN authors, can work.
+The
+work of ontology authors is to write the task ontology definition in
+terms of TOL, as shown in Figure 3.
+In this section, however, we
+discuss the design principle of CLEPE only from GPN authors' point
+of view.
+In CLEPE, GPN author can describe his/her problem solving
+knowledge and observe the execution process in terms of plain words.
+We will discuss object flow analysis and conceptual level execution
+from functional aspects in the following so that readers can concretely
+capture what implicitness the system permits and how it deals with
+them.
+To provide a human friendly environment for describing problem
+solving knowledge, computers need to be as close as possible to
+humans so that they can interpret the implicitness in problem solving
+knowledge.
+Let us take an example of the implicitness in problem solving
+description.
+The lack of human's consciousness of the objects to which a
+process takes effect is a source of the implicitness.
+When a GPN
+author puts a generic verb into a generic process, its input and output
+objects should be bound into the input and the output of the generic
+process, respectively.
+However the bindings cannot be always
+specified by a GPN author explicitly.
+For example, in case of a check
+process to check the termination condition of the loop for sequential
+scan of a set, input/output objects are often omitted in the description,
+because it is quite obvious for a GPN author, that is, "until the set is
+exhausted".
+This is a typical example of the lack of a human's
+consciousness of problem solving.
+They know it but don't write it
+explicitly.
+Having respect for user's consciousness of problem solving
+is a key to human friendliness of CLEPE.
+Loss of the information caused by human's unconsciousness is
+compensated by the axiom of knowledge-level task-ontology (TO/
+K).
+In the case of the example above, CLEPE can derive the
+termination condition from the axiom on the pragmatics relation
+between pickup and check.
+To make the implicit explicit, CLEPE analyzes GPN and try to
+reconstruct the object flow intended by a GPN author.
+The process is
+called object flow analysis.
+CLEPE employs a focus model for object
+4.pickup-RSC
+rsc
+5.select-RCP
+rsc
+rcp
+6.assign-RCP-to-RSC
+assign
+ment
+rsc
+7.update-data
+rsc
+8.check
+rcp
+load-data
+rcp
+assign
+ment
+assignment-set
+Figure.4 A part of GPN and corresponding focus
+flow analysis.
+Focus model models a context of anaphoric reference
+among objects based on syntactic information, effects of the verb,
+properties of noun, and structure of a GPN.
+Figure 4 shows a GPN
+and a focus model.
+Each focus represented by shaded ellipse in the
+Figure includes some objects created by prior processes.
+The third
+shaded ellipse from the top shows that an assignment is generated
+by the process 6, that is, "assign-RCP-to-RSC" and consists of a
+scheduling-resource(rsc) picked up by the process 4 and a scheduling
+recipient (rcp) selected by the process 5.
+Appearance and
+disappearance of objects depend on GPN structure.
+Focus model in
+the Figure illustrates that the objects created inside of the loop is
+disappeared outside and the assignment-set is created as an output
+of the whole loop.
+Once the GPN is built by users, CLEPE interprets it on the
+assumption that he/she completely agrees with ontological
+commitment.
+However, there might be a gap between the
+interpretation and the user's intention because the agreement is partial.
+In such a case, we have no choice but to expect the user to revise the
+GPN.
+To support the user's work, CLEPE provides conceptual level
+execution of GPN.
+Advantages of conceptual level execution are as follows: (1) A
+user can recognize the difference between the meaning intended by
+him/her and system's interpretation.
+(2) A user and system can reach
+an agreement on the problem solving description more explicitly.
+In
+4.2 we will give a detailed description of the conceptual level
+execution.
+Ontology, in general, is an agreement between users and systems.
+Thus, the goal of ontology author is to build an ontology which can
+be easily accepted by most users.
+But in practice, we cannot ignore
+the gap between the meanings which users read into the terms and
+the semantics rigidly defined by ontology.
+As has been suggested,
+the gaps have to be ultimately filled in by users.
+It follows from what
+we discussed thus far that we should realize the existence of the gap
+and implement the function to support user's work of filling the gap.
+We think the function is essential to ontology engineering.
+4.
+Conceptual Level Programming
+Environment
+-Construction of CLEPECLEPE supports both ontology authors who construct ontology and
+GPN authors who describe GPNs using the ontology.

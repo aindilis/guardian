@@ -1,0 +1,80 @@
+#!/usr/bin/perl -w
+
+use PerlLib::SwissArmyKnife;
+use UniLang::Util::TempAgent;
+
+use Error qw(:try);
+
+$UNIVERSAL::exitnow = 0;
+my $notconnected = 0;
+my $tempagent;
+my %tempagentargs =
+  (
+   Name => 'Guardian-Repl-Dev',
+  );
+
+try {
+  $tempagent = UniLang::Util::TempAgent->new
+  (
+   %tempagentargs,
+  );
+}
+  catch Error with {
+    GuardMessage
+      (
+       Guards => [
+		  'Could not connect to UniLang Guardian Agent',
+		 ],
+      );
+    $notconnected = 1;
+  };
+
+# Send a message to the guard agent
+unless ($notconnected) {
+  my $res;
+  try {
+    $res = $tempagent->MyAgent->QueryAgent
+      (
+       Receiver => 'Guardian',
+       Data => {
+		_DoNotLog => 1,
+		Command => 'query'
+	       },
+      );
+    if (exists $res->{Data}{Result}) {
+      my @items = @{$res->{Data}{Result}};
+      GuardMessage(Guards => \@items);
+    }
+  }
+    catch Error with {
+      print "No reply from tempagent\n";
+    };
+}
+
+sub GuardMessage {
+  my (%args) = @_;
+  if (scalar @{$args{Guards}}) {
+    my $guardline = "---------GUARD---------\n";
+    my      $line = "-----------------------\n";
+    print $guardline.
+      PrintGuards(Guards => $args{Guards}).
+      # "\n - Guard...\n".
+      $line;
+  }
+}
+
+sub MyReceiver {
+  my (%args) = @_;
+  $UNIVERSAL::exitnow = 1;
+  $notconnected = 1;
+  if (exists $args{Message}->{Data}{Result}) {
+    my @items = @{$args{Message}->{Data}{Result}};
+    GuardMessage(Guards => \@items);
+  }
+}
+
+sub PrintGuards {
+  my (%args) = @_;
+  return join("\n",map {'('.$_.')'} @{$args{Guards}})."\n";
+  # return join("\n",map {'+ '.$_} @{$args{Guards}})."\n";
+}

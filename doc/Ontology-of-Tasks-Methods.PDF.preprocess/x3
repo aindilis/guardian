@@ -1,0 +1,310 @@
+Method sharing raises additional issues, some of that we discussed.
+Situations are described by
+the concrete task that a system-builder wishes his knowledge system to solve.
+As we saw, there
+will often be gaps between the way a system-builder conceived the task and the way methods
+would be indexed in a library.
+Such a gap can probably never be completely eliminated.
+However, some of the current ideas in the field that we discussed − assumptions that are attached
+to the methods and adaptors that use these assumptions − can help to span this conceptual gap.
+Acknowledgment
+This material is based upon work supported by The Office of Naval Research, grant number
+N00014-96-1- 0701, DARPA order number D594.
+Richard Benjamins is supported by the
+Netherlands Computer Science Research Foundation with financial support from the Netherlands
+Organisation for Scientific Research (NWO).
+20
+Bibliography
+Barros, L. Nunes de et al., 1996
+Barros, L. Nunes de , Valente, A., & Benjamins, V. R.
+(1996).
+Modeling planning tasks.
+In
+Third International Conference on Artificial Intelligence Planning Systems, AIPS-96, pp.
+11-18.
+American Association of Artificial Intelligence (AAAI).
+Benjamins, 1993
+Benjamins, V. R.
+(1993).
+Problem Solving Methods for Diagnosis.
+PhD thesis, University of
+Amsterdam, Amsterdam, The Netherlands.
+Benjamins et al., 1996
+Benjamins, V. R., Fensel, D., & Straatman, R.
+(1996).
+Assumptions of problem-solving
+methods and their role in knowledge engineering.
+In Wahlster, W., (Ed.)
+, Proc.
+ECAI--96,
+pp.
+408--412.
+J. Wiley & Sons, Ltd.
+Beys et al., 1996
+Beys, P., Benjamins, V. R., & van Heijst, G.
+(1996).
+Remedying the reusability-usability
+tradeoff for problem-solving methods.
+In Gaines, B. R. & Musen, M. A., (Eds.)
+,
+Proceedings of the 10th Banff Knowledge Acquisition for Knowledge-Based Systems
+Workshop, pp.
+2.1--2.20, Alberta, Canada.
+SRDG Publications, University of Calgary.
+http://ksi.cpsc.ucalgary.ca:80/KAW/KAW96/KAW96Proc.html.
+Bylander & Mittal, 1990
+Bylander, T. & Mittal, S.
+(1990).
+CSRL a language for classificatory problem solving and
+uncertainty handling.
+AI Magazine, 7:66--77.
+Chandrasekaran, 1986
+Chandrasekaran, B.
+(1986).
+Generic tasks in knowledge based reasoning: High level building
+blocks for expert system design.
+IEEE Expert, 1(3):23--30.
+Chandrasekaran, 1990
+Chandrasekaran, B.
+(1990).
+Design problem solving: A task analysis.
+AI Magazine, 11:59-71.
+Chandrasekaran, 1994
+Chandrasekaran, B.
+(1994).
+AI, knowledge and the quest for smart systems.
+IEEE Expert,
+9(6):2--6.
+Clancey, 1985
+21
+Clancey, W. J.
+(1985).
+Heuristic classification.
+Artificial Intelligence, 27:289--350.
+Coelho & Lapalme, 1996
+Coelho, E. & Lapalme, G.
+(1996).
+Describing reusable problem-solving methods with a
+method ontology.
+In Gaines, B. R. & Musen, M. A., (Eds.)
+, Proceedings of the 10th Banff
+Knowledge Acquisition for Knowledge-Based Systems Workshop, pp.
+3.1--3.20, Alberta,
+Canada.
+SRDG Publications, University of Calgary.
+http://ksi.cpsc.ucalgary.ca:80/KAW/KAW96/KAW96Proc.html.
+Fensel, 1997
+Fensel, D.
+(1997).
+The tower-of-adapters method for developing and reusing problemsolving methods.
+In Plaza, E. & Benjamins, V. R., (Eds.)
+, Knowledge Acquisition, Modeling
+and Management, pp.
+97--112.
+Springer-Verlag.
+Fensel & Benjamins, 1996
+Fensel, D. & Benjamins, V. R.
+(1996).
+Assumptions in model-based diagnosis.
+In Gaines, B.
+R. & Musen, M. A., (Eds.)
+, Proceedings of the 10th Banff Knowledge Acquisition for
+Knowledge-Based Systems Workshop, pp.
+5.1--5.18, Alberta, Canada.
+SRDG Publications,
+University of Calgary.
+http://ksi.cpsc.ucalgary.ca:80/KAW/KAW96/KAW96Proc.html.
+Fensel et al., 1997
+Fensel, D., Motta, E., Decker, S., & Zdrahal, Z.
+(1997).
+Using ontologies for defining tasks,
+problem-solving methods and their mappings.
+In Plaza, E. & Benjamins, V. R., (Eds.)
+,
+Knowledge Acquisition, Modeling and Management, pp.
+113--128.
+Springer-Verlag.
+Fridman-Noy & Hafner, 1997
+Fridman-Noy, N. & Hafner, C. D.
+(1997).
+The state of the art in ontology design.
+AI
+Magazine, 18(3):53--74.
+Gennari et al., 1994
+Gennari, J. H., Tu, S. W., Rotenfluh, T. E., & Musen, M. A.
+(1994).
+Mapping domains to
+methods in support of reuse.
+International Journal of Human-Computer Studies, 41:399-424.
+Gruber, 1993
+Gruber, T. R.
+(1993).
+A translation approach to portable ontology specifications.
+Knowledge
+Acquisition, 5:199--220.
+Guarino, 1995
+Guarino, N.
+(1995).
+Formal ontology, conceptual analysis and knowledge representation.
+International Journal of Human-Computer Studies, 43(5/6):625--640.
+Special issue on The
+22
+Role of Formal Ontology in the Information Technology.
+Johnson, 1991
+Johnson, T.
+(1991).
+Generic Tasks in the Problem-Space Paradigm: Building Flexible
+Knowledge Systems while Using Task-Level Constraints.
+PhD thesis, The Ohio State
+University, Ohio.
+Josephson & Josephson, 1994
+Josephson, J. & Josephson, S., (Eds.)
+(1994).
+Abductive Inference, Computation, Philosophy,
+Technology.
+Cambridge, Cambridge University Press.
+Klinker et al., 1991
+Klinker, G., Bhola, C., Dallemagne, G., Marques, D., & McDermott, J.
+(1991).
+Usable and
+reusable programming constructs.
+Knowledge Acquisition, 3:117--136.
+Laird et al., 1987
+Laird, J. E., Newell, A., & Rosenbloom, P. S.
+(1987).
+SOAR: an architecture for general
+intelligence.
+Artificial Intelligence, 33:1--64.
+Lenat & Guha, 1990
+Lenat, D. B. & Guha, R. V.
+(1990).
+Building large knowledge-based systems.
+Representation
+and inference in the Cyc project.
+Reading, Massachusetts, Addison-Wesley.
+Marr, 1982
+Marr, D.
+(1982).
+Vision: A computational investigation into the human representation and
+processing of visual information.
+San Francisco, W.H. Freeman.
+McCarthy & Hayes, 1969
+McCarthy, J. & Hayes, P. J.
+(1969).
+Some philosophical problems from the standpoint of
+artificial intelligence.
+Machine Intelligence, 6:133--153.
+Mizoguchi et al., 1995
+Mizoguchi, R., van Welkenhuysen , J., & Ikeda, M.
+(1995).
+Task ontology for reuse of
+problem solving knowledge.
+In Mars, N. J. I., (Ed.)
+, Towards very large knowledge bases.
+IOS Press.
+Musen, 1989
+Musen, M. A.
+(1989).
+Automated Generation of Model-Based Knowledge-Acquisition Tools.
+London, Pitman.
+Research Notes in Artificial Intelligence.
+Neches et al., 1991
+23
+Neches, R., Fikes, R. E., Finin, T., Gruber, T. R., Senator, T., & Swartout, W. R.
+(1991).
+Enabling technology for knowledge sharing.
+AI Magazine, 12(3):36--56.
+Newell, 1982
+Newell, A.
+(1982).
+The knowledge level.
+Artificial Intelligence, 18:87--127.
+Schreiber & Birmingham, 1996
+Schreiber, A. T. & Birmingham, W. P.
+(1996).
+The Sisyphus-VT initiative.
+International
+Journal of Human-Computer Studies, 44.
+Editorial special issue.
+Schreiber et al., 1994
+Schreiber, A. T., Wielinga, B. J., de Hoog, R., Akkermans, J. M., & Van de Velde , W.
+(1994).
+CommonKADS: A comprehensive methodology for KBS development.
+IEEE
+Expert, 9(6):28--37.
+Smith, 1991
+Smith, Douglas, R.
+(1991).
+Structure and design of problem reduction generators.
+In Möller ,
+B., (Ed.)
+, Constructing Programs from Specifications.
+North Holland.
+Sowa, 1997
+Sowa, J. F.
+(1997).
+Knowledge Representation: Logical, Philosophical, and Computational
+Foundations.
+Book draft.
+Steels, 1990
+Steels, L.
+(1990).
+Components of expertise.
+AI Magazine, 11(2):28--49.
+Tate, 1998
+Tate, A.
+(1998).
+Roots of SPAR - shared planning and activity representation.
+The
+Knowledge Engineering Review, pp.
+to appear.
+Special Issue on Ontologies.
+van Heijst et al., 1997
+van Heijst , G., Schreiber, A. T., & Wielinga, B. J.
+(1997).
+Using explicit ontologies in KBS
+development.
+International Journal of Human-Computer Studies, 46(2/3):183--292.
+Wielinga & Breuker, 1986
+Wielinga, B. J. & Breuker, J. A.
+(1986).
+Models of expertise.
+In Proceedings ECAI--86, pp.
+306--318.
+Wieringa & de Jonge , 1995
+Wieringa, R. & de Jonge , W.
+(1995).
+Object identifiers, keys and surrogates -- object
+24
+identifiers revisited.
+Theory and Practice of Object Systems (TaPOS), 1.
+Winograd & Flores, 1987
+Winograd, T. & Flores, F.
+(1987).
+On understanding computers and cognition: A new
+foundation for design: A response to the reviews.
+Artificial Intelligence, 31:250--261.
+Footnotes
+note-1
+Call for papers for a special issue on ``Temporal Parts'' for The Monist, An International
+Quarterly Journal of General Philosophical Inquiry.
+note-2
+The term ``task'' has been used in two related, but still distinct, ways, causing some
+confusion.
+In one usage, task is a set or sequence of things to do: that is, task is something
+you do.
+Another usage has task as a term for a goal type, leaving open what the steps are in
+achieving it.
+We use it in the latter sense; that is, tasks are goal types, what needs to be
+accomplished.
+note-3
+Our examples throughout are chosen mainly for clarity in making the conceptual points
+rather than for accuracy or completeness in describing the knowledge.
+In particular, in this
+example, the knowledge for establishing hypotheses is usually substantially more complex
+than the example.
+note-4
+HPKB URL is http://www.teknowledge.com:80/HPKB/.
+note-5
+URL IBROW3 is http://www.swi.psy.uva.nl/projects/IBROW3/home.html.
+25

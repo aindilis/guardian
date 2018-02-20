@@ -1,0 +1,479 @@
+;; (TYPE RDF : PROPERTY , RDFS : RESOURCE DOMAIN TMO : ATTACHMENT RANGE TMO : TASK INVERSE TMO : ATTACHMENT
+ PROPERTY MAXIMAL 1 CARDINALITY SUPERPROPERTIES PIMO : ASSOCIATIONMEMBER SUBPROPERTIES -- INVERSE OF
+ ATTACHMENT , CONNECTS AN ATTACHMENT ASSOCIATION DESCRIPTION TO THE ASSOCIATED TASK)
+
+;; E
+
+;;  K
+
+	;; A RDF CAN BE TYPE.
+
+;;   F
+
+;;    S
+
+		(and (RDF_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TYPE_27 ?x1))
+
+;;  K
+
+	;; A PROPERTY[PERSON??] MAY CONNECT AN ATTACHMENT_ASSOCIATION_DESCRIPTION[PERSON??] TO AN EXEMPLAR_OF A TASK[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (property_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (connect_27 ?e1 ?x1 ?x2) (AN_27 ?x2) (ATTACHMENT_5FASSOCIATION_5FDESCRIPTION_27 ?x2) (PERSON_27 ?x3))
+
+;;   F
+
+;;    S
+
+		(and (to_27 ?x1) (EXEMPLAR_5FOF_27 ?x1) (A_27 ?x1) (TASK_27 ?x1) (person_27 ?x2))
+
+;;  K
+
+	;; A PIMO CAN BE CARDINALITY.
+
+;;   F
+
+;;    S
+
+		(and (PIMO_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CARDINALITY_27 ?x1))
+
+;;  K
+
+	;; A SUPERPROPERTIES[PERSON??] MAY HAVE A PIMO.
+
+;;   F
+
+;;    S
+
+		(and (superproperty_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PIMO_27 ?x1))
+
+;;  K
+
+	;; AN ATTACHMENT_ASSOCIATION_DESCRIPTION[PERSON??] CAN BE TO AN EXEMPLAR_OF A TASK[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (ATTACHMENT_5FASSOCIATION_5FDESCRIPTION_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x2) (to_27 ?e1 ?x1) (AN_27 ?x1) (EXEMPLAR_5FOF_27 ?x1) (A_27 ?x1) (TASK_27 ?x1) (person_27 ?x2))
+
+;;  K
+
+	;; AN EXEMPLAR_OF A TASK[PERSON??] CAN BE ASSOCIATED.
+
+;;   F
+
+;;    S
+
+		(and (EXEMPLAR_5FOF_27 ?x1) (A_27 ?x1) (TASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (ASSOCIATED_27 ?x1))
+
+;; (IF POSSIBLE THEY ARE FURTHER GROUPED BY `` ABSTRACT '' PROPERTIES)
+
+;; E
+
+;;  K
+
+	;; INDIVIDUAL -S MAY BE GROUP -ED BY PROPERTIES.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (GROUP_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (PROPERTIES_27 ?x2))
+
+;;  K
+
+	;; PROPERTIES CAN BE ABSTRACT.
+
+;;   F
+
+;;    S
+
+		(and (property_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ABSTRACT_27 ?x2))
+
+;; (THE TASK DESCRIPTION IS COMPOSED AT MINIMUM OF A SUMMARY OF WHAT IS DONE TO REACH THE GOAL)
+
+;; E
+
+;;  K
+
+	;; A TASK DESCRIPTION MAY BE COMPOSE -ED AT MINIMUM OF A SUMMARY.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (DESCRIPTION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (COMPOSE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (AT_27 ?x1) (MINIMUM_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (SUMMARY_27 ?x2))
+
+;; (THE TASK DESCRIPTION IS THE MAIN SOURCE FOR IDENTIFYING RELATED DESCRIPTION INFORMATION , E.G. ,
+ SUITABLE PATTERNS)
+
+;; E
+
+;;  K
+
+	;; A TASK DESCRIPTION CAN BE A SOURCE.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (DESCRIPTION_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (SOURCE_27 ?x2))
+
+;;  K
+
+	;; AN INFORMATION CAN BE RELATED.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (be_27 ?e1 ?x1 ?x2) (RELATED_27 ?x2))
+
+;;  K
+
+	;; AN INFORMATION CAN BE DESCRIPTION.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (DESCRIPTION_27 ?x2))
+
+;; (A TASK DESCRIPTION CAN BE EITHER AN INFORMAL , DESCRIBED TEXTUAL CONTENT -LRB- TEXTUALDESCRIPTION -RRB-
+ OR IT CAN BE A MORE FORMALLY STRUCTURED REPRESENTATION -LRB- FORMALDESCRIPTION -RRB-)
+
+;; E
+
+;;  K
+
+	;; A TASK_DESCRIPTION[PERSON??] CAN BE A CONTENT.
+
+;;   F
+
+;;    S
+
+		(and (TASK_5FDESCRIPTION_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (A_27 ?x1) (CONTENT_27 ?x1))
+
+;;  K
+
+	;; A CONTENT CAN BE INFORMAL.
+
+;;   F
+
+;;    S
+
+		(and (CONTENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (INFORMAL_27 ?x1))
+
+;;  K
+
+	;; A CONTENT CAN BE TEXTUAL.
+
+;;   F
+
+;;    S
+
+		(and (CONTENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TEXTUAL_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE A REPRESENTATION.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (be_27 ?e1 ?x1 ?x2) (representation_27 ?x2))
+
+;; (TECHNOLOGY CONSIDERATIONS : INFORMAL DESCRIPTIONS ALLOW FOR TEXT SIMILARITY PROCESSING , A FORMAL
+ DESCRIPTION ALLOWS FOR APPLYING CASE BASED SIMILARITY MEASURES)
+
+;; E
+
+;;  K
+
+	;; A TECHNOLOGY[PERSON??] MAY HAVE CONSIDERATIONS.
+
+;;   F
+
+;;    S
+
+		(and (TECHNOLOGY_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (CONSIDERATIONS_27 ?x1))
+
+;;  K
+
+	;; DESCRIPTIONS MAY ALLOW FOR TEXT SIMILARITY PROCESSING.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTIONS_27 ?x1) (MAY_27 ?x1) (ALLOW_27 ?x1) (for_27 ?x1 ?x2) (TEXT_27 ?x2) (SIMILARITY_27 ?x2) (PROCESSING_27 ?x2))
+
+;;  K
+
+	;; AN INFORMAL[PERSON??] MAY HAVE DESCRIPTIONS.
+
+;;   F
+
+;;    S
+
+		(and (INFORMAL_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (DESCRIPTIONS_27 ?x1))
+
+;;  K
+
+	;; A DESCRIPTION CAN BE FORMAL.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FORMAL_27 ?x1))
+
+;;  K
+
+	;; CASE MAY BE BASE -ED.
+
+;;   F
+
+;;    S
+
+		(and (CASE_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (BASE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (THE GENERATION OF IDENTIFIERS -LRB- IDS -RRB- IS A NEPOMUK ARCHITECTURE ISSUE -LRB- WP2000\/WP6000
+ -RRB-)
+
+;; E
+
+;;  K
+
+	;; A GENERATION OF IDENTIFIERS CAN BE ARCHITECTURE ISSUE.
+
+;;   F
+
+;;    S
+
+		(and (GENERATION_27 ?x1) (of_27 ?x1 ?x2) (IDENTIFIERS_27 ?x2) (CAN_27 ?x2) (BE_27 ?x2) (ARCHITECTURE_27 ?x2) (ISSUE_27 ?x2))
+
+;;  K
+
+	;; IDENTIFIERS MAY UNDERGO A GENERATION.
+
+;;   F
+
+;;    S
+
+		(and (IDENTIFIERS_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (GENERATION_27 ?x1))
+
+;;  K
+
+	;; A NEPOMUK[PERSON??] MAY HAVE AN ARCHITECTURE ISSUE.
+
+;;   F
+
+;;    S
+
+		(and (NEPOMUK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ARCHITECTURE_27 ?x1) (ISSUE_27 ?x1))
+
+;; (TASKNAME TYPE RDF : PROPERTY , RDFS : RESOURCE DOMAIN TMO : TASK RANGE RDFS : LITERAL MAXIMAL 1
+ CARDINALITY SUPERPROPERTIES RDFS : LABEL , NAO : PREFLABEL SUBPROPERTIES -- THE TASK NAME HELPS THE USER
+ TO IDENTIFY A TASK IN A LIST)
+
+;; E
+
+;;  K
+
+	;; A RDF CAN BE TASKNAME.
+
+;;   F
+
+;;    S
+
+		(and (RDF_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TASKNAME_27 ?x1))
+
+;;  K
+
+	;; A RDF CAN BE TYPE.
+
+;;   F
+
+;;    S
+
+		(and (RDF_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TYPE_27 ?x1))
+
+;;  K
+
+	;; RDFS CAN BE CARDINALITY.
+
+;;   F
+
+;;    S
+
+		(and (RDFS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CARDINALITY_27 ?x1))
+
+;;  K
+
+	;; A SUPERPROPERTIES[PERSON??] MAY HAVE RDFS.
+
+;;   F
+
+;;    S
+
+		(and (superproperty_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (RDFS_27 ?x1))
+
+;;  K
+
+	;; SUBPROPERTIES CAN BE PREFLABEL.
+
+;;   F
+
+;;    S
+
+		(and (subproperty_27 ?x1)  )
+
+;;  K
+
+	;; A NAME MAY HELP A USER.
+
+;;   F
+
+;;    S
+
+		(and (NAME_27 ?x1) (MAY_27 ?x1) (HELP_27 ?x1) (A_27 ?x1) (USER_27 ?x1))
+
+;;  K
+
+	;; A TASK[PERSON??] MAY HAVE A NAME.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (NAME_27 ?x1))
+
+;;  K
+
+	;; A TASK CAN BE IN A LIST.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (LIST_27 ?x2))
+
+;; (IT SHOULD BE EXPRESSIVE ENOUGH TO GIVE A MEANINGFUL DESCRIPTION RECOGNITION)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE EXPRESSIVE.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (EXPRESSIVE_27 ?x1))
+
+;;  K
+
+	;; RECOGNITION CAN BE MEANINGFUL.
+
+;;   F
+
+;;    S
+
+		(and (RECOGNITION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MEANINGFUL_27 ?x1))
+
+;;  K
+
+	;; A DESCRIPTION[PERSON??] MAY HAVE RECOGNITION.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (RECOGNITION_27 ?x1))
+
+;; (DETAILS SHOULD BE WRITTEN IN THE DESCRIPTION ATTRIBUTE INSTEAD)
+
+;; E
+
+;;  K
+
+	;; DETAILS MAY BE WRITE -ED IN A DESCRIPTION ATTRIBUTE.
+
+;;   F
+
+;;    S
+
+		(and (DETAILS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (WRITE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (DESCRIPTION_27 ?x2) (ATTRIBUTE_27 ?x2))

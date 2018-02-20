@@ -1,0 +1,553 @@
+CommonKADS work --and
+subsequent work built on it (Schreiber et al., 1994), (Coelho & Lapalme, 1996)-- concerning
+inference structures tries to make explicit the relation between different elements of a problem
+solving knowledge.
+Let us take an example used by Coelho and Lapalme : Select_Parameter task (which, to look
+ahead somewhat, is a subtask in the Propose-and-Revise method).
+Select is an attitude term.
+Parameters are properties of some objects in the domain.
+Using our notation, this unit of
+problem-solving knowledge may be described as:
+(Sub)Goal: Select value for parameter ?p1
+Condition on Problem Instance Data: value of parameter ?p2
+Condition on Problem State: problem state includes a parameter ?p1 which has
+not been assigned a value
+Condition on Domain Knowledge: domain knowledge has a constraint relating the
+values of ?p1 and ?p2
+Changes to Problem State: change the problem state such that ?p1 has the value
+allowed by the constraint, and remove subgoal
+It is this close relationship between goal types (tasks), problem-solving knowledge, and domain
+knowledge that makes possible the sharing of problem-solving knowledge.
+Problem-solving
+knowledge can be reused in a different domain and task by applying it to knowledge stated in the
+appropriate domain ontology.
+We'll discuss this in some detail later in the context of methods.
+11
+3 Problem-Solving Methods
+A problem solving method is an organized package of PSK units, indexed by the problemsolving goal to which it is applicable.
+Why would one need to organize reasoning steps in the
+form of methods?
+Recall that a PSK unit may set up a subgoal, as a means to achieve the goal for
+which it is invoked.
+Suppose there is a PSK indexed with goal G, and this PSK sets up a subgoal,
+G1.
+Suppose there is another PSK for the goal type G1.
+One may then use the combination of the
+two PSK's as a packaged unit, index it by G and invoke it whenever G is encountered.
+A method
+may consist of just one PSK unit.
+In general, however, methods derive their value by their larger
+granularity, since a complex reasoning strategy may thus be reused.
+In the example we just gave, the situation was quite simple: the PSK unit for G set up G1 and the
+two PSK units then helped achieve G. However, more complex situations will commonly arise.
+G may set up more than one subgoal, and a subgoal G1 may have more than one PSK unit
+available to solve it, depending on conditions on data and DFK.
+Thus a method may include
+alternate ways of accomplishing some of the subgoals.
+It also needs to include control
+knowledge to organize invocation of subgoals, and also knowledge about exchanging and
+integrating information between subgoals.
+Note that, just as PSK units, a method will either
+achieve the main goal, or set up one or more subgoals that will need to be solved by additional
+methods.
+How general is the characterization of methods as compositions of problem-solving knowledge
+units, related by subgoal relations?
+Again, similar to our point about our model of the problem
+solver itself, the definition does not cover everything that would intuitively appear to be a
+method.
+Our definition of a method is intended to capture the range of methods that a universal
+subgoaling system such as SOAR (Laird et al., 1987) can accomplish.
+Our goal here is not to
+account for all methods, but to indicate what method ontology looks like.
+First-Level Ontology for Methods.
+The first-level ontology of a PSM, then, is simply the
+ontology of PSK units plus control knowledge.
+The method ontology thus includes the goal (also
+referred to as competence), the goal-subgoal tree it induces, the forms in which it requires data
+and domain knowledge (i.e. assumptions and requirements of the method), and control
+knowledge for organizing the invocation of the subgoals (see also (Fensel et al., 1997)).
+We have
+discussed all the above elements earlier, except for control knowledge.
+Control Ontology.
+Control may be explicitly specified using the standard vocabulary of control:
+sequential control, conditional branching, iteration, recursion, etc. There appears to be no taskspecific vocabulary for control.
+Control flow of specific sorts may also emerge from an
+interaction of domain knowledge and the problem state.
+For example, in hierarchical
+classification, navigation over a hierarchy may be explicitly programmed.
+Or, one may simply
+have the knowledge, ``consider the refinement of current concept,'' as in (Johnson, 1991).
+If the
+domain knowledge has information about refinements for the concepts, then the resulting
+behavior will be hierarchical navigation, without this strategy being explicitly stated.
+Complex
+control behaviors may emerge as a result of the interaction between the architecture and the
+contents of the knowledge base.
+12
+Indexing of Methods.
+The method is indexed by its goal.
+Just as in the case of an individual
+PSK unit, the goals and subgoals of the methods can occur at different degrees of generality.
+If
+the goals are very abstract and general − say, ``Explain''− then the user of the method has the task
+of mapping it to his needs.
+If the goal is very specific − say, ``diagnose TC tuner circuit''− then
+the method's reusability is limited.
+This has come to be called the usability-reusability trade-off
+(Klinker et al., 1991).
+There have been proposals in the literature to distinguish a class of
+methods called task-neutral methods (Beys et al., 1996) i.e., methods that are not intended for a
+specific goal type.
+The intent is to capture the idea that some methods have extremely general
+applicability, while others seem to be more narrowly tailored to tasks of great specificity.
+We
+think that there is no binary separation between task-specific and task-neutral methods.
+Instead,
+there is a spectrum within which we can talk about more general and more specific (Fensel,
+1997) The point remains that the more general the task index of a method, then the more work
+that will be needed to recognize how to apply it to a specific task.
+We will revisit this issue later
+when we discuss the issues surrounding sharing and use of methods.
+Operationalization of Methods.
+A method of the sort we have been discussing is
+operationalized.
+That is, the description of a method can be used directly to implement a
+problem solver.
+As long as domain knowledge and problem data of the types required by the
+method definition are available, the method should ``run.''
+However, the term ``method'' has often been used in the literature to refer, not to operationalized
+methods, but to general approaches and strategies.
+For example, one often sees references to the
+``divide and conquer'' method; this method is so general, and potentially so ubiquitously
+applicable, that it is impossible a priori to operationalize it for all cases to which it is applicable.
+On the other hand, that method has indeed been successfully operationalized for specific
+domains, such as for composition of a certain class of algorithms (Smith, 1991).
+Then there are methods, such as ``Propose-and-Revise,'' and ``Heuristic Classification,'' that are
+also quite general and may be applied to almost any problem in principle.
+These methods have
+been operationalized: if we can find domain knowledge to suit their requirements, they can be
+applied.
+Almost every problem in the world can in theory be solved by proposing an initial
+solution of the right sort and then critiquing and revising it.
+The difficulty comes in identifying
+the right sort of initial solution, and right sorts of criticisms and modifications for arbitrary
+problems.
+Similarly, any problem can in theory be solved by categorizing its solution space into
+classes and mapping from the problem statement into solution categories.
+If this were easy to do
+in practice, then we do not need any other methods at all.
+The rub comes when one tries to
+identify, for an arbitrary problem, knowledge corresponding to good initial solution, criticism
+knowledge, etc.
+(for the Propose-and-Revise method), or a categorization of the solution space
+and mapping from the problem statement to the solution category space (for the Classification
+method).
+Thus, in practice, these methods, though operationalizable in general, can only be
+usefully applied to a narrow range of problems.
+For example, Propose-and-Revise has been used
+to solve parametric design problems in domains where there is often clear and straightforward
+knowledge available about initial candidates and about how to assess and modify the parameters
+(Schreiber & Birmingham, 1996).
+Similarly, classification methods can be operationalized and
+applied to problems where knowledge about solution hierarchies and mappings from problem
+13
+data to solution hierarchy elements is not hard to get.
+Simple types of selection problems, and
+diagnostic problems where malfunction hierarchies are available, are examples of problems for
+which the Classification method has been readily applicable.
+3.1 Second-Level Method Ontology
+A second level ontology for methods would identify, characterize and name methods based on
+how they achieve their goals.
+How a method works is the goal-subgoal structure induced by all
+the PSK units in the method.
+This goal-subgoal structure can be modified in many ways: by
+replacing one of the PSK units with a new one for the same subgoal, or adding a new PSK unit
+for the subgoal, we get a different overall goal-subgoal structure.
+Each variation counts as a new
+method.
+Because of this, even for simple goal types, the number of distinct methods may be too
+numerous to list and name.
+In spite of the proliferation problem, one might still identify especially useful combinations of
+goal-subgoal structures for various goal types, and make these methods available for sharing.
+This was the approach adopted in the much of the work on task-oriented approaches.
+Thus work
+on Heuristic Classification (Clancey, 1985), Generic Tasks (Chandrasekaran, 1986) and KADS'
+Interpretation Models (Wielinga & Breuker, 1986) identified a number of such generically useful
+problem-solving tasks and particularly appropriate problem-solving methods for them.
+Heuristic
+Classification was a method with the subtasks of data abstraction, heuristic match, and class
+refinement.
+The Generic Task paradigm identified hierarchical classification, abductive
+assembly, hypothesis assessment, design-plan selection and refinement, and data abstraction as
+some of the most ubiquitous tasks in knowledge systems.
+This framework also proposed how
+complex problems might be solved by the composition of several different generic tasks.
+For
+example, a diagnostic system might be built out of the methods for abductive assembly,
+classification, hypothesis assessment, and data abstraction.
+This architecture is really for the
+generic problem of best-explanation finding, a task discussed in detail in (Josephson &
+Josephson, 1994).
+This task is very important, since perception, natural language understanding,
+diagnostic problem-solving and scientific discovery can all be viewed as best-explanation
+finding problems.
+In related later work, instead of identifying a unique preferred method with a task, the notion of a
+task structure was developed (Chandrasekaran, 1990).
+The task structure identifies a number of
+alternative methods for a task.
+Each of the methods sets up subtasks in its turn.
+The methods are
+typically shallow in the nesting of subgoals, increasing the chances that a user would use them as
+a unit without much modification.
+This kind of task-method-subtask analysis can be carried on to
+a level of detail where the tasks are primitive tasks with respect to the knowledge in the
+knowledge base.
+The advantage of developing task structures for a task, as opposed to a specific
+method, is that there is greater flexibility in putting together a method that meets with the needs
+of the specific situation.
+Methods with shallow goal-subgoal trees have relatively small number
+of PSK units.
+Of course, these methods would leave a number of subgoals unsolved.
+The user is
+free to seek other methods for these subgoals, thus providing flexibility.
+For example, the
+method of logarithms for multiplying two numbers might simply say, ``Find logarithms of the
+two numbers, add them, and then find the antilogarithm of the sum,'' without specifying how to
+achieve the subgoals ``Find logarithm of number,'' and ``Find antilogarithm of number.'' The task
+14
+structure would identify alternate methods for each of these subtasks.
+The logarithm method is
+highly reusable, while giving the user freedom to use appropriate methods for the subgoals.
+Figure 1 illustrates task structure.
+Task
+A lternative
+M ethods
+S u b tasks
+A lternative
+M ethods
+Figure 1.
+Task structure.
+A task may be solved by a number of alternative methods.
+Each
+method may set up subtasks.
+Task structures have been developed for the task of design (Chandrasekaran, 1990), diagnosis
+(Benjamins, 1993), planning (Barros, L. Nunes de et al., 1996) and abductive inference
+(Josephson & Josephson, 1994).
+This is not the place to give the details of these task analyses.
+The main points to be made here are the following.
+As a result of the Generic Task and Task
+Structure work − and in general, of work on task analysis − we now have a good repertoire of
+tasks and methods.
+The descriptions of the tasks and methods are a rich source of ontologies for
+problem solving.
+The examples we gave in the earlier section for diagnosis and design are but a
+small subset of the ontologies that can be constructed for problem solving knowledge from the
+work on task-oriented approaches.
+The fact that this work focuses on tasks of certain generality
+makes the ontologies that arise from them of potential general interest as well.
+The earlier generation of Generic Task languages can be viewed in the light of knowledge reuse.
+To take a simple example, a Generic Task language called CSRL (Bylander & Mittal, 1990) was
+widely used to build classification problem-solving systems.
+CSRL can be viewed as giving the
+user an ability to:
+1.
+synthesize a classification method using a method- specific ontology consisting of terms
+such as ``establish concept'' and ``refine concept,'' within a control vocabulary that
+allowed variations on top-down navigation of the classification hierarchy, and
+2.
+represent domain factual knowledge for classification in the chosen domain.
+Thus, the method ontology for classification directly resulted in a number of system builders
+15
+reusing the problem-solving knowledge for classification embedded in CSRL.
+Although the notion of problem-solving ontology as introduced in this paper is relatively new
+compared to the work on domain ontologies, some work has been performed in the field of
+knowledge engineering that provided important input.
+Already in the beginning of the nineties,
+in Japan Mizoguchi's group started to talk about task-ontologies as valuable instruments to link
+the vocabulary and view of a user to that of a problem solver (Mizoguchi et al.).
+These task
+ontologies comprise the vocabulary and the reasoning steps of specific tasks and, in that sense,
+they relate to our notions of problem-solving goal and problem-solving knowledge
+Work carried out at Stanford on Protégé also is relevant for problem-solving ontologies.
+A
+method ontology, in their view, defines the concepts and relationships that are used by the
+method to achieve its goal (Gennari et al., 1994).
+Thus, "method ontology" in this research refers
+to domain ontology from a method point of view.
+In this sense, Protégé-II is closely related to
+what are called ontological assumptions or requirements of problem-solving methods (Benjamins
+et al., 1996).
+Such assumptions may define ontological commitments of PSMs in a domainindependent way.
+However, assumptions not only refer to domain knowledge needed by the
+PSM, but also to the task a method is supposed to realize, in which case they are called
+teleological assumptions.
+Such assumptions define a weakening of the goal to be achieved by
+introducing assumptions about the precise problem type.
+For example, the use of the
+Classification method for diagnosis typically involves a weakening of the goal.
+Normally, we
+want an answer for diagnosis that doesn't have more malfunction hypotheses than necessary.
+The Classification method would typically produce a number of plausible hypothesis classes, the
+method cannot check for redundancy.
+Thus in fact the PSM achieves a weaker goal.
+Several different research communities are nowadays working on ontologies.
+The SPAR
+initiative (Shared Planning and Activity Representation (Tate, 1998)) aims at developing a
+standard language for describing plans and domain knowledge used in planning.
+SPAR then
+corresponds to a second-level ontology for planning, but it does not, however, include an
+ontology of planning problem-solving steps.
+4 Sharing of Method Knowledge
+We argued that problem-solving method knowledge is a somewhat neglected dimension of
+ontology studies, and that a motivation for studying its ontology is knowledge sharing.
+Consider
+a knowledge-system builder who wishes to build a medical decision-making system.
+He wants a
+system that will accept a description of a patient's complaints and produce an answer describing
+what is wrong with the patient.
+We have deliberately not used the term diagnosis at this point.
+In
+order to build the system, he is told that he will have to find knowledge libraries containing
+knowledge about his medical domain and also about problem-solving methods.
+He will first have
+to search the method libraries for a method that relates to the goal type for his problem-solver.
+If
+successful in finding an appropriate method, he will have to use its operationalized specifications
+to implement it.
+Then he will have to search knowledge libraries for medical knowledge of the
+type the method needs.
+In theory he should be able to put the knowledge system together.
+Suppose in a library of problem-solving methods there is a method for the goal type of
+16
+classification.
+We know that this method is a good candidate − simple diagnostic systems have
+been built by viewing diagnosis as classification of given symptoms into a disease/malfunction
+hierarchy.
+Let us assume that his diagnostic problem is actually simple enough for this approach
+to work.
+Our system builder sends out the goal, ``discover what is wrong with a patient'', hoping
+that this would match a method in the library.
+The classification method in the library is indexed
+with the goal: ``classify a situation into a classification hierarchy''.
+There is clearly a gap here.
+Before the system builder can realize that this method is applicable, he will have to figure out the
+relation between the level of abstraction at which his goal is stated and that of the method index.
+Note that we are not simply talking about the vocabulary differences --we are assuming that this
+problem is handled by the standardization of terms.
+We are talking about the deeper problem of
+realizing that ``finding what is wrong with a patient'' is an instance of ``diagnosis,'' which under
+some conditions is solvable by ``classification.''
+Assuming that our system builder is able to recognize that his problem can be solved by a
+classification method, suppose he retrieves that method and implements it.
+Now he is going to
+need domain knowledge.
+The classification method in the library would describe the needed
+knowledge in terms of classification hierarchy, observations, and causal associations between
+observations and the classes.
+In order to map this ontology to something closer to his domain, he
+will need to map ``classification hierarchy'' to ``disease hierarchy,'' and ``observations'' to
+``symptoms,'' ``complaints,'' etc.
+We have thus seen three possible gaps that have to be bridged before we can perform effective
+method sharing.
+1.
+The task and the method may use different underlying ontologies, and thus different
+terminology.
+2.
+The task associated with the the method may not be strong enough for achieving the task
+at hand.
+3.
+The method requirements are stated in different terminology than the domain knowledge
+that the method has to reason about.
+Fensel (Fensel, 1997) proposes adapters as an instrument to bridge these gaps.
+An adapter can
+establish a mapping between the task and method ontology, can introduce teleological
+assumptions to weaken to goal to be achieved, and can establish a mapping between method and
+the domain ontology.
+In addition, adapters can introduce ontological assumptions on domain
+knowledge in order to satisfy the requirements of the method.
+A significant part of the work of
+adapters thus amounts to relating different ontologies to each other.
+How to do this is still an
+ongoing issue.
+Earlier we spoke about task-neutral methods.
+Clearly, the more task-neutral a
+method is, the more work needs to be done before it can be applied to a task and a domain, or, in
+other words, the more adapters need to be used.
+Adapters thus have the capability to turn taskneutral PSMs into task- dependent ones.
+Figure 2 illustrates how a system builder with a task
+interacts with a method library and shows the role of the adapters.
+The simple example of our system builder who wishes to build a system that would decide what
+is wrong with a patient illustrates the problems in sharing and using method knowledge in a
+17
+seamless way.
+Nevertheless, method-sharing has been practical to some extent for more than a
+decade.
+The notion of problem-solving methods as separate items of knowledge that can be
+hooked up with domain knowledge and reused originated with (Chandrasekaran, 1986, Clancey,
+1985), and extended by (Musen, 1989, Steels, 1990), and, in the CommonKADS project, by
+(Benjamins, 1993.)
+Typically, in this line of research it was required that the user of a method
+and the method indexing share the same terms in the description of the goal.
+For example, once
+one realizes that what he has is a classification problem, the Generic Task framework provided
+the CSRL language to help build a classification problem-solver.
+The language guided the
+system-builder in inputting domain knowledge that was required by the method.
+Similarly, DSPL
+helped users build routine design systems.
+However, neither the knowledge requirements nor the
+methods were stated in a formal way, making it difficult to search for knowledge or import
+methods from a different source.
+5 Concluding Remarks
+In this paper, we made a distinction, within a problem-solving agent, between knowledge of the
+world about which the agent is doing problem solving, and knowledge about how to solve
+problems.
+Of course, when an agent A is reasoning about another agent B, the domain
+knowledge component of agent A will include knowledge about problem solving in general,
+since A may need to predict, interpret, or debug the behavior of B. In this case, of course, A will
+also have problem-solving knowledge of its own.
+For this reason, it is useful to have a dual view
+of problem solving knowledge.
+In one view, problem-solving knowledge is a separate
+component of a problem solver.
+In another view, it is simply a kind of knowledge, part of the
+ontology of the phenomenon called problem solving that intensional agents engage in, whether
+they be artificial or natural.
+Within the perspective of designing problem solving systems, we have argued for ontological
+engineering efforts to move in two parallel tracks, one with the current focus on representing
+domain knowledge, and the other with a new focus on representing problem-solving knowledge.
+One of the major benefits of identifying and standardizing ontologies is the potential for
+knowledge sharing.
+We should be able to share knowledge of problem solving just as easily as
+factual knowledge about specific domains.
+We have provided in this paper what we believe is a
+clearer analysis of the components of problem solving knowledge and related it to domain
+factual knowledge.
+It turns out that much research on task analysis forms a good basis to develop
+such problem-solving ontologies.
+We thus build on previous work in this area, some our own.
+The topic that we have treated in this paper is important because a knowledge system consists of
+both domain knowledge and problem-solving knowledge.
+Therefore, it is necessary to study
+domain and problem-solving ontologies together and pay attention to their integration.
+Moreover, for practical knowledge sharing and reuse identifying only the ontologies for domain
+and problem-solving knowledge is not enough.
+We also need to establish mechanisms for
+relating them to each other, such as mapping terms or making assumptions.
+And it is even
+harder, but necessary, to automate these mechanisms as much as possible.
+Several new projects
+include these goals in their objectives such as DARPA's HPKB (4) project and Esprit's IBROW3
+(5) project, but there is still a long way to go.
+18
+Goal: Classify situation in a
+classification hierarchy
+Library of
+Problem Solving
+Methods
+Goal: ….
+PSM1
+PSM2
+Goal: …
+Goal: Explain
+PSMn
+Adapters
+KBS to solve
+problems of the type:
+"Identify cause of
+TV set misbehavior
+Term in KBS Task Domain
+Ontology
+Figure 2.
+Adapters help bridge the ontology gap between a problem
+and a method.
+Adapter 1 recognizes that the goal type of "Identify
+cause.." can be mapped to the goal type "Explain observations.."
+The
+translations of terms shown makes explicit what the text calls
+"ontological assumptions."
+Adapter 2 maps the domain goal to the
+PSM goal "Classify.."
+Classification cannot achieve the original goal
+completely, since it cannot ensure that the classificatory hypotheses
+together parsimoniously explain the data, i.e., all the classificatory
+hypotheses are in fact needed.
+Adapter's mapping thus needs to
+include goal weakening, i.e., teleological assumptions are changed.
+Adapter 1: Mapping to PSM
+with goal "Explain
+observations."
+Adapter 2: Mapping to PSM with
+goal "Classify observations."
+Term in PSM Ontology
+Term in PSM Ontology
+Identify cause..
+Explain observation
+Classify observations into classes
+(Change in Teleological
+assumption: Classes are not
+necessarily the most parsimonious
+account of causes.
+Only a weaker
+goal can be achieved.)
+Symptoms
+Abnormal observations
+Abnormal observations
+Device behavior data
+Observations
+Observations
+Malfunction causes
+Explanatory hypotheses
+Malfunction hypothesis classes
+<Malfunction> can cause
+<Behavior data>
+<Hypothesis> can
+explain<Observation>
+<Observations> categorized as
+<Class Hypothesis>
+19
+The Situated Cognition (SC) movement (Winograd & Flores, 1987) raises issues that challenge
+the hope for reusing knowledge.
+SC argues that knowledge is constructed in response to the
+situation, rather than retrieved and reused.
+For one situation, ``A causes B'' might be the relevant
+knowledge, while for another, ``A causes B after a delay of 1 sec'', and for yet a third situation,
+``A causes B as long as D and E are not true'' becomes the appropriate form in which the
+knowledge is needed.
+Note that we are talking about essentially the same knowledge but
+represented in different ways for different situations.
+SC proponents hold that these kinds of
+additional conditions may be added indefinitely, thus making the prospect of representing the
+essence of that item of knowledge, once and for all at the Knowledge Level, rather slim.
+Similar
+comments may also be made about the representation of problem-solving methods.
+Additionally, given the rather unsettled state of the philosophical foundations of upper ontology
+− as evidenced by the quote from a conference announcement earlier in the paper − there are
+additional reasons to be concerned about the vision of massive reuse of knowledge.
+There are a number of things that make us optimistic, in spite of these concerns.
+For one thing,
+in these examples, what changes radically from situation to situation is not the ontology itself,
+but assertions made using the ontology.
+Thus, it is very likely that changes in ontology will be
+needed less often than changes to a knowledge base.
+Secondly, situational change in knowledge
+for classes of well-defined tasks and domains is likely to be relatively controllable.
+For example,
+knowledge sharing for engineering design in the domain of operational amplifiers is much less
+subject to the changes in knowledge that SC proponents point to.
+Thirdly, knowledge sharing is
+not an all-or-nothing proposition.
+Knowledge may be imported from a library and modified to
+meet the needs of a specific task.
+The work needed for modifying knowledge that is close to
+what one needs would as a rule be much less than the work needed for identifying and encoding
+knowledge from scratch for each system.
+Exactly how much knowledge can be shared for what
+task domains remains an empirical issue, and not one that can be settled by a priori arguments.
+We feel that reuse issues should be investigated by varying the situations and task specifications
+around a starting situation in such a way that we can track the needed changes to ontology and
+the knowledge base.
+This suggests that we need systems that support the changes needed for
+knowledge and method ontologies as situations are changed.
+This appears to be an important
+new direction of research.

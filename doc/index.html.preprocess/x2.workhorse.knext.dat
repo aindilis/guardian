@@ -1,0 +1,1594 @@
+$VAR1 = [
+          {
+            'Formalism' => '((:I (:Q DET RDF.N) TYPE.A)
+ (:I (:Q DET PROPERTY.NAME) CONNECT.V
+  (:A (:Q DET ATTACHMENT_ASSOCIATION_DESCRIPTION.NAME)
+   (:P TO.P (:Q THE (:P EXEMPLAR-OF.N (:Q DET TASK.NAME))))))
+ (:I (:Q DET PIMO.N) CARDINALITY.A) (:I (:Q DET SUPERPROPERTIES.NAME) HAVE.V (:Q DET PIMO.N)) NIL
+ (:I (:Q DET ATTACHMENT_ASSOCIATION_DESCRIPTION.NAME) TO.P
+  (:Q THE (:P EXEMPLAR-OF.N (:Q DET TASK.NAME))))
+ (:I (:Q DET (:P EXEMPLAR-OF.N (:Q DET TASK.NAME))) ASSOCIATED.A))',
+            'ExtractedKnowledge' => [
+                                      {
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'RDF\'',
+                                                                                            \*{'::?x1'}
+                                                                                          ],
+                                                                                          [
+                                                                                            'CAN\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'BE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'TYPE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       },
+                                        'Overwrite' => 1,
+                                        'Sentence' => 'A RDF CAN BE TYPE.'
+                                      },
+                                      {
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Success' => 1,
+                                                         'Results' => [
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'property\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'person\'',
+                                                                                            \*{'::?x2'}
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        },
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'MAY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'connect\'',
+                                                                                            \*{'::?e1'},
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'AN\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'ATTACHMENT_ASSOCIATION_DESCRIPTION\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'PERSON\'',
+                                                                                            \*{'::?x3'}
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        },
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'to\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'EXEMPLAR_OF\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'A\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'TASK\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'person\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        }
+                                                                      ]
+                                                       },
+                                        'Sentence' => 'A PROPERTY[PERSON??] MAY CONNECT AN ATTACHMENT_ASSOCIATION_DESCRIPTION[PERSON??] TO AN EXEMPLAR_OF A TASK[PERSON??].'
+                                      },
+                                      {
+                                        'Formalism' => {
+                                                         'Success' => 1,
+                                                         'Results' => [
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'PIMO\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'CAN\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'BE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'CARDINALITY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        }
+                                                                      ]
+                                                       },
+                                        'Overwrite' => 1,
+                                        'Sentence' => 'A PIMO CAN BE CARDINALITY.'
+                                      },
+                                      {
+                                        'Sentence' => 'A SUPERPROPERTIES[PERSON??] MAY HAVE A PIMO.',
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'superproperty\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'person\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        },
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'MAY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'HAVE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'A\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'PIMO\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       }
+                                      },
+                                      {
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'ATTACHMENT_ASSOCIATION_DESCRIPTION\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'PERSON\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        },
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'be\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[1]{'Output'}[0][2][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'to\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[1]{'Output'}[0][2][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'AN\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'EXEMPLAR_OF\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'A\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'TASK\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'person\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       },
+                                        'Overwrite' => 1,
+                                        'Sentence' => 'AN ATTACHMENT_ASSOCIATION_DESCRIPTION[PERSON??] CAN BE TO AN EXEMPLAR_OF A TASK[PERSON??].'
+                                      },
+                                      {
+                                        'Sentence' => 'AN EXEMPLAR_OF A TASK[PERSON??] CAN BE ASSOCIATED.',
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Success' => 1,
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'EXEMPLAR_OF\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'A\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'TASK\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'person\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        },
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'be\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[1]{'Output'}[0][2][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'ASSOCIATED\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        }
+                                                                      ]
+                                                       }
+                                      }
+                                    ],
+            'Sentence' => '(TYPE RDF : PROPERTY , RDFS : RESOURCE DOMAIN TMO : ATTACHMENT RANGE TMO : TASK INVERSE TMO : ATTACHMENT
+ PROPERTY MAXIMAL 1 CARDINALITY SUPERPROPERTIES PIMO : ASSOCIATIONMEMBER SUBPROPERTIES -- INVERSE OF
+ ATTACHMENT , CONNECTS AN ATTACHMENT ASSOCIATION DESCRIPTION TO THE ASSOCIATED TASK)'
+          },
+          {
+            'Formalism' => '((:I (:Q DET (:F PLUR INDIVIDUAL*.N)) (:F BE.PASV GROUP.V) (:P BY.P (:F K (:F PLUR PROPERTY.N))))
+ (:I (:Q DET (:F PLUR PROPERTY.N)) ABSTRACT.A))',
+            'Sentence' => '(IF POSSIBLE THEY ARE FURTHER GROUPED BY `` ABSTRACT \'\' PROPERTIES)',
+            'ExtractedKnowledge' => [
+                                      {
+                                        'Sentence' => 'INDIVIDUAL -S MAY BE GROUP -ED BY PROPERTIES.',
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'INDIVIDUAL\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            '-S\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'MAY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'BE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'GROUP\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            '-ED\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'by\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'PROPERTIES\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       }
+                                      },
+                                      {
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'property\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'be\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[1]{'Output'}[0][2][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'ABSTRACT\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       },
+                                        'Sentence' => 'PROPERTIES CAN BE ABSTRACT.'
+                                      }
+                                    ]
+          },
+          {
+            'Sentence' => '(THE TASK DESCRIPTION IS COMPOSED AT MINIMUM OF A SUMMARY OF WHAT IS DONE TO REACH THE GOAL)',
+            'ExtractedKnowledge' => [
+                                      {
+                                        'Sentence' => 'A TASK DESCRIPTION MAY BE COMPOSE -ED AT MINIMUM OF A SUMMARY.',
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'TASK\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'DESCRIPTION\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'MAY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'BE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'COMPOSE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            '-ED\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'AT\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'MINIMUM\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'of\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'A\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'SUMMARY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       }
+                                      }
+                                    ],
+            'Formalism' => '((:I (:Q THE (:F NN TASK.N DESCRIPTION.N)) (:F BE.PASV COMPOSE.V)
+  (:P AT.P (:A (:F K MINIMUM.N) (:P OF.P (:Q A{N} SUMMARY.N)))))
+ NIL)'
+          },
+          {
+            'Formalism' => '((:I (:Q THE (:F NN TASK.N DESCRIPTION.N)) SOURCE.N) (:I (:Q THE SOURCE.N) FOR.P (:F KA NIL))
+ (:I (:Q DET INFORMATION.N) RELATED.A) (:I (:Q DET INFORMATION.N) DESCRIPTION.A))',
+            'ExtractedKnowledge' => [
+                                      {
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'TASK\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'DESCRIPTION\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'be\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[1]{'Output'}[0][2][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'A\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'SOURCE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       },
+                                        'Sentence' => 'A TASK DESCRIPTION CAN BE A SOURCE.'
+                                      },
+                                      {
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'INFORMATION\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'be\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[1]{'Output'}[0][2][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'RELATED\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       },
+                                        'Overwrite' => 1,
+                                        'Sentence' => 'AN INFORMATION CAN BE RELATED.'
+                                      },
+                                      {
+                                        'Sentence' => 'AN INFORMATION CAN BE DESCRIPTION.',
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'INFORMATION\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'CAN\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'be\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[1]{'Output'}[0][2][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'DESCRIPTION\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       },
+                                        'Overwrite' => 1
+                                      }
+                                    ],
+            'Sentence' => '(THE TASK DESCRIPTION IS THE MAIN SOURCE FOR IDENTIFYING RELATED DESCRIPTION INFORMATION , E.G. ,
+ SUITABLE PATTERNS)'
+          },
+          {
+            'Formalism' => '((:I (:Q DET TASK_DESCRIPTION.NAME) CONTENT.N) (:I (:Q DET CONTENT.N) INFORMAL.A)
+ (:I (:Q DET CONTENT.N) TEXTUAL.A) (:I (:Q DET THING-REFERRED-TO*.N) REPRESENTATION.N))',
+            'Sentence' => '(A TASK DESCRIPTION CAN BE EITHER AN INFORMAL , DESCRIBED TEXTUAL CONTENT -LRB- TEXTUALDESCRIPTION -RRB-
+ OR IT CAN BE A MORE FORMALLY STRUCTURED REPRESENTATION -LRB- FORMALDESCRIPTION -RRB-)',
+            'ExtractedKnowledge' => [
+                                      {
+                                        'Sentence' => 'A TASK_DESCRIPTION[PERSON??] CAN BE A CONTENT.',
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'TASK_DESCRIPTION\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'person\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        },
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'be\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[1]{'Output'}[0][2][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'A\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'CONTENT\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       }
+                                      },
+                                      {
+                                        'Sentence' => 'A CONTENT CAN BE INFORMAL.',
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'CONTENT\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'CAN\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'BE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'INFORMAL\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       },
+                                        'Overwrite' => 1
+                                      },
+                                      {
+                                        'Sentence' => 'A CONTENT CAN BE TEXTUAL.',
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'CONTENT\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'CAN\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'BE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'TEXTUAL\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       }
+                                      },
+                                      {
+                                        'Sentence' => 'A THING-REFERRED-TO CAN BE A REPRESENTATION.',
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Success' => 1,
+                                                         'Results' => [
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'thing-referred-to\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'be\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[1]{'Output'}[0][2][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'representation\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        }
+                                                                      ]
+                                                       }
+                                      }
+                                    ]
+          },
+          {
+            'Sentence' => '(TECHNOLOGY CONSIDERATIONS : INFORMAL DESCRIPTIONS ALLOW FOR TEXT SIMILARITY PROCESSING , A FORMAL
+ DESCRIPTION ALLOWS FOR APPLYING CASE BASED SIMILARITY MEASURES)',
+            'ExtractedKnowledge' => [
+                                      {
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'TECHNOLOGY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'person\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        },
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'MAY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'HAVE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'CONSIDERATIONS\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       },
+                                        'Overwrite' => 1,
+                                        'Sentence' => 'A TECHNOLOGY[PERSON??] MAY HAVE CONSIDERATIONS.'
+                                      },
+                                      {
+                                        'Sentence' => 'DESCRIPTIONS MAY ALLOW FOR TEXT SIMILARITY PROCESSING.',
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Success' => 1,
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'DESCRIPTIONS\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'MAY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'ALLOW\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'for\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'TEXT\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'SIMILARITY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'PROCESSING\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        }
+                                                                      ]
+                                                       }
+                                      },
+                                      {
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Success' => 1,
+                                                         'Results' => [
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'INFORMAL\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'person\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        },
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'MAY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'HAVE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'DESCRIPTIONS\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        }
+                                                                      ]
+                                                       },
+                                        'Sentence' => 'AN INFORMAL[PERSON??] MAY HAVE DESCRIPTIONS.'
+                                      },
+                                      {
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'DESCRIPTION\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'CAN\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'BE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'FORMAL\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       },
+                                        'Overwrite' => 1,
+                                        'Sentence' => 'A DESCRIPTION CAN BE FORMAL.'
+                                      },
+                                      {
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'CASE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'MAY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'BE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'BASE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            '-ED\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       },
+                                        'Sentence' => 'CASE MAY BE BASE -ED.'
+                                      }
+                                    ],
+            'Formalism' => '((:I (:Q DET TECHNOLOGY.NAME) HAVE.V (:Q DET (:F PLUR CONSIDERATION.N)))
+ (:I (:Q A{N} DESCRIPTION.N) ALLOW.V (:P FOR.P (:F KA NIL)))
+ (:I (:F K (:F PLUR DESCRIPTION.N)) ALLOW.V (:P FOR.P (:F K (:F NN TEXT.N SIMILARITY.N PROCESSING.N))))
+ (:I (:Q DET INFORMAL.NAME) HAVE.V (:Q DET (:F PLUR DESCRIPTION.N))) (:I (:Q DET DESCRIPTION.N) FORMAL.A)
+ (:I (:F K CASE.N) (:F BE.PASV BASE.V)))'
+          },
+          {
+            'ExtractedKnowledge' => [
+                                      {
+                                        'Sentence' => 'A GENERATION OF IDENTIFIERS CAN BE ARCHITECTURE ISSUE.',
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'GENERATION\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'of\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'IDENTIFIERS\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'CAN\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'BE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'ARCHITECTURE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'ISSUE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       }
+                                      },
+                                      {
+                                        'Sentence' => 'IDENTIFIERS MAY UNDERGO A GENERATION.',
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'IDENTIFIERS\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'MAY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'UNDERGO\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'A\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'GENERATION\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       },
+                                        'Overwrite' => 1
+                                      },
+                                      {
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Success' => 1,
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'NEPOMUK\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'PERSON\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        },
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'MAY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'HAVE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'AN\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'ARCHITECTURE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'ISSUE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        }
+                                                                      ]
+                                                       },
+                                        'Sentence' => 'A NEPOMUK[PERSON??] MAY HAVE AN ARCHITECTURE ISSUE.'
+                                      }
+                                    ],
+            'Sentence' => '(THE GENERATION OF IDENTIFIERS -LRB- IDS -RRB- IS A NEPOMUK ARCHITECTURE ISSUE -LRB- WP2000\\/WP6000
+ -RRB-)',
+            'Formalism' => '((:I (:A (:Q THE GENERATION.N) (:P OF.P (:F K (:F PLUR IDENTIFIER.N)))) (:F NN ARCHITECTURE.N ISSUE.N))
+ (:I (:F K (:F PLUR IDENTIFIER.N)) UNDERGO.V (:Q DET GENERATION.N))
+ (:I (:Q DET NEPOMUK.NAME) HAVE.V (:Q DET (:F NN ARCHITECTURE.N ISSUE.N))))'
+          },
+          {
+            'Sentence' => '(TASKNAME TYPE RDF : PROPERTY , RDFS : RESOURCE DOMAIN TMO : TASK RANGE RDFS : LITERAL MAXIMAL 1
+ CARDINALITY SUPERPROPERTIES RDFS : LABEL , NAO : PREFLABEL SUBPROPERTIES -- THE TASK NAME HELPS THE USER
+ TO IDENTIFY A TASK IN A LIST)',
+            'ExtractedKnowledge' => [
+                                      {
+                                        'Sentence' => 'A RDF CAN BE TASKNAME.',
+                                        'Formalism' => {
+                                                         'Success' => 1,
+                                                         'Results' => [
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'RDF\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'CAN\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'BE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'TASKNAME\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        }
+                                                                      ]
+                                                       },
+                                        'Overwrite' => 1
+                                      },
+                                      {
+                                        'Sentence' => 'A RDF CAN BE TYPE.',
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'RDF\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'CAN\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'BE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'TYPE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       }
+                                      },
+                                      {
+                                        'Sentence' => 'RDFS CAN BE CARDINALITY.',
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'RDFS\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'CAN\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'BE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'CARDINALITY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       },
+                                        'Overwrite' => 1
+                                      },
+                                      {
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'superproperty\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'person\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        },
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'MAY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'HAVE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'RDFS\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       },
+                                        'Sentence' => 'A SUPERPROPERTIES[PERSON??] MAY HAVE RDFS.'
+                                      },
+                                      {
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'subproperty\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          undef,
+                                                                                          undef
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       },
+                                        'Overwrite' => 1,
+                                        'Sentence' => 'SUBPROPERTIES CAN BE PREFLABEL.'
+                                      },
+                                      {
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'NAME\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'MAY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'HELP\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'A\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'USER\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       },
+                                        'Overwrite' => 1,
+                                        'Sentence' => 'A NAME MAY HELP A USER.'
+                                      },
+                                      {
+                                        'Sentence' => 'A TASK[PERSON??] MAY HAVE A NAME.',
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'TASK\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'person\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        },
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'MAY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'HAVE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'A\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'NAME\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       },
+                                        'Overwrite' => 1
+                                      },
+                                      {
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'TASK\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'be\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[1]{'Output'}[0][2][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'in\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'A\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'LIST\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       },
+                                        'Overwrite' => 1,
+                                        'Sentence' => 'A TASK CAN BE IN A LIST.'
+                                      }
+                                    ],
+            'Formalism' => '((:I (:Q DET RDF.N) TASKNAME.A) (:I (:Q DET RDF.N) TYPE.A) (:I (:Q DET (:F PLUR RDF.N)) CARDINALITY.A)
+ (:I (:Q DET SUPERPROPERTIES.NAME) HAVE.V (:Q DET (:F PLUR RDF.N)))
+ (:I (:Q DET (:F PLUR SUBPROPERTY.N)) PREFLABEL.A) (:I (:Q THE NAME.N) HELP.V (:Q THE USER.N))
+ (:I (:Q DET TASK.NAME) HAVE.V (:Q DET NAME.N)) (:I (:Q A{N} TASK.N) IN.P (:Q A{N} LIST.N)))'
+          },
+          {
+            'Sentence' => '(IT SHOULD BE EXPRESSIVE ENOUGH TO GIVE A MEANINGFUL DESCRIPTION RECOGNITION)',
+            'ExtractedKnowledge' => [
+                                      {
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Success' => 1,
+                                                         'Results' => [
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'thing-referred-to\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'CAN\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'BE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'EXPRESSIVE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        }
+                                                                      ]
+                                                       },
+                                        'Sentence' => 'A THING-REFERRED-TO CAN BE EXPRESSIVE.'
+                                      },
+                                      {
+                                        'Sentence' => 'RECOGNITION CAN BE MEANINGFUL.',
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Success' => 1,
+                                                         'Results' => [
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'RECOGNITION\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'CAN\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'BE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'MEANINGFUL\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        }
+                                                                      ]
+                                                       }
+                                      },
+                                      {
+                                        'Sentence' => 'A DESCRIPTION[PERSON??] MAY HAVE RECOGNITION.',
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Success' => 1,
+                                                         'Results' => [
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'DESCRIPTION\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'person\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        },
+                                                                        {
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'MAY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'HAVE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'RECOGNITION\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ],
+                                                                          'Success' => 1
+                                                                        }
+                                                                      ]
+                                                       }
+                                      }
+                                    ],
+            'Formalism' => '((:I (:Q DET THING-REFERRED-TO*.N) EXPRESSIVE.A) (:I (:Q DET RECOGNITION.N) MEANINGFUL.A)
+ (:I (:Q DET DESCRIPTION.NAME) HAVE.V (:Q DET RECOGNITION.N)))'
+          },
+          {
+            'Formalism' => '((:I (:F K (:F PLUR DETAIL.N)) (:F BE.PASV WRITE.V)
+  (:P IN.P (:Q THE (:F NN DESCRIPTION.N ATTRIBUTE.N)))))',
+            'Sentence' => '(DETAILS SHOULD BE WRITTEN IN THE DESCRIPTION ATTRIBUTE INSTEAD)',
+            'ExtractedKnowledge' => [
+                                      {
+                                        'Sentence' => 'DETAILS MAY BE WRITE -ED IN A DESCRIPTION ATTRIBUTE.',
+                                        'Overwrite' => 1,
+                                        'Formalism' => {
+                                                         'Results' => [
+                                                                        {
+                                                                          'Success' => 1,
+                                                                          'Output' => [
+                                                                                        [
+                                                                                          'and',
+                                                                                          [
+                                                                                            'DETAILS\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'MAY\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'BE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'WRITE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            '-ED\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'in\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[0]{'Formalism'}{'Results'}[0]{'Output'}[0][1][1],
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'A\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'DESCRIPTION\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ],
+                                                                                          [
+                                                                                            'ATTRIBUTE\'',
+                                                                                            $VAR1->[0]{'ExtractedKnowledge'}[1]{'Formalism'}{'Results'}[0]{'Output'}[0][2][1]
+                                                                                          ]
+                                                                                        ]
+                                                                                      ]
+                                                                        }
+                                                                      ],
+                                                         'Success' => 1
+                                                       }
+                                      }
+                                    ]
+          }
+        ];

@@ -1,0 +1,4155 @@
+;; (NEPOMUK LOGO KDE LOGO TASK MODEL ONTOLOGY -LRB- TMO -RRB- OSCAF RECOMMENDATION 13.06.2012 TASK-FORCE
+ ONTOLOGIES LATEST VERSION : HTTP:\/\/WWW.SEMANTICDESKTOP.ORG\/ONTOLOGIES\/TMO THIS VERSION : THIS FILE
+ REFERS TO THE REVISION 1.1 OF TMO)
+
+;; E
+
+;;  K
+
+	;; A NEPOMUK_LOGO_KDE_LOGO_TASK_MODEL_ONTOLOGY[PERSON??] MAY HTTP:\/\/WWW.SEMANTICDESKTOP.ORG\/ONTOLOGIES\/TM A VERSION[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (NEPOMUK_5FLOGO_5FKDE_5FLOGO_5FTASK_5FMODEL_5FONTOLOGY_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HTTP_27 ?x1) (kbs2_kif_quote_5C_2F_5C_2FWWW_2ESEMANTICDESKTOP_2EORG_5C_2FONTOLOGIES_5C_2FTM_27 ?x2) (A_27 ?x2) (VERSION_27 ?x2) (person_27 ?x3))
+
+;;  K
+
+	;; A FILE MAY REFER TO A REVISION[PERSON??] OF A TMO[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (FILE_27 ?x1) (MAY_27 ?x1) (REFER_27 ?x1) (to_27 ?x1 ?x2) (A_27 ?x2) (REVISION_27 ?x2) (person_27 ?x3))
+
+;;   F
+
+;;    S
+
+		(and (of_27 ?x1) (TMO_27 ?x1) (PERSON_27 ?x2))
+
+;; (MINOR CHANGES MAY BE IMPLEMENTED IN FUTURE REVISIONS)
+
+;; E
+
+;;  K
+
+	;; CHANGES MAY BE IMPLEMENT -ED IN REVISIONS.
+
+;;   F
+
+;;    S
+
+		(and (CHANGES_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (IMPLEMENT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (revision_27 ?x2))
+
+;; (WITH EACH NEW REVISION , THE DOCUMENTATION AND ALL SERIALIZATIONS OF THE ONTOLOGY WILL BE UPDATED)
+
+;; E
+
+;;  K
+
+	;; A DOCUMENTATION CAN BE UPDATED.
+
+;;   F
+
+;;    S
+
+		(and (DOCUMENTATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (UPDATED_27 ?x1))
+
+;;  K
+
+	;; AN ONTOLOGY MAY UNDERGO SERIALIZATIONS.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (SERIALIZATIONS_27 ?x1))
+
+;; (THIS DOCUMENT DESCRIBES THE FUNDAMENTAL ELEMENTS OF THE LANGUAGE AND HOW TO USE THEM)
+
+;; E
+
+;;  K
+
+	;; A LANGUAGE MAY UNDERGO ELEMENTS.
+
+;;   F
+
+;;    S
+
+		(and (LANGUAGE_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (ELEMENTS_27 ?x1))
+
+;;  K
+
+	;; ELEMENTS CAN BE FUNDAMENTAL.
+
+;;   F
+
+;;    S
+
+		(and (element_27 ?x1) (be_27 ?e1 ?x1 ?x2) (FUNDAMENTAL_27 ?x2))
+
+;; (STATUS OF THIS DOCUMENT THIS SECTION DESCRIBES THE STATUS OF THIS DOCUMENT AT THE TIME OF ITS
+ PUBLICATION)
+
+;; E
+
+;;  K
+
+	;; STATUS OF A DOCUMENT MAY DESCRIBE A STATUS OF A DOCUMENT.
+
+;;   F
+
+;;    S
+
+		(and (statu_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (DOCUMENT_27 ?x2) (MAY_27 ?x2) (DESCRIBE_27 ?x2) (A_27 ?x2) (statu_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (DOCUMENT_27 ?x3))
+
+;;  K
+
+	;; A DOCUMENT MAY HAVE STATUS.
+
+;;   F
+
+;;    S
+
+		(and (DOCUMENT_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (STATUS_27 ?x1))
+
+;;  K
+
+	;; A DOCUMENT MAY HAVE A STATUS.
+
+;;   F
+
+;;    S
+
+		(and (DOCUMENT_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (STATUS_27 ?x1))
+
+;;  K
+
+	;; A DOCUMENT CAN BE AT A TIME OF A PUBLICATION.
+
+;;   F
+
+;;    S
+
+		(and (DOCUMENT_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AT_27 ?x2) (A_27 ?x2) (time_27 ?x2) (of_27 ?x2 ?x3) (PUBLICATION_27 ?x3))
+
+;;  K
+
+	;; A PUBLICATION MAY HAVE A TIME.
+
+;;   F
+
+;;    S
+
+		(and (PUBLICATION_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TIME_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE A PUBLICATION.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PUBLICATION_27 ?x1))
+
+;; (THE FORM USED FOR THIS STATUS MESSAGE AND DOCUMENT IS INSPIRED BY THE W3C PROCESS)
+
+;; E
+
+;;  K
+
+	;; A FORM MAY BE INSPIRE -ED BY A PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (FORM_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (INSPIRE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (process_27 ?x2))
+
+;;  K
+
+	;; A FORM MAY BE USE -ED FOR A STATUS MESSAGE.
+
+;;   F
+
+;;    S
+
+		(and (FORM_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (USE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (STATUS_27 ?x2) (MESSAGE_27 ?x2))
+
+;;  K
+
+	;; A PROCESS CAN BE W3C.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (W3C_27 ?x1))
+
+;; (THIS DOCUMENT IS AN EDITORS DRAFT PRODUCED BY OLAF GREBNER AND MARKO BRUNZEL AS PART OF THE WORK PACKAGE
+ TASK MANAGEMENT IN THE NEPOMUK PROJECT)
+
+;; E
+
+;;  K
+
+	;; A DOCUMENT CAN BE AN EDITORS_DRAFT[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (DOCUMENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (AN_27 ?x1) (EDITORS_5FDRAFT_27 ?x1) (PERSON_27 ?x2))
+
+;;  K
+
+	;; AN EDITORS_DRAFT[PERSON??] MAY BE PRODUCE -ED BY AN OLAF_GREBNER[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (EDITORS_5FDRAFT_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (PRODUCE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (AN_27 ?x2) (OLAF_5FGREBNER_27 ?x2) (PERSON_27 ?x3))
+
+;;  K
+
+	;; A WORK PACKAGE TASK MANAGEMENT CAN BE IN A PROJECT.
+
+;;   F
+
+;;    S
+
+		(and (WORK_27 ?x1) (PACKAGE_27 ?x1) (TASK_27 ?x1) (MANAGEMENT_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (project_27 ?x2))
+
+;;  K
+
+	;; A NEPOMUK[PERSON??] MAY HAVE A PROJECT.
+
+;;   F
+
+;;    S
+
+		(and (NEPOMUK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (project_27 ?x1))
+
+;; (THE TASK-FORCE INTENDS THIS DOCUMENT TO BECOME A NEPOMUK STANDARD)
+
+;; E
+
+;;  K
+
+	;; A TASK-FORCE MAY INTEND A DOCUMENT.
+
+;;   F
+
+;;    S
+
+		(and (TASK-FORCE_27 ?x1) (MAY_27 ?x1) (INTEND_27 ?x1) (A_27 ?x1) (DOCUMENT_27 ?x1))
+
+;;  K
+
+	;; A NEPOMUK[PERSON??] MAY HAVE A STANDARD.
+
+;;   F
+
+;;    S
+
+		(and (NEPOMUK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (STANDARD_27 ?x1))
+
+;; (THE EDITORS OF THIS DOCUMENT VALUE FEEDBACK FROM THE PUBLIC AND FROM NEPOMUK MEMBERS)
+
+;; E
+
+;;  K
+
+	;; A DOCUMENT VALUE FEEDBACK MAY HAVE EDITORS.
+
+;;   F
+
+;;    S
+
+		(and (DOCUMENT_27 ?x1) (VALUE_27 ?x1) (FEEDBACK_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (EDITORS_27 ?x1))
+
+;; (PLEASE ADD COMMENTS AS TICKETS IN THE NEPOMUK TRACKER USING THE CATEGORY ONTOLOGY-TMO)
+
+;; E
+
+;;  K
+
+	;; TICKETS MAY USE A CATEGORY ONTOLOGY-TMO.
+
+;;   F
+
+;;    S
+
+		(and (TICKETS_27 ?x1) (MAY_27 ?x1) (USE_27 ?x1) (A_27 ?x1) (CATEGORY_27 ?x1) (ONTOLOGY-TMO_27 ?x1))
+
+;;  K
+
+	;; TICKETS CAN BE IN A TRACKER.
+
+;;   F
+
+;;    S
+
+		(and (ticket_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (TRACKER_27 ?x2))
+
+;;  K
+
+	;; A NEPOMUK[PERSON??] MAY HAVE A TRACKER.
+
+;;   F
+
+;;    S
+
+		(and (NEPOMUK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TRACKER_27 ?x1))
+
+;; (THIS DOCUMENT IS ACCOMPANIED BY A RDFS\/NRL ONTOLOGY , WHICH SHOULD BE READ IN PARALLEL TO LEARN MORE
+ ABOUT TMO)
+
+;; E
+
+;;  K
+
+	;; A DOCUMENT MAY BE ACCOMPANY -ED BY AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (DOCUMENT_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (ACCOMPANY_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (AN_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; AN ONTOLOGY CAN BE RDFS\/NRL.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (RDFS_5C_2FNRL_27 ?x1))
+
+;; (THIS DOCUMENT AND THE TMO ONTOLOGY AS SUCH ARE A CONTINUATION AND IMPROVEMENT OF EXISTING WORK)
+
+;; E
+
+;;  K
+
+	;; A DOCUMENT CAN BE A CONTINUATION OF WORK.
+
+;;   F
+
+;;    S
+
+		(and (DOCUMENT_27 ?x1) (be_27 ?e1 ?x1 ?x2) (continuation_27 ?x2) (of_27 ?x2 ?x3) (WORK_27 ?x3))
+
+;;  K
+
+	;; A TMO[PERSON??] MAY HAVE AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (TMO_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; WORK MAY UNDERGO A CONTINUATION.
+
+;;   F
+
+;;    S
+
+		(and (WORK_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (CONTINUATION_27 ?x1))
+
+;;  K
+
+	;; WORK CAN BE EXISTING.
+
+;;   F
+
+;;    S
+
+		(and (work_27 ?x1) (be_27 ?e1 ?x1 ?x2) (EXISTING_27 ?x2))
+
+;; (OTHER DOCUMENTS MAY SUPERSEDE THIS DOCUMENT)
+
+;; E
+
+;;  K
+
+	;; DOCUMENTS MAY SUPERSEDE A DOCUMENT.
+
+;;   F
+
+;;    S
+
+		(and (document_27 ?x1) (supersede_27 ?e1 ?x1 ?x2) (A_27 ?x2) (DOCUMENT_27 ?x2))
+
+;; (PARTS OF THIS DOCUMENT WILL BE PUBLISHED IN OTHER DOCUMENTS , SUCH AS SCIENTIFIC PUBLICATIONS)
+
+;; E
+
+;;  K
+
+	;; PARTS OF A DOCUMENT MAY BE PUBLISH -ED IN DOCUMENTS.
+
+;;   F
+
+;;    S
+
+		(and (part_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (DOCUMENT_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (PUBLISH_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (in_27 ?x2 ?x3) (document_27 ?x3))
+
+;;  K
+
+	;; A DOCUMENT MAY HAVE PARTS.
+
+;;   F
+
+;;    S
+
+		(and (DOCUMENT_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (PARTS_27 ?x1))
+
+;;  K
+
+	;; PUBLICATIONS CAN BE SCIENTIFIC.
+
+;;   F
+
+;;    S
+
+		(and (publication_27 ?x1) (be_27 ?e1 ?x1 ?x2) (SCIENTIFIC_27 ?x2))
+
+;; (THIS DOCUMENT IS BASED ON VARIOUS OTHER PUBLICATIONS BY THE AUTHORS , AND IS A CONTINUATION OF EXISTING
+ WORK)
+
+;; E
+
+;;  K
+
+	;; A DOCUMENT MAY BE BASE -ED ON PUBLICATIONS BY AUTHORS.
+
+;;   F
+
+;;    S
+
+		(and (DOCUMENT_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (BASE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (ON_27 ?x1) (PUBLICATIONS_27 ?x1) (by_27 ?x1 ?x2) (AUTHORS_27 ?x2))
+
+;;  K
+
+	;; WORK MAY UNDERGO A CONTINUATION.
+
+;;   F
+
+;;    S
+
+		(and (WORK_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (CONTINUATION_27 ?x1))
+
+;;  K
+
+	;; WORK CAN BE EXISTING.
+
+;;   F
+
+;;    S
+
+		(and (work_27 ?x1) (be_27 ?e1 ?x1 ?x2) (EXISTING_27 ?x2))
+
+;; (SOME FORMULATIONS FROM THE RDFS PRIMER AND SKOS PRIMER DOCUMENTS WERE REUSED)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF FORMULATIONS MAY BE REUSE -ED.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (FORMULATIONS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (REUSE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; SOME_NUMBER_OF FORMULATIONS CAN BE FROM PRIMER DOCUMENTS.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (FORMULATIONS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FROM_27 ?x1) (PRIMER_27 ?x1) (DOCUMENTS_27 ?x1))
+
+;;  K
+
+	;; A RDFS_PRIMER_AND_SKOS[PERSON??] MAY HAVE PRIMER DOCUMENTS.
+
+;;   F
+
+;;    S
+
+		(and (RDFS_5FPRIMER_5FAND_5FSKOS_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (PRIMER_27 ?x1) (DOCUMENTS_27 ?x1))
+
+;; (KNOWLEDGE WORKERS PERFORM KNOWLEDGE WORK)
+
+;; E
+
+;;  K
+
+	;; WORKERS MAY PERFORM KNOWLEDGE WORK.
+
+;;   F
+
+;;    S
+
+		(and (WORKERS_27 ?x1) (MAY_27 ?x1) (PERFORM_27 ?x1) (KNOWLEDGE_27 ?x1) (WORK_27 ?x1))
+
+;;  K
+
+	;; WORKERS CAN BE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (worker_27 ?x1) (be_27 ?e1 ?x1 ?x2) (KNOWLEDGE_27 ?x2))
+
+;; (FOR EXAMPLE , MANAGERS , RESEARCHERS AND SALES REPRESENTATIVES ARE KNOWLEDGE WORKERS)
+
+;; E
+
+;;  K
+
+	;; MANAGERS CAN BE KNOWLEDGE WORKERS.
+
+;;   F
+
+;;    S
+
+		(and (manager_27 ?x1) (be_27 ?e1 ?x1 ?x2) (KNOWLEDGE_27 ?x2) (WORKERS_27 ?x2))
+
+;; (KNOWLEDGE WORK IS GOAL DRIVEN , I.E. , A KNOWLEDGE WORKER STRIVES TO ACHIEVE A GOAL WITH THE EXECUTION
+ OF HER WORK)
+
+;; E
+
+;;  K
+
+	;; WORK CAN BE A GOAL.
+
+;;   F
+
+;;    S
+
+		(and (work_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (GOAL_27 ?x2))
+
+;;  K
+
+	;; WORK CAN BE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (WORK_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;;  K
+
+	;; WORK MAY UNDERGO AN EXECUTION.
+
+;;   F
+
+;;    S
+
+		(and (WORK_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (EXECUTION_27 ?x1))
+
+;;  K
+
+	;; A FEMALE MAY HAVE WORK.
+
+;;   F
+
+;;    S
+
+		(and (FEMALE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (WORK_27 ?x1))
+
+;; (KNOWLEDGE WORK CAN BE BROKEN DOWN INTO TASKS WHERE EACH TASK HAS A GOAL THAT THE KNOWLEDGE WORKER NEEDS
+ TO ACHIEVE IN ORDER TO COMPLETE THE TASK)
+
+;; E
+
+;;  K
+
+	;; WORK MAY BE BREAK_DOWN -ED INTO TASKS.
+
+;;   F
+
+;;    S
+
+		(and (WORK_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (BREAK_5FDOWN_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (INTO_27 ?x1) (TASKS_27 ?x1))
+
+;;  K
+
+	;; WORK CAN BE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (WORK_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;;  K
+
+	;; SOME_NUMBER_OF TASK MAY HAVE A GOAL.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (TASK_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (GOAL_27 ?x1))
+
+;; (KNOWLEDGE WORKERS CAN REACH THEIR GOALS USING DIFFERENT APPROACHES AND METHODS WHICH CAN DIFFER
+ INDIVIDUALLY FROM KNOWLEDGE WORKER TO KNOWLEDGE WORKER)
+
+;; E
+
+;;  K
+
+	;; WORKERS MAY REACH GOALS.
+
+;;   F
+
+;;    S
+
+		(and (WORKERS_27 ?x1) (MAY_27 ?x1) (REACH_27 ?x1) (GOALS_27 ?x1))
+
+;;  K
+
+	;; WORKERS CAN BE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (worker_27 ?x1) (be_27 ?e1 ?x1 ?x2) (KNOWLEDGE_27 ?x2))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE GOALS.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (GOALS_27 ?x1))
+
+;; (KNOWLEDGE IS THUS RATHER CHARACTERIZED BY VARIETY THAN BY ROUTINE)
+
+;; E
+
+;;  K
+
+	;; A KNOWLEDGE[PERSON??] MAY BE CHARACTERIZE -ED BY VARIETY.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (CHARACTERIZE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (BY_27 ?x1) (VARIETY_27 ?x1))
+
+;; (TASKS ARE UNITS OF WORK)
+
+;; E
+
+;;  K
+
+	;; TASKS CAN BE UNITS OF WORK.
+
+;;   F
+
+;;    S
+
+		(and (task_27 ?x1) (be_27 ?e1 ?x1 ?x2) (unit_27 ?x2) (of_27 ?x2 ?x3) (WORK_27 ?x3))
+
+;;  K
+
+	;; UNITS CAN BE CONSTITUTED_OF_OR_FILLED_WITH WORK.
+
+;;   F
+
+;;    S
+
+		(and (unit_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x2) (WORK_27 ?x2))
+
+;; (WE ADDRESS A KIND OF TASKS WHICH OFTEN ARISE DURING PERFORMING THE WORK , COMPARED TO TASK WHICH ARE
+ APRIORY GIVEN)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY ADDRESS A KIND OF TASKS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (ADDRESS_27 ?x1) (A_27 ?x1) (KIND_27 ?x1) (of_27 ?x1 ?x2) (TASKS_27 ?x2))
+
+;; (OR IN OTHER WORDS , THE MODELLING OF TASKS IS ALSO DONE DURING TASK EXECUTION)
+
+;; E
+
+;;  K
+
+	;; A MODELLING OF TASKS MAY BE DO -ED DURING TASK EXECUTION.
+
+;;   F
+
+;;    S
+
+		(and (modelling_27 ?x1) (of_27 ?x1 ?x2) (TASKS_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (DO_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (DURING_27 ?x2) (TASK_27 ?x2) (EXECUTION_27 ?x2))
+
+;;  K
+
+	;; TASKS MAY UNDERGO A MODELLING.
+
+;;   F
+
+;;    S
+
+		(and (TASKS_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (MODELLING_27 ?x1))
+
+;; (WORKFLOWS ARE USUALLY NOT ENFORCED UPON THOSE TASKS)
+
+;; E
+
+;;  K
+
+	;; WORKFLOWS MAY BE ENFORCE -ED UPON TASKS.
+
+;;   F
+
+;;    S
+
+		(and (WORKFLOWS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (ENFORCE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (UPON_27 ?x1) (TASKS_27 ?x1))
+
+;; (SUCH TASKS CAN FORM FLEXIBLE WORKFLOWS WHERE RECOMMENDATIONS REGARDING THE EXECUTION OF PARTICULAR TASKS
+ ARE MADE)
+
+;; E
+
+;;  K
+
+	;; TASKS MAY FORM WORKFLOWS.
+
+;;   F
+
+;;    S
+
+		(and (TASKS_27 ?x1) (MAY_27 ?x1) (FORM_27 ?x1) (WORKFLOWS_27 ?x1))
+
+;;  K
+
+	;; WORKFLOWS CAN BE FLEXIBLE.
+
+;;   F
+
+;;    S
+
+		(and (WORKFLOWS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FLEXIBLE_27 ?x1))
+
+;;  K
+
+	;; RECOMMENDATIONS MAY BE MAKE -ED.
+
+;;   F
+
+;;    S
+
+		(and (recommendation_27 ?x1) (MAY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (MAKE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2))
+
+;;  K
+
+	;; TASKS MAY UNDERGO AN EXECUTION.
+
+;;   F
+
+;;    S
+
+		(and (TASKS_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (EXECUTION_27 ?x1))
+
+;; (IN THE NEPOMUK ENVIRONMENT , INFORMATION CHUNKS ARE EXPRESSED BY THE NAO , NIE AND PIMO ONTOLOGIES)
+
+;; E
+
+;;  K
+
+	;; INFORMATION CHUNKS MAY BE EXPRESS -ED BY ONTOLOGIES.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (CHUNKS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (EXPRESS_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (ONTOLOGIES_27 ?x2))
+
+;;  K
+
+	;; A NEPOMUK[PERSON??] MAY HAVE AN ENVIRONMENT.
+
+;;   F
+
+;;    S
+
+		(and (NEPOMUK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ENVIRONMENT_27 ?x1))
+
+;;  K
+
+	;; A |\|NAO_\\\|,\\\|_NIE_AND_PIMO\||[PERSON??] MAY HAVE ONTOLOGIES.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_7C_5C_7CNAO_5F_5C_5C_5C_7C_27 ?x1) (kbs2_kif_quote_5C_5C_5C_7C_5FNIE_5FAND_5FPIMO_5C_7C_7C_27 ?x2) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (ONTOLOGIES_27 ?x1))
+
+;; (IN PRINCIPLE , EVERY PIECE OF INFORMATION CAN HAVE THE CHARACTER OF A TASK)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF PIECE OF INFORMATION MAY HAVE A CHARACTER OF A TASK.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (PIECE_27 ?x1) (of_27 ?x1 ?x2) (INFORMATION_27 ?x2) (MAY_27 ?x2) (HAVE_27 ?x2) (A_27 ?x2) (CHARACTER_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (TASK_27 ?x3))
+
+;;  K
+
+	;; SOME_NUMBER_OF PIECE CAN BE CONSTITUTED_OF_OR_FILLED_WITH INFORMATION.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (PIECE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (INFORMATION_27 ?x1))
+
+;; (PERSONAL TASK MANAGEMENT -LRB- PTM -RRB- HELPS KNOWLEDGE WORKERS TO MANAGE THEIR PERSONAL , SCARCE WORK
+ CAPACITY TO ACHIEVE THEIR GIVEN GOALS IN THE DESIRED QUALITY)
+
+;; E
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE A WORK CAPACITY.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (WORK_27 ?x1) (CAPACITY_27 ?x1))
+
+;;  K
+
+	;; A WORK CAPACITY CAN BE PERSONAL.
+
+;;   F
+
+;;    S
+
+		(and (WORK_27 ?x1) (CAPACITY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PERSONAL_27 ?x1))
+
+;;  K
+
+	;; A WORK CAPACITY CAN BE SCARCE.
+
+;;   F
+
+;;    S
+
+		(and (WORK_27 ?x1) (CAPACITY_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE GOALS.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (GOALS_27 ?x1))
+
+;;  K
+
+	;; GOALS CAN BE GIVEN.
+
+;;   F
+
+;;    S
+
+		(and (goal_27 ?x1) (be_27 ?e1 ?x1 ?x2) (GIVEN_27 ?x2))
+
+;;  K
+
+	;; A QUALITY CAN BE DESIRED.
+
+;;   F
+
+;;    S
+
+		(and (QUALITY_27 ?x1) (be_27 ?e1 ?x1 ?e2) (desire_27 ?e2 ?x1))
+
+;; (PTM FOCUSES A PERSONAL PROCESS PERSPECTIVE , I.E. , TO MANAGE THE ACTIVITIES THE KNOWLEDGE WORKER
+ PERFORMS TO GET THE WORK DONE)
+
+;; E
+
+;;  K
+
+	;; A PTM[PERSON??] MAY FOCUSE A PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (PTM_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (FOCUSE_27 ?x1) (A_27 ?x1) (PROCESS_27 ?x1))
+
+;;  K
+
+	;; A PROCESS CAN BE PERSONAL.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PERSONAL_27 ?x1))
+
+;;  K
+
+	;; WORK MAY BE DO -ED.
+
+;;   F
+
+;;    S
+
+		(and (WORK_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (DO_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (TACKLING INFORMATION AND TASK OVERLOAD , THE KNOWLEDGE WORKER CAN MANAGE THE TASK WORKLOAD SO THAT THE
+ TASKS CAN BE EXECUTED ON TIME , SCOPE AND BUDGET)
+
+;; E
+
+;;  K
+
+	;; A KNOWLEDGE WORKER MAY MANAGE A TASK WORKLOAD.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (WORKER_27 ?x1) (MAY_27 ?x1) (MANAGE_27 ?x1) (A_27 ?x1) (TASK_27 ?x1) (WORKLOAD_27 ?x1))
+
+;;  K
+
+	;; TASKS MAY BE EXECUTE -ED ON TIME.
+
+;;   F
+
+;;    S
+
+		(and (TASKS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (EXECUTE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (on_27 ?x1 ?x2) (TIME_27 ?x2))
+
+;; (A CORE PART OF TASK MANAGEMENT IS THUS ENABLING PRIORITIZATION DECISIONS THAT ALLOW THE KNOWLEDGE WORKER
+ TO DECIDE ON WHAT TASKS TO EXECUTE WHEN , TO WHAT EXTENT AND TO WHAT COST)
+
+;; E
+
+;;  K
+
+	;; A PART OF TASK MANAGEMENT MAY ENABLE PRIORITIZATION DECISIONS.
+
+;;   F
+
+;;    S
+
+		(and (part_27 ?x1) (of_27 ?x1 ?x2) (TASK_27 ?x2) (MANAGEMENT_27 ?x2) (MAY_27 ?x2) (ENABLE_27 ?x2) (PRIORITIZATION_27 ?x2) (DECISIONS_27 ?x2))
+
+;;  K
+
+	;; A PART CAN BE CONSTITUTED_OF_OR_FILLED_WITH TASK MANAGEMENT.
+
+;;   F
+
+;;    S
+
+		(and (part_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (TASK_27 ?x1) (MANAGEMENT_27 ?x1))
+
+;;  K
+
+	;; A PART CAN BE CORE.
+
+;;   F
+
+;;    S
+
+		(and (part_27 ?x1) (be_27 ?e1 ?x1 ?x2) (core_27 ?x2))
+
+;; (PTM APPLICATIONS SUPPORT KNOWLEDGE WORKERS IN PERFORMING EFFICIENT TASK MANAGEMENT TO ACHIEVE THEIR
+ GOALS IN THE BEST POSSIBLE WAY)
+
+;; E
+
+;;  K
+
+	;; APPLICATIONS MAY SUPPORT KNOWLEDGE WORKERS.
+
+;;   F
+
+;;    S
+
+		(and (APPLICATIONS_27 ?x1) (MAY_27 ?x1) (SUPPORT_27 ?x1) (KNOWLEDGE_27 ?x1) (WORKERS_27 ?x1))
+
+;;  K
+
+	;; A PTM[PERSON??] MAY HAVE APPLICATIONS.
+
+;;   F
+
+;;    S
+
+		(and (PTM_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (APPLICATIONS_27 ?x1))
+
+;;  K
+
+	;; A TASK MANAGEMENT CAN BE EFFICIENT.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (MANAGEMENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (EFFICIENT_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE GOALS.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (GOALS_27 ?x1))
+
+;;  K
+
+	;; A WAY CAN BE BEST.
+
+;;   F
+
+;;    S
+
+		(and (way_27 ?x1) (be_27 ?e1 ?x1 ?x2) (BEST_27 ?x2))
+
+;; (PTM APPLICATIONS OFFER FUNCTIONALITY TO HELP THE KNOWLEDGE WORKER TO MANAGE THE WHOLE SET OF TASKS THAT
+ THE KNOWLEDGE WORKER HAS TO ACCOMPLISH)
+
+;; E
+
+;;  K
+
+	;; APPLICATIONS MAY OFFER.
+
+;;   F
+
+;;    S
+
+		(and (APPLICATIONS_27 ?x1) (MAY_27 ?x1) (OFFER_27 ?x1))
+
+;;  K
+
+	;; A PTM[PERSON??] MAY HAVE APPLICATIONS.
+
+;;   F
+
+;;    S
+
+		(and (PTM_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (APPLICATIONS_27 ?x1))
+
+;; (THIS HAPPENS IN THE FORM OF A TASK LIST , AS WELL KNOWN AS TO-DO LISTS)
+
+;; E
+
+;;  K
+
+	;; LISTS CAN BE TO-DO.
+
+;;   F
+
+;;    S
+
+		(and (list_27 ?x1) (be_27 ?e1 ?x1 ?x2) (TO-DO_27 ?x2))
+
+;; (TASK LISTS HERE USE LISTS OF EXPLICIT TASK REPRESENTATIONS , I.E. , FOR EACH TASK IN THE LIST , A
+ DEDICATED TASK REPRESENTATION EXISTS AND CONTAINS THE TASK INFORMATION NEEDED FOR THE KNOWLEDGE WORKER
+ TO IDENTIFY , USE AND PRIORITIZE THE TASK)
+
+;; E
+
+;;  K
+
+	;; AN I.E.[PERSON??] MAY EXIST.
+
+;;   F
+
+;;    S
+
+		(and (I_2EE_2E_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (EXIST_27 ?x1))
+
+;;  K
+
+	;; LISTS MAY USE LISTS OF TASK REPRESENTATIONS.
+
+;;   F
+
+;;    S
+
+		(and (LISTS_27 ?x1) (MAY_27 ?x1) (USE_27 ?x1) (LISTS_27 ?x1) (of_27 ?x1 ?x2) (TASK_27 ?x2) (REPRESENTATIONS_27 ?x2))
+
+;;  K
+
+	;; A TASK[PERSON??] MAY HAVE LISTS.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (LISTS_27 ?x1))
+
+;;  K
+
+	;; LISTS CAN BE CONSTITUTED_OF_OR_FILLED_WITH TASK REPRESENTATIONS.
+
+;;   F
+
+;;    S
+
+		(and (LISTS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (TASK_27 ?x1) (REPRESENTATIONS_27 ?x1))
+
+;;  K
+
+	;; TASK REPRESENTATIONS CAN BE EXPLICIT.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (REPRESENTATIONS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (EXPLICIT_27 ?x1))
+
+;;  K
+
+	;; SOME_NUMBER_OF TASK CAN BE IN A LIST.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (TASK_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (LIST_27 ?x2))
+
+;;  K
+
+	;; A TASK REPRESENTATION CAN BE DEDICATED.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (REPRESENTATION_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (DEDICATED_27 ?x2))
+
+;;  K
+
+	;; A TASK INFORMATION MAY BE NEED -ED FOR A KNOWLEDGE WORKER.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (INFORMATION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (NEED_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (KNOWLEDGE_27 ?x2) (WORKER_27 ?x2))
+
+;; (BRINGING TOGETHER PTM AND PIM , THE TMO IS AN ONTOLOGY THAT ENABLES THE KNOWLEDGE WORKER TO ORGANIZE
+ LISTS OF TASKS IN CONJUNCTION WITH ORGANIZING INFORMATION NEEDED TO EXECUTE THESE TASKS)
+
+;; E
+
+;;  K
+
+	;; A TMO[PERSON??] CAN BE AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (TMO_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; LISTS CAN BE CONSTITUTED_OF_OR_FILLED_WITH TASKS.
+
+;;   F
+
+;;    S
+
+		(and (LISTS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (TASKS_27 ?x1))
+
+;;  K
+
+	;; TASKS CAN BE IN CONJUNCTION.
+
+;;   F
+
+;;    S
+
+		(and (task_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (conjunction_27 ?x2))
+
+;;  K
+
+	;; AN INFORMATION CAN BE ORGANIZING.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ORGANIZING_27 ?x1))
+
+;; (FOREMOST , THE TMO CAPTURES THE KNOWLEDGE WORKER 'S TASKS AND APPLICATIONS USING IT ENABLE THE KNOWLEDGE
+ WORKER TO GET ON OVERVIEW ON WHAT NEEDS TO BE DONE AND HOW THE KNOWLEDGE WORKER CAN PRIORITIZE THIS)
+
+;; E
+
+;;  K
+
+	;; A TMO[PERSON??] MAY CAPTURE TASKS.
+
+;;   F
+
+;;    S
+
+		(and (TMO_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (CAPTURE_27 ?x1) (TASKS_27 ?x1))
+
+;;  K
+
+	;; A KNOWLEDGE WORKER MAY HAVE TASKS.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (WORKER_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (TASKS_27 ?x1))
+
+;;  K
+
+	;; A KNOWLEDGE WORKER MAY PRIORITIZE A THING.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (WORKER_27 ?x1) (MAY_27 ?x1) (PRIORITIZE_27 ?x1) (thing_27 ?x1))
+
+;; (IN ADDITION , THE TMO SUPPORTS APPLICATIONS TO MANAGE THE INFORMATION THAT IS NEEDED FROM A KNOWLEDGE
+ WORKER 'S PERSPECTIVE TO FULFIL THE TASK)
+
+;; E
+
+;;  K
+
+	;; A KNOWLEDGE WORKER MAY HAVE A PERSPECTIVE.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (WORKER_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PERSPECTIVE_27 ?x1))
+
+;; (THIS INCLUDES FOR EXAMPLE INFORMATION ON WHO ELSE IS INVOLVED IN THE TASK AND WHAT CATEGORY THE TASK
+ BELONGS TO)
+
+;; E
+
+;;  K
+
+	;; A THING MAY INCLUDE FOR EXAMPLE INFORMATION.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (INCLUDE_27 ?x1) (for_27 ?x1 ?x2) (EXAMPLE_27 ?x2) (INFORMATION_27 ?x2))
+
+;; (FURTHER INFORMATION ON THE TMO GOING BEYOND THIS DOCUMENT CAN BE FOUND AT -LRB- TASKMODEL -RRB-)
+
+;; E
+
+;;  K
+
+	;; INFORMATION CAN BE ON A TMO[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (information_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (A_27 ?x2) (TMO_27 ?x2) (PERSON_27 ?x3))
+
+;;  K
+
+	;; A TMO[PERSON??] MAY GO.
+
+;;   F
+
+;;    S
+
+		(and (TMO_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (GO_27 ?x1))
+
+;; (THIS INCLUDES BACKGROUND INFORMATION ON TASK MANAGEMENT , STATE OF THE ART IN TASK MODELLING , MODELLING
+ CONSIDERATIONS IN THE PERSONAL TASK SPACE AND EXPLAINS MODELLING DECISIONS TAKEN FOR THE TMO)
+
+;; E
+
+;;  K
+
+	;; A THING MAY INCLUDE BACKGROUND INFORMATION.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (INCLUDE_27 ?x1) (BACKGROUND_27 ?x1) (INFORMATION_27 ?x1))
+
+;;  K
+
+	;; TASK MANAGEMENT MAY MODEL CONSIDERATIONS.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (MANAGEMENT_27 ?x1) (MAY_27 ?x1) (MODEL_27 ?x1) (CONSIDERATIONS_27 ?x1))
+
+;;  K
+
+	;; AN ART MAY HAVE STATE.
+
+;;   F
+
+;;    S
+
+		(and (ART_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (STATE_27 ?x1))
+
+;;  K
+
+	;; AN ART CAN BE IN TASK MODELLING.
+
+;;   F
+
+;;    S
+
+		(and (ART_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (TASK_27 ?x2) (MODELLING_27 ?x2))
+
+;;  K
+
+	;; A TASK SPACE CAN BE PERSONAL.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (SPACE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PERSONAL_27 ?x1))
+
+;;  K
+
+	;; DECISIONS MAY BE TAKE -ED FOR A TMO[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (DECISIONS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (TAKE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (TMO_27 ?x2) (PERSON_27 ?x3))
+
+;; (SCOPE AND COVERED USE CASES THE TMO IS DESIGNED FOR USE AS PART THE OF PIM PLATFORM NEPOMUK)
+
+;; E
+
+;;  K
+
+	;; A SCOPE_AND_COVERED_USE_CASES_THE_TMO[PERSON??] MAY BE DESIGN -ED FOR USE.
+
+;;   F
+
+;;    S
+
+		(and (SCOPE_5FAND_5FCOVERED_5FUSE_5FCASES_5FTHE_5FTMO_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (DESIGN_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (for_27 ?e1 ?x2) (USE_27 ?x2))
+
+;; (THE RESPECTIVE NEPOMUK ONTOLOGY FRAMEWORK PROVIDES ONTOLOGIES FOR CONDUCTING PERSONAL INFORMATION
+ MANAGEMENT IN PARTICULAR ON THE DESKTOP , SEE -LRB- PIMO -RRB- , -LRB- NIE -RRB-)
+
+;; E
+
+;;  K
+
+	;; A FRAMEWORK MAY PROVIDE ONTOLOGIES.
+
+;;   F
+
+;;    S
+
+		(and (FRAMEWORK_27 ?x1) (MAY_27 ?x1) (PROVIDE_27 ?x1) (ONTOLOGIES_27 ?x1))
+
+;;  K
+
+	;; A FRAMEWORK CAN BE RESPECTIVE.
+
+;;   F
+
+;;    S
+
+		(and (FRAMEWORK_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (RESPECTIVE_27 ?x1))
+
+;;  K
+
+	;; A NEPOMUK_ONTOLOGY[PERSON??] MAY HAVE A FRAMEWORK.
+
+;;   F
+
+;;    S
+
+		(and (NEPOMUK_5FONTOLOGY_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (FRAMEWORK_27 ?x1))
+
+;;  K
+
+	;; AN INFORMATION MANAGEMENT CAN BE PERSONAL.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (MANAGEMENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PERSONAL_27 ?x1))
+
+;; (THE TMO IS AN EXTENSION OF THE PIMO ONTOLOGY FOCUSING ON TASKS AND THE SUPPORT OF PTM APPLICATIONS)
+
+;; E
+
+;;  K
+
+	;; A TMO[PERSON??] CAN BE AN EXTENSION OF AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (TMO_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (EXTENSION_27 ?x1) (of_27 ?x1 ?x2) (AN_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; AN ONTOLOGY MAY UNDERGO AN EXTENSION.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (EXTENSION_27 ?x1))
+
+;;  K
+
+	;; AN ONTOLOGY MAY FOCUSE ON TASKS.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (FOCUSE_27 ?x1) (ON_27 ?x1) (TASKS_27 ?x1))
+
+;;  K
+
+	;; A PIMO[PERSON??] MAY HAVE AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (PIMO_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; A PTM[PERSON??] MAY HAVE APPLICATIONS.
+
+;;   F
+
+;;    S
+
+		(and (PTM_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (APPLICATIONS_27 ?x1))
+
+;; (HOWEVER , APPLICATIONS CAN USE THE TMO AS WELL WITHOUT ACCESSING THIS NEPOMUK ONTOLOGY FRAMEWORK TO
+ SUPPORT PERSONAL TASK MANAGEMENT)
+
+;; E
+
+;;  K
+
+	;; APPLICATIONS MAY USE A TMO[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (APPLICATIONS_27 ?x1) (MAY_27 ?x1) (USE_27 ?x1) (A_27 ?x1) (TMO_27 ?x1) (PERSON_27 ?x2))
+
+;;  K
+
+	;; A NEPOMUK[PERSON??] MAY HAVE AN ONTOLOGY FRAMEWORK.
+
+;;   F
+
+;;    S
+
+		(and (NEPOMUK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1) (FRAMEWORK_27 ?x1))
+
+;;  K
+
+	;; A TASK MANAGEMENT CAN BE PERSONAL.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (MANAGEMENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PERSONAL_27 ?x1))
+
+;; (USING NEPOMUK , THE KNOWLEDGE WORKER AND APPLICATION DEVELOPER GAIN THE SUPPORT FOR DESKTOP INTEGRATION
+ , I.E. , THE INTEGRATION WITH INFORMATION MODELS THAT REPRESENT THE ENTITIES OF A DESKTOP , LIKE E.G.
+ EMAILS AND FILES)
+
+;; E
+
+;;  K
+
+	;; A SUPPORT CAN BE FOR INTEGRATION.
+
+;;   F
+
+;;    S
+
+		(and (SUPPORT_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (INTEGRATION_27 ?x2))
+
+;;  K
+
+	;; INTEGRATION CAN BE DESKTOP.
+
+;;   F
+
+;;    S
+
+		(and (INTEGRATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DESKTOP_27 ?x1))
+
+;;  K
+
+	;; INTEGRATION CAN BE WITH INFORMATION MODELS.
+
+;;   F
+
+;;    S
+
+		(and (INTEGRATION_27 ?x1) (be_27 ?e1 ?x1 ?x2) (WITH_27 ?x2) (INFORMATION_27 ?x2) (MODELS_27 ?x2))
+
+;; (THE TMO COVERS WITH ITS TASK MODEL A NUMBER OF TASK MANAGEMENT USE CASES THAT CAN BE IMPLEMENTED IN TASK
+ MANAGEMENT APPLICATIONS)
+
+;; E
+
+;;  K
+
+	;; A TMO[PERSON??] MAY COVER A NUMBER OF TASK MANAGEMENT USE CASES.
+
+;;   F
+
+;;    S
+
+		(and (TMO_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (COVER_27 ?x1) (A_27 ?x1) (NUMBER_27 ?x1) (of_27 ?x1 ?x2) (TASK_27 ?x2) (MANAGEMENT_27 ?x2) (USE_27 ?x2) (CASES_27 ?x2))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE A TASK MODEL.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TASK_27 ?x1) (MODEL_27 ?x1))
+
+;; (THE TMO PROVIDES THE CONCEPTUAL BASIS FOR THESE USE CASES)
+
+;; E
+
+;;  K
+
+	;; A TMO[PERSON??] MAY PROVIDE A BASIS.
+
+;;   F
+
+;;    S
+
+		(and (TMO_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (provide_27 ?e1 ?x1) (A_27 ?x1) (BASIS_27 ?x1))
+
+;;  K
+
+	;; A BASIS CAN BE FOR USE CASES.
+
+;;   F
+
+;;    S
+
+		(and (BASIS_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (USE_27 ?x2) (CASES_27 ?x2))
+
+;;  K
+
+	;; A BASIS CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (BASIS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (THESE USE CASES ARE : □ PERSONAL TASK MANAGEMENT - PERSONAL TASK MANAGEMENT CONSISTS OF SEVERAL PARTS)
+
+;; E
+
+;;  K
+
+	;; A PERSONAL_TASK_MANAGEMENT[PERSON??] MAY CONSIST OF SOME_NUMBER_OF PARTS.
+
+;;   F
+
+;;    S
+
+		(and (PERSONAL_5FTASK_5FMANAGEMENT_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (consist_27 ?e1) (of_27 ?e1 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (PARTS_27 ?x1))
+
+;; (☆ BASIC TASK HANDLING - BASIC TASK HANDLING DEALS WITH ORGANIZING A KNOWLEDGE WORKERS TASK , E.G. ,
+ CREATING AND POPULATING A TASK)
+
+;; E
+
+;;  K
+
+	;; A ☆_BASIC[PERSON??] MAY HAVE A TASK HANDLING.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_E2_98_86_5FBASIC_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TASK_27 ?x1) (HANDLING_27 ?x1))
+
+;;  K
+
+	;; A BASIC[PERSON??] MAY HAVE A TASK.
+
+;;   F
+
+;;    S
+
+		(and (BASIC_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TASK_27 ?x1))
+
+;; (☆ TASK LIST MANAGEMENT - TASK LIST MANAGEMENT DEALS WITH THE KNOWLEDGE WORKER HANDLING A PERSONAL TO-DO
+ LIST WHERE THE KNOWLEDGE WORKER MANAGES A LIST OF PERSONAL TASKS THAT ARE DUE FOR EXECUTION OR ARE
+ ALREADY EXECUTED)
+
+;; E
+
+;;  K
+
+	;; A ☆_TASK[PERSON??] MAY HAVE A LIST MANAGEMENT.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_E2_98_86_5FTASK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (LIST_27 ?x1) (MANAGEMENT_27 ?x1))
+
+;;  K
+
+	;; A TASK[PERSON??] MAY LIST MANAGEMENT DEALS WITH A KNOWLEDGE WORKER.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (LIST_27 ?x1) (MANAGEMENT_27 ?x1) (DEALS_27 ?x1) (WITH_27 ?x1) (A_27 ?x1) (KNOWLEDGE_27 ?x1) (WORKER_27 ?x1))
+
+;;  K
+
+	;; A KNOWLEDGE WORKER MAY HANDLE A LIST.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (WORKER_27 ?x1) (MAY_27 ?x1) (HANDLE_27 ?x1) (A_27 ?x1) (LIST_27 ?x1))
+
+;;  K
+
+	;; A LIST CAN BE PERSONAL.
+
+;;   F
+
+;;    S
+
+		(and (LIST_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PERSONAL_27 ?x1))
+
+;;  K
+
+	;; A LIST CAN BE TO-DO.
+
+;;   F
+
+;;    S
+
+		(and (LIST_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (TO-DO_27 ?x2))
+
+;;  K
+
+	;; A WORKER MAY MANAGE A LIST OF TASKS.
+
+;;   F
+
+;;    S
+
+		(and (WORKER_27 ?x1) (MAY_27 ?x1) (MANAGE_27 ?x1) (A_27 ?x1) (LIST_27 ?x1) (of_27 ?x1 ?x2) (TASKS_27 ?x2))
+
+;;  K
+
+	;; A KNOWLEDGE[PERSON??] MAY HAVE A WORKER.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (WORKER_27 ?x1))
+
+;;  K
+
+	;; A LIST CAN BE CONSTITUTED_OF_OR_FILLED_WITH TASKS.
+
+;;   F
+
+;;    S
+
+		(and (LIST_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (TASKS_27 ?x1))
+
+;;  K
+
+	;; TASKS CAN BE PERSONAL.
+
+;;   F
+
+;;    S
+
+		(and (TASKS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PERSONAL_27 ?x1))
+
+;; (☆ TASK PRIORITY MANAGEMENT - TASK PRIORITY MANAGEMENT HELPS THE KNOWLEDGE WORKER TO MAINTAIN THE
+ PRIORITIES COMING WITH A TASK)
+
+;; E
+
+;;  K
+
+	;; A ☆_TASK[PERSON??] MAY HAVE A PRIORITY MANAGEMENT.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_E2_98_86_5FTASK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PRIORITY_27 ?x1) (MANAGEMENT_27 ?x1))
+
+;;  K
+
+	;; A TASK[PERSON??] MAY HAVE A PRIORITY MANAGEMENT.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PRIORITY_27 ?x1) (MANAGEMENT_27 ?x1))
+
+;;  K
+
+	;; PRIORITIES MAY COME WITH A TASK.
+
+;;   F
+
+;;    S
+
+		(and (PRIORITIES_27 ?x1) (MAY_27 ?x1) (COME_27 ?x1) (WITH_27 ?x1) (A_27 ?x1) (TASK_27 ?x1))
+
+;; (☆ TASK TIME MANAGEMENT - TASK TIME MANAGEMENT FOCUSES ON THE TIME NEEDED TO EXECUTE A TASK AND THE
+ KNOWLEDGE WORKER CAN ASSIGN A TASK DUE DATE TO MANAGE THE TIME-RELATED ASPECTS OF WORK)
+
+;; E
+
+;;  K
+
+	;; A ☆_TASK[PERSON??] MAY HAVE A TIME MANAGEMENT.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_E2_98_86_5FTASK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TIME_27 ?x1) (MANAGEMENT_27 ?x1))
+
+;;  K
+
+	;; TIME MANAGEMENT MAY FOCUSE ON A TIME.
+
+;;   F
+
+;;    S
+
+		(and (TIME_27 ?x1) (MANAGEMENT_27 ?x1) (MAY_27 ?x1) (FOCUSE_27 ?x1) (on_27 ?x1 ?x2) (A_27 ?x2) (time_27 ?x2))
+
+;;  K
+
+	;; A TASK[PERSON??] MAY HAVE A TIME MANAGEMENT.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TIME_27 ?x1) (MANAGEMENT_27 ?x1))
+
+;;  K
+
+	;; ASPECTS CAN BE TIME-RELATED.
+
+;;   F
+
+;;    S
+
+		(and (aspect_27 ?x1) (be_27 ?e1 ?x1) (time-related_27 ?x1))
+
+;; (☆ TASK PLANNING - TASK PLANNING HELPS THE KNOWLEDGE WORKER TO STRUCTURE THE WORKLOAD AND PERFORM WORK
+ DECOMPOSITION , I.E. , BREAKING DOWN AND CATEGORIZING TASKS)
+
+;; E
+
+;;  K
+
+	;; A ☆_TASK[PERSON??] MAY HAVE PLANNING.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_E2_98_86_5FTASK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (PLANNING_27 ?x1))
+
+;; (□ TASK INFORMATION MANAGEMENT - TASK INFORMATION MANAGEMENT HELPS THE KNOWLEDGE WORKER TO COLLECT AND
+ ASSOCIATE INFORMATION NEEDED FOR EXECUTING A TASK)
+
+;; E
+
+;;  K
+
+	;; AN INFORMATION CAN BE ASSOCIATE.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ASSOCIATE_27 ?x1))
+
+;; (THIS INCLUDES TASK TAGS TO GROUP TASKS , INFORMATION OBJECT ATTACHMENTS TO CONNECT TASKS TO , E.G. ,
+ EMAILS AND FILES , AND AS SOCIAL ASPECT PERSONS INVOLVED IN A TASK)
+
+;; E
+
+;;  K
+
+	;; A THING MAY INCLUDE TASK TAGS.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (INCLUDE_27 ?x1) (TASK_27 ?x1) (TAGS_27 ?x1))
+
+;;  K
+
+	;; ASPECT PERSONS MAY BE INVOLVE -ED IN A TASK.
+
+;;   F
+
+;;    S
+
+		(and (ASPECT_27 ?x1) (PERSONS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (INVOLVE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2))
+
+;;  K
+
+	;; ASPECT PERSONS CAN BE SOCIAL.
+
+;;   F
+
+;;    S
+
+		(and (ASPECT_27 ?x1) (PERSONS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SOCIAL_27 ?x1))
+
+;; (□ SOCIAL TASK MANAGEMENT - SOCIAL TASK MANAGEMENT FOCUSES ON COLLABORATION IN THE TASK DOMAIN)
+
+;; E
+
+;;  K
+
+	;; A SOCIAL_TASK_MANAGEMENT[PERSON??] MAY FOCUSE ON COLLABORATION.
+
+;;   F
+
+;;    S
+
+		(and (SOCIAL_5FTASK_5FMANAGEMENT_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (FOCUSE_27 ?x1) (ON_27 ?x1) (COLLABORATION_27 ?x1))
+
+;;  K
+
+	;; COLLABORATION CAN BE IN A TASK DOMAIN.
+
+;;   F
+
+;;    S
+
+		(and (collaboration_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2) (DOMAIN_27 ?x2))
+
+;; (THIS MEANS , THAT KNOWLEDGE WORKERS CAN DELEGATE TASKS TO EACH OTHER , CAN PERFORM AND TASK TRACKING AND
+ CONDUCT INFORMATION SHARING)
+
+;; E
+
+;;  K
+
+	;; A MEANS MAY PERFORM.
+
+;;   F
+
+;;    S
+
+		(and (MEANS_27 ?x1) (MAY_27 ?x1) (PERFORM_27 ?x1))
+
+;; (THESE TMO EXTENSIONS -LRB- TMOE -RRB- CAN FOR EXAMPLE SUPPORT EXPERIENCE AND KNOWLEDGE MANAGEMENT FOR
+ TASKS WITH TASK PATTERNS -LRB- TASKMODEL -RRB-)
+
+;; E
+
+;;  K
+
+	;; EXTENSIONS MAY SUPPORT EXPERIENCE.
+
+;;   F
+
+;;    S
+
+		(and (extension_27 ?x1) (MAY_27 ?x1) (SUPPORT_27 ?x1) (EXPERIENCE_27 ?x1))
+
+;;  K
+
+	;; A TMO[PERSON??] MAY HAVE EXTENSIONS.
+
+;;   F
+
+;;    S
+
+		(and (TMO_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (EXTENSIONS_27 ?x1))
+
+;;  K
+
+	;; TASKS CAN BE WITH TASK PATTERNS.
+
+;;   F
+
+;;    S
+
+		(and (task_27 ?x1) (be_27 ?e1 ?x1 ?x2) (WITH_27 ?x2) (TASK_27 ?x2) (PATTERNS_27 ?x2))
+
+;; (THE TMO : TASK IS A SUBCLASS OF PIMO : PROCESSCONCEPT)
+
+;; E
+
+;;  K
+
+	;; A TASK[PERSON??] CAN BE SUBCLASS OF PIMO.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (SUBCLASS_27 ?x1) (of_27 ?x1 ?x2) (PIMO_27 ?x2))
+
+;;  K
+
+	;; SUBCLASS CAN BE CONSTITUTED_OF_OR_FILLED_WITH PIMO.
+
+;;   F
+
+;;    S
+
+		(and (SUBCLASS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (PIMO_27 ?x1))
+
+;; (THE INHERITANCE HIERARCHY OF THE TMO : TASK IS SHOWN IN THE FIGURE BELOW)
+
+;; E
+
+;;  K
+
+	;; A TMO MAY UNDERGO AN INHERITANCE HIERARCHY.
+
+;;   F
+
+;;    S
+
+		(and (TMO_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (INHERITANCE_27 ?x1) (HIERARCHY_27 ?x1))
+
+;;  K
+
+	;; A TASK[PERSON??] MAY BE SHOW -ED IN A FIGURE.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (SHOW_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (in_27 ?x2 ?x3) (A_27 ?x3) (FIGURE_27 ?x3))
+
+;; (TMO CLASS AND IST SUPER-CLASSES TMO CLASS AND IST SUPER-CLASSES DETAILS OF A TASK ARE REPRESENTED BY
+ ATTRIBUTES MODELLED AS SHOWN IN THE FIGURE BELOW)
+
+;; E
+
+;;  K
+
+	;; TMO CLASS MAY TMO CLASS.
+
+;;   F
+
+;;    S
+
+		(and (TMO_27 ?x1) (CLASS_27 ?x1) (MAY_27 ?x1) (TMO_27 ?x1) (CLASS_27 ?x1))
+
+;;  K
+
+	;; DETAILS OF A TASK MAY BE REPRESENT -ED BY ATTRIBUTES.
+
+;;   F
+
+;;    S
+
+		(and (detail_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (REPRESENT_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (by_27 ?x2 ?x3) (ATTRIBUTES_27 ?x3))
+
+;;  K
+
+	;; ATTRIBUTES MAY BE MODEL -ED.
+
+;;   F
+
+;;    S
+
+		(and (ATTRIBUTES_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (MODEL_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (TASKS CAN BE GROUPED BY MEANS OF THE TMO : TASKCOLLECTION CLASS)
+
+;; E
+
+;;  K
+
+	;; TASKS MAY BE GROUP -ED.
+
+;;   F
+
+;;    S
+
+		(and (TASKS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (GROUP_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (OVERVIEW ON TMO OVERVIEW ON TMO OVERVIEW ON TMO THERE ARE SOME CLASSES THAT HAVE BEEN MODELLED ACCORDING
+ TO A ROLE BASED MODELLING APPROACH)
+
+;; E
+
+;;  K
+
+	;; OVERVIEW MAY OVERVIEW ON TMO OVERVIEW.
+
+;;   F
+
+;;    S
+
+		(and (OVERVIEW_27 ?x1) (MAY_27 ?x1) (OVERVIEW_27 ?x1) (ON_27 ?x1) (TMO_27 ?x1) (OVERVIEW_27 ?x1))
+
+;;  K
+
+	;; OVERVIEW CAN BE ON TMO.
+
+;;   F
+
+;;    S
+
+		(and (OVERVIEW_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (TMO_27 ?x2))
+
+;;  K
+
+	;; A ROLE MAY BE BASE -ED.
+
+;;   F
+
+;;    S
+
+		(and (ROLE_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (BASE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (HEREBY IT IS POSSIBLE TO MODEL N-ARY RELATIONS)
+
+;; E
+
+;;  K
+
+	;; RELATIONS CAN BE N-ARY.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (N-ARY_27 ?x2))
+
+;; (IN PARTICULAR ATTACHMENTS , THE INVOLVEMENT OF PERSONS AND OF ACTORS AND RESOURCE -LRB- FURTHERMORE
+ REFERRED AS ABILITYCARRIERS -RRB- AND TASK DEPENDENCIES HAVE BEEN MODELLED THIS WAY)
+
+;; E
+
+;;  K
+
+	;; INVOLVEMENT MAY BE MODEL -ED.
+
+;;   F
+
+;;    S
+
+		(and (INVOLVEMENT_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (MODEL_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (THIS IS IN OTHER TASK CONCEPTUALIZATIONS RATHER NAMED `` ACTOR '')
+
+;; E
+
+;;  K
+
+	;; A THING CAN BE IN TASK CONCEPTUALIZATIONS.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (TASK_27 ?x2) (CONCEPTUALIZATIONS_27 ?x2))
+
+;;  K
+
+	;; TASK CONCEPTUALIZATIONS MAY BE NAME -ED.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (CONCEPTUALIZATIONS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (NAME_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (BUT HERE IT IS NAMED ABILITYCARRIER BECAUSE IT IS NOT NECCESSARILY `` ACTIVE '')
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY BE NAME -ED.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (NAME_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE ACTIVE.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ACTIVE_27 ?x1))
+
+;; (THE EXECUTION OF A TASK RELIES ON CERTAIN ABILITIES)
+
+;; E
+
+;;  K
+
+	;; AN EXECUTION OF A TASK MAY RELY ON ABILITIES.
+
+;;   F
+
+;;    S
+
+		(and (execution_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2) (MAY_27 ?x2) (RELY_27 ?x2) (ON_27 ?x2) (ABILITIES_27 ?x2))
+
+;;  K
+
+	;; A TASK MAY UNDERGO AN EXECUTION.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (EXECUTION_27 ?x1))
+
+;; (THE ABSTRACT CONCEPT OF ABILITIY \ _ CARRIERS CIRCUMFERENCE ALL THOSE MORE CONCRETE CONCEPTS OF WHICH
+ ONE CAN THINK OF WHILE WORKING ON TASKS)
+
+;; E
+
+;;  K
+
+	;; A CONCEPT CAN BE ABSTRACT.
+
+;;   F
+
+;;    S
+
+		(and (CONCEPT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ABSTRACT_27 ?x1))
+
+;;  K
+
+	;; CONCEPTS CAN BE CONCRETE.
+
+;;   F
+
+;;    S
+
+		(and (concept_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONCRETE_27 ?x2))
+
+;;  K
+
+	;; WHILE MAY WORK ON TASKS.
+
+;;   F
+
+;;    S
+
+		(and (while_27 ?x1) (MAY_27 ?x1) (WORK_27 ?x1) (ON_27 ?x1) (TASKS_27 ?x1))
+
+;; (USING THIS DESCRIPTION ABSTRACT CLASS ENABLES TO SUBSTITUTE SUCH ABILITY CARRIER 'S IN THE PROCESS OF
+ GENERATING PATTERNS FROM TASK INSTANCES AND VICE VERSA IN THE PROCESS OF INSTANTIATING TASK INSTANCES
+ FROM PATTERNS WITHOUT VIOLATING THE SCHEMA)
+
+;; E
+
+;;  K
+
+	;; A DESCRIPTION[PERSON??] MAY HAVE AN ABSTRACT CLASS.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ABSTRACT_27 ?x1) (CLASS_27 ?x1))
+
+;;  K
+
+	;; PATTERNS CAN BE FROM TASK INSTANCES.
+
+;;   F
+
+;;    S
+
+		(and (pattern_27 ?x1) (be_27 ?e1 ?x1 ?x2) (FROM_27 ?x2) (TASK_27 ?x2) (INSTANCES_27 ?x2))
+
+;;  K
+
+	;; PATTERNS CAN BE GENERATING.
+
+;;   F
+
+;;    S
+
+		(and (pattern_27 ?x1) (be_27 ?e1 ?x1 ?x2) (GENERATING_27 ?x2))
+
+;; (WITH THIS ATTRIBUTE , A SERIES OF ABILITY CARRYING ENTITIES -LRB- PERSON , ROLE , SKILL ,
+ ORGANIZATIONALUNIT , INFORMALDESCRIBEDABILITY -RRB- AND THE ROLE OF INVOLVEMENT -LRB- REQUIRED , REQUEST
+ , USED -RRB- IS ENABLED)
+
+;; E
+
+;;  K
+
+	;; A SERIES OF ABILITY MAY BE ENABLE -ED.
+
+;;   F
+
+;;    S
+
+		(and (SERIES_27 ?x1) (of_27 ?x1 ?x2) (ABILITY_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (ENABLE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2))
+
+;;  K
+
+	;; A SERIES CAN BE CONSTITUTED_OF_OR_FILLED_WITH ABILITY.
+
+;;   F
+
+;;    S
+
+		(and (SERIES_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (ABILITY_27 ?x1))
+
+;; (THE ROLE HEREBY ALLOWS SPECIFYING HOW THE ABILITY CARRYING ENTITY IS OR WAS INVOLVED)
+
+;; E
+
+;;  K
+
+	;; A ROLE MAY ALLOW.
+
+;;   F
+
+;;    S
+
+		(and (ROLE_27 ?x1) (MAY_27 ?x1) (ALLOW_27 ?x1))
+
+;;  K
+
+	;; AN ABILITY MAY BE.
+
+;;   F
+
+;;    S
+
+		(and (ABILITY_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1))
+
+;; (ABILITYCARRIERINVOLVEMENT SUPERCLASSES PIMO : ASSOCIATION , PIMO : CLASSORTHINGORPROPERTYORASSOCIATION ,
+ RDFS : RESOURCE SUBCLASSES -- IN DOMAIN TMO : ABILITYCARRIER , TMO : ABILITYCARRIERROLE , OF : TMO :
+ ABILITYCARRIERTASK IN RANGE OF : TMO : ABILITYCARRIERINVOLVEMENT THE CLASS ABILITYCARRIER \ _
+ INVOLVEMENT TIES TOGETHER AN DESCRIPTION ABILITYCARRIER WITH AN ABILITYCARRIER \ _ ROLE)
+
+;; E
+
+;;  K
+
+	;; AN ABILITYCARRIERINVOLVEMENT_SUPERCLASSES[PERSON??] MAY ABILITYCARRIERTASK.
+
+;;   F
+
+;;    S
+
+		(and (ABILITYCARRIERINVOLVEMENT_5FSUPERCLASSES_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (ABILITYCARRIERTASK_27 ?x1))
+
+;;  K
+
+	;; AN |\|ABILITYCARRIER_\\\|\\\\\\\\\\\|___INVOLVEMENT\||[PERSON??] MAY TIE_TOGETHER A DESCRIPTION_ABILITYCARRIER[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_7C_5C_7CABILITYCARRIER_5F_5C_5C_5C_7C_5C_5C_5C_5C_5C_5C_5C_5C_5C_5C_5C_7C_5F_5F_5FINVOLVEMENT_5C_7C_7C_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (TIE_5FTOGETHER_27 ?x1) (A_27 ?x1) (DESCRIPTION_5FABILITYCARRIER_27 ?x1) (person_27 ?x2))
+
+;;  K
+
+	;; A DESCRIPTION_ABILITYCARRIER[PERSON??] CAN BE WITH AN |\|ABILITYCARRIER_\\\|\\\\\\\\\\\|___ROLE\||[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_5FABILITYCARRIER_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (WITH_27 ?x1) (AN_27 ?x1) (kbs2_kif_quote_7C_5C_7CABILITYCARRIER_5F_5C_5C_5C_7C_5C_5C_5C_5C_5C_5C_5C_5C_5C_5C_5C_7C_5F_5F_5FROLE_5C_7C_7C_27 ?x1) (PERSON_27 ?x2))
+
+;; (THIS IS A ROLE BASED MODELLING APPROACH)
+
+;; E
+
+;;  K
+
+	;; A THING CAN BE A ROLE.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (ROLE_27 ?x2))
+
+;;  K
+
+	;; A ROLE MAY BE BASE -ED.
+
+;;   F
+
+;;    S
+
+		(and (ROLE_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (BASE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (AN N-ARY RELATION IS REALIZED)
+
+;; E
+
+;;  K
+
+	;; A RELATION MAY BE REALIZE -ED.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (REALIZE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A RELATION CAN BE N-ARY.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (N-ARY_27 ?x2))
+
+;; (ABILITYCARRIERROLE SUPERCLASSES RDFS : RESOURCE , TMO : STATETYPEROLE SUBCLASSES -- IN DOMAIN -- OF : IN
+ RANGE OF : TMO : ABILITYCARRIERROLE EXAMPLES INSTANCES OF ABILITYCARRIRROLES ARE E.G. `` REQUESTED '' ,
+ DESCRIPTION `` REQUIRED '' AND `` USED '' WHICH FURTHER SPECIFY THE TYPE A PERSON WAS INVOLVED IN)
+
+;; E
+
+;;  K
+
+	;; A DESCRIPTION[PERSON??] MAY REQUIRE.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (REQUIRE_27 ?x1))
+
+;;  K
+
+	;; EXAMPLES CAN BE ABILITYCARRIERROLE.
+
+;;   F
+
+;;    S
+
+		(and (example_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ABILITYCARRIERROLE_27 ?x2))
+
+;; *** - CHAR-EQUAL: argument NIL is not a character
+The following restarts are available:
+USE-VALUE      :R1      Input a value to be used instead.
+ABORT          :R2      Abort main loop
+Break 1 [86]>
+
+;; E
+
+;; (EVERY THING , WHICH CAN BE REFERENCED , ON THE SSD IS AN INFORMATION OBJECT)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF THING CAN BE INFORMATION OBJECT.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (THING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (INFORMATION_27 ?x1) (OBJECT_27 ?x1))
+
+;; (IN CONTRAST TO THE USUAL SSD REFERENCES\/ASSOCIATIONS , HERE ADDITIONALLY INFORMATION CAN BE SPECIFIED)
+
+;; E
+
+;;  K
+
+	;; CONTRAST CAN BE TO REFERENCES\/ASSOCIATIONS.
+
+;;   F
+
+;;    S
+
+		(and (contrast_27 ?x1) (be_27 ?e1 ?x1) (to_27 ?x1 ?x2) (REFERENCES_5C_2FASSOCIATIONS_27 ?x2))
+
+;;  K
+
+	;; REFERENCES\/ASSOCIATIONS CAN BE USUAL.
+
+;;   F
+
+;;    S
+
+		(and (REFERENCES_5C_2FASSOCIATIONS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (USUAL_27 ?x1))
+
+;;  K
+
+	;; A SSD[PERSON??] MAY HAVE REFERENCES\/ASSOCIATIONS.
+
+;;   F
+
+;;    S
+
+		(and (SSD_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (REFERENCES_5C_2FASSOCIATIONS_27 ?x1))
+
+;; (FURTHER METADATA DESCRIPTION ABOUT THE ROLE AN ATTACHMENT PLAYS CAN BE STATED BY MEANS OF INSTANCES OF
+ ATTACHMENTROLE)
+
+;; E
+
+;;  K
+
+	;; A METADATA_DESCRIPTION[PERSON??] MAY BE STATE -ED.
+
+;;   F
+
+;;    S
+
+		(and (METADATA_5FDESCRIPTION_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (STATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A METADATA_DESCRIPTION[PERSON??] CAN BE ABOUT A ROLE.
+
+;;   F
+
+;;    S
+
+		(and (METADATA_5FDESCRIPTION_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (ABOUT_27 ?x1) (A_27 ?x1) (ROLE_27 ?x1))
+
+;;  K
+
+	;; AN ATTACHMENT MAY PLAY.
+
+;;   F
+
+;;    S
+
+		(and (ATTACHMENT_27 ?x1) (MAY_27 ?x1) (PLAY_27 ?x1))
+
+;; (IT CAN BE EXPRESSED WHAT THE ROLE OF ATTACHMENT IS E.G. , REGARDING `` DESIRED\/REQUESTED '' OR ``
+ REQUIRED '' OR `` POTENTIALLY USEFUL \/ SOMEHOW RELATED '' OR `` USED \/ PRODUCED\/ACHIEVED '')
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY BE EXPRESS -ED.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (EXPRESS_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A ROLE OF ATTACHMENT CAN BE AN E.G.[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (ROLE_27 ?x1) (of_27 ?x1 ?x2) (ATTACHMENT_27 ?x2) (CAN_27 ?x2) (BE_27 ?x2) (AN_27 ?x2) (E_2EG_2E_27 ?x2) (PERSON_27 ?x3))
+
+;;  K
+
+	;; \/ CAN BE USEFUL.
+
+;;   F
+
+;;    S
+
+		(and (CAN_27 ?x1) (BE_27 ?x1) (USEFUL_27 ?x1))
+
+;;  K
+
+	;; A PRODUCED\/ACHIEVED CAN BE USED.
+
+;;   F
+
+;;    S
+
+		(and (PRODUCED_5C_2FACHIEVED_27 ?x1) (be_27 ?e1 ?x1 ?x2) (USED_27 ?x2))
+
+;;  K
+
+	;; A PRODUCED\/ACHIEVED CAN BE \/.
+
+;;   F
+
+;;    S
+
+		(and (PRODUCED_5C_2FACHIEVED_27 ?x1) (be_27 ?e1 ?x1 ?x2) (kbs2_kif_quote_5C_2F_27 ?x2))
+
+;; (THE REFERENCE PROPERTY MODELS THE ACTUAL LINK TO THE ATTACHED PIECE OF INFORMATION)
+
+;; E
+
+;;  K
+
+	;; A REFERENCE PROPERTY MAY MODELS A LINK TO A PIECE OF INFORMATION.
+
+;;   F
+
+;;    S
+
+		(and (REFERENCE_27 ?x1) (PROPERTY_27 ?x1) (MAY_27 ?x1) (MODELS_27 ?x1) (A_27 ?x1) (LINK_27 ?x1) (to_27 ?x1 ?x2) (A_27 ?x2) (PIECE_27 ?x2) (of_27 ?x2 ?x3) (INFORMATION_27 ?x3))
+
+;;  K
+
+	;; A PIECE CAN BE ATTACHED.
+
+;;   F
+
+;;    S
+
+		(and (PIECE_27 ?x1) (be_27 ?e1 ?x1 ?e2) (attach_27 ?e2 ?x1))
+
+;; (ATTACHMENTROLE SUPERCLASSES RDFS : RESOURCE , TMO : STATETYPEROLE SUBCLASSES -- IN DOMAIN -- OF : IN
+ RANGE OF : TMO : ATTACHMENTROLE ATTACHMENTROLES FURTHER SPECIFY THE TYPE OF HOW AN ATTACHMENT
+ DESCRIPTION RELATES TO A TASK)
+
+;; E
+
+;;  K
+
+	;; ATTACHMENTROLES MAY SPECIFY A TYPE.
+
+;;   F
+
+;;    S
+
+		(and (ATTACHMENTROLES_27 ?x1) (MAY_27 ?x1) (SPECIFY_27 ?x1) (A_27 ?x1) (TYPE_27 ?x1))
+
+;;  K
+
+	;; ATTACHMENTROLES CAN BE ATTACHMENTROLE.
+
+;;   F
+
+;;    S
+
+		(and (attachmentrole_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ATTACHMENTROLE_27 ?x1))
+
+;;  K
+
+	;; AN ATTACHMENT_DESCRIPTION[PERSON??] MAY RELATE TO A TASK.
+
+;;   F
+
+;;    S
+
+		(and (ATTACHMENT_5FDESCRIPTION_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (relate_27 ?e1) (to_27 ?e1 ?x1) (A_27 ?x1) (TASK_27 ?x1))
+
+;; *** - CHAR-EQUAL: argument NIL is not a character
+The following restarts are available:
+USE-VALUE      :R1      Input a value to be used instead.
+ABORT          :R2      Abort main loop
+Break 1 [9]>
+
+;; E
+
+;; (PERSONINVOLVEMENTROLE SUPERCLASSES RDFS : RESOURCE , TMO : STATETYPEROLE SUBCLASSES -- IN DOMAIN -- OF :
+ IN RANGE OF : TMO : INVOLVEDPERSONROLE DESCRIPTION THEY FURTHER SPECIFY THE TYPE A PERSON WAS RELATED TO
+ AN TASK)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY BE RELATE -ED TO A TASK.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (RELATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (to_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY SPECIFY A TYPE.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (SPECIFY_27 ?x1) (A_27 ?x1) (TYPE_27 ?x1))
+
+;; (PREDECESSORSUCCESSORDEPENDENCY SUPERCLASSES PIMO : ASSOCIATION , PIMO :
+ CLASSORTHINGORPROPERTYORASSOCIATION , RDFS : RESOURCE , TMO : TASKDEPENDENCY SUBCLASSES TMO :
+ PREDECESSORDEPENDENCY , TMO : SUCCESSORDEPENDENCY IN DOMAIN -- OF : IN RANGE OF : -- THE
+ PREDECESSORSUCCESSORDEPENDENCY ENABLES A DIRECTED RELATION DESCRIPTION BETWEEN TASK)
+
+;; E
+
+;;  K
+
+	;; A PREDECESSORSUCCESSORDEPENDENCY[PERSON??] MAY ENABLE A RELATION DESCRIPTION.
+
+;;   F
+
+;;    S
+
+		(and (PREDECESSORSUCCESSORDEPENDENCY_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (ENABLE_27 ?x1) (A_27 ?x1) (RELATION_27 ?x1) (DESCRIPTION_27 ?x1))
+
+;;  K
+
+	;; A RELATION DESCRIPTION CAN BE BETWEEN TASK.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (DESCRIPTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (TASK_27 ?x1))
+
+;;  K
+
+	;; A RELATION DESCRIPTION CAN BE DIRECTED.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (DESCRIPTION_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (DIRECTED_27 ?x2))
+
+;; (BY MEANS OF THE CONCRETE SUBLCASSES ONE CAN FURTHER DISTINGUISH FROM WHICH POINT OF VIEW THIS RELATION
+ IS CREATED)
+
+;; E
+
+;;  K
+
+	;; SUBLCASSES CAN BE CONCRETE.
+
+;;   F
+
+;;    S
+
+		(and (sublcass_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONCRETE_27 ?x2))
+
+;;  K
+
+	;; A RELATION MAY BE CREATE -ED.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (CREATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (SUPERSUBTASKDEPENDENCY SUPERCLASSES PIMO : ASSOCIATION , PIMO : CLASSORTHINGORPROPERTYORASSOCIATION ,
+ RDFS : RESOURCE , TMO : TASKDEPENDENCY SUBCLASSES -- IN DOMAIN -- OF : IN RANGE OF : -- BY MEANS OF THE
+ SUPERSUBTASKDEPENDENCY ONE CAN FURTHER DESCRIPTION DESCRIBE THE SUBTASK-SUPERTASK RELATION)
+
+;; E
+
+;;  K
+
+	;; A SUPERCLASSES_PIMO[PERSON??] MAY DESCRIBE A RELATION.
+
+;;   F
+
+;;    S
+
+		(and (SUPERCLASSES_5FPIMO_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (describe_27 ?e1 ?x1) (relation_27 ?x1))
+
+;;  K
+
+	;; A US-STATE MAY HAVE A RANGE.
+
+;;   F
+
+;;    S
+
+		(and (US-STATE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (RANGE_27 ?x1))
+
+;;  K
+
+	;; A RELATION CAN BE SUBTASK-SUPERTASK.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SUBTASK-SUPERTASK_27 ?x1))
+
+;; (THIS ENABLES AN N-ARY RELATION BETWEEN SUBTASK AND SUPERTASK)
+
+;; E
+
+;;  K
+
+	;; A THING MAY ENABLE A RELATION.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (ENABLE_27 ?x1) (A_27 ?x1) (relation_27 ?x1))
+
+;;  K
+
+	;; A RELATION CAN BE BETWEEN SUBTASK.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (SUBTASK_27 ?x1))
+
+;;  K
+
+	;; A RELATION CAN BE N-ARY.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (N-ARY_27 ?x2))
+
+;; (TASK CAN RANGE FROM VAGUE THINGS TO BE POSSIBLY DONE IN E DISTANT DESCRIPTION FUTURE TO CONCRETE THINGS
+ TO BE DONE IN A PRECISE FORSEEABLE MANNER)
+
+;; E
+
+;;  K
+
+	;; A TASK[PERSON??] MAY RANGE FROM THINGS.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (RANGE_27 ?x1) (FROM_27 ?x1) (THINGS_27 ?x1))
+
+;;  K
+
+	;; THINGS CAN BE VAGUE.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1 ?x2) (VAGUE_27 ?x2))
+
+;;  K
+
+	;; A FUTURE CAN BE DISTANT.
+
+;;   F
+
+;;    S
+
+		(and (FUTURE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DISTANT_27 ?x1))
+
+;;  K
+
+	;; A FUTURE CAN BE DESCRIPTION.
+
+;;   F
+
+;;    S
+
+		(and (FUTURE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DESCRIPTION_27 ?x1))
+
+;;  K
+
+	;; THINGS CAN BE CONCRETE.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONCRETE_27 ?x2))
+
+;;  K
+
+	;; A FORSEEABLE MANNER CAN BE PRECISE.
+
+;;   F
+
+;;    S
+
+		(and (FORSEEABLE_27 ?x1) (MANNER_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PRECISE_27 ?x1))
+
+;; (FOR EASE OF USE , DEPENDENCIES SHOULD NOT BE TOO FREQUENT , OTHERWISE THE PRIMARILY CHARACTER OF A
+ HIERARCHY WOULD BE DIMINISHED AND A CONSEQUENT GRAPH REPRESENTATION WOULD BECOME CONSIDERABLE)
+
+;; E
+
+;;  K
+
+	;; DEPENDENCIES CAN BE FREQUENT.
+
+;;   F
+
+;;    S
+
+		(and (dependency_27 ?x1) (be_27 ?e1 ?x1 ?x2) (FREQUENT_27 ?x2))
+
+;;  K
+
+	;; A GRAPH REPRESENTATION CAN BE CONSIDERABLE.
+
+;;   F
+
+;;    S
+
+		(and (GRAPH_27 ?x1) (REPRESENTATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSIDERABLE_27 ?x1))
+
+;;  K
+
+	;; A GRAPH REPRESENTATION CAN BE CONSEQUENT.
+
+;;   F
+
+;;    S
+
+		(and (GRAPH_27 ?x1) (REPRESENTATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSEQUENT_27 ?x1))
+
+;; (DESCRIPTION HOWEVER , SUCH A GRAPH REPRESENTATION HAS OTHER DRAWBACKS , THE USER IS LIKELY TO LOOSE
+ OVERSIGHT , TREE STRUCTURES ARE MORE HELPFUL IN STRUCTURING THE WORK)
+
+;; E
+
+;;  K
+
+	;; A USER CAN BE LIKELY TO OVERSIGHT.
+
+;;   F
+
+;;    S
+
+		(and (USER_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LIKELY_27 ?x1) (TO_27 ?x1) (OVERSIGHT_27 ?x1))
+
+;;  K
+
+	;; A GRAPH REPRESENTATION MAY HAVE DRAWBACKS.
+
+;;   F
+
+;;    S
+
+		(and (GRAPH_27 ?x1) (REPRESENTATION_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (DRAWBACKS_27 ?x1))
+
+;;  K
+
+	;; AN OVERSIGHT CAN BE LOOSE.
+
+;;   F
+
+;;    S
+
+		(and (OVERSIGHT_27 ?x1) (be_27 ?e1 ?x1))
+
+;; (A DEPENDENCY RELATION IS CHARACTERIZED BY THE TYPE OF THE RELATION AND BY AN ADDITIONAL DESCRIPTION)
+
+;; E
+
+;;  K
+
+	;; A RELATION CAN BE DEPENDENCY.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DEPENDENCY_27 ?x1))
+
+;; (THERE ARE DIFFERENT POSSIBILITIES FOR DEPENDENCY RELATIONS BETWEEN TASKS)
+
+;; E
+
+;;  K
+
+	;; POSSIBILITIES CAN BE FOR RELATIONS.
+
+;;   F
+
+;;    S
+
+		(and (possibility_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (RELATIONS_27 ?x2))
+
+;;  K
+
+	;; RELATIONS CAN BE BETWEEN TASKS.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (BETWEEN_27 ?x2) (TASKS_27 ?x2))
+
+;;  K
+
+	;; RELATIONS CAN BE DEPENDENCY.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (DEPENDENCY_27 ?x2))
+
+;; (TASKPRIVACYSTATE SUPERCLASSES RDFS : RESOURCE , TMO : STATETYPEROLE SUBCLASSES -- IN DOMAIN -- OF : IN
+ RANGE OF : TMO : TASKPRIVACYSTATE PRIVACY STATUS SERVES FOR THE SEPARATION BETWEEN A PROFESSIONAL AND A
+ PRIVATE PURPOSE OF A TASK)
+
+;; E
+
+;;  K
+
+	;; A PRIVACY_STATUS[PERSON??] MAY SERVE FOR A SEPARATION.
+
+;;   F
+
+;;    S
+
+		(and (PRIVACY_5FSTATUS_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (SERVE_27 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (SEPARATION_27 ?x2))
+
+;;  K
+
+	;; A SEPARATION CAN BE BETWEEN A PROFESSIONAL.
+
+;;   F
+
+;;    S
+
+		(and (SEPARATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (A_27 ?x1) (PROFESSIONAL_27 ?x1))
+
+;;  K
+
+	;; A PURPOSE CAN BE PRIVATE.
+
+;;   F
+
+;;    S
+
+		(and (PURPOSE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PRIVATE_27 ?x1))
+
+;; (THIS ATTRIBUTE PROVIDES WITH THE VALUES `` PROFESSIONAL\/PRIVATE '' A HIGH-LEVEL DESCRIPTION SEPARATION
+ OF PRIVACY IN TERMS OF SETTING DISTRIBUTION AND ACCESS RIGHTS TO OTHER USERS FOR THE TASK)
+
+;; E
+
+;;  K
+
+	;; AN ATTRIBUTE MAY PROVIDE PROFESSIONAL\/PRIVATE.
+
+;;   F
+
+;;    S
+
+		(and (ATTRIBUTE_27 ?x1) (MAY_27 ?x1) (PROVIDE_27 ?x1) (PROFESSIONAL_5C_2FPRIVATE_27 ?x1))
+
+;;  K
+
+	;; PRIVACY MAY UNDERGO A SEPARATION.
+
+;;   F
+
+;;    S
+
+		(and (PRIVACY_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (SEPARATION_27 ?x1))
+
+;;  K
+
+	;; A SEPARATION CAN BE HIGH-LEVEL.
+
+;;   F
+
+;;    S
+
+		(and (SEPARATION_27 ?x1) (be_27 ?e1 ?x1) (high-level_27 ?x1))
+
+;;  K
+
+	;; A DESCRIPTION[PERSON??] MAY HAVE A SEPARATION.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SEPARATION_27 ?x1))
+
+;;  K
+
+	;; USERS CAN BE FOR A TASK.
+
+;;   F
+
+;;    S
+
+		(and (user_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2))
+
+;; (THIS SEPARATION MAY ARISE AS A GENERAL NEPOMUK ISSUE AND MAY THEREFORE BE HANDLED IN CONJUNCTION WITH A
+ PRIVACY PRESERVING SSD ARCHITECTURE)
+
+;; E
+
+;;  K
+
+	;; A SEPARATION MAY ARISE AS AN ISSUE.
+
+;;   F
+
+;;    S
+
+		(and (SEPARATION_27 ?x1) (MAY_27 ?x1) (ARISE_27 ?x1) (as_27 ?x1 ?x2) (AN_27 ?x2) (ISSUE_27 ?x2))
+
+;;  K
+
+	;; AN ISSUE CAN BE GENERAL.
+
+;;   F
+
+;;    S
+
+		(and (ISSUE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERAL_27 ?x1))
+
+;;  K
+
+	;; A NEPOMUK[PERSON??] MAY HAVE AN ISSUE.
+
+;;   F
+
+;;    S
+
+		(and (NEPOMUK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ISSUE_27 ?x1))
+
+;;  K
+
+	;; A PRIVACY MAY PRESERVE ARCHITECTURE.
+
+;;   F
+
+;;    S
+
+		(and (PRIVACY_27 ?x1) (MAY_27 ?x1) (PRESERVE_27 ?x1) (ARCHITECTURE_27 ?x1))
+
+;;  K
+
+	;; A SSD[PERSON??] MAY HAVE ARCHITECTURE.
+
+;;   F
+
+;;    S
+
+		(and (SSD_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (ARCHITECTURE_27 ?x1))
+
+;; (THE TASKSTATE CLASS WAS MODELED SO THAT FOR EACH STATE CAN BE SET WHICH THE TYPICAL PRIOR AND POSTERIOR
+ STATES ARE)
+
+;; E
+
+;;  K
+
+	;; A CLASS MAY BE MODEL -ED.
+
+;;   F
+
+;;    S
+
+		(and (CLASS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (MODEL_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A TASKSTATE[PERSON??] MAY HAVE A CLASS.
+
+;;   F
+
+;;    S
+
+		(and (TASKSTATE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (HAVE_27 ?x1) (class_27 ?x1))
+
+;;  K
+
+	;; A THING MAY BE SET -ED.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (SET_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A THING CAN BE FOR SOME_NUMBER_OF STATE.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (STATE_27 ?x2))
+
+;; (THIS HAS THE DESCRIPTION ADVANTAGE THAT E.G. A UI CAN RETRIEVE THE ALLOWED STATES AT RUNTIME FROM THE
+ ONTOLOGY ; RATHER CAN HAVING THIS POTENTIALLY CHANGING KNOWLEDGE HARD CODED)
+
+;; E
+
+;;  K
+
+	;; A THING MAY HAVE AN ADVANTAGE.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ADVANTAGE_27 ?x1))
+
+;;  K
+
+	;; AN ADVANTAGE CAN BE DESCRIPTION.
+
+;;   F
+
+;;    S
+
+		(and (ADVANTAGE_27 ?x1) (be_27 ?e1 ?x1 ?x2) (DESCRIPTION_27 ?x2))
+
+;;  K
+
+	;; AN E.G._A_UI[PERSON??] MAY RETRIEVE STATES FROM AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (E_2EG_2E_5FA_5FUI_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (RETRIEVE_27 ?x1) (STATES_27 ?x1) (FROM_27 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; STATES CAN BE AT RUNTIME.
+
+;;   F
+
+;;    S
+
+		(and (state_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AT_27 ?x2) (RUNTIME_27 ?x2))
+
+;;  K
+
+	;; STATES CAN BE ALLOWED.
+
+;;   F
+
+;;    S
+
+		(and (state_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ALLOWED_27 ?x2))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE CHANGING.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CHANGING_27 ?x2))
+
+;; (BUT THE PRIOR AND POSTERIOR STATES ARE ONLY DEFAULTS ; THE HUMAN USER IS ALWAYS FREE TO CHANGE THE
+ STATE)
+
+;; E
+
+;;  K
+
+	;; A USER CAN BE HUMAN.
+
+;;   F
+
+;;    S
+
+		(and (USER_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HUMAN_27 ?x1))
+
+;; (TASK DELEGATION AND TASK TRANSFER ARE TWO SPECIAL KINDS OF TASK TRANSMISSION WHICH ARE DESCRIBED AT THE
+ END OF THIS SECTION)
+
+;; E
+
+;;  K
+
+	;; DELEGATION CAN BE SOME_NUMBER_OF KINDS OF TASK TRANSMISSION.
+
+;;   F
+
+;;    S
+
+		(and (DELEGATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (KINDS_27 ?x1) (of_27 ?x1 ?x2) (TASK_27 ?x2) (TRANSMISSION_27 ?x2))
+
+;;  K
+
+	;; A TASK[PERSON??] MAY HAVE A DELEGATION.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (DELEGATION_27 ?x1))
+
+;;  K
+
+	;; A SECTION MAY HAVE AN END.
+
+;;   F
+
+;;    S
+
+		(and (SECTION_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (END_27 ?x1))
+
+;; (IN ADDITION , THE COLLABORATIVE TASK IS REALIZED BY TASK TRANSMISSION)
+
+;; E
+
+;;  K
+
+	;; A TASK MAY BE REALIZE -ED BY TASK TRANSMISSION.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (REALIZE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (TASK_27 ?x2) (TRANSMISSION_27 ?x2))
+
+;;  K
+
+	;; A TASK CAN BE COLLABORATIVE.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (COLLABORATIVE_27 ?x1))
+
+;; (FOR THE PROCESS OF SENDING A TASK , SOME INFORMATION IS REQUIRED)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF INFORMATION MAY BE REQUIRE -ED.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (INFORMATION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (REQUIRE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (THIS INFORMATION IS ALSO MODELLED IN THE TASK ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; AN INFORMATION MAY BE MODEL -ED IN A TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (MODEL_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;; (THIS INFORMATION IS STILL USEFUL AFTER THE PROCESS OF SENDING A TASK WAS COMPLETED)
+
+;; E
+
+;;  K
+
+	;; AN INFORMATION CAN BE USEFUL.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (USEFUL_27 ?x1))
+
+;; (TASK DELEGATION IS A PROCESS WHERE THE SENDER OF THE TASK RESTRICTS THE ACCESS RIGHTS OF THE DESCRIPTION
+ RECEIVER)
+
+;; E
+
+;;  K
+
+	;; A TASK_DELEGATION[PERSON??] CAN BE A PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (TASK_5FDELEGATION_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (process_27 ?x1))
+
+;;  K
+
+	;; A SENDER OF A TASK MAY RESTRICT ACCESS RIGHTS OF A RECEIVER.
+
+;;   F
+
+;;    S
+
+		(and (sender_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2) (MAY_27 ?x2) (RESTRICT_27 ?x2) (ACCESS_27 ?x2) (RIGHTS_27 ?x2) (of_27 ?x1 ?x3) (RECEIVER_27 ?x3))
+
+;;  K
+
+	;; A TASK MAY HAVE A SENDER.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SENDER_27 ?x1))
+
+;;  K
+
+	;; A RECEIVER MAY HAVE ACCESS RIGHTS.
+
+;;   F
+
+;;    S
+
+		(and (RECEIVER_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (ACCESS_27 ?x1) (RIGHTS_27 ?x1))
+
+;;  K
+
+	;; A DESCRIPTION[PERSON??] MAY HAVE A RECEIVER.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (RECEIVER_27 ?x1))
+
+;; (THIS INCLUDES THE RIGHT TO DISTRIBUTE FURTHER THIS TASK AND ADDITIONALLY THE OBLIGATION TO GIVE FEEDBACK
+ TO THE SENDER)
+
+;; E
+
+;;  K
+
+	;; A THING MAY INCLUDE THE RIGHT.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (INCLUDE_27 ?x1) (THE_27 ?x1) (RIGHT_27 ?x1))
+
+;; (THE PERSON THAT RECEIVES A TASK BY DELEGATION USUALLY HAS NOT THE FULL CONTROL ABOUT THE TASK)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY HAVE A CONTROL.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (CONTROL_27 ?x1))
+
+;;  K
+
+	;; A CONTROL CAN BE ABOUT A TASK.
+
+;;   F
+
+;;    S
+
+		(and (control_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ABOUT_27 ?x2) (A_27 ?x2) (TASK_27 ?x2))
+
+;;  K
+
+	;; A CONTROL CAN BE FULL.
+
+;;   F
+
+;;    S
+
+		(and (CONTROL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FULL_27 ?x1))
+
+;; (THE ATTRIBUTES DESCRIBED IN THE FOLLOWING SECTION HAVE THE PURPOSE TO ENABLE SUCH `` ACCESS RIGHTS '')
+
+;; E
+
+;;  K
+
+	;; ATTRIBUTES MAY HAVE A PURPOSE.
+
+;;   F
+
+;;    S
+
+		(and (ATTRIBUTES_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PURPOSE_27 ?x1))
+
+;;  K
+
+	;; ATTRIBUTES MAY BE DESCRIBE -ED IN A SECTION.
+
+;;   F
+
+;;    S
+
+		(and (ATTRIBUTES_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (DESCRIBE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (section_27 ?x2))
+
+;;  K
+
+	;; A SECTION CAN BE FOLLOWING.
+
+;;   F
+
+;;    S
+
+		(and (section_27 ?x1) (be_27 ?e1 ?x1 ?x2) (FOLLOWING_27 ?x2))
+
+;; (THE RECEIVER WILL ALSO PROBABLY HAVE OBLIGATIONS REGARDING WHAT TO REPORT TO WHOM AT WHICH TIME)
+
+;; E
+
+;;  K
+
+	;; A RECEIVER MAY HAVE OBLIGATIONS.
+
+;;   F
+
+;;    S
+
+		(and (RECEIVER_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (OBLIGATIONS_27 ?x1))
+
+;; (IN CONTRAST , THE SIMPLEST CASE IS THAT ALL RIGHTS ARE GRANTED TO THE RECEIVER AND THERE IS NO FEEDBACK
+ DESIRED BY THE SENDER)
+
+;; E
+
+;;  K
+
+	;; A CASE CAN BE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (case_27 ?x1) (be_27 ?e1 ?x1 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; A CASE CAN BE SIMPLEST.
+
+;;   F
+
+;;    S
+
+		(and (CASE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SIMPLEST_27 ?x1))
+
+;;  K
+
+	;; SOME_NUMBER_OF RIGHTS MAY BE GRANT -ED TO A RECEIVER.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (RIGHTS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (GRANT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (to_27 ?x1 ?x2) (A_27 ?x2) (RECEIVER_27 ?x2))
+
+;;  K
+
+	;; FEEDBACK DESIRED CAN BE BY A SENDER.
+
+;;   F
+
+;;    S
+
+		(and (FEEDBACK_27 ?x1) (DESIRED_27 ?x1) (be_27 ?e1 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (SENDER_27 ?x2))
+
+;; (WHAT TO DO WITH THE TASK MAY BE APPARENT BY THE ORGANIZATION CONTEXT , OR IT MAY BE LEFT TO THE
+ RECEIVER)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY BE LEAVE -ED TO A RECEIVER.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (LEAVE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (to_27 ?x1 ?x2) (A_27 ?x2) (RECEIVER_27 ?x2))
+
+;; (THIS IS LIKE SENDING AN EMAIL BUT WITH THE ADVANTAGE THAT THE INFORMATION IS TRANSFERRED IN THE `` TASK
+ SPACE '' OF THE PARTICIPATING PERSONS)
+
+;; E
+
+;;  K
+
+	;; AN INFORMATION MAY BE TRANSFER -ED IN A TASK SPACE OF PERSONS.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (TRANSFER_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2) (SPACE_27 ?x2) (of_27 ?x1 ?x3) (person_27 ?x3))
+
+;;  K
+
+	;; PERSONS MAY HAVE A TASK SPACE.
+
+;;   F
+
+;;    S
+
+		(and (PERSONS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TASK_27 ?x1) (SPACE_27 ?x1))
+
+;;  K
+
+	;; PERSONS CAN BE PARTICIPATING.
+
+;;   F
+
+;;    S
+
+		(and (person_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PARTICIPATING_27 ?x2))
+
+;; (TRANSMISSIONSTATE SUPERCLASSES RDFS : RESOURCE , TMO : STATETYPEROLE SUBCLASSES -- IN DOMAIN TMO :
+ TRANSMISSIONSTATECHANGESFROM , OF : TMO : TRANSMISSIONSTATECHANGESTO IN RANGE OF : TMO :
+ TRANSMISSIONSTATE , TMO : TRANSMISSIONSTATECHANGESFROM , TMO : TRANSMISSIONSTATECHANGESTO DESCRIPTION
+ STATES A TASK CAN GO THROUGH DURING TRANSMISSION OF AN TASK)
+
+;; E
+
+;;  K
+
+	;; A TASK MAY GO_THROUGH DURING TRANSMISSION OF A TASK.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (MAY_27 ?x1) (GO_5FTHROUGH_27 ?x1) (DURING_27 ?x1) (TRANSMISSION_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2))
+
+;;  K
+
+	;; TRANSMISSIONSTATECHANGESTO CAN BE IN RANGE.
+
+;;   F
+
+;;    S
+
+		(and (TRANSMISSIONSTATECHANGESTO_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (RANGE_27 ?x2))
+
+;;  K
+
+	;; A TASK MAY UNDERGO A TRANSMISSION.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (TRANSMISSION_27 ?x1))
+
+;; (TRANSMISSIONTYPE SUPERCLASSES RDFS : RESOURCE , TMO : STATETYPEROLE SUBCLASSES -- IN DOMAIN -- OF : IN
+ RANGE OF : TMO : TRANSMISSIONTYPE BY MEANS OF THE TRANSMISSIONTYPE ONE CAN DISTINGUISH SEVERAL DIFFERENT
+ TYPES WHICH MIGHT IMPLY A DIFFERENT BUSINESS LOGIC)
+
+;; E
+
+;;  K
+
+	;; A TRANSMISSIONTYPE_SUPERCLASSES[PERSON??] MAY RDF.
+
+;;   F
+
+;;    S
+
+		(and (TRANSMISSIONTYPE_5FSUPERCLASSES_27 ?x1) (person_27 ?x1))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (RDF_27 ?x1))
+
+;;  K
+
+	;; MEANS OF A TRANSMISSIONTYPE[PERSON??] MAY DISTINGUISH SOME_NUMBER_OF TYPES.
+
+;;   F
+
+;;    S
+
+		(and (mean_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (TRANSMISSIONTYPE_27 ?x2) (PERSON_27 ?x3))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (DISTINGUISH_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (TYPES_27 ?x1))
+
+;; (DESCRIPTION E.G. DELEGATION CAN MEAN THAT THE RESULTS OF THE TASK FULFILLMENT CARE TO BE REPORTED BACK
+ TO THE SENDER OF THE TASK)
+
+;; E
+
+;;  K
+
+	;; DELEGATION MAY MEAN A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (DELEGATION_27 ?x1) (MAY_27 ?x1) (MEAN_27 ?x1) (A_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; A DESCRIPTION_E.G.[PERSON??] MAY HAVE A DELEGATION.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_5FE_2EG_2E_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (DELEGATION_27 ?x1))
+
+;;  K
+
+	;; A TASK FULFILLMENT MAY HAVE RESULTS.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (FULFILLMENT_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (RESULTS_27 ?x1))
+
+;;  K
+
+	;; A TASK MAY HAVE A SENDER.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SENDER_27 ?x1))
+
+;; *** - CHAR-EQUAL: argument NIL is not a character
+The following restarts are available:
+USE-VALUE      :R1      Input a value to be used instead.
+ABORT          :R2      Abort main loop
+Break 1 [37]>
+
+;; E
+
+;; (UNDIRECTEDDEPENDENCY SUPERCLASSES PIMO : ASSOCIATION , PIMO : CLASSORTHINGORPROPERTYORASSOCIATION , RDFS
+ : RESOURCE , TMO : TASKDEPENDENCY SUBCLASSES TMO : ASSOCIATIONDEPENDENCY , TMO : INTERDEPENDENCE , TMO :
+ SIMILARITYDEPENDENCE IN DOMAIN -- OF : IN RANGE OF : -- DESCRIPTION A SYMMETRIC RELATIONS BETWEEN TASK)
+
+;; E
+
+;;  K
+
+	;; A SIMILARITYDEPENDENCE[PERSON??] CAN BE IN DOMAIN.
+
+;;   F
+
+;;    S
+
+		(and (SIMILARITYDEPENDENCE_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (in_27 ?x1) (DOMAIN_27 ?x1))
+
+;;  K
+
+	;; SYMMETRIC RELATIONS CAN BE BETWEEN TASK.
+
+;;   F
+
+;;    S
+
+		(and (SYMMETRIC_27 ?x1) (RELATIONS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (TASK_27 ?x1))

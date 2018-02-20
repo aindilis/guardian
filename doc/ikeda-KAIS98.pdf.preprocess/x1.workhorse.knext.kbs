@@ -1,0 +1,7524 @@
+;; (TASK ONTOLOGY : ONTOLOGY FOR BUILDING CONCEPTUAL PROBLEM SOLVING MODELS MITSURU IKEDA1 KAZUHISA SETA1
+ OSAMU KAKUSHO2 RIICHIRO MIZOGUCHI1 ABSTRACT)
+
+;; E
+
+;;  K
+
+	;; A PROBLEM CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (WE HAVE INVESTIGATED THE PROPERTY OF PROBLEM SOLVING KNOWLEDGE AND TRIED TO DESIGN ITS ONTOLOGY , THAT
+ IS , TASK ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY BE INVESTIGATE -ED.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (INVESTIGATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; A TASK[PERSON??] MAY HAVE AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (THE MAIN PURPOSE OF THIS PAPER IS TO ILLUSTRATE A CONCEPTUAL LEVEL PROGRAMMING ENVIRONMENT -LRB- NAMED
+ CLEPE -RRB- AS AN IMPLEMENTED SYSTEM BASED ON TASK ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; A PAPER MAY HAVE A PURPOSE.
+
+;;   F
+
+;;    S
+
+		(and (PAPER_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PURPOSE_27 ?x1))
+
+;;  K
+
+	;; A SYSTEM MAY BE BASE -ED ON ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (BASE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (ON_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; A SYSTEM CAN BE IMPLEMENTED.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IMPLEMENTED_27 ?x1))
+
+;;  K
+
+	;; A TASK[PERSON??] MAY HAVE AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (CLEPE PROVIDES THREE MAJOR ADVANTAGES AS FOLLOWS)
+
+;; E
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY PROVIDE SOME_NUMBER_OF ADVANTAGES.
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (PROVIDE_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (ADVANTAGES_27 ?x1))
+
+;; (-LRB- A -RRB- IT PROVIDES HUMAN-FRIENDLY PRIMITIVES IN TERMS OF WHICH USERS CAN EASILY DESCRIBE THEIR
+ OWN PROBLEM SOLVING PROCESS -LRB- DESCRIPTIVENESS , READABILITY -RRB-)
+
+;; E
+
+;;  K
+
+	;; PRIMITIVES CAN BE HUMAN-FRIENDLY.
+
+;;   F
+
+;;    S
+
+		(and (primitive_27 ?x1)  )
+
+;;  K
+
+	;; USERS MAY DESCRIBE A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (user_27 ?x1) (MAY_27 ?x1) (describe_27 ?e1 ?x1 ?x2) (A_27 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PROBLEM_27 ?x1))
+
+;; (-LRB- B -RRB- THE SYSTEMS WITH TASK ONTOLOGY CAN SIMULATE THE PROBLEM SOLVING PROCESS AT AN ABSTRACT
+ LEVEL IN TERMS OF CONCEPTUAL LEVEL PRIMITIVES -LRB- CONCEPTUAL LEVEL OPERATIONALITY -RRB-)
+
+;; E
+
+;;  K
+
+	;; SYSTEMS CAN BE WITH TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEMS_27 ?x1) (be_27 ?e1 ?x1 ?x2) (WITH_27 ?x2) (TASK_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (PROCESS_27 ?x1))
+
+;;  K
+
+	;; A LEVEL CAN BE ABSTRACT.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ABSTRACT_27 ?x1))
+
+;;  K
+
+	;; LEVEL PRIMITIVES CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (level_27 ?x1) (PRIMITIVES_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; A LEVEL OPERATIONALITY CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (OPERATIONALITY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (-LRB- C -RRB- IT PROVIDES ONTOLOGY AUTHOR WITH AN ENVIRONMENT FOR BUILDING TASK ONTOLOGY SO THAT HE\/SHE
+ CAN BUILD A CONSISTENT AND USEFUL ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY PROVIDE AUTHOR WITH AN ENVIRONMENT.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (PROVIDE_27 ?x1) (AUTHOR_27 ?x1) (WITH_27 ?x1) (AN_27 ?x1) (ENVIRONMENT_27 ?x1))
+
+;;  K
+
+	;; AN AUTHOR CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (AUTHOR_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; AN ENVIRONMENT CAN BE FOR BUILDING TASK.
+
+;;   F
+
+;;    S
+
+		(and (ENVIRONMENT_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (BUILDING_27 ?x2) (TASK_27 ?x2))
+
+;;  K
+
+	;; HE\/SHE MAY BUILD AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (HE_5C_2FSHE_27 ?x1) (MAY_27 ?x1) (BUILD_27 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; AN ONTOLOGY CAN BE CONSISTENT.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSISTENT_27 ?x1))
+
+;; (IN THIS PAPER , FIRSTLY WE BRIEFLY INTRODUCE THE CONCEPT OF TASK ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY INTRODUCE A CONCEPT OF TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (INTRODUCE_27 ?x1) (A_27 ?x1) (CONCEPT_27 ?x1) (of_27 ?x1 ?x2) (TASK_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;; (SECONDLY , CLEPE AND ITS DESIGN PRINCIPLE IS DESCRIBED)
+
+;; E
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY BE DESCRIBE -ED.
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (DESCRIBE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE A DESIGN PRINCIPLE.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (DESIGN_27 ?x1) (PRINCIPLE_27 ?x1))
+
+;; (IN CLEPE , ONE CAN REPRESENT HIS\/HER OWN PROBLEM SOLVING KNOWLEDGE AND REALIZE THE CONCEPTUAL-LEVEL
+ EXECUTION)
+
+;; E
+
+;;  K
+
+	;; AN INDIVIDUAL MAY REPRESENT HIS\/HER.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (MAY_27 ?x1) (REPRESENT_27 ?x1) (HIS_5C_2FHER_27 ?x1))
+
+;;  K
+
+	;; HIS\/HER MAY SOLVE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (HIS_5C_2FHER_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;;  K
+
+	;; AN EXECUTION CAN BE CONCEPTUAL-LEVEL.
+
+;;   F
+
+;;    S
+
+		(and (EXECUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL-LEVEL_27 ?x1))
+
+;; (THIS IS THE JUSTIFICATION OF THE EXPERT SYSTEM TECHNOLOGY WHOSE POWER RELIES HEAVILY ON HEURISTIC
+ KNOWLEDGE OR EXPERTISE OF DOMAIN EXPERTS RATHER THAN OBJECTIVE KNOWLEDGE LIKE DOMAIN THEORY)
+
+;; E
+
+;;  K
+
+	;; A THING CAN BE A JUSTIFICATION OF AN EXPERT SYSTEM TECHNOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1 ?x2) (justification_27 ?x2) (of_27 ?x2 ?x3) (EXPERT_27 ?x3) (SYSTEM_27 ?x3) (TECHNOLOGY_27 ?x3))
+
+;;  K
+
+	;; AN EXPERT SYSTEM TECHNOLOGY MAY UNDERGO A JUSTIFICATION.
+
+;;   F
+
+;;    S
+
+		(and (EXPERT_27 ?x1) (SYSTEM_27 ?x1) (TECHNOLOGY_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (JUSTIFICATION_27 ?x1))
+
+;;  K
+
+	;; HEURISTIC KNOWLEDGE CAN BE CONSTITUTED_OF_OR_FILLED_WITH DOMAIN EXPERTS.
+
+;;   F
+
+;;    S
+
+		(and (HEURISTIC_27 ?x1) (KNOWLEDGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (DOMAIN_27 ?x1) (EXPERTS_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE OBJECTIVE.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (OBJECTIVE_27 ?x1))
+
+;; (EXPERT SYSTEM TECHNOLOGY HAS OBTAINED HIGH PERFORMANCE AT THE COST OF NON-REUSABILITY OF KNOWLEDGE AND
+ LOW PRODUCTIVITY OF THE KNOWLEDGE BASE DEVELOPMENT)
+
+;; E
+
+;;  K
+
+	;; SYSTEM TECHNOLOGY MAY OBTAIN PERFORMANCE.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (TECHNOLOGY_27 ?x1) (MAY_27 ?x1) (OBTAIN_27 ?x1) (PERFORMANCE_27 ?x1))
+
+;;  K
+
+	;; A SYSTEM TECHNOLOGY CAN BE EXPERT.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (TECHNOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (EXPERT_27 ?x1))
+
+;;  K
+
+	;; A PERFORMANCE CAN BE HIGH.
+
+;;   F
+
+;;    S
+
+		(and (PERFORMANCE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HIGH_27 ?x1))
+
+;;  K
+
+	;; A KNOWLEDGE BASE DEVELOPMENT MAY HAVE PRODUCTIVITY.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (BASE_27 ?x1) (DEVELOPMENT_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (PRODUCTIVITY_27 ?x1))
+
+;;  K
+
+	;; A PRODUCTIVITY CAN BE LOW.
+
+;;   F
+
+;;    S
+
+		(and (PRODUCTIVITY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LOW_27 ?x1))
+
+;; (AS IS WELL-KNOWN , OVERCOMING SUCH DIFFICULTIES HAS BEEN THE MAJOR GOAL IN KNOWLEDGE ENGINEERING
+ COMMUNITY FOR YEARS)
+
+;; E
+
+;;  K
+
+	;; DIFFICULTIES CAN BE A GOAL.
+
+;;   F
+
+;;    S
+
+		(and (difficulty_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (GOAL_27 ?x2))
+
+;;  K
+
+	;; DIFFICULTIES CAN BE OVERCOMING.
+
+;;   F
+
+;;    S
+
+		(and (difficulty_27 ?x1) (be_27 ?e1 ?x1 ?x2) (OVERCOMING_27 ?x2))
+
+;;  K
+
+	;; A GOAL CAN BE IN KNOWLEDGE ENGINEERING COMMUNITY.
+
+;;   F
+
+;;    S
+
+		(and (GOAL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (in_27 ?x1 ?x2) (KNOWLEDGE_27 ?x2) (ENGINEERING_27 ?x2) (COMMUNITY_27 ?x2))
+
+;;  K
+
+	;; KNOWLEDGE ENGINEERING COMMUNITY CAN BE FOR YEARS.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (ENGINEERING_27 ?x1) (COMMUNITY_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (year_27 ?x2))
+
+;; (THE KEY IDEAS INCLUDE DECOMPOSITION OF EXPERTISE INTO TWO KINDS OF KNOWLEDGE : TASK-DEPENDENT KNOWLEDGE
+ AND DOMAIN-DEPENDENT KNOWLEDGE)
+
+;; E
+
+;;  K
+
+	;; IDEAS MAY INCLUDE DECOMPOSITION OF EXPERTISE.
+
+;;   F
+
+;;    S
+
+		(and (IDEAS_27 ?x1) (MAY_27 ?x1) (INCLUDE_27 ?x1) (DECOMPOSITION_27 ?x1) (of_27 ?x1 ?x2) (EXPERTISE_27 ?x2))
+
+;;  K
+
+	;; IDEAS CAN BE KEY.
+
+;;   F
+
+;;    S
+
+		(and (IDEAS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (KEY_27 ?x1))
+
+;;  K
+
+	;; EXPERTISE MAY UNDERGO A DECOMPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (EXPERTISE_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (DECOMPOSITION_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE TASK-DEPENDENT.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (TASK-DEPENDENT_27 ?x2))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE DOMAIN-DEPENDENT.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (DOMAIN-DEPENDENT_27 ?x2))
+
+;; (THE AUTHORS HAVE PROPOSED THE CONCEPT OF TASK ONTOLOGY -LRB- MIZOGUCHI 92 -RRB- TO FORMALIZE THE
+ KNOWLEDGE FOR PROBLEM SOLVING DOMAIN-INDEPENDENTLY)
+
+;; E
+
+;;  K
+
+	;; KNOWLEDGE CAN BE FOR PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (PROBLEM_27 ?x2))
+
+;; (SIMILAR IDEAS HAVE DISCUSSEDEXTENSIVELY IN KNOWLEDGE ACQUISITION COMMUNITY)
+
+;; E
+
+;;  K
+
+	;; IDEAS MAY HAVE DISCUSSEDEXTENSIVELY.
+
+;;   F
+
+;;    S
+
+		(and (IDEAS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (DISCUSSEDEXTENSIVELY_27 ?x1))
+
+;;  K
+
+	;; DISCUSSEDEXTENSIVELY CAN BE IN KNOWLEDGE ACQUISITION COMMUNITY.
+
+;;   F
+
+;;    S
+
+		(and (DISCUSSEDEXTENSIVELY_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (KNOWLEDGE_27 ?x2) (ACQUISITION_27 ?x2) (COMMUNITY_27 ?x2))
+
+;; (THE TERM `` TASK ONTOLOGY '' CAN BE INTEPRETED IN TWO WAYS : -LRB- 1 -RRB- TASKSUBTASK DECOMPOSITION
+ TOGETHER WITH TASK CATEGORIZATION SUCH AS DIAGNOSIS , SCHEDULING , DESIGN , ETC. AND -LRB- 2 -RRB- AN
+ ONTOLOGY FOR SPECIFYING PROBLEM SOLVING PROCESSES \*)
+
+;; E
+
+;;  K
+
+	;; A TERM MAY BE INTEPRET -ED IN SOME_NUMBER_OF WAYS.
+
+;;   F
+
+;;    S
+
+		(and (TERM_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (INTEPRET_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (WAYS_27 ?x2))
+
+;;  K
+
+	;; A TASKSUBTASK[PERSON??] MAY DECOMPOSITION WITH TASK CATEGORIZATION.
+
+;;   F
+
+;;    S
+
+		(and (TASKSUBTASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (DECOMPOSITION_27 ?x1) (WITH_27 ?x1) (TASK_27 ?x1) (CATEGORIZATION_27 ?x1))
+
+;; (THE LATTER SHARES THE WORD USAGE WITH `` DOMAIN ONTOLOGY '' WHICH MEANS AN ONTOLOGY OF A DOMIAN AND
+ SPECIFIES CONCETPS AND RELATIONS APPEARING IN A DOMAIN OF INTEREST)
+
+;; E
+
+;;  K
+
+	;; A LATTER MAY SHARE A WORD USAGE WITH DOMAIN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (LATTER_27 ?x1) (MAY_27 ?x1) (SHARE_27 ?x1) (A_27 ?x1) (WORD_27 ?x1) (USAGE_27 ?x1) (WITH_27 ?x1) (DOMAIN_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; CONCETPS MAY APPEAR IN A DOMAIN OF INTEREST.
+
+;;   F
+
+;;    S
+
+		(and (CONCETPS_27 ?x1) (MAY_27 ?x1) (APPEAR_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (DOMAIN_27 ?x2) (of_27 ?x2 ?x3) (interest_27 ?x3))
+
+;;  K
+
+	;; A DOMAIN CAN BE CONSTITUTED_OF_OR_FILLED_WITH INTEREST.
+
+;;   F
+
+;;    S
+
+		(and (DOMAIN_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (INTEREST_27 ?x1))
+
+;; (`` DOMAIN ONTOLOGY '' DOES NOT MEAN DOMAIN-SUBDOMAIN DECOMPOSITION)
+
+;; E
+
+;;  K
+
+	;; ONTOLOGY MAY DO.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (DO_27 ?x1))
+
+;;  K
+
+	;; AN ONTOLOGY CAN BE DOMAIN.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DOMAIN_27 ?x1))
+
+;;  K
+
+	;; A DECOMPOSITION CAN BE DOMAIN-SUBDOMAIN.
+
+;;   F
+
+;;    S
+
+		(and (DECOMPOSITION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DOMAIN-SUBDOMAIN_27 ?x1))
+
+;; (LIKEWISE , BY `` TASK ONTOLOGY '' , WE HERE MEAN THE LATTER , THAT IS , AN ONTOLOGY SPECIFYING CONCEPTS
+ AND RELATIONS APPEARING IN A TASK OF INTEREST)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY MEAN A LATTER.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (MEAN_27 ?x1) (A_27 ?x1) (LATTER_27 ?x1))
+
+;;  K
+
+	;; AN ONTOLOGY MAY SPECIFY CONCEPTS.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (SPECIFY_27 ?x1) (CONCEPTS_27 ?x1))
+
+;;  K
+
+	;; A TASK CAN BE CONSTITUTED_OF_OR_FILLED_WITH INTEREST.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (INTEREST_27 ?x1))
+
+;; (IT MAY BE RIGHT)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE RIGHT.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (be_27 ?e1 ?x1))
+
+;; (OUR TASK ONTOLOGY RESEARCH WAS INITIATED TAKING SUCH AN ISSUE INTO ACCOUNT FROM THE BEGINNING)
+
+;; E
+
+;;  K
+
+	;; A TASK ONTOLOGY RESEARCH MAY BE INITIATE -ED.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (RESEARCH_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (INITIATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY HAVE A TASK ONTOLOGY RESEARCH.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (RESEARCH_27 ?x1))
+
+;; (IT INCLUDES TWO KINDS OF CONCEPTS RELATED TO ACTIVITY AND ROLE OF AN OBJECT TO WHICH AN ACTIVITY
+ APPLIES)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY INCLUDE SOME_NUMBER_OF KINDS OF CONCEPTS.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (INCLUDE_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (KINDS_27 ?x1) (of_27 ?x1 ?x2) (concept_27 ?x2))
+
+;;  K
+
+	;; CONCEPTS MAY BE RELATE -ED TO ACTIVITY OF AN OBJECT.
+
+;;   F
+
+;;    S
+
+		(and (concept_27 ?x1) (MAY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (RELATE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (TO_27 ?x2) (ACTIVITY_27 ?x2) (of_27 ?x2 ?x3) (AN_27 ?x3) (OBJECT_27 ?x3))
+
+;;  K
+
+	;; AN ACTIVITY MAY APPLY.
+
+;;   F
+
+;;    S
+
+		(and (ACTIVITY_27 ?x1) (MAY_27 ?x1) (APPLY_27 ?x1))
+
+;; (THE LATTER REPRESENTS THE ROLE WHICH THE OBJECT BOUND TO PLAYS DURING THE PROBLEM SOLVING PROCESS)
+
+;; E
+
+;;  K
+
+	;; A LATTER MAY REPRESENT A ROLE.
+
+;;   F
+
+;;    S
+
+		(and (LATTER_27 ?x1) (MAY_27 ?x1) (REPRESENT_27 ?x1) (A_27 ?x1) (ROLE_27 ?x1))
+
+;;  K
+
+	;; AN OBJECT MAY BE BOUND -ED TO PLAYS.
+
+;;   F
+
+;;    S
+
+		(and (OBJECT_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (BOUND_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (to_27 ?x1 ?x2) (PLAYS_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (PROCESS_27 ?x1))
+
+;; (THE ADVANTAGE OF TASK ONTOLOGY IS THAT IT SPECIFIES NOT ONLY SKELETON OF THE PROBLEM SOLVING PROCESS BUT
+ ALSO CONTEXT WHERE DOMAIN CONCEPTS ARE USED)
+
+;; E
+
+;;  K
+
+	;; AN ADVANTAGE OF TASK CAN BE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (ADVANTAGE_27 ?x1) (of_27 ?x1 ?x2) (TASK_27 ?x2) (be_27 ?e1 ?x1 ?x3) (proposition_27 ?x3))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY SPECIFY.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (SPECIFY_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (PROCESS_27 ?x1))
+
+;;  K
+
+	;; DOMAIN CONCEPTS MAY BE USE -ED.
+
+;;   F
+
+;;    S
+
+		(and (DOMAIN_27 ?x1) (CONCEPTS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (USE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (THIS CHARACTERISTIC GIVES SEVERAL REMAKABLE UTILITY DISCUSSED BELOW)
+
+;; E
+
+;;  K
+
+	;; A CHARACTERISTIC MAY GIVE SOME_NUMBER_OF REMAKABLE UTILITY.
+
+;;   F
+
+;;    S
+
+		(and (CHARACTERISTIC_27 ?x1) (MAY_27 ?x1) (GIVE_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (REMAKABLE_27 ?x1) (UTILITY_27 ?x1))
+
+;;  K
+
+	;; UTILITY MAY BE DISCUSS -ED.
+
+;;   F
+
+;;    S
+
+		(and (UTILITY_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (DISCUSS_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (TASK ONTOLOGY OF MULTIS HAS BEEN EVALUATED BY DESCRIBING TASK STRUCTURES OF SEVERAL EXPERT SYSTEMS WHICH
+ EVALUATORS , MEMBERS OF A CONSORTIUM , WERE INVOLVED IN THEIR DEVELOPMENT)
+
+;; E
+
+;;  K
+
+	;; TASK STRUCTURES CAN BE CONSTITUTED_OF_OR_FILLED_WITH SOME_NUMBER_OF EXPERT SYSTEMS.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (STRUCTURES_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (EXPERT_27 ?x1) (SYSTEMS_27 ?x1))
+
+;;  K
+
+	;; EVALUATORS MAY BE INVOLVE -ED IN A DEVELOPMENT.
+
+;;   F
+
+;;    S
+
+		(and (EVALUATORS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (INVOLVE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (DEVELOPMENT_27 ?x2))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE A DEVELOPMENT.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (DEVELOPMENT_27 ?x1))
+
+;; (THE EVALUATION SHOWS OUR TASK ONTOLOGY HAS SUFFICIENT EXPRESSIVE POWER FOR SCHEDULING TASK STRUCTURES)
+
+;; E
+
+;;  K
+
+	;; AN EVALUATION MAY SHOW.
+
+;;   F
+
+;;    S
+
+		(and (EVALUATION_27 ?x1) (MAY_27 ?x1) (SHOW_27 ?x1))
+
+;;  K
+
+	;; A TASK MAY HAVE POWER.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (POWER_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY HAVE A TASK.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TASK_27 ?x1))
+
+;;  K
+
+	;; POWER CAN BE FOR SCHEDULING TASK STRUCTURES.
+
+;;   F
+
+;;    S
+
+		(and (power_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (SCHEDULING_27 ?x2) (TASK_27 ?x2) (STRUCTURES_27 ?x2))
+
+;;  K
+
+	;; POWER CAN BE SUFFICIENT.
+
+;;   F
+
+;;    S
+
+		(and (POWER_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SUFFICIENT_27 ?x1))
+
+;; (HOWEVER , IN MULTIS PROJECT , WE JUST SHOWED THE POSSIBILITY OF TASK ONTOLOGY BUT THE WHOLE IDEAS HAVE
+ NOT BEEN FORMALIZED WELL)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY SHOW A POSSIBILITY OF TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (SHOW_27 ?x1) (A_27 ?x1) (POSSIBILITY_27 ?x1) (of_27 ?x1 ?x2) (TASK_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; A MULTIS[PERSON??] MAY HAVE A PROJECT.
+
+;;   F
+
+;;    S
+
+		(and (MULTIS_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (project_27 ?x1))
+
+;;  K
+
+	;; IDEAS MAY BE FORMALIZE -ED.
+
+;;   F
+
+;;    S
+
+		(and (IDEAS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (FORMALIZE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (THE FORMALIZATION IS NEEDED BADLY TO ATTAIN OUR RESEARCH GOAL)
+
+;; E
+
+;;  K
+
+	;; A FORMALIZATION MAY BE NEED -ED.
+
+;;   F
+
+;;    S
+
+		(and (FORMALIZATION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (NEED_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY HAVE A RESEARCH GOAL.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (RESEARCH_27 ?x1) (GOAL_27 ?x1))
+
+;; (THE FOLLOWING FOUR ISSUES SEEM TO BE HELPFUL IN ATTEMPTING SKETCH OUT OUR RESEARCH ON TASK ONTOLOGY
+ ENGINEERING)
+
+;; E
+
+;;  K
+
+	;; RESEARCH CAN BE ON TASK ONTOLOGY ENGINEERING.
+
+;;   F
+
+;;    S
+
+		(and (research_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (TASK_27 ?x2) (ONTOLOGY_27 ?x2) (ENGINEERING_27 ?x2))
+
+;;  K
+
+	;; PERSON -S MAY HAVE RESEARCH.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (RESEARCH_27 ?x1))
+
+;; (A. CLARIFY THE AREA OF TASK ONTOLOGY BY SPECIFYING TASK SHARING BETWEEN A COMPUTER AND A HUMAN)
+
+;; E
+
+;;  K
+
+	;; TASK SHARING CAN BE BETWEEN A COMPUTER.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (SHARING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (A_27 ?x1) (COMPUTER_27 ?x1))
+
+;; (B. BUILD TASK ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; A B.[PERSON??] MAY BUILD TASK.
+
+;;   F
+
+;;    S
+
+		(and (B_2E_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (BUILD_27 ?x1) (TASK_27 ?x1))
+
+;; (C. SPECIFY THE RELATION BETWEEN TASK ONTOLOGY AND GENERAL ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; A RELATION CAN BE BETWEEN TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (TASK_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; AN ONTOLOGY CAN BE GENERAL.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERAL_27 ?x1))
+
+;; (D. DESIGN A FRAMEWORK TO BRIDGE THE GAP BETWEEN THE MODEL DESCRIBED BASED ON THE ONTOLOGY AND THE
+ RUNNABLE COMPUTATIONAL MODEL)
+
+;; E
+
+;;  K
+
+	;; A GAP CAN BE BETWEEN A MODEL.
+
+;;   F
+
+;;    S
+
+		(and (GAP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (A_27 ?x1) (MODEL_27 ?x1))
+
+;;  K
+
+	;; A MODEL CAN BE RUNNABLE.
+
+;;   F
+
+;;    S
+
+		(and (MODEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (RUNNABLE_27 ?x1))
+
+;;  K
+
+	;; A MODEL CAN BE COMPUTATIONAL.
+
+;;   F
+
+;;    S
+
+		(and (MODEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (COMPUTATIONAL_27 ?x1))
+
+;; (THE GOALS OF OUR RESEARCH ON TASK ONTOLOGY ARE TO MAKE PROBLEM SOLVING KNOWLEDGE EXPLICIT AND EXEMPLIFY
+ ITS AVAILABILITY THROUGH THE DEVELOPMENT OF CLEPE : CONCEPTUAL LEVEL PROGRAMMING ENVIRONMENT)
+
+;; E
+
+;;  K
+
+	;; RESEARCH MAY UNDERGO GOALS.
+
+;;   F
+
+;;    S
+
+		(and (RESEARCH_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (GOALS_27 ?x1))
+
+;;  K
+
+	;; RESEARCH CAN BE ON TASK.
+
+;;   F
+
+;;    S
+
+		(and (research_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (TASK_27 ?x2))
+
+;;  K
+
+	;; PERSON -S MAY HAVE RESEARCH.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (RESEARCH_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE AN AVAILABILITY.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (AVAILABILITY_27 ?x1))
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY UNDERGO A DEVELOPMENT.
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (DEVELOPMENT_27 ?x1))
+
+;; (CLEPE PROVIDES THREE MAJOR ADVANTAGES AS FOLLOWS)
+
+;; E
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY PROVIDE SOME_NUMBER_OF ADVANTAGES.
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (PROVIDE_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (ADVANTAGES_27 ?x1))
+
+;; (-LRB- A -RRB- IT PROVIDES HUMAN-FRIENDLY PRIMITIVES IN TERMS OF WHICH USERS CAN EASILY DESCRIBE THEIR
+ OWN PROBLEM SOLVING PROCESS -LRB- DESCRIPTIVENESS , READABILITY -RRB-)
+
+;; E
+
+;;  K
+
+	;; PRIMITIVES CAN BE HUMAN-FRIENDLY.
+
+;;   F
+
+;;    S
+
+		(and (primitive_27 ?x1)  )
+
+;;  K
+
+	;; USERS MAY DESCRIBE A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (user_27 ?x1) (MAY_27 ?x1) (describe_27 ?e1 ?x1 ?x2) (A_27 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PROBLEM_27 ?x1))
+
+;; (-LRB- B -RRB- THE SYSTEMS WITH TASK ONTOLOGY WE KNOW THE TERM `` PROBLEM-SOLVING ONTOLOGY '' IS BETTER
+ THAN THE TERM `` TASK ONTOLOGY '' AS A TERMINOLOGICAL POINT OF VIEW)
+
+;; E
+
+;;  K
+
+	;; ONTOLOGY CAN BE BETTER.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETTER_27 ?x1))
+
+;;  K
+
+	;; SYSTEMS MAY ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEMS_27 ?x1) (MAY_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; SYSTEMS CAN BE WITH TASK.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEMS_27 ?x1) (be_27 ?e1 ?x1 ?x2) (WITH_27 ?x2) (TASK_27 ?x2))
+
+;;  K
+
+	;; PERSON -S MAY KNOW A TERM.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (KNOW_27 ?x1) (A_27 ?x1) (TERM_27 ?x1))
+
+;;  K
+
+	;; AN ONTOLOGY CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;;  K
+
+	;; A TERM TASK ONTOLOGY CAN BE AS A POINT OF VIEW.
+
+;;   F
+
+;;    S
+
+		(and (TERM_27 ?x1) (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (be_27 ?e1 ?x1) (as_27 ?x1 ?x2) (A_27 ?x2) (POINT_27 ?x2) (of_27 ?x2 ?x3) (VIEW_27 ?x3))
+
+;;  K
+
+	;; A POINT CAN BE CONSTITUTED_OF_OR_FILLED_WITH VIEW.
+
+;;   F
+
+;;    S
+
+		(and (POINT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (VIEW_27 ?x1))
+
+;;  K
+
+	;; A POINT CAN BE TERMINOLOGICAL.
+
+;;   F
+
+;;    S
+
+		(and (POINT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TERMINOLOGICAL_27 ?x1))
+
+;; (BUT , WE FOLLOWED THE CONVENTION WORD USEAGE IN THE KNOLWEDGE-BASED SYSTEMS COMMUNITY IN WHICH WE CALL
+ DIAGONSIS , DESIGN , ETC. A TASK)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY FOLLOW A CONVENTION WORD USEAGE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (FOLLOW_27 ?x1) (A_27 ?x1) (CONVENTION_27 ?x1) (WORD_27 ?x1) (USEAGE_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY CALL DIAGONSIS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (CALL_27 ?x1) (DIAGONSIS_27 ?x1))
+
+;; (CAN SIMULATE THE PROBLEM SOLVING PROCESS AT AN ABSTRACT LEVEL IN TERMS OF CONCEPTUAL LEVEL PRIMITIVES
+ -LRB- CONCEPTUAL LEVEL OPERATIONALITY -RRB-)
+
+;; E
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (PROCESS_27 ?x1))
+
+;;  K
+
+	;; A LEVEL CAN BE ABSTRACT.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ABSTRACT_27 ?x1))
+
+;;  K
+
+	;; LEVEL PRIMITIVES CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (level_27 ?x1) (PRIMITIVES_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; A LEVEL OPERATIONALITY CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (OPERATIONALITY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (-LRB- C -RRB- IT PROVIDES ONTOLOGY AUTHOR WITH AN ENVIRONMENT FOR BUILDING TASK ONTOLOGY SO THAT HE\/SHE
+ CAN BUILD A CONSISTENT AND USEFUL ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY PROVIDE AUTHOR WITH AN ENVIRONMENT.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (PROVIDE_27 ?x1) (AUTHOR_27 ?x1) (WITH_27 ?x1) (AN_27 ?x1) (ENVIRONMENT_27 ?x1))
+
+;;  K
+
+	;; AN AUTHOR CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (AUTHOR_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; AN ENVIRONMENT CAN BE FOR BUILDING TASK.
+
+;;   F
+
+;;    S
+
+		(and (ENVIRONMENT_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (BUILDING_27 ?x2) (TASK_27 ?x2))
+
+;;  K
+
+	;; HE\/SHE MAY BUILD AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (HE_5C_2FSHE_27 ?x1) (MAY_27 ?x1) (BUILD_27 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; AN ONTOLOGY CAN BE CONSISTENT.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSISTENT_27 ?x1))
+
+;; (IN THIS PAPER WE FIRSTLY DISCUSS THE BASIC ISSUE ON THE CONCEPT OF TASK ONTOLOGY AND THEN DESCRIBE THE
+ DESIGN PRINCIPLE OF CLEPE AS A FORM OF ONTOLOGY USE)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY DISCUSS AN ISSUE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DISCUSS_27 ?x1) (AN_27 ?x1) (ISSUE_27 ?x1))
+
+;;  K
+
+	;; AN ISSUE CAN BE BASIC.
+
+;;   F
+
+;;    S
+
+		(and (ISSUE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BASIC_27 ?x1))
+
+;;  K
+
+	;; A FORM CAN BE CONSTITUTED_OF_OR_FILLED_WITH USE.
+
+;;   F
+
+;;    S
+
+		(and (FORM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (USE_27 ?x1))
+
+;;  K
+
+	;; A USE CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (USE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (TO OBTAIN A SOPHISTICATED ONTOLOGY , WE NEED A METHODOLOGY FOR ONTOLOGY CONSTRUCTION)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY NEED A METHODOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (NEED_27 ?x1) (A_27 ?x1) (METHODOLOGY_27 ?x1))
+
+;;  K
+
+	;; AN ONTOLOGY CAN BE SOPHISTICATED.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (SOPHISTICATED_27 ?x2))
+
+;;  K
+
+	;; A METHODOLOGY CAN BE FOR CONSTRUCTION.
+
+;;   F
+
+;;    S
+
+		(and (METHODOLOGY_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (construction_27 ?x2))
+
+;;  K
+
+	;; CONSTRUCTION CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (construction_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ONTOLOGY_27 ?x2))
+
+;; (AND WE ALSO NEED TO DEMONSTRATE ITS EFFECTIVE USE TO CONVINCE PEOPLE)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE A USE.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (USE_27 ?x1))
+
+;;  K
+
+	;; A USE CAN BE EFFECTIVE.
+
+;;   F
+
+;;    S
+
+		(and (USE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (EFFECTIVE_27 ?x1))
+
+;; (OUR FINAL GOAL IS TO BUILD AN INTEGRATED ENVIROMENT FOR BUILDING AND USE OF AN ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY HAVE A GOAL.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (GOAL_27 ?x1))
+
+;;  K
+
+	;; AN ENVIROMENT CAN BE FOR BUILDING.
+
+;;   F
+
+;;    S
+
+		(and (ENVIROMENT_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (BUILDING_27 ?x2))
+
+;;  K
+
+	;; AN ENVIROMENT CAN BE INTEGRATED.
+
+;;   F
+
+;;    S
+
+		(and (ENVIROMENT_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?e2) (integrate_27 ?e2 ?x1))
+
+;; (AS A FIRST STEP , THE GOALS OF THIS RESEARCH IS MAINLY CONCERNED WITH TASK ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; GOALS OF RESEARCH MAY BE CONCERN -ED WITH TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (goal_27 ?x1) (of_27 ?x1 ?x2) (RESEARCH_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (CONCERN_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (WITH_27 ?x2) (TASK_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; RESEARCH MAY UNDERGO GOALS.
+
+;;   F
+
+;;    S
+
+		(and (RESEARCH_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (GOALS_27 ?x1))
+
+;; (IN THIS CONTEXT , CLEPE HAS BEEN DESIGNED FOR BOTH OF DEVELOPMENT AND USE OF ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY BE DESIGN -ED FOR SOME_NUMBER_OF THING OF DEVELOPMENT OF ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (DESIGN_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (for_27 ?x1 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (THING_27 ?x2) (of_27 ?x2 ?x3) (DEVELOPMENT_27 ?x3) (of_27 ?x2 ?x4) (ONTOLOGY_27 ?x4))
+
+;;  K
+
+	;; ONTOLOGY MAY UNDERGO A DEVELOPMENT.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (DEVELOPMENT_27 ?x1))
+
+;; (FROM ONE ASPECT IT IS AN ENVIRONMENT TO BUILD THE TASK ONTOLOGY , AND FROM THE OTHER IT IS AN
+ ENVIRONMENT TO DESCRIBE ONE 'S PROBLEM SOLVING KNOWLEDGE IN TERMS OF THE ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE AN ENVIRONMENT.
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (AN_27 ?x1) (ENVIRONMENT_27 ?x1))
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY HAVE A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PROBLEM_27 ?x1))
+
+;; (THE MAIN ROLE OF TASK ONTOLOGY AUTHOR IS TO ANALYZE THE PROBLEM SOLVING KNOWLEDGE AND TO BUILD THE TASK
+ ONTOLOGY WHICH CAN BE EASILY ACCEPTABLE TO END-USERS)
+
+;; E
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;; (TO SUPPORT THE ONTOLOGY AUTHOR 'S WORK , CLEPE PROVIDES TASK ONTOLOGY REPRESENTATION LANGUAGE -LRB-
+ NAMED TOL -RRB- AND AN ENVIRONMENT FOR EDITING AND BROWSING THE ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY PROVIDE A TASK_ONTOLOGY_REPRESENTATION_LANGUAGE[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (provide_27 ?e1 ?x1) (A_27 ?x1) (TASK_5FONTOLOGY_5FREPRESENTATION_5FLANGUAGE_27 ?x1) (person_27 ?x2))
+
+;;  K
+
+	;; AN AUTHOR MAY HAVE WORK.
+
+;;   F
+
+;;    S
+
+		(and (AUTHOR_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (WORK_27 ?x1))
+
+;;  K
+
+	;; AN AUTHOR CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (AUTHOR_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (IT IS A QUITE TIME CONSUMING WORK FOR END-USERS TO DESCRIBE THEIR OWN PROBLEM SOLVING PROCESSES IN A
+ RIGID FORM)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE CONSUMING WORK.
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (CONSUMING_27 ?x1) (WORK_27 ?x1))
+
+;;  K
+
+	;; A CONSUMING WORK CAN BE FOR END-USERS.
+
+;;   F
+
+;;    S
+
+		(and (consuming_27 ?x1) (WORK_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (END-USERS_27 ?x2))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PROBLEM_27 ?x1))
+
+;;  K
+
+	;; A FORM CAN BE RIGID.
+
+;;   F
+
+;;    S
+
+		(and (FORM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (RIGID_27 ?x1))
+
+;; (TO LIGHTEN THE LOAD OF END-USERS , IT IS IMPORTANT FOR TASK ONTOLOGY TO REFLECT THEIR COMMON CONCEPTUAL
+ UNDERSTANDING OF PROBLEM SOLVING)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE IMPORTANT FOR TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IMPORTANT_27 ?x1) (for_27 ?x1 ?x2) (TASK_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; PROBLEM MAY UNDERGO AN UNDERSTANDING.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (UNDERSTANDING_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE AN UNDERSTANDING.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (UNDERSTANDING_27 ?x1))
+
+;;  K
+
+	;; AN UNDERSTANDING CAN BE COMMON.
+
+;;   F
+
+;;    S
+
+		(and (UNDERSTANDING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (COMMON_27 ?x1))
+
+;;  K
+
+	;; AN UNDERSTANDING CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (UNDERSTANDING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;; (ON THE OTHER HAND , FROM COMPUTERS STANDPOINT , THE DESCRIPTION OF THE PROBLEM SOLVING PROCESS SHOULD BE
+ RIGID ENOUGH TO SPECIFY THE COMPUTATIONAL SEMANTICS)
+
+;; E
+
+;;  K
+
+	;; A DESCRIPTION OF A PROBLEM CAN BE RIGID.
+
+;;   F
+
+;;    S
+
+		(and (description_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (PROBLEM_27 ?x2) (CAN_27 ?x2) (BE_27 ?x2) (RIGID_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM MAY HAVE A DESCRIPTION.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (DESCRIPTION_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (PROCESS_27 ?x1))
+
+;;  K
+
+	;; SEMANTICS CAN BE COMPUTATIONAL.
+
+;;   F
+
+;;    S
+
+		(and (SEMANTICS_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (COMPUTATIONAL_27 ?x2))
+
+;; (WE MAY SAY THAT THIS CONFLICT IS A COMMON PROBLEM OF PROGRAMMING LANGUAGES FOR END-USER -LRB- S -RRB-)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY SAY A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (SAY_27 ?x1) (A_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; A CONFLICT CAN BE A PROBLEM OF LANGUAGES.
+
+;;   F
+
+;;    S
+
+		(and (conflict_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (PROBLEM_27 ?x2) (of_27 ?x2 ?x3) (LANGUAGES_27 ?x3))
+
+;;  K
+
+	;; A PROBLEM CAN BE CONSTITUTED_OF_OR_FILLED_WITH LANGUAGES.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (LANGUAGES_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM CAN BE COMMON.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (COMMON_27 ?x1))
+
+;;  K
+
+	;; LANGUAGES CAN BE FOR END-USER.
+
+;;   F
+
+;;    S
+
+		(and (language_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (END-USER_27 ?x2))
+
+;;  K
+
+	;; LANGUAGES CAN BE PROGRAMMING.
+
+;;   F
+
+;;    S
+
+		(and (language_27 ?x1) (be_27 ?e1 ?x1 ?x2) (programming_27 ?x2))
+
+;; (THE KEY TO THE PROBLEM IS TO SHIFT TASK ONTOLOGY CLOSE TO USERS AND TO EMBODY THE FUNCTION TO FILL THE
+ GAP BETWEEN END-USERS AND COMPUTERS)
+
+;; E
+
+;;  K
+
+	;; A KEY CAN BE TO A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (KEY_27 ?x1) (be_27 ?e1 ?x1) (to_27 ?x1 ?x2) (A_27 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; A GAP CAN BE BETWEEN END-USERS.
+
+;;   F
+
+;;    S
+
+		(and (GAP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (END-USERS_27 ?x1))
+
+;; (CLEPE HAS THE ABILITY TO MAKE UP FOR THE DEFICIT OF USER 'S DESCRIPTION AND TO RECONSTRUCT RIGID
+ SPECIFICATION OF THE COMPUTATION)
+
+;; E
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY HAVE AN ABILITY.
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ABILITY_27 ?x1))
+
+;;  K
+
+	;; A DESCRIPTION MAY HAVE A DEFICIT.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (DEFICIT_27 ?x1))
+
+;;  K
+
+	;; USER MAY HAVE A DESCRIPTION.
+
+;;   F
+
+;;    S
+
+		(and (USER_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (DESCRIPTION_27 ?x1))
+
+;;  K
+
+	;; A COMPUTATION MAY UNDERGO A SPECIFICATION.
+
+;;   F
+
+;;    S
+
+		(and (COMPUTATION_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (SPECIFICATION_27 ?x1))
+
+;;  K
+
+	;; A SPECIFICATION CAN BE RIGID.
+
+;;   F
+
+;;    S
+
+		(and (SPECIFICATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (RIGID_27 ?x1))
+
+;; (2.1 TASK ONTOLOGY NOW LET US GO INTO THE DETAIL OF TASK ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; A |\|\\\|2.1\\\|_TASK_ONTOLOGY\||[PERSON??] MAY LET.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_7C_5C_7C_5C_5C_5C_7C2_2E1_5C_5C_5C_7C_5FTASK_5FONTOLOGY_5C_7C_7C_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (LET_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY GO INTO A DETAIL OF TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (GO_27 ?x1) (INTO_27 ?x1) (A_27 ?x1) (DETAIL_27 ?x1) (of_27 ?x1 ?x2) (TASK_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;; (TAXONOMY IS A HIERARCHICAL SYSTEM OF CONCEPTS AND AXIOMS ARE ESTABLISHED RULES , PRINCIPLES , OR LAWS
+ AMONG THE CONCEPTS)
+
+;; E
+
+;;  K
+
+	;; A TAXONOMY[PERSON??] CAN BE A SYSTEM OF CONCEPTS.
+
+;;   F
+
+;;    S
+
+		(and (TAXONOMY_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (A_27 ?x1) (SYSTEM_27 ?x1) (of_27 ?x1 ?x2) (concept_27 ?x2))
+
+;;  K
+
+	;; A SYSTEM CAN BE CONSTITUTED_OF_OR_FILLED_WITH CONCEPTS.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (CONCEPTS_27 ?x1))
+
+;;  K
+
+	;; A SYSTEM CAN BE HIERARCHICAL.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HIERARCHICAL_27 ?x1))
+
+;;  K
+
+	;; LAWS CAN BE AMONG CONCEPTS.
+
+;;   F
+
+;;    S
+
+		(and (LAWS_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AMONG_27 ?x2) (CONCEPTS_27 ?x2))
+
+;; (FROM THE VIEWPOINT OF THE ONTOLOGY USE , AXIOMS SPECIFY THE COMPETENCE OF ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; AXIOMS MAY SPECIFY A COMPETENCE OF ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (AXIOMS_27 ?x1) (MAY_27 ?x1) (SPECIFY_27 ?x1) (A_27 ?x1) (COMPETENCE_27 ?x1) (of_27 ?x1 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; A USE MAY HAVE A VIEWPOINT.
+
+;;   F
+
+;;    S
+
+		(and (USE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (VIEWPOINT_27 ?x1))
+
+;;  K
+
+	;; A USE CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (USE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (IN OTHER WORDS , A CLASS OF THE QUESTIONS TO WHICH THE ANSWERS CAN BE DERIVED FROM THE AXIOM SPECIFIES
+ THE COMPETENCE OF THE ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; A CLASS OF QUESTIONS MAY SPECIFY A COMPETENCE OF AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (class_27 ?x1) (of_27 ?x1 ?x2) (QUESTIONS_27 ?x2) (MAY_27 ?x2) (SPECIFY_27 ?x2) (A_27 ?x2) (COMPETENCE_27 ?x2) (of_27 ?x2 ?x3) (AN_27 ?x3) (ONTOLOGY_27 ?x3))
+
+;;  K
+
+	;; QUESTIONS MAY HAVE A CLASS.
+
+;;   F
+
+;;    S
+
+		(and (QUESTIONS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (class_27 ?x1))
+
+;;  K
+
+	;; ANSWERS MAY BE DERIVE -ED FROM AN AXIOM.
+
+;;   F
+
+;;    S
+
+		(and (answer_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (DERIVE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (FROM_27 ?x1) (AN_27 ?x1) (AXIOM_27 ?x1))
+
+;;  K
+
+	;; AN ONTOLOGY MAY HAVE A COMPETENCE.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (COMPETENCE_27 ?x1))
+
+;; (FOLLOWING THE ANALOGY OF NATURAL LANGUAGE PROCESSING , WE CAN EASILY UNDERSTAND THE ROLE OF TASK
+ ONTOLOGY AS A SYSTEM OF SEMANTIC FEATURES TO REPRESENT THE MEANING OF THE PROBLEM SOLVING DESCRIPTION)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY UNDERSTAND A ROLE OF TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (UNDERSTAND_27 ?x1) (A_27 ?x1) (ROLE_27 ?x1) (of_27 ?x1 ?x2) (TASK_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; A LANGUAGE PROCESSING CAN BE NATURAL.
+
+;;   F
+
+;;    S
+
+		(and (LANGUAGE_27 ?x1) (PROCESSING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (NATURAL_27 ?x1))
+
+;;  K
+
+	;; A SYSTEM CAN BE CONSTITUTED_OF_OR_FILLED_WITH FEATURES.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (FEATURES_27 ?x1))
+
+;;  K
+
+	;; FEATURES CAN BE SEMANTIC.
+
+;;   F
+
+;;    S
+
+		(and (feature_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SEMANTIC_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY HAVE A MEANING.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (MEANING_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE DESCRIPTION.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (DESCRIPTION_27 ?x1))
+
+;; (THE ADVANTAGES OF THE INTEGRATION OF TASK ONTOLOGY INTO CLEPE IS AS FOLLOWS : A. TASK ONTOLOGY PROVIDES
+ HUMAN-FRIENDLY PRIMITIVES IN TERMS OF WHICH USERS CAN EASILY DESCRIBE THEIR OWN PROBLEM SOLVING
+ PROCESSES -LRB- DESCRIPTIVENESS , READABILITY -RRB-)
+
+;; E
+
+;;  K
+
+	;; TASK ONTOLOGY MAY UNDERGO INTEGRATION.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (INTEGRATION_27 ?x1))
+
+;;  K
+
+	;; TASK ONTOLOGY CAN BE INTO A CLEPE[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (INTO_27 ?x1) (A_27 ?x1) (CLEPE_27 ?x1) (PERSON_27 ?x2))
+
+;;  K
+
+	;; AN A._TASK[PERSON??] MAY PROVIDE PRIMITIVES.
+
+;;   F
+
+;;    S
+
+		(and (A_2E_5FTASK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (provide_27 ?e1 ?x1) (PRIMITIVES_27 ?x1))
+
+;;  K
+
+	;; PRIMITIVES CAN BE HUMAN-FRIENDLY.
+
+;;   F
+
+;;    S
+
+		(and (primitive_27 ?x1)  )
+
+;;  K
+
+	;; USERS MAY DESCRIBE A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (user_27 ?x1) (MAY_27 ?x1) (describe_27 ?e1 ?x1 ?x2) (A_27 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PROBLEM_27 ?x1))
+
+;; (B. THE SYSTEM CAN SIMULATE THE PROBLEM SOLVING PROCESSES AT THE CONCEPTUAL LEVEL AND SHOW USERS THE
+ EXECUTION PROCESS IN TERMS OF CONCEPTUAL LEVEL PRIMITIVES -LRB- CONCEPTUAL LEVEL OPERATIONALITY -RRB-)
+
+;; E
+
+;;  K
+
+	;; A B.[PERSON??] MAY SIMULATE A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (B_2E_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (simulate_27 ?e1 ?x1) (A_27 ?x1) (PROBLEM_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE PROCESSES.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (PROCESSES_27 ?x1))
+
+;;  K
+
+	;; A LEVEL CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; LEVEL PRIMITIVES CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (level_27 ?x1) (PRIMITIVES_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; A LEVEL OPERATIONALITY CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (OPERATIONALITY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (C. THE SYSTEMTRANSLATES PROBLEM SOLVING KNOWLEDGE INTO SYMBOL LEVEL CODE -LRB- SYMBOL LEVEL
+ OPERATIONALITY -RRB-)
+
+;; E
+
+;;  K
+
+	;; A C._THE[PERSON??] MAY SYSTEMTRANSLATE PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (C_2E_5FTHE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (SYSTEMTRANSLATE_27 ?x1) (PROBLEM_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;; (FOR THE MOMENT , IT MAY BE USEFUL TO LOOK MORE CLOSELY AT THE FUNCTIONAL FEATURE OF TASK ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; A FEATURE CAN BE FUNCTIONAL.
+
+;;   F
+
+;;    S
+
+		(and (FEATURE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FUNCTIONAL_27 ?x1))
+
+;; (HERE , LET US INTRODUCE THREE MODELS M -LRB- A -RRB- , M -LRB- B -RRB- , AND M -LRB- C -RRB- , WHICH
+ EMBODY THE FUNCTIONS A , B , AND C LISTED ABOVE , RESPECTIVELY)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY INTRODUCE SOME_NUMBER_OF MODELS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (INTRODUCE_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (MODELS_27 ?x1))
+
+;; (LEXICAL LEVEL MODEL MAINLY DEALS WITH THE SYNTACTIC ASPECT OF THE PROBLEM SOLVING DESCRIPTION , AND
+ CONCEPTUAL LEVEL MODEL CAPTURES CONCEPTUAL LEVEL MEANING OF THE DESCRIPTION)
+
+;; E
+
+;;  K
+
+	;; LEVEL MODEL MAY DEAL WITH AN ASPECT OF A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (MODEL_27 ?x1) (MAY_27 ?x1) (DEAL_27 ?x1) (WITH_27 ?x1) (AN_27 ?x1) (ASPECT_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; A LEVEL MODEL CAN BE LEXICAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (MODEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LEXICAL_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY HAVE AN ASPECT.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ASPECT_27 ?x1))
+
+;;  K
+
+	;; AN ASPECT CAN BE SYNTACTIC.
+
+;;   F
+
+;;    S
+
+		(and (ASPECT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SYNTACTIC_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE DESCRIPTION.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (DESCRIPTION_27 ?x1))
+
+;;  K
+
+	;; LEVEL MODEL MAY CAPTURE LEVEL MEANING OF A DESCRIPTION.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (MODEL_27 ?x1) (MAY_27 ?x1) (CAPTURE_27 ?x1) (LEVEL_27 ?x1) (MEANING_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (DESCRIPTION_27 ?x2))
+
+;;  K
+
+	;; A LEVEL MODEL CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (MODEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; A DESCRIPTION MAY HAVE LEVEL MEANING.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (LEVEL_27 ?x1) (MEANING_27 ?x1))
+
+;;  K
+
+	;; A LEVEL MEANING CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (MEANING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (SYMBOL LEVEL MODEL CORRESPONDS TO RUNNABLE PROGRAM AND SPECIFIES THE COMPUTATIONAL SEMANTICS OF THE
+ PROBLEM SOLVING)
+
+;; E
+
+;;  K
+
+	;; A PROBLEM MAY HAVE SEMANTICS.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (SEMANTICS_27 ?x1))
+
+;;  K
+
+	;; SEMANTICS CAN BE COMPUTATIONAL.
+
+;;   F
+
+;;    S
+
+		(and (SEMANTICS_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (COMPUTATIONAL_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;; (TABLE 1 SHOWS A CONFIGURATION OF TASK ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; A TABLE[PERSON??] MAY SHOW A CONFIGURATION OF TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (TABLE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (SHOW_27 ?x1) (A_27 ?x1) (CONFIGURATION_27 ?x1) (of_27 ?x1 ?x2) (TASK_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; A CONFIGURATION CAN BE CONSTITUTED_OF_OR_FILLED_WITH TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (CONFIGURATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (TASK_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (TASK ONTOLOGY IS COMPOSED OF THREE LAYERS)
+
+;; E
+
+;;  K
+
+	;; A TASK[PERSON??] MAY BE COMPOSE -ED OF SOME_NUMBER_OF LAYERS.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (COMPOSE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (of_27 ?x1 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (LAYERS_27 ?x2))
+
+;; (THE TOP LAYER IS CALLED LEXICAL LEVEL ONTOLOGY -LRB- TO\/K-L -RRB- IN TERMS OF WHICH M -LRB- A -RRB- IS
+ REPRESENTED)
+
+;; E
+
+;;  K
+
+	;; A LAYER MAY BE CALL -ED.
+
+;;   F
+
+;;    S
+
+		(and (LAYER_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (CALL_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A LAYER CAN BE TOP.
+
+;;   F
+
+;;    S
+
+		(and (LAYER_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TOP_27 ?x1))
+
+;;  K
+
+	;; A LEVEL ONTOLOGY CAN BE LEXICAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LEXICAL_27 ?x1))
+
+;;  K
+
+	;; A M[PERSON??] MAY BE REPRESENT -ED.
+
+;;   F
+
+;;    S
+
+		(and (M_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (REPRESENT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (THE MIDDLE LAYER IS CALLED CONCEPTUAL LEVEL ONTOLOGY -LRB- TO\/K-C -RRB- WHICH SPECIFIES TABLE 1)
+
+;; E
+
+;;  K
+
+	;; A LAYER MAY BE CALL -ED.
+
+;;   F
+
+;;    S
+
+		(and (LAYER_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (CALL_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A LAYER CAN BE MIDDLE.
+
+;;   F
+
+;;    S
+
+		(and (LAYER_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MIDDLE_27 ?x1))
+
+;;  K
+
+	;; A LEVEL ONTOLOGY CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (PART OF LEXICAL LEVEL ONTOLOGY COMPUTATIONAL SEMANTICS OF M -LRB- B -RRB-)
+
+;; E
+
+;;  K
+
+	;; PART OF LEVEL MAY ONTOLOGY SEMANTICS OF A M[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (part_27 ?x1) (of_27 ?x1 ?x2) (LEVEL_27 ?x2) (MAY_27 ?x2) (ONTOLOGY_27 ?x2) (SEMANTICS_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (M_27 ?x3) (PERSON_27 ?x4))
+
+;;  K
+
+	;; A LEVEL CAN BE LEXICAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LEXICAL_27 ?x1))
+
+;;  K
+
+	;; SEMANTICS CAN BE COMPUTATIONAL.
+
+;;   F
+
+;;    S
+
+		(and (SEMANTICS_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (COMPUTATIONAL_27 ?x2))
+
+;; (KNOWLEDGE LEVEL ONTOLOGY IS COMPOSED OF GENERAL TERMS FOR THESE TWO ONTOLOGIES)
+
+;; E
+
+;;  K
+
+	;; LEVEL MAY BE COMPOSE -ED OF TERMS.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (COMPOSE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (of_27 ?x1 ?x2) (TERMS_27 ?x2))
+
+;;  K
+
+	;; A LEVEL CAN BE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;;  K
+
+	;; TERMS CAN BE FOR SOME_NUMBER_OF ONTOLOGIES.
+
+;;   F
+
+;;    S
+
+		(and (TERMS_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (ONTOLOGIES_27 ?x2))
+
+;;  K
+
+	;; TERMS CAN BE GENERAL.
+
+;;   F
+
+;;    S
+
+		(and (TERMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERAL_27 ?x1))
+
+;; (LEXICAL LEVEL ONTOLOGY SPECIFIES THE LANGUAGE IN TERMS OF WHICH END-USERS EXTERNALIZE THEIR OWN
+ KNOWLEDGE OF THE TARGET TASK , WHILE CONCEPTUAL LEVEL ONTOLOGY IS AN ONTOLOGY WHICH REPRESENTS THE
+ CONTENTS OF KNOWLEDGE IN THEIR MINDS)
+
+;; E
+
+;;  K
+
+	;; LEVEL MAY SPECIFY A LANGUAGE.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (MAY_27 ?x1) (SPECIFY_27 ?x1) (A_27 ?x1) (LANGUAGE_27 ?x1))
+
+;;  K
+
+	;; A LEVEL CAN BE LEXICAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LEXICAL_27 ?x1))
+
+;;  K
+
+	;; END-USERS MAY EXTERNALIZE KNOWLEDGE OF A TARGET TASK.
+
+;;   F
+
+;;    S
+
+		(and (END-USERS_27 ?x1) (MAY_27 ?x1) (EXTERNALIZE_27 ?x1) (KNOWLEDGE_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (TARGET_27 ?x2) (TASK_27 ?x2))
+
+;;  K
+
+	;; A TARGET TASK MAY HAVE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (TARGET_27 ?x1) (TASK_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;;  K
+
+	;; LEVEL ONTOLOGY CAN BE AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; A LEVEL ONTOLOGY CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE IN MINDS.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (mind_27 ?x2))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE MINDS.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (MINDS_27 ?x1))
+
+;; (FIGURE 1 SHOWS A HIERARCHY OF LEXICAL LEVEL ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; FIGURE MAY SHOW A HIERARCHY OF LEVEL ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (FIGURE_27 ?x1) (MAY_27 ?x1) (SHOW_27 ?x1) (A_27 ?x1) (HIERARCHY_27 ?x1) (of_27 ?x1 ?x2) (LEVEL_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; A HIERARCHY CAN BE CONSTITUTED_OF_OR_FILLED_WITH LEVEL ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (HIERARCHY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (LEVEL_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; A LEVEL ONTOLOGY CAN BE LEXICAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LEXICAL_27 ?x1))
+
+;; (ALL THE CONCEPTS OF LEXICAL LEVEL ONTOLOGY ARE ORGANIZED INTO WORD CLASSES , SUCH AS , GENERIC VERB ,
+ GENERIC NOUN , GENERIC ADJECTIVE ETC.)
+
+;; E
+
+;;  K
+
+	;; CONCEPTS OF LEVEL MAY BE ORGANIZE -ED INTO WORD CLASSES.
+
+;;   F
+
+;;    S
+
+		(and (concept_27 ?x1) (of_27 ?x1 ?x2) (LEVEL_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (ORGANIZE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (INTO_27 ?x2) (WORD_27 ?x2) (CLASSES_27 ?x2))
+
+;;  K
+
+	;; A LEVEL CAN BE LEXICAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LEXICAL_27 ?x1))
+
+;;  K
+
+	;; A VERB CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (VERB_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;;  K
+
+	;; A NOUN CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (NOUN_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;; (THE DETERMINATION OF THE ABSTRACTION LEVEL OF TASK ONTOLOGY REQUIRES A CLOSE CONSIDERATION ON
+ GRANULARITY AND GENERALITY)
+
+;; E
+
+;;  K
+
+	;; DETERMINATION OF A LEVEL OF TASK MAY REQUIRE A CONSIDERATION.
+
+;;   F
+
+;;    S
+
+		(and (determination_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (LEVEL_27 ?x2) (of_27 ?x1 ?x3) (TASK_27 ?x3) (MAY_27 ?x3) (REQUIRE_27 ?x3) (A_27 ?x3) (consideration_27 ?x3))
+
+;;  K
+
+	;; A LEVEL CAN BE ABSTRACTION.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ABSTRACTION_27 ?x1))
+
+;;  K
+
+	;; A CONSIDERATION CAN BE ON GRANULARITY.
+
+;;   F
+
+;;    S
+
+		(and (CONSIDERATION_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (GRANULARITY_27 ?x2))
+
+;;  K
+
+	;; A CONSIDERATION CAN BE CLOSE.
+
+;;   F
+
+;;    S
+
+		(and (consideration_27 ?x1) (be_27 ?e1 ?x1))
+
+;; (REPRESENTATION OF TWO SENTENCES WITH THE SAME MEANING IN TERMS OF LEXICAL LEVEL ONTOLOGY SHOULD BE THE
+ SAME)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF SENTENCES CAN BE WITH A MEANING.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (SENTENCES_27 ?x1) (be_27 ?e1 ?x1) (with_27 ?x1 ?x2) (A_27 ?x2) (MEANING_27 ?x2))
+
+;;  K
+
+	;; A LEVEL CAN BE LEXICAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LEXICAL_27 ?x1))
+
+;; (IN THE CONCEPTUAL LEVEL ONTOLOGY , THE CONCEPTS TO REPRESENT OUR PERCEPTION OF PROBLEM SOLVING ARE
+ ORGANIZED INTO GENERIC CONCEPT CLASS , SUCH AS , ACTIVITY , OBJECT , STATUS , AND SO ON)
+
+;; E
+
+;;  K
+
+	;; CONCEPTS MAY BE ORGANIZE -ED INTO CONCEPT CLASS.
+
+;;   F
+
+;;    S
+
+		(and (concept_27 ?x1) (MAY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ORGANIZE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (INTO_27 ?x2) (CONCEPT_27 ?x2) (CLASS_27 ?x2))
+
+;;  K
+
+	;; A LEVEL ONTOLOGY CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY UNDERGO A PERCEPTION.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (perception_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY HAVE A PERCEPTION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (perception_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;;  K
+
+	;; A CONCEPT CLASS CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (CONCEPT_27 ?x1) (CLASS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;; (THERE ARE SOME RELATIONS AMONG THE TWO WORLDS , I.E. , LEXICAL WORLD AND CONCEPTUAL WORLD)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF RELATIONS CAN BE AMONG SOME_NUMBER_OF WORLDS.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (RELATIONS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (AMONG_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (WORLDS_27 ?x1))
+
+;;  K
+
+	;; A WORLD CAN BE LEXICAL.
+
+;;   F
+
+;;    S
+
+		(and (WORLD_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LEXICAL_27 ?x1))
+
+;;  K
+
+	;; A WORLD CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (WORLD_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (INTUITIVELY GENERIC VERB , GENERIC NOUN , AND GENERIC ADJECTIVE IN LEXICAL WORLD CORRESPOND TO ACTIVITY
+ , OBJECT , AND STATUS IN THE CONCEPTUAL WORLD , RESPECTIVELY)
+
+;; E
+
+;;  K
+
+	;; VERB MAY CORRESPOND TO ACTIVITY.
+
+;;   F
+
+;;    S
+
+		(and (VERB_27 ?x1) (MAY_27 ?x1) (CORRESPOND_27 ?x1) (TO_27 ?x1) (ACTIVITY_27 ?x1))
+
+;;  K
+
+	;; A VERB CAN BE INTUITIVELY.
+
+;;   F
+
+;;    S
+
+		(and (VERB_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (INTUITIVELY_27 ?x1))
+
+;;  K
+
+	;; A VERB CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (VERB_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;;  K
+
+	;; A NOUN CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (NOUN_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;;  K
+
+	;; ADJECTIVE CAN BE IN WORLD.
+
+;;   F
+
+;;    S
+
+		(and (ADJECTIVE_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (WORLD_27 ?x2))
+
+;;  K
+
+	;; AN ADJECTIVE CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (ADJECTIVE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;;  K
+
+	;; A WORLD CAN BE LEXICAL.
+
+;;   F
+
+;;    S
+
+		(and (WORLD_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LEXICAL_27 ?x1))
+
+;;  K
+
+	;; ACTIVITY CAN BE IN THE WORLD.
+
+;;   F
+
+;;    S
+
+		(and (ACTIVITY_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (world_27 ?x2))
+
+;;  K
+
+	;; A WORLD CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (WORLD_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (THUS , TASK ONTOLOGY PROVIDES PRIMITIVES IN TERMS OF WHICH WE CAN DESCRIBE PROBLEM SOLVING CONTEXT AND
+ MAKES IT EASY TO PUT DOMAIN KNOWLEDGE INTO PROBLEM SOLVING CONTEXT , SINCE IT PROVIDES US WITH ABSTRACT
+ ROLES OF VARIOUS OBJECTS WHICH COULD BE INSTANTIATED TO DOMAIN-SPECIFIC OBJECTS)
+
+;; E
+
+;;  K
+
+	;; TASK MAY PROVIDE PRIMITIVES.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (MAY_27 ?x1) (PROVIDE_27 ?x1) (PRIMITIVES_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY DESCRIBE PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DESCRIBE_27 ?x1) (PROBLEM_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE CONTEXT.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (CONTEXT_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY PROVIDE PERSON -S WITH ROLES OF OBJECTS.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (PROVIDE_27 ?x1) (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (WITH_27 ?x1) (ROLES_27 ?x1) (of_27 ?x1 ?x2) (OBJECTS_27 ?x2))
+
+;;  K
+
+	;; ROLES CAN BE CONSTITUTED_OF_OR_FILLED_WITH OBJECTS.
+
+;;   F
+
+;;    S
+
+		(and (role_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x2) (OBJECTS_27 ?x2))
+
+;;  K
+
+	;; ROLES CAN BE ABSTRACT.
+
+;;   F
+
+;;    S
+
+		(and (role_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ABSTRACT_27 ?x1))
+
+;;  K
+
+	;; OBJECTS CAN BE DOMAIN-SPECIFIC.
+
+;;   F
+
+;;    S
+
+		(and (object_27 ?x1) (be_27 ?e1 ?x1 ?x2) (DOMAIN-SPECIFIC_27 ?x2))
+
+;; (DOMAIN KNOWLEDGE ORGANIZED WITHOUT PAYING ATTENTION TO ITS USAGE IS DIFFICULT TO FIND OUT HOW TO
+ INCORPORATE WHAT PORTION OF IT INTO A SPECIFIC PROBLEM SOLVING PROCESS)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE A USAGE.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (USAGE_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (PROCESS_27 ?x1))
+
+;; (IN THE ABOVE EXAMPLES , SCHEDULE RECIPIENT AND SCHEDULE RESOURCE REPRESENT TWO MAJOR OBJECTS IN THE
+ SCHEDULING TASK DOMAIN AND ITS ROLES)
+
+;; E
+
+;;  K
+
+	;; RESOURCE MAY REPRESENT SOME_NUMBER_OF OBJECTS.
+
+;;   F
+
+;;    S
+
+		(and (RESOURCE_27 ?x1) (MAY_27 ?x1) (REPRESENT_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (OBJECTS_27 ?x1))
+
+;;  K
+
+	;; EXAMPLES CAN BE ABOVE.
+
+;;   F
+
+;;    S
+
+		(and (example_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ABOVE_27 ?x2))
+
+;;  K
+
+	;; A SCHEDULE_RECIPIENT_AND_SCHEDULE[PERSON??] MAY HAVE A RESOURCE.
+
+;;   F
+
+;;    S
+
+		(and (SCHEDULE_5FRECIPIENT_5FAND_5FSCHEDULE_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (RESOURCE_27 ?x1))
+
+;;  K
+
+	;; SOME_NUMBER_OF OBJECTS CAN BE IN A SCHEDULING TASK DOMAIN.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (OBJECTS_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (SCHEDULING_27 ?x2) (TASK_27 ?x2) (DOMAIN_27 ?x2))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE ROLES.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (ROLES_27 ?x1))
+
+;; (ONE OF THE MOST IMPORTANT CHARACTERISTICS OF TASK ONTOLOGY IS THAT MEANINGS OF VERBS ARE ALSO DEFINED AT
+ THE SYMBOL LEVEL , THAT IS , AT LEAST ONE EXECUTABLE CODE IS ASSOCIATED WITH EACH VERB TO ENABLE
+ SEMIAUTOMATIC GENERATION OF RUNNABLE PROBLEM SOLVING ENGINE FOR THE TARGET TASK)
+
+;; E
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION OF CHARACTERISTICS OF TASK CAN BE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (of_27 ?x1 ?x2) (CHARACTERISTICS_27 ?x2) (of_27 ?x1 ?x3) (TASK_27 ?x3) (be_27 ?e1 ?x1 ?x4) (proposition_27 ?x4))
+
+;;  K
+
+	;; CHARACTERISTICS CAN BE IMPORTANT.
+
+;;   F
+
+;;    S
+
+		(and (CHARACTERISTICS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IMPORTANT_27 ?x1))
+
+;;  K
+
+	;; MEANINGS OF VERBS MAY BE DEFINE -ED AT A SYMBOL LEVEL.
+
+;;   F
+
+;;    S
+
+		(and (meaning_27 ?x1) (of_27 ?x1 ?x2) (VERBS_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (DEFINE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (AT_27 ?x2) (A_27 ?x2) (SYMBOL_27 ?x2) (LEVEL_27 ?x2))
+
+;;  K
+
+	;; MEANINGS CAN BE CONSTITUTED_OF_OR_FILLED_WITH VERBS.
+
+;;   F
+
+;;    S
+
+		(and (MEANINGS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (VERBS_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY UNDERGO A GENERATION.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (GENERATION_27 ?x1))
+
+;;  K
+
+	;; A GENERATION CAN BE SEMIAUTOMATIC.
+
+;;   F
+
+;;    S
+
+		(and (GENERATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SEMIAUTOMATIC_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM CAN BE RUNNABLE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (RUNNABLE_27 ?x1))
+
+;; (FIGURE 2 SHOWS AN IMAGE OF INTERFACE FOR USERS)
+
+;; E
+
+;;  K
+
+	;; FIGURE MAY SHOW AN IMAGE OF INTERFACE.
+
+;;   F
+
+;;    S
+
+		(and (FIGURE_27 ?x1) (MAY_27 ?x1) (SHOW_27 ?x1) (AN_27 ?x1) (IMAGE_27 ?x1) (of_27 ?x1 ?x2) (INTERFACE_27 ?x2))
+
+;;  K
+
+	;; AN IMAGE CAN BE CONSTITUTED_OF_OR_FILLED_WITH INTERFACE.
+
+;;   F
+
+;;    S
+
+		(and (IMAGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (INTERFACE_27 ?x1))
+
+;;  K
+
+	;; INTERFACE CAN BE FOR USERS.
+
+;;   F
+
+;;    S
+
+		(and (interface_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (user_27 ?x2))
+
+;; (THE NETWORK IN THE FIGURE IS CALLED GENERIC PROCESS NETWORK -LRB- GPN -RRB-)
+
+;; E
+
+;;  K
+
+	;; A NETWORK MAY BE CALL -ED.
+
+;;   F
+
+;;    S
+
+		(and (NETWORK_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (CALL_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A NETWORK CAN BE IN A FIGURE.
+
+;;   F
+
+;;    S
+
+		(and (NETWORK_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (FIGURE_27 ?x2))
+
+;; (GPN REPRESENTS USER 'S PROBLEM SOLVING PROCESS IN TERMS OF LEXICAL LEVEL ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (PROCESS_27 ?x1))
+
+;;  K
+
+	;; USER MAY HAVE A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (USER_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PROBLEM_27 ?x1))
+
+;;  K
+
+	;; A LEVEL ONTOLOGY CAN BE LEXICAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LEXICAL_27 ?x1))
+
+;; (EACH NODE OF THE GPN IS SEPARATED INTO TWO PARTS)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF NODE OF A GPN[PERSON??] MAY BE SEPARATE -ED INTO SOME_NUMBER_OF PARTS.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (NODE_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (GPN_27 ?x2) (PERSON_27 ?x3))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (BE_27 ?x1) (SEPARATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (INTO_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (PARTS_27 ?x1))
+
+;; (THE UPPER PART REPRESENTS A CONCRETE PROCESS IN TERMS OF NATURAL LANGUAGE , AND THE LOWER IS A GENERIC
+ PROCESS WHICH IS A TASK ONTOLOGY TRANSLATION OF THE UPPER PART)
+
+;; E
+
+;;  K
+
+	;; A PART MAY REPRESENT A PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (PART_27 ?x1) (MAY_27 ?x1) (REPRESENT_27 ?x1) (A_27 ?x1) (process_27 ?x1))
+
+;;  K
+
+	;; A PROCESS CAN BE CONCRETE.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONCRETE_27 ?x2))
+
+;;  K
+
+	;; A LANGUAGE CAN BE NATURAL.
+
+;;   F
+
+;;    S
+
+		(and (LANGUAGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (NATURAL_27 ?x1))
+
+;;  K
+
+	;; A PROCESS CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;;  K
+
+	;; A PART MAY HAVE A TASK ONTOLOGY TRANSLATION.
+
+;;   F
+
+;;    S
+
+		(and (PART_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (TRANSLATION_27 ?x1))
+
+;; (GENERIC PROCESSES ARE REPRESENTED IN TERMS OF GENERIC TERMS WHICH ARE DEFINED ON THE LEXICAL LEVEL TASK
+ ONTOLOGY -LRB- TOK\/L -RRB-)
+
+;; E
+
+;;  K
+
+	;; PROCESSES MAY BE REPRESENT -ED.
+
+;;   F
+
+;;    S
+
+		(and (process_27 ?x1) (MAY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (REPRESENT_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2))
+
+;;  K
+
+	;; PROCESSES CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (process_27 ?x1) (be_27 ?e1 ?x1 ?x2) (GENERIC_27 ?x2))
+
+;;  K
+
+	;; TERMS CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (TERMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;; (BASICALLY THE GENERIC PROCESS HAS A FORM AS FOLLOWS : GENERIC PROCESS = GENERIC VERB + GENERIC NOUN
+ TYPICAL EXAMPLES INCLUDES CLASSIFY-SCHEDULE_RESOURCE -LRB- RSC -RRB- , SEQUENCE-SCHEDULE_RECIPIENT -LRB-
+ RCP -RRB- , PICKUP-RCP , SELECT-RSC , ASSIGNRSC_SCHEDULE_RCP , UPDATE-PRIORITY , RELAX-CONSTRAINT , AND
+ SO ON)
+
+;; E
+
+;;  K
+
+	;; PROCESS MAY NOUN.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (MAY_27 ?x1) (NOUN_27 ?x1))
+
+;;  K
+
+	;; A PROCESS CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;;  K
+
+	;; EXAMPLES MAY INCLUDE CLASSIFY-SCHEDULE_RESOURCE.
+
+;;   F
+
+;;    S
+
+		(and (EXAMPLES_27 ?x1) (MAY_27 ?x1) (INCLUDE_27 ?x1) (CLASSIFY-SCHEDULE_5FRESOURCE_27 ?x1))
+
+;;  K
+
+	;; EXAMPLES CAN BE TYPICAL.
+
+;;   F
+
+;;    S
+
+		(and (example_27 ?x1) (be_27 ?e1 ?x1 ?x2) (TYPICAL_27 ?x2))
+
+;; (A GENERIC TERM , WHICH ACTS AS COMPONENT OF GENERIC PROCESS , IS THE SMALLEST CONCEPT OF LEXICAL LEVEL
+ TASK ONTOLOGY CONCEPTS)
+
+;; E
+
+;;  K
+
+	;; A TERM CAN BE A CONCEPT OF LEVEL TASK.
+
+;;   F
+
+;;    S
+
+		(and (TERM_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (CONCEPT_27 ?x2) (of_27 ?x2 ?x3) (LEVEL_27 ?x3) (TASK_27 ?x3))
+
+;;  K
+
+	;; A TERM CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (TERM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;;  K
+
+	;; A PROCESS CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;;  K
+
+	;; A CONCEPT CAN BE SMALLEST.
+
+;;   F
+
+;;    S
+
+		(and (CONCEPT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SMALLEST_27 ?x1))
+
+;;  K
+
+	;; A LEVEL TASK CAN BE LEXICAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (TASK_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LEXICAL_27 ?x1))
+
+;; (THE AUTHOR OF GENERIC PROCESS NETWORK -LRB- GPN -RRB- FIRSTLY INPUTS THE UPPER PART OF GPN NODE AND THEN
+ TRANSLATES IT INTO GENERIC PROCESS)
+
+;; E
+
+;;  K
+
+	;; AN AUTHOR OF A GENERIC_PROCESS_NETWORK[PERSON??] MAY INPUT A PART OF NODE.
+
+;;   F
+
+;;    S
+
+		(and (author_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (GENERIC_5FPROCESS_5FNETWORK_27 ?x2) (person_27 ?x3))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (INPUT_27 ?x1) (A_27 ?x1) (part_27 ?x1) (of_27 ?x1 ?x2) (NODE_27 ?x2))
+
+;;  K
+
+	;; A GPN[PERSON??] MAY HAVE A NODE.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (NODE_27 ?x1))
+
+;;  K
+
+	;; A PROCESS CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;; (THE LINK OF GPN REPRESENTS THE CONTROL FLOW OF PROBLEM SOLVING)
+
+;; E
+
+;;  K
+
+	;; A LINK OF A GPN[PERSON??] MAY REPRESENT A CONTROL FLOW OF PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (LINK_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (GPN_27 ?x2) (PERSON_27 ?x3))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (REPRESENT_27 ?x1) (A_27 ?x1) (CONTROL_27 ?x1) (FLOW_27 ?x1) (of_27 ?x1 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;; (A GPN CAN BE THOUGHT OF AS TASK FLOW DEFINED IN TERMS OF GENERAL , REUSABLE COMPONENT THAT DESCRIBES
+ MEANINGFUL STAGES OF THE PROBLEM SOLVING PROCESS)
+
+;; E
+
+;;  K
+
+	;; TASK FLOW MAY BE DEFINE -ED.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (FLOW_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (DEFINE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY HAVE STAGES.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (STAGES_27 ?x1))
+
+;;  K
+
+	;; STAGES CAN BE MEANINGFUL.
+
+;;   F
+
+;;    S
+
+		(and (stage_27 ?x1) (be_27 ?e1 ?x1 ?x2) (MEANINGFUL_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (PROCESS_27 ?x1))
+
+;; (A GPN DOES NOT REPRESENT DATA FLOW EXPLICITLY , THOUGH IT MANAGES IT IMPLICITLY AND PRESENTS IT TO THE
+ USER DURING THE INTERPRETATION PROCESS TO VERIFY THE CORRECTNESS OF THE GPN BUILT)
+
+;; E
+
+;;  K
+
+	;; A GPN[PERSON??] MAY DO.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (DO_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY MANAGE A THING-REFERRED-TO.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (MANAGE_27 ?x1) (A_27 ?x1) (thing-referred-to_27 ?x1))
+
+;;  K
+
+	;; A USER CAN BE DURING AN INTERPRETATION PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (USER_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DURING_27 ?x1) (AN_27 ?x1) (INTERPRETATION_27 ?x1) (PROCESS_27 ?x1))
+
+;;  K
+
+	;; A GPN[PERSON??] MAY BE BUILD -ED.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (BUILD_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (THE GPN IS USED BY THE GPNC -LRB- GENERIC-PROCESS-NETWORK COMPILER -RRB- TO GENERATE CODE OF THE PROBLEM
+ SOLVING PROCESS)
+
+;; E
+
+;;  K
+
+	;; A GPN[PERSON??] MAY BE USE -ED BY A GPNC.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (USE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (by_27 ?x2 ?x3) (A_27 ?x3) (GPNC_27 ?x3))
+
+;;  K
+
+	;; A PROBLEM MAY HAVE CODE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (CODE_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (PROCESS_27 ?x1))
+
+;; (WE THINK SEPARATION OF CORE TASK ONTOLOGY AND TASK SPECIFIC ONTOLOGY IS A KEY TO TASK ONTOLOGY
+ ENGINEERING)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY THINK.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (THINK_27 ?x1))
+
+;;  K
+
+	;; SEPARATION OF TASK ONTOLOGY CAN BE ONTOLOGY ENGINEERING.
+
+;;   F
+
+;;    S
+
+		(and (separation_27 ?x1) (of_27 ?x1 ?x2) (TASK_27 ?x2) (ONTOLOGY_27 ?x2) (CAN_27 ?x2) (BE_27 ?x2) (ONTOLOGY_27 ?x2) (ENGINEERING_27 ?x2))
+
+;;  K
+
+	;; TASK ONTOLOGY MAY UNDERGO A SEPARATION.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (SEPARATION_27 ?x1))
+
+;;  K
+
+	;; A TASK ONTOLOGY CAN BE CORE.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CORE_27 ?x1))
+
+;; (IN THIS PAPER , WE USE THE TERMS OA -LRB- C-TASK -RRB- AND OA -LRB- TASK-S -RRB- TO REFER TO THE CORE
+ TASK ONTOLOGY AUTHOR AND TASK SPECIFIC ONTOLOGY AUTHOR , RESPECTIVELY)
+
+;; E
+
+;;  K
+
+	;; A TASK ONTOLOGY AUTHOR CAN BE CORE.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (AUTHOR_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CORE_27 ?x1))
+
+;;  K
+
+	;; AN AUTHOR CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (AUTHOR_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (2.3 EXAMPLES OF TASK ONTOLOGY DESCRIPTION FIG .2 A SCREEN IMAGE OF CLEPE 2.2 TASK ONTOLOGY
+ REPRESENTATION WE HAVE BEEN DEVELOPING A LANGUAGE TOL , A TASK ONTOLOGY REPRESENTATION LANGUAGE)
+
+;; E
+
+;;  K
+
+	;; A REPRESENTATION MAY LANGUAG.
+
+;;   F
+
+;;    S
+
+		(and (REPRESENTATION_27 ?x1) (MAY_27 ?x1) (LANGUAG_27 ?x1))
+
+;;  K
+
+	;; SOME_NUMBER_OF EXAMPLES OF TASK ONTOLOGY DESCRIPTION MAY *NULL-VERB* FIG A SCREEN IMAGE OF ONTOLOGY REPRESENTATION.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (EXAMPLES_27 ?x1) (of_27 ?x1 ?x2) (TASK_27 ?x2) (ONTOLOGY_27 ?x2) (DESCRIPTION_27 ?x2) (MAY_27 ?x2) (kbs2_kif_quote_2ANULL-VERB_2A_27 ?x2) (FIG_27 ?x2) (A_27 ?x2) (SCREEN_27 ?x2) (IMAGE_27 ?x2) (of_27 ?x2 ?x3) (ONTOLOGY_27 ?x3) (REPRESENTATION_27 ?x3))
+
+;;  K
+
+	;; A SCREEN IMAGE CAN BE CONSTITUTED_OF_OR_FILLED_WITH ONTOLOGY REPRESENTATION.
+
+;;   F
+
+;;    S
+
+		(and (SCREEN_27 ?x1) (IMAGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (ONTOLOGY_27 ?x1) (REPRESENTATION_27 ?x1))
+
+;;  K
+
+	;; A |\|CLEPE_\\\|2.2\\\|_TASK\||[PERSON??] MAY HAVE AN ONTOLOGY REPRESENTATION.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_7C_5C_7CCLEPE_5F_5C_5C_5C_7C2_2E2_5C_5C_5C_7C_5FTASK_5C_7C_7C_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1) (REPRESENTATION_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY DEVELOP A LANGUAGE TOL.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DEVELOP_27 ?x1) (A_27 ?x1) (LANGUAGE_27 ?x1) (TOL_27 ?x1))
+
+;;  K
+
+	;; A TASK_ONTOLOGY[PERSON??] MAY HAVE A REPRESENTATION.
+
+;;   F
+
+;;    S
+
+		(and (TASK_5FONTOLOGY_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (representation_27 ?x1))
+
+;; (BEFORE GOING INTO TOL SPECIFICATION , A FEW REMARKS SHOULD BE MADE CONCERNING GENERAL REQUIREMENTS FOR
+ ONTOLOGY REPRESENTATION LANGUAGE)
+
+;; E
+
+;;  K
+
+	;; REMARKS MAY BE MAKE -ED.
+
+;;   F
+
+;;    S
+
+		(and (REMARKS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (MAKE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A TOL[PERSON??] MAY HAVE A SPECIFICATION.
+
+;;   F
+
+;;    S
+
+		(and (TOL_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SPECIFICATION_27 ?x1))
+
+;;  K
+
+	;; REQUIREMENTS CAN BE GENERAL.
+
+;;   F
+
+;;    S
+
+		(and (requirement_27 ?x1) (be_27 ?e1 ?x1 ?x2) (GENERAL_27 ?x2))
+
+;;  K
+
+	;; A REPRESENTATION LANGUAGE CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (REPRESENTATION_27 ?x1) (LANGUAGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (WHEN WE BUILD AN ONTOLOGY , IT IS IMPORTANT TO SEE THE TARGET WORLD FROM A VIEWPOINT OF ONE 'S PURPOSE)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY BUILD AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (BUILD_27 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; A PURPOSE MAY HAVE A VIEWPOINT.
+
+;;   F
+
+;;    S
+
+		(and (PURPOSE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (VIEWPOINT_27 ?x1))
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY HAVE A PURPOSE.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PURPOSE_27 ?x1))
+
+;; (IN OUR RESEARCH ON TASK ONTOLOGY , THERE ARE TWO VIEWPOINTS , THAT IS , TASK-TYPE INDEPENDENT ONE AND
+ TASKTYPE SPECIFIC ONE)
+
+;; E
+
+;;  K
+
+	;; RESEARCH CAN BE ON TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (research_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (TASK_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; PERSON -S MAY HAVE RESEARCH.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (RESEARCH_27 ?x1))
+
+;;  K
+
+	;; AN ONE CAN BE TASK-TYPE.
+
+;;   F
+
+;;    S
+
+		(and (ONE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TASK-TYPE_27 ?x1))
+
+;;  K
+
+	;; AN ONE CAN BE INDEPENDENT.
+
+;;   F
+
+;;    S
+
+		(and (ONE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (INDEPENDENT_27 ?x1))
+
+;;  K
+
+	;; AN ONE CAN BE TASKTYPE.
+
+;;   F
+
+;;    S
+
+		(and (ONE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TASKTYPE_27 ?x1))
+
+;; (TASK TYPE IS A KIND OF CATEGORIZATION OF TASKS , FOR EXAMPLE , SCHEDULING TASK-TYPE , BOOKKEEPING
+ TASK-TYPE AND SO ON)
+
+;; E
+
+;;  K
+
+	;; TYPE CAN BE A KIND.
+
+;;   F
+
+;;    S
+
+		(and (type_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (KIND_27 ?x2))
+
+;;  K
+
+	;; A TASK[PERSON??] MAY HAVE A TYPE.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TYPE_27 ?x1))
+
+;;  K
+
+	;; CATEGORIZATION OF TASKS MAY SCHEDULE TASK-TYPE.
+
+;;   F
+
+;;    S
+
+		(and (categorization_27 ?x1) (of_27 ?x1 ?x2) (TASKS_27 ?x2) (MAY_27 ?x2) (SCHEDULE_27 ?x2) (TASK-TYPE_27 ?x2))
+
+;;  K
+
+	;; TASKS MAY UNDERGO A CATEGORIZATION.
+
+;;   F
+
+;;    S
+
+		(and (TASKS_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (CATEGORIZATION_27 ?x1))
+
+;; (IN GENERAL , CONCEPTUAL RECOGNITION OF PROBLEM SOLVING AND THE VOCABULARY USED FOR DESCRIBING IT LARGELY
+ DEPEND ON TASK-TYPES)
+
+;; E
+
+;;  K
+
+	;; RECOGNITION OF PROBLEM MAY DEPEND ON TASK-TYPES.
+
+;;   F
+
+;;    S
+
+		(and (recognition_27 ?x1) (of_27 ?x1 ?x2) (PROBLEM_27 ?x2) (MAY_27 ?x2) (DEPEND_27 ?x2) (on_27 ?x2 ?x3) (TASK-TYPES_27 ?x3))
+
+;;  K
+
+	;; PROBLEM MAY UNDERGO RECOGNITION.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (RECOGNITION_27 ?x1))
+
+;;  K
+
+	;; RECOGNITION CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (RECOGNITION_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONCEPTUAL_27 ?x2))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;; (HENCE WE CAN NOT BUILD HUMAN FRIENDLY ONTOLOGY IF WE IGNORE THE TASK-TYPE SPECIFIC CHARACTERISTICS)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY BUILD ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (BUILD_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; AN ONTOLOGY CAN BE HUMAN.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HUMAN_27 ?x1))
+
+;;  K
+
+	;; AN ONTOLOGY CAN BE FRIENDLY.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FRIENDLY_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY IGNORE CHARACTERISTICS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (IGNORE_27 ?x1) (CHARACTERISTICS_27 ?x1))
+
+;;  K
+
+	;; CHARACTERISTICS CAN BE TASK-TYPE.
+
+;;   F
+
+;;    S
+
+		(and (CHARACTERISTICS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TASK-TYPE_27 ?x1))
+
+;; (ON THE OTHER HAND , WE HAVE TO NOTE THE TASKTYPE INDEPENDENT VIEWPOINT IS ALSO VERY IMPORTANT TO CAPTURE
+ GENERAL PROBLEM SOLVING CONCEPTS AND TO MAKE PROBLEM SOLVING KNOWLEDGE MORE REUSABLE)
+
+;; E
+
+;;  K
+
+	;; A VIEWPOINT CAN BE IMPORTANT.
+
+;;   F
+
+;;    S
+
+		(and (VIEWPOINT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IMPORTANT_27 ?x1))
+
+;;  K
+
+	;; A VIEWPOINT CAN BE TASKTYPE.
+
+;;   F
+
+;;    S
+
+		(and (VIEWPOINT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TASKTYPE_27 ?x1))
+
+;;  K
+
+	;; A VIEWPOINT CAN BE INDEPENDENT.
+
+;;   F
+
+;;    S
+
+		(and (VIEWPOINT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (INDEPENDENT_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM CAN BE GENERAL.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERAL_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE REUSABLE.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (REUSABLE_27 ?x1))
+
+;; (WE DIVIDE TASK ONTOLOGY INTO TWO TYPES , THAT IS , TASK SPECIFIC ONTOLOGY -LRB- TASK-S -RRB- AND CORE
+ TASK ONTOLOGY -LRB- C-TASK -RRB-)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY DIVIDE TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DIVIDE_27 ?x1) (TASK_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; A TASK ONTOLOGY CAN BE CORE.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CORE_27 ?x1))
+
+;; (TASK SPECIFIC ONTOLOGY IS AN EXPLICIT DESCRIPTION OF TASK TYPES SPECIFIC CHARACTERISTICS)
+
+;; E
+
+;;  K
+
+	;; SPECIFIC ONTOLOGY CAN BE A DESCRIPTION OF TASK TYPES.
+
+;;   F
+
+;;    S
+
+		(and (SPECIFIC_27 ?x1) (ONTOLOGY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (DESCRIPTION_27 ?x2) (of_27 ?x2 ?x3) (TASK_27 ?x3) (TYPES_27 ?x3))
+
+;;  K
+
+	;; A TASK[PERSON??] MAY HAVE A SPECIFIC ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SPECIFIC_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; A DESCRIPTION CAN BE CONSTITUTED_OF_OR_FILLED_WITH TASK TYPES.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (TASK_27 ?x1) (TYPES_27 ?x1))
+
+;;  K
+
+	;; A DESCRIPTION CAN BE EXPLICIT.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (EXPLICIT_27 ?x1))
+
+;; (CORE TASK ONTOLOGY PROVIDES ONTOLOGY AUTHORS WITH A SET OF TASK TYPE INDEPENDENT PRIMITIVES TO BUILD
+ TASK SPECIFIC ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; TASK MAY PROVIDE AUTHORS WITH A SET OF TASK TYPE.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (MAY_27 ?x1) (PROVIDE_27 ?x1) (AUTHORS_27 ?x1) (WITH_27 ?x1) (A_27 ?x1) (SET_27 ?x1) (of_27 ?x1 ?x2) (TASK_27 ?x2) (TYPE_27 ?x2))
+
+;;  K
+
+	;; A CORE[PERSON??] MAY HAVE A TASK.
+
+;;   F
+
+;;    S
+
+		(and (core_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TASK_27 ?x1))
+
+;;  K
+
+	;; AUTHORS CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (AUTHORS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; A SET CAN BE CONSTITUTED_OF_OR_FILLED_WITH TASK TYPE.
+
+;;   F
+
+;;    S
+
+		(and (SET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (TASK_27 ?x1) (TYPE_27 ?x1))
+
+;; (TO EMBODY THESE TWO VIEWPOINTS , TOL SHOULD ALLOW ONTOLOGY AUTHORS TO REPRESENT RELATIONS BETWEEN TASK
+ SPECIFIC ONTOLOGY AND CORE TASK ONTOLOGY EXPLICITLY)
+
+;; E
+
+;;  K
+
+	;; AUTHORS CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (AUTHORS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; RELATIONS CAN BE BETWEEN TASK.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (BETWEEN_27 ?x2) (TASK_27 ?x2))
+
+;;  K
+
+	;; A TASK ONTOLOGY CAN BE CORE.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CORE_27 ?x1))
+
+;; (TO PUT THE MATTER SIMPLY , CORE TASK ONTOLOGY THE CORRESPONDENCE RELATION BETWEEN A CONCEPT OF
+ CONCEPTUAL LEVEL ONTOLOGY AND ONE OF LEXICAL LEVEL ONTOLOGY , AS HAS BEEN SUGGESTED , IS IMPORTANT FOR
+ TASK ONTOLOGY DEFINITION)
+
+;; E
+
+;;  K
+
+	;; CORE TASK CAN BE IMPORTANT FOR TASK ONTOLOGY DEFINITION.
+
+;;   F
+
+;;    S
+
+		(and (CORE_27 ?x1) (TASK_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IMPORTANT_27 ?x1) (for_27 ?x1 ?x2) (TASK_27 ?x2) (ONTOLOGY_27 ?x2) (DEFINITION_27 ?x2))
+
+;;  K
+
+	;; A CORRESPONDENCE RELATION CAN BE BETWEEN A CONCEPT OF LEVEL ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (CORRESPONDENCE_27 ?x1) (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (A_27 ?x1) (CONCEPT_27 ?x1) (of_27 ?x1 ?x2) (LEVEL_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; A CONCEPT CAN BE CONSTITUTED_OF_OR_FILLED_WITH LEVEL ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (CONCEPT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (LEVEL_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; A LEVEL ONTOLOGY CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; A LEVEL ONTOLOGY CAN BE LEXICAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LEXICAL_27 ?x1))
+
+;; (TAKE `` A SET OF ASSIGNMENTS '' FROM SCHEDULING TASK-TYPE AS AN EXAMPLE)
+
+;; E
+
+;;  K
+
+	;; A SET CAN BE CONSTITUTED_OF_OR_FILLED_WITH ASSIGNMENTS.
+
+;;   F
+
+;;    S
+
+		(and (SET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (ASSIGNMENTS_27 ?x1))
+
+;; (OUR CONCEPTUAL UNDERSTANDING ABOUT `` A SET OF ASSIGNMENTS '' IN A PROBLEM SOLVING CONTEXT IS THAT IT
+ RUNS THROUGH GPN CHANGING ITS STATUS SUCCESSIVELY , FOR EXAMPLE , `` NOT COMPLETED '' AT FIRST , THEN ``
+ COMPLETED BUT INAPPROPRIATE '' AND FINALLY `` APPROPRIATE '')
+
+;; E
+
+;;  K
+
+	;; AN UNDERSTANDING MAY COMPLETE.
+
+;;   F
+
+;;    S
+
+		(and (UNDERSTANDING_27 ?x1) (MAY_27 ?x1) (COMPLETE_27 ?x1))
+
+;;  K
+
+	;; AN UNDERSTANDING CAN BE ABOUT A SET OF ASSIGNMENTS.
+
+;;   F
+
+;;    S
+
+		(and (UNDERSTANDING_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ABOUT_27 ?x2) (A_27 ?x2) (SET_27 ?x2) (of_27 ?x2 ?x3) (assignment_27 ?x3))
+
+;;  K
+
+	;; PERSON -S MAY HAVE AN UNDERSTANDING.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (UNDERSTANDING_27 ?x1))
+
+;;  K
+
+	;; AN UNDERSTANDING CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (UNDERSTANDING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; A SET OF ASSIGNMENTS CAN BE IN A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (SET_27 ?x1) (of_27 ?x1 ?x2) (assignment_27 ?x2) (be_27 ?e1 ?x1) (in_27 ?x1 ?x3) (A_27 ?x3) (PROBLEM_27 ?x3))
+
+;;  K
+
+	;; A SET CAN BE CONSTITUTED_OF_OR_FILLED_WITH ASSIGNMENTS.
+
+;;   F
+
+;;    S
+
+		(and (SET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (ASSIGNMENTS_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE CONTEXT.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (CONTEXT_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY RUN THROUGH A GPN[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (RUN_27 ?x1) (through_27 ?x1 ?x2) (A_27 ?x2) (GPN_27 ?x2) (PERSON_27 ?x3))
+
+;;  K
+
+	;; A GPN[PERSON??] MAY CHANGE A STATUS.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (CHANGE_27 ?x1) (A_27 ?x1) (STATUS_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE A STATUS.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (STATUS_27 ?x1))
+
+;;  K
+
+	;; A FINALLY[PERSON??] CAN BE APPROPRIATE.
+
+;;   F
+
+;;    S
+
+		(and (FINALLY_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (APPROPRIATE_27 ?x1))
+
+;; (WHEN WE EXTERNALIZE THIS UNDERSTANDING , WE WOULD CHOOSE ONE WORD FROM THREE DIFFERENT WORDS , THAT IS ,
+ `` PARTIAL SOLUTION '' , `` TEMPORARY SOLUTION '' , AND `` FINAL SOLUTION '' , ACCORDING TO THE STATUS
+ OF THE OBJECT)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY CHOOSE A WORD SOLUTION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (CHOOSE_27 ?x1) (A_27 ?x1) (WORD_27 ?x1) (SOLUTION_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY EXTERNALIZE AN UNDERSTANDING.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (EXTERNALIZE_27 ?x1) (AN_27 ?x1) (UNDERSTANDING_27 ?x1))
+
+;;  K
+
+	;; A WORD CAN BE FROM SOME_NUMBER_OF WORDS.
+
+;;   F
+
+;;    S
+
+		(and (WORD_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FROM_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (WORDS_27 ?x1))
+
+;;  K
+
+	;; A SOLUTION CAN BE PARTIAL.
+
+;;   F
+
+;;    S
+
+		(and (SOLUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PARTIAL_27 ?x1))
+
+;;  K
+
+	;; A SOLUTION CAN BE TEMPORARY.
+
+;;   F
+
+;;    S
+
+		(and (SOLUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TEMPORARY_27 ?x1))
+
+;;  K
+
+	;; AN OBJECT MAY HAVE A STATUS.
+
+;;   F
+
+;;    S
+
+		(and (OBJECT_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (STATUS_27 ?x1))
+
+;; (THE POINT OF THIS EXAMPLE IS THAT , THE SINGLE CONCEPTUAL LEVEL OBJECT COULD BE REPRESENTED BY MORE THAN
+ ONE DIFFERENT LEXICAL LEVEL TERMS IN GPN)
+
+;; E
+
+;;  K
+
+	;; AN EXAMPLE MAY HAVE A POINT.
+
+;;   F
+
+;;    S
+
+		(and (EXAMPLE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (POINT_27 ?x1))
+
+;;  K
+
+	;; A LEVEL OBJECT CAN BE SINGLE.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (OBJECT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SINGLE_27 ?x1))
+
+;;  K
+
+	;; A LEVEL OBJECT CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (OBJECT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (THE UPPER PART OF FIGURE 3 SHOWS A DEFINITION OF A GENERIC NOUN CLASS OF `` TEMPORARY SOLUTION ''
+ INCLUDED IN LEXICAL LEVEL ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; A PART OF A FIGURE[PERSON??] MAY SHOW A DEFINITION OF A NOUN CLASS OF SOLUTION.
+
+;;   F
+
+;;    S
+
+		(and (part_27 ?x1) (of_27 ?x1 ?x2) (FIGURE_27 ?x2) (person_27 ?x3))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (SHOW_27 ?x1) (A_27 ?x1) (DEFINITION_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (NOUN_27 ?x2) (CLASS_27 ?x2) (of_27 ?x2 ?x3) (SOLUTION_27 ?x3))
+
+;;  K
+
+	;; A NOUN CLASS CAN BE CONSTITUTED_OF_OR_FILLED_WITH SOLUTION.
+
+;;   F
+
+;;    S
+
+		(and (NOUN_27 ?x1) (CLASS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (SOLUTION_27 ?x1))
+
+;;  K
+
+	;; A NOUN CLASS CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (NOUN_27 ?x1) (CLASS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;;  K
+
+	;; SOLUTION MAY BE INCLUDE -ED IN LEVEL ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (SOLUTION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (INCLUDE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (LEVEL_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; A SOLUTION CAN BE TEMPORARY.
+
+;;   F
+
+;;    S
+
+		(and (SOLUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TEMPORARY_27 ?x1))
+
+;;  K
+
+	;; A LEVEL ONTOLOGY CAN BE LEXICAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LEXICAL_27 ?x1))
+
+;; (NOTE THAT THE RESERVED KEYWORDS OF LEXICAL LEVEL ONTOLOGY AND CONCEPTUAL LEVEL ONTOLOGY DEFINITION ARE
+ SPECIFIED BY CORE TASK ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; KEYWORDS OF LEVEL ONTOLOGY MAY BE SPECIFY -ED BY TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (keyword_27 ?x1) (of_27 ?x1 ?x2) (LEVEL_27 ?x2) (ONTOLOGY_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (SPECIFY_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (BY_27 ?x2) (TASK_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; KEYWORDS CAN BE RESERVED.
+
+;;   F
+
+;;    S
+
+		(and (keyword_27 ?x1) (be_27 ?e1 ?x1 ?e2) (reserve_27 ?e2 ?x1))
+
+;;  K
+
+	;; A LEVEL ONTOLOGY CAN BE LEXICAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LEXICAL_27 ?x1))
+
+;;  K
+
+	;; A LEVEL ONTOLOGY DEFINITION CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (ONTOLOGY_27 ?x1) (DEFINITION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; A TASK ONTOLOGY CAN BE CORE.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CORE_27 ?x1))
+
+;; (`` DEFINETOL-NOUN '' , FOR EXAMPLE , IS A RESERVED WORD USED FOR GENERIC-NOUN CLASS DEFINITION)
+
+;; E
+
+;;  K
+
+	;; A DEFINETOL-NOUN[PERSON??] CAN BE A WORD.
+
+;;   F
+
+;;    S
+
+		(and (DEFINETOL-NOUN_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (A_27 ?x1) (WORD_27 ?x1))
+
+;;  K
+
+	;; A DEFINETOL-NOUN[PERSON??] CAN BE FOR EXAMPLE.
+
+;;   F
+
+;;    S
+
+		(and (DEFINETOL-NOUN_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (for_27 ?x1) (EXAMPLE_27 ?x1))
+
+;;  K
+
+	;; A WORD MAY BE USE -ED FOR CLASS DEFINITION.
+
+;;   F
+
+;;    S
+
+		(and (WORD_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (USE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (for_27 ?x1 ?x2) (CLASS_27 ?x2) (DEFINITION_27 ?x2))
+
+;;  K
+
+	;; A WORD CAN BE RESERVED.
+
+;;   F
+
+;;    S
+
+		(and (WORD_27 ?x1) (be_27 ?e1 ?x1 ?e2) (reserve_27 ?e2 ?x1))
+
+;;  K
+
+	;; A CLASS DEFINITION CAN BE GENERIC-NOUN.
+
+;;   F
+
+;;    S
+
+		(and (CLASS_27 ?x1) (DEFINITION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC-NOUN_27 ?x1))
+
+;; (THE NECESSARY SLOTS IN THE BODY OF DEFINE-TOL-NOUN ARE ALSO SPECIFIED BY C-TASK ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; SLOTS MAY BE SPECIFY -ED BY ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (SLOTS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (SPECIFY_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (BY_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; SLOTS CAN BE IN A BODY OF A DEFINE-TOL-NOUN[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (slot_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (body_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (DEFINE-TOL-NOUN_27 ?x3) (person_27 ?x4))
+
+;;  K
+
+	;; SLOTS CAN BE NECESSARY.
+
+;;   F
+
+;;    S
+
+		(and (slot_27 ?x1) (be_27 ?e1 ?x1 ?x2) (NECESSARY_27 ?x2))
+
+;;  K
+
+	;; A C-TASK[PERSON??] MAY HAVE AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (c-task_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (BY '' : COR-OBJECT '' , FOR EXAMPLE , CORRESPONDENCE BETWEEN LEXICAL LEVEL ONTOLOGY AND CONCEPTUAL LEVEL
+ ONTOLOGY NEEDS TO BE SPECIFIED IN THE BODY OF DEFINE-TOL-NOUN FORM)
+
+;; E
+
+;;  K
+
+	;; COR-OBJECT CAN BE FOR EXAMPLE.
+
+;;   F
+
+;;    S
+
+		(and (cor-object_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (EXAMPLE_27 ?x2))
+
+;;  K
+
+	;; CORRESPONDENCE CAN BE BETWEEN LEVEL.
+
+;;   F
+
+;;    S
+
+		(and (CORRESPONDENCE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (LEVEL_27 ?x1))
+
+;;  K
+
+	;; A LEVEL CAN BE LEXICAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LEXICAL_27 ?x1))
+
+;;  K
+
+	;; A LEVEL CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; A FORM CAN BE DEFINE-TOL-NOUN.
+
+;;   F
+
+;;    S
+
+		(and (FORM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DEFINE-TOL-NOUN_27 ?x1))
+
+;; (`` TEMPORARY-SOLUTION '' IS DEFINED AS A GENERIC-NOUN OF LEXICAL LEVEL TASK ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; TEMPORARY-SOLUTION MAY BE DEFINE -ED AS A GENERIC-NOUN OF LEVEL TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (TEMPORARY-SOLUTION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (DEFINE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (as_27 ?x1 ?x2) (A_27 ?x2) (GENERIC-NOUN_27 ?x2) (of_27 ?x1 ?x3) (LEVEL_27 ?x3) (TASK_27 ?x3) (ONTOLOGY_27 ?x3))
+
+;;  K
+
+	;; A GENERIC-NOUN CAN BE CONSTITUTED_OF_OR_FILLED_WITH LEVEL TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (GENERIC-NOUN_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (LEVEL_27 ?x1) (TASK_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; A LEVEL TASK ONTOLOGY CAN BE LEXICAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LEXICAL_27 ?x1))
+
+;; (THE MEANING OF THE BODY OF THE DEFINITION IS `` IT IS A SUBCLASS OF ASSIGNMENT-SET -LRB- :
+ CLASS-HIERARCHY -RRB- , THE CLASS OF THE CORRESPONDING OBJECT SHOULD BE O-ASSIGNMENT-SET AND THE STATUS
+ OF THE OBJECT SHOULD BE S-TEMPORARY -LRB- COMPLETED BUT INAPPROPRIATE -RRB- '')
+
+;; E
+
+;;  K
+
+	;; A DEFINITION MAY HAVE A BODY.
+
+;;   F
+
+;;    S
+
+		(and (DEFINITION_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (BODY_27 ?x1))
+
+;; (ON THE OTHER HAND , THE LOWER PARTS OF FIGURE 3 SHOWS THE DEFINITION OF THE OBJECT OF CONCEPTUAL LEVEL
+ TASK ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; PARTS OF A FIGURE[PERSON??] MAY SHOW A DEFINITION OF AN OBJECT OF LEVEL TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (part_27 ?x1) (of_27 ?x1 ?x2) (FIGURE_27 ?x2) (person_27 ?x3))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (SHOW_27 ?x1) (A_27 ?x1) (DEFINITION_27 ?x1) (of_27 ?x1 ?x2) (OBJECT_27 ?x2) (of_27 ?x2 ?x3) (LEVEL_27 ?x3) (TASK_27 ?x3) (ONTOLOGY_27 ?x3))
+
+;;  K
+
+	;; A LEVEL TASK ONTOLOGY CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (IN THE DEFINITION , WE SPECIFY CLASS HIERARCHY -LRB- : CLASS-HIERARCHY -RRB- , PERMANENT PROPERTY OF THE
+ OBJECT -LRB- : OBJECT-SPEC -RRB- , AND SET OF STATUS CONSTRAINTS BY WHICH THE STATUS OF THE OBJECT IN A
+ CERTAIN TASK CONTEXT CAN BE REPRESENTED -LRB- : STATUSSPEC -RRB-)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY SPECIFY CLASS HIERARCHY.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (SPECIFY_27 ?x1) (CLASS_27 ?x1) (HIERARCHY_27 ?x1))
+
+;;  K
+
+	;; A CLASS-HIERARCHY CAN BE :.
+
+;;   F
+
+;;    S
+
+		(and (CLASS-HIERARCHY_27 ?x1) (be_27 ?e1 ?x1))
+
+;;  K
+
+	;; AN OBJECT MAY HAVE PROPERTY.
+
+;;   F
+
+;;    S
+
+		(and (OBJECT_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (PROPERTY_27 ?x1))
+
+;;  K
+
+	;; A PROPERTY CAN BE PERMANENT.
+
+;;   F
+
+;;    S
+
+		(and (PROPERTY_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PERMANENT_27 ?x2))
+
+;;  K
+
+	;; A STATUS OF AN OBJECT MAY BE REPRESENT -ED.
+
+;;   F
+
+;;    S
+
+		(and (statu_27 ?x1) (of_27 ?x1 ?x2) (OBJECT_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (REPRESENT_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2))
+
+;;  K
+
+	;; AN OBJECT MAY HAVE A STATUS.
+
+;;   F
+
+;;    S
+
+		(and (OBJECT_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (STATUS_27 ?x1))
+
+;;  K
+
+	;; AN OBJECT CAN BE IN A TASK CONTEXT.
+
+;;   F
+
+;;    S
+
+		(and (OBJECT_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2) (CONTEXT_27 ?x2))
+
+;; (`` O-ASSIGNMENT-SET '' IS DEFINED AS A CLASS OF CONCEPTUAL LEVEL TASK ONTOLOGY OBJECTS)
+
+;; E
+
+;;  K
+
+	;; AN O-ASSIGNMENT-SET[PERSON??] MAY BE DEFINE -ED AS A CLASS OF LEVEL TASK.
+
+;;   F
+
+;;    S
+
+		(and (O-ASSIGNMENT-SET_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (DEFINE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (as_27 ?e1 ?x2) (class_27 ?x2) (of_27 ?x2 ?x3) (LEVEL_27 ?x3) (TASK_27 ?x3))
+
+;;  K
+
+	;; A CLASS CAN BE CONSTITUTED_OF_OR_FILLED_WITH LEVEL TASK.
+
+;;   F
+
+;;    S
+
+		(and (CLASS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (LEVEL_27 ?x1) (TASK_27 ?x1))
+
+;;  K
+
+	;; A LEVEL TASK CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (TASK_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (THE SPECIFICATION OF THE CLASS IS DIVIDED INTO TWO CATEGORIES , THAT IS , : OBJECT-SPEC AND :
+ STATUS-SPEC)
+
+;; E
+
+;;  K
+
+	;; A SPECIFICATION OF A CLASS MAY BE DIVIDE -ED INTO SOME_NUMBER_OF CATEGORIES.
+
+;;   F
+
+;;    S
+
+		(and (specification_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (CLASS_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (DIVIDE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (INTO_27 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (CATEGORIES_27 ?x2))
+
+;;  K
+
+	;; A CLASS MAY UNDERGO A SPECIFICATION.
+
+;;   F
+
+;;    S
+
+		(and (CLASS_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (SPECIFICATION_27 ?x1))
+
+;; (: OBJECT-SPEC SPECIFIES PERMANENT PROPERTY OF OBJECTS , WHILE : STATUS-SPEC REPRESENTS A LIST OF STATE
+ IN WHICH THE OBJECT WOULD GET IN A CERTAIN PROBLEM SOLVING CONTEXT)
+
+;; E
+
+;;  K
+
+	;; A PROPERTY CAN BE PERMANENT.
+
+;;   F
+
+;;    S
+
+		(and (PROPERTY_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PERMANENT_27 ?x2))
+
+;;  K
+
+	;; A LIST CAN BE CONSTITUTED_OF_OR_FILLED_WITH STATE.
+
+;;   F
+
+;;    S
+
+		(and (LIST_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (STATE_27 ?x1))
+
+;;  K
+
+	;; AN OBJECT MAY GET IN A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (OBJECT_27 ?x1) (MAY_27 ?x1) (GET_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE CONTEXT.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (CONTEXT_27 ?x1))
+
+;; (-LRB- TOL-NOUN TEMPORARY-SOLUTION -LRB- ?)
+
+;; E
+
+;;  K
+
+	;; TEMPORARY-SOLUTION MAY -LRB.
+
+;;   F
+
+;;    S
+
+		(and (TEMPORARY-SOLUTION_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_2DLRB_27 ?x1))
+
+;;  K
+
+	;; A TEMPORARY-SOLUTION CAN BE TOL-NOUN.
+
+;;   F
+
+;;    S
+
+		(and (TEMPORARY-SOLUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TOL-NOUN_27 ?x1))
+
+;; (T-SOL -RRB- : CLASS-HIERACHY -LRB- SUBCLASS-OF TEMPORARY-SOLUTION ASSIGNMENT-SET -RRB- : COR-OBJECT
+ -LRB- ?)
+
+;; E
+
+;;  K
+
+	;; -RRB- CAN BE T-SOL.
+
+;;   F
+
+;;    S
+
+		(and (CAN_27 ?x1) (BE_27 ?x1) (T-SOL_27 ?x1))
+
+;;  K
+
+	;; AN ASSIGNMENT-SET CAN BE SUBCLASS-OF.
+
+;;   F
+
+;;    S
+
+		(and (ASSIGNMENT-SET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SUBCLASS-OF_27 ?x1))
+
+;;  K
+
+	;; AN ASSIGNMENT-SET CAN BE TEMPORARY-SOLUTION.
+
+;;   F
+
+;;    S
+
+		(and (ASSIGNMENT-SET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TEMPORARY-SOLUTION_27 ?x1))
+
+;; ($ O-ASS -RRB- : CLASS-HIERACHY -LRB- SUBCLASS-OF ASSIGNMENT-SET OBJECT -RRB- : OBJECT-SPEC -LRB- ?)
+
+;; E
+
+;;  K
+
+	;; AN OBJECT CAN BE SUBCLASS-OF.
+
+;;   F
+
+;;    S
+
+		(and (OBJECT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SUBCLASS-OF_27 ?x1))
+
+;;  K
+
+	;; AN OBJECT CAN BE ASSIGNMENT-SET.
+
+;;   F
+
+;;    S
+
+		(and (OBJECT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ASSIGNMENT-SET_27 ?x1))
+
+;;  K
+
+	;; -LRB- CAN BE OBJECT-SPEC.
+
+;;   F
+
+;;    S
+
+		(and  )
+
+;; (O-ASS -LRB- = -RRB- -LRB- MEMBER ?)
+
+;; E
+
+;;  K
+
+	;; O-ASS MAY -LRB MEMBER.
+
+;;   F
+
+;;    S
+
+		(and (O-ASS_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_2DLRB_27 ?x1) (MEMBER_27 ?x1))
+
+;; *** - READ from #<INPUT CONCATENATED-STREAM #<INPUT STRING-INPUT-STREAM> #<IO TERMINAL-STREAM>>: an
+      object cannot start with #\)
+The following restarts are available:
+ABORT          :R1      Abort main loop
+Break 1 [152]>
+
+;; E
+
+;; *** - READ from #<INPUT CONCATENATED-STREAM #<INPUT STRING-INPUT-STREAM> #<IO TERMINAL-STREAM>>: an
+      object cannot start with #\)
+The following restarts are available:
+ABORT          :R1      Abort main loop
+Break 1 [5]>
+
+;; E
+
+;; *** - READ from #<INPUT CONCATENATED-STREAM #<INPUT STRING-INPUT-STREAM> #<IO TERMINAL-STREAM>>: an
+      object cannot start with #\)
+The following restarts are available:
+ABORT          :R1      Abort main loop
+Break 1 [5]>
+
+;; E
+
+;; *** - READ from #<INPUT CONCATENATED-STREAM #<INPUT STRING-INPUT-STREAM> #<IO TERMINAL-STREAM>>: an
+      object cannot start with #\)
+The following restarts are available:
+ABORT          :R1      Abort main loop
+Break 1 [4]>
+
+;; E
+
+;; (DESIGN PRINCIPLE CLEPE IS A COMPREHENSIVE ENVIRONMENT ON WHICH TWO TYPES OF AUTHORS , THAT IS , ONTOLOGY
+ AUTHORS AND GPN AUTHORS , CAN WORK)
+
+;; E
+
+;;  K
+
+	;; A DESIGN_PRINCIPLE_CLEPE[PERSON??] CAN BE AN ENVIRONMENT.
+
+;;   F
+
+;;    S
+
+		(and (DESIGN_5FPRINCIPLE_5FCLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (AN_27 ?x1) (ENVIRONMENT_27 ?x1))
+
+;;  K
+
+	;; AN ENVIRONMENT CAN BE COMPREHENSIVE.
+
+;;   F
+
+;;    S
+
+		(and (ENVIRONMENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (COMPREHENSIVE_27 ?x1))
+
+;;  K
+
+	;; AUTHORS MAY WORK.
+
+;;   F
+
+;;    S
+
+		(and (AUTHORS_27 ?x1) (MAY_27 ?x1) (WORK_27 ?x1))
+
+;;  K
+
+	;; AUTHORS CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (AUTHORS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; A GPN[PERSON??] MAY HAVE AUTHORS.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AUTHORS_27 ?x1))
+
+;; (THE WORK OF ONTOLOGY AUTHORS IS TO WRITE THE TASK ONTOLOGY DEFINITION IN TERMS OF TOL , AS SHOWN IN
+ FIGURE 3)
+
+;; E
+
+;;  K
+
+	;; AUTHORS CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (AUTHORS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (IN THIS SECTION , HOWEVER , WE DISCUSS THE DESIGN PRINCIPLE OF CLEPE ONLY FROM GPN AUTHORS ' POINT OF
+ VIEW)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY DISCUSS A DESIGN PRINCIPLE OF A CLEPE[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DISCUSS_27 ?x1) (A_27 ?x1) (DESIGN_27 ?x1) (PRINCIPLE_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (CLEPE_27 ?x2) (PERSON_27 ?x3))
+
+;;  K
+
+	;; AUTHORS MAY HAVE A POINT.
+
+;;   F
+
+;;    S
+
+		(and (AUTHORS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (POINT_27 ?x1))
+
+;;  K
+
+	;; A GPN[PERSON??] MAY HAVE AUTHORS.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AUTHORS_27 ?x1))
+
+;; (IN CLEPE , GPN AUTHOR CAN DESCRIBE HIS\/HER PROBLEM SOLVING KNOWLEDGE AND OBSERVE THE EXECUTION PROCESS
+ IN TERMS OF PLAIN WORDS)
+
+;; E
+
+;;  K
+
+	;; AUTHOR MAY DESCRIBE HIS\/HER PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (AUTHOR_27 ?x1) (MAY_27 ?x1) (DESCRIBE_27 ?x1) (HIS_5C_2FHER_27 ?x1) (PROBLEM_27 ?x1))
+
+;;  K
+
+	;; A GPN[PERSON??] MAY HAVE AN AUTHOR.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (AUTHOR_27 ?x1))
+
+;;  K
+
+	;; WORDS CAN BE PLAIN.
+
+;;   F
+
+;;    S
+
+		(and (WORDS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PLAIN_27 ?x1))
+
+;; (WE WILL DISCUSS OBJECT FLOW ANALYSIS AND CONCEPTUAL LEVEL EXECUTION FROM FUNCTIONAL ASPECTS IN THE
+ FOLLOWING SO THAT READERS CAN CONCRETELY CAPTURE WHAT IMPLICITNESS THE SYSTEM PERMITS AND HOW IT DEALS
+ WITH THEM)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY DISCUSS OBJECT FLOW ANALYSIS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DISCUSS_27 ?x1) (OBJECT_27 ?x1) (FLOW_27 ?x1) (ANALYSIS_27 ?x1))
+
+;;  K
+
+	;; OBJECT FLOW ANALYSIS CAN BE FROM ASPECTS.
+
+;;   F
+
+;;    S
+
+		(and (OBJECT_27 ?x1) (FLOW_27 ?x1) (ANALYSIS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FROM_27 ?x1) (ASPECTS_27 ?x1))
+
+;;  K
+
+	;; ASPECTS CAN BE FUNCTIONAL.
+
+;;   F
+
+;;    S
+
+		(and (aspect_27 ?x1) (be_27 ?e1 ?x1 ?x2) (FUNCTIONAL_27 ?x2))
+
+;;  K
+
+	;; READERS MAY CAPTURE.
+
+;;   F
+
+;;    S
+
+		(and (reader_27 ?x1) (MAY_27 ?x1) (CAPTURE_27 ?x1))
+
+;;  K
+
+	;; A SYSTEM MAY PERMIT.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (MAY_27 ?x1) (PERMIT_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY DEAL WITH INDIVIDUAL -S.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (DEAL_27 ?x1) (WITH_27 ?x1) (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1))
+
+;; (TO PROVIDE A HUMAN FRIENDLY ENVIRONMENT FOR DESCRIBING PROBLEM SOLVING KNOWLEDGE , COMPUTERS NEED TO BE
+ AS CLOSE AS POSSIBLE TO HUMANS SO THAT THEY CAN INTERPRET THE IMPLICITNESS IN PROBLEM SOLVING KNOWLEDGE)
+
+;; E
+
+;;  K
+
+	;; AN ENVIRONMENT CAN BE HUMAN.
+
+;;   F
+
+;;    S
+
+		(and (ENVIRONMENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HUMAN_27 ?x1))
+
+;;  K
+
+	;; AN ENVIRONMENT CAN BE FRIENDLY.
+
+;;   F
+
+;;    S
+
+		(and (ENVIRONMENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FRIENDLY_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY INTERPRET IMPLICITNESS.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (INTERPRET_27 ?x1) (IMPLICITNESS_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;; (LET US TAKE AN EXAMPLE OF THE IMPLICITNESS IN PROBLEM SOLVING DESCRIPTION)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY TAKE AN EXAMPLE OF IMPLICITNESS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (TAKE_27 ?x1) (AN_27 ?x1) (EXAMPLE_27 ?x1) (of_27 ?x1 ?x2) (IMPLICITNESS_27 ?x2))
+
+;;  K
+
+	;; IMPLICITNESS CAN BE IN PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (IMPLICITNESS_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE DESCRIPTION.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (DESCRIPTION_27 ?x1))
+
+;; (THE LACK OF HUMAN 'S CONSCIOUSNESS OF THE OBJECTS TO WHICH A PROCESS TAKES EFFECT IS A SOURCE OF THE
+ IMPLICITNESS)
+
+;; E
+
+;;  K
+
+	;; A LACK OF CONSCIOUSNESS OF OBJECTS CAN BE A SOURCE OF IMPLICITNESS.
+
+;;   F
+
+;;    S
+
+		(and (lack_27 ?x1) (of_27 ?x1 ?x2) (consciousness_27 ?x2) (of_27 ?x2 ?x3) (object_27 ?x3) (be_27 ?e1 ?x1 ?x4) (A_27 ?x4) (SOURCE_27 ?x4) (of_27 ?x4 ?x5) (IMPLICITNESS_27 ?x5))
+
+;;  K
+
+	;; OBJECTS CAN BE MANIFEST CONSCIOUSNESS.
+
+;;   F
+
+;;    S
+
+		(and (object_27 ?x1) (be_27 ?e1 ?x1 ?x2) (MANIFEST_27 ?x2) (CONSCIOUSNESS_27 ?x2))
+
+;;  K
+
+	;; HUMAN MAY HAVE CONSCIOUSNESS.
+
+;;   F
+
+;;    S
+
+		(and (HUMAN_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (CONSCIOUSNESS_27 ?x1))
+
+;;  K
+
+	;; A PROCESS MAY TAKE EFFECT.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (MAY_27 ?x1) (TAKE_27 ?x1) (EFFECT_27 ?x1))
+
+;;  K
+
+	;; IMPLICITNESS MAY HAVE A SOURCE.
+
+;;   F
+
+;;    S
+
+		(and (IMPLICITNESS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SOURCE_27 ?x1))
+
+;; (WHEN A GPN AUTHOR PUTS A GENERIC VERB INTO A GENERIC PROCESS , ITS INPUT AND OUTPUT OBJECTS SHOULD BE
+ BOUND INTO THE INPUT AND THE OUTPUT OF THE GENERIC PROCESS , RESPECTIVELY)
+
+;; E
+
+;;  K
+
+	;; AN INPUT MAY BE BOUND -ED INTO AN INPUT.
+
+;;   F
+
+;;    S
+
+		(and (INPUT_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (BOUND_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (INTO_27 ?x1) (AN_27 ?x1) (INPUT_27 ?x1))
+
+;;  K
+
+	;; AN AUTHOR MAY PUT A VERB.
+
+;;   F
+
+;;    S
+
+		(and (AUTHOR_27 ?x1) (MAY_27 ?x1) (PUT_27 ?x1) (A_27 ?x1) (VERB_27 ?x1))
+
+;;  K
+
+	;; A GPN[PERSON??] MAY HAVE AN AUTHOR.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (AUTHOR_27 ?x1))
+
+;;  K
+
+	;; A VERB CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (VERB_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE AN INPUT.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (INPUT_27 ?x1))
+
+;;  K
+
+	;; A PROCESS MAY HAVE AN OUTPUT.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (OUTPUT_27 ?x1))
+
+;;  K
+
+	;; A PROCESS CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;; (HOWEVER THE BINDINGS CAN NOT BE ALWAYS SPECIFIED BY A GPN AUTHOR EXPLICITLY)
+
+;; E
+
+;;  K
+
+	;; BINDINGS MAY BE SPECIFY -ED BY AN AUTHOR.
+
+;;   F
+
+;;    S
+
+		(and (BINDINGS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (SPECIFY_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (AN_27 ?x2) (AUTHOR_27 ?x2))
+
+;;  K
+
+	;; A GPN[PERSON??] MAY HAVE AN AUTHOR.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (AUTHOR_27 ?x1))
+
+;; (FOR EXAMPLE , IN CASE OF A CHECK PROCESS TO CHECK THE TERMINATION CONDITION OF THE LOOP FOR SEQUENTIAL
+ SCAN OF A SET , INPUT\/OUTPUT OBJECTS ARE OFTEN OMITTED IN THE DESCRIPTION , BECAUSE IT IS QUITE OBVIOUS
+ FOR A GPN AUTHOR , THAT IS , `` UNTIL THE SET IS EXHAUSTED '')
+
+;; E
+
+;;  K
+
+	;; INPUT\/OUTPUT OBJECTS MAY BE OMIT -ED IN A DESCRIPTION.
+
+;;   F
+
+;;    S
+
+		(and (INPUT_5C_2FOUTPUT_27 ?x1) (OBJECTS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (OMIT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (DESCRIPTION_27 ?x2))
+
+;;  K
+
+	;; A LOOP MAY UNDERGO A TERMINATION CONDITION.
+
+;;   F
+
+;;    S
+
+		(and (LOOP_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (TERMINATION_27 ?x1) (CONDITION_27 ?x1))
+
+;;  K
+
+	;; A LOOP CAN BE FOR SCAN OF A SET.
+
+;;   F
+
+;;    S
+
+		(and (LOOP_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (SCAN_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (SET_27 ?x3))
+
+;;  K
+
+	;; SCAN CAN BE SEQUENTIAL.
+
+;;   F
+
+;;    S
+
+		(and (SCAN_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SEQUENTIAL_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE OBVIOUS.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (OBVIOUS_27 ?x2))
+
+;;  K
+
+	;; A GPN[PERSON??] MAY HAVE AN AUTHOR.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (AUTHOR_27 ?x1))
+
+;;  K
+
+	;; A SET MAY BE EXHAUST -ED.
+
+;;   F
+
+;;    S
+
+		(and (SET_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (EXHAUST_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (THIS IS A TYPICAL EXAMPLE OF THE LACK OF A HUMAN 'S CONSCIOUSNESS OF PROBLEM SOLVING)
+
+;; E
+
+;;  K
+
+	;; A THING CAN BE AN EXAMPLE OF A LACK OF CONSCIOUSNESS OF PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1 ?x2) (EXAMPLE_27 ?x2) (of_27 ?x2 ?x3) (LACK_27 ?x3) (of_27 ?x3 ?x4) (CONSCIOUSNESS_27 ?x4) (of_27 ?x3 ?x5) (PROBLEM_27 ?x5))
+
+;;  K
+
+	;; AN EXAMPLE CAN BE TYPICAL.
+
+;;   F
+
+;;    S
+
+		(and (EXAMPLE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TYPICAL_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY MANIFEST CONSCIOUSNESS.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (MANIFEST_27 ?x1) (CONSCIOUSNESS_27 ?x1))
+
+;;  K
+
+	;; A HUMAN MAY HAVE CONSCIOUSNESS.
+
+;;   F
+
+;;    S
+
+		(and (HUMAN_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (CONSCIOUSNESS_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;; (THEY KNOW IT BUT DO N'T WRITE IT EXPLICITLY)
+
+;; E
+
+;;  K
+
+	;; INDIVIDUAL -S MAY KNOW A THING-REFERRED-TO.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (KNOW_27 ?x1) (A_27 ?x1) (THING-REFERRED-TO_27 ?x1))
+
+;; (HAVING RESPECT FOR USER 'S CONSCIOUSNESS OF PROBLEM SOLVING IS A KEY TO HUMAN FRIENDLINESS OF CLEPE)
+
+;; E
+
+;;  K
+
+	;; RESPECT MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (RESPECT_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;;  K
+
+	;; RESPECT CAN BE FOR CONSCIOUSNESS OF PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (respect_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (CONSCIOUSNESS_27 ?x2) (of_27 ?x2 ?x3) (PROBLEM_27 ?x3))
+
+;;  K
+
+	;; PROBLEM MAY MANIFEST CONSCIOUSNESS.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (MANIFEST_27 ?x1) (CONSCIOUSNESS_27 ?x1))
+
+;;  K
+
+	;; USER MAY HAVE CONSCIOUSNESS.
+
+;;   F
+
+;;    S
+
+		(and (USER_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (CONSCIOUSNESS_27 ?x1))
+
+;;  K
+
+	;; A KEY CAN BE TO FRIENDLINESS OF A CLEPE[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (KEY_27 ?x1) (be_27 ?e1 ?x1 ?x4) (to_27 ?e1 ?x2) (FRIENDLINESS_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (CLEPE_27 ?x3) (PERSON_27 ?x4))
+
+;;  K
+
+	;; A FRIENDLINESS CAN BE HUMAN.
+
+;;   F
+
+;;    S
+
+		(and (FRIENDLINESS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HUMAN_27 ?x1))
+
+;; (LOSS OF THE INFORMATION CAUSED BY HUMAN 'S UNCONSCIOUSNESS IS COMPENSATED BY THE AXIOM OF
+ KNOWLEDGE-LEVEL TASK-ONTOLOGY -LRB- TO \/ K -RRB-)
+
+;; E
+
+;;  K
+
+	;; LOSS OF AN INFORMATION MAY BE COMPENSATE -ED BY AN AXIOM OF TASK-ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (loss_27 ?x1) (of_27 ?x1 ?x2) (INFORMATION_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (COMPENSATE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (by_27 ?x2 ?x3) (AN_27 ?x3) (AXIOM_27 ?x3) (of_27 ?x3 ?x4) (TASK-ONTOLOGY_27 ?x4))
+
+;;  K
+
+	;; AN INFORMATION MAY UNDERGO A LOSS.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (LOSS_27 ?x1))
+
+;;  K
+
+	;; AN INFORMATION MAY BE CAUSE -ED BY UNCONSCIOUSNESS.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (CAUSE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (BY_27 ?x1) (UNCONSCIOUSNESS_27 ?x1))
+
+;;  K
+
+	;; HUMAN MAY HAVE UNCONSCIOUSNESS.
+
+;;   F
+
+;;    S
+
+		(and (HUMAN_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (UNCONSCIOUSNESS_27 ?x1))
+
+;;  K
+
+	;; A TASK-ONTOLOGY CAN BE KNOWLEDGE-LEVEL.
+
+;;   F
+
+;;    S
+
+		(and (TASK-ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (KNOWLEDGE-LEVEL_27 ?x1))
+
+;; (IN THE CASE OF THE EXAMPLE ABOVE , CLEPE CAN DERIVE THE TERMINATION CONDITION FROM THE AXIOM ON THE
+ PRAGMATICS RELATION BETWEEN PICKUP AND CHECK)
+
+;; E
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY DERIVE A TERMINATION CONDITION FROM AN AXIOM.
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (derive_27 ?e1 ?x1) (A_27 ?x1) (TERMINATION_27 ?x1) (CONDITION_27 ?x1) (FROM_27 ?x1) (AN_27 ?x1) (AXIOM_27 ?x1))
+
+;;  K
+
+	;; AN EXAMPLE MAY HAVE A CASE.
+
+;;   F
+
+;;    S
+
+		(and (EXAMPLE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (case_27 ?x1))
+
+;;  K
+
+	;; AN AXIOM CAN BE ON A RELATION.
+
+;;   F
+
+;;    S
+
+		(and (AXIOM_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (A_27 ?x2) (relation_27 ?x2))
+
+;;  K
+
+	;; A RELATION CAN BE BETWEEN PICKUP.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (PICKUP_27 ?x1))
+
+;;  K
+
+	;; A RELATION CAN BE PRAGMATICS.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PRAGMATICS_27 ?x1))
+
+;; (TO MAKE THE IMPLICIT EXPLICIT , CLEPE ANALYZES GPN AND TRY TO RECONSTRUCT THE OBJECT FLOW INTENDED BY A
+ GPN AUTHOR)
+
+;; E
+
+;;  K
+
+	;; A GPN[PERSON??] MAY HAVE AN AUTHOR.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (AUTHOR_27 ?x1))
+
+;; (THE PROCESS IS CALLED OBJECT FLOW ANALYSIS)
+
+;; E
+
+;;  K
+
+	;; A PROCESS MAY BE CALL -ED.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (CALL_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (CLEPE EMPLOYS A FOCUS MODEL FOR OBJECT 4.PICKUP-RSC RSC 5.SELECT-RCP RSC RCP 6.ASSIGN-RCP-TO-RSC ASSIGN
+ MENT RSC 7.UPDATE-DATA RSC 8)
+
+;; E
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY EMPLOY A FOCUS MODEL.
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (EMPLOY_27 ?x1) (A_27 ?x1) (FOCUS_27 ?x1) (MODEL_27 ?x1))
+
+;;  K
+
+	;; A FOCUS MODEL CAN BE FOR OBJECT.
+
+;;   F
+
+;;    S
+
+		(and (FOCUS_27 ?x1) (MODEL_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (OBJECT_27 ?x2))
+
+;;  K
+
+	;; A RSC CAN BE MENT.
+
+;;   F
+
+;;    S
+
+		(and (RSC_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MENT_27 ?x1))
+
+;;  K
+
+	;; A RSC CAN BE RSC.
+
+;;   F
+
+;;    S
+
+		(and (RSC_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (RSC_27 ?x1))
+
+;;  K
+
+	;; A RSC CAN BE 7.UPDATE-DATA.
+
+;;   F
+
+;;    S
+
+		(and (RSC_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (kbs2_kif_quote_37_2EUPDATE-DATA_27 ?x1))
+
+;; (CHECK RCP LOAD-DATA RCP ASSIGN MENT ASSIGNMENT-SET FIGURE .4 A PART OF GPN AND CORRESPONDING FOCUS FLOW
+ ANALYSIS)
+
+;; E
+
+;;  K
+
+	;; CHECK RCP MAY ASSIGN .4 A PART OF A GPN[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (CHECK_27 ?x1) (RCP_27 ?x1) (MAY_27 ?x1) (assign_27 ?e1 ?x1 ?x2) (part_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (GPN_27 ?x3) (PERSON_27 ?x4))
+
+;;  K
+
+	;; A .4 A PART CAN BE MENT.
+
+;;   F
+
+;;    S
+
+		(and (A_27 ?x1) (part_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MENT_27 ?x1))
+
+;;  K
+
+	;; A .4 A PART CAN BE ASSIGNMENT-SET.
+
+;;   F
+
+;;    S
+
+		(and (A_27 ?x1) (part_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ASSIGNMENT-SET_27 ?x1))
+
+;;  K
+
+	;; A FIGURE[PERSON??] MAY HAVE A .4 A PART.
+
+;;   F
+
+;;    S
+
+		(and (FIGURE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and  )
+
+;;  K
+
+	;; A FOCUS FLOW ANALYSIS CAN BE CORRESPONDING.
+
+;;   F
+
+;;    S
+
+		(and (FOCUS_27 ?x1) (FLOW_27 ?x1) (ANALYSIS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CORRESPONDING_27 ?x1))
+
+;; (FOCUS MODEL MODELS A CONTEXT OF ANAPHORIC REFERENCE AMONG OBJECTS BASED ON SYNTACTIC INFORMATION ,
+ EFFECTS OF THE VERB , PROPERTIES OF NOUN , AND STRUCTURE OF A GPN)
+
+;; E
+
+;;  K
+
+	;; MODEL MAY MODEL A CONTEXT OF REFERENCE.
+
+;;   F
+
+;;    S
+
+		(and (MODEL_27 ?x1) (MAY_27 ?x1) (MODEL_27 ?x1) (A_27 ?x1) (CONTEXT_27 ?x1) (of_27 ?x1 ?x2) (REFERENCE_27 ?x2))
+
+;;  K
+
+	;; A MODEL CAN BE FOCUS.
+
+;;   F
+
+;;    S
+
+		(and (MODEL_27 ?x1) (be_27 ?e1 ?x1 ?x2) (FOCUS_27 ?x2))
+
+;;  K
+
+	;; A CONTEXT CAN BE CONSTITUTED_OF_OR_FILLED_WITH REFERENCE.
+
+;;   F
+
+;;    S
+
+		(and (CONTEXT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (REFERENCE_27 ?x1))
+
+;;  K
+
+	;; REFERENCE CAN BE AMONG OBJECTS.
+
+;;   F
+
+;;    S
+
+		(and (reference_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AMONG_27 ?x2) (OBJECTS_27 ?x2))
+
+;;  K
+
+	;; A REFERENCE CAN BE ANAPHORIC.
+
+;;   F
+
+;;    S
+
+		(and (REFERENCE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ANAPHORIC_27 ?x1))
+
+;;  K
+
+	;; OBJECTS MAY BE BASE -ED ON INFORMATION.
+
+;;   F
+
+;;    S
+
+		(and (OBJECTS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (BASE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (ON_27 ?x1) (INFORMATION_27 ?x1))
+
+;;  K
+
+	;; AN INFORMATION CAN BE SYNTACTIC.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SYNTACTIC_27 ?x1))
+
+;;  K
+
+	;; A VERB MAY HAVE EFFECTS.
+
+;;   F
+
+;;    S
+
+		(and (VERB_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (EFFECTS_27 ?x1))
+
+;;  K
+
+	;; PROPERTIES CAN BE CONSTITUTED_OF_OR_FILLED_WITH NOUN.
+
+;;   F
+
+;;    S
+
+		(and (property_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x2) (NOUN_27 ?x2))
+
+;; (FIGURE 4 SHOWS A GPN AND A FOCUS MODEL)
+
+;; E
+
+;;  K
+
+	;; FIGURE MAY SHOW A GPN[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (FIGURE_27 ?x1) (MAY_27 ?x1) (SHOW_27 ?x1) (A_27 ?x1) (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;; (EACH FOCUS REPRESENTED BY SHADED ELLIPSE IN THE FIGURE INCLUDES SOME OBJECTS CREATED BY PRIOR PROCESSES)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF FOCUS MAY INCLUDE SOME_NUMBER_OF OBJECTS.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (FOCUS_27 ?x1) (MAY_27 ?x1) (INCLUDE_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (OBJECTS_27 ?x1))
+
+;;  K
+
+	;; SOME_NUMBER_OF FOCUS MAY BE REPRESENT -ED BY ELLIPSE.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (FOCUS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (REPRESENT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (BY_27 ?x1) (ELLIPSE_27 ?x1))
+
+;;  K
+
+	;; ELLIPSE CAN BE IN A FIGURE.
+
+;;   F
+
+;;    S
+
+		(and (ELLIPSE_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (FIGURE_27 ?x2))
+
+;;  K
+
+	;; AN ELLIPSE CAN BE SHADED.
+
+;;   F
+
+;;    S
+
+		(and (ELLIPSE_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (SHADED_27 ?x2))
+
+;;  K
+
+	;; SOME_NUMBER_OF OBJECTS MAY BE CREATE -ED BY PROCESSES.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (OBJECTS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (CREATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (PROCESSES_27 ?x2))
+
+;;  K
+
+	;; PROCESSES CAN BE PRIOR.
+
+;;   F
+
+;;    S
+
+		(and (process_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PRIOR_27 ?x2))
+
+;; (THE THIRD SHADED ELLIPSE FROM THE TOP SHOWS THAT AN ASSIGNMENT IS GENERATED BY THE PROCESS 6 , THAT IS ,
+ `` ASSIGN-RCP-TO-RSC '' AND CONSISTS OF A SCHEDULING-RESOURCE -LRB- RSC -RRB- PICKED UP BY THE PROCESS 4
+ AND A SCHEDULING RECIPIENT -LRB- RCP -RRB- SELECTED BY THE PROCESS 5)
+
+;; E
+
+;;  K
+
+	;; AN ELLIPSE MAY SHOW A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (ELLIPSE_27 ?x1) (MAY_27 ?x1) (SHOW_27 ?x1) (A_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; AN ELLIPSE CAN BE FROM A TOP.
+
+;;   F
+
+;;    S
+
+		(and (ELLIPSE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FROM_27 ?x1) (A_27 ?x1) (TOP_27 ?x1))
+
+;;  K
+
+	;; AN ELLIPSE CAN BE SHADED.
+
+;;   F
+
+;;    S
+
+		(and (ELLIPSE_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (SHADED_27 ?x2))
+
+;;  K
+
+	;; AN ASSIGNMENT MAY BE GENERATE -ED BY A PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (ASSIGNMENT_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (GENERATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (process_27 ?x2))
+
+;;  K
+
+	;; A SCHEDULING RECIPIENT MAY BE SELECT -ED BY A PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (SCHEDULING_27 ?x1) (RECIPIENT_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (SELECT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (process_27 ?x2))
+
+;; (APPEARANCE AND DISAPPEARANCE OF OBJECTS DEPEND ON GPN STRUCTURE)
+
+;; E
+
+;;  K
+
+	;; APPEARANCE OF OBJECTS MAY DEPEND ON STRUCTURE.
+
+;;   F
+
+;;    S
+
+		(and (appearance_27 ?x1) (of_27 ?x1 ?x2) (OBJECTS_27 ?x2) (MAY_27 ?x2) (DEPEND_27 ?x2) (on_27 ?x2 ?x3) (STRUCTURE_27 ?x3))
+
+;;  K
+
+	;; OBJECTS MAY UNDERGO AN APPEARANCE.
+
+;;   F
+
+;;    S
+
+		(and (OBJECTS_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (APPEARANCE_27 ?x1))
+
+;;  K
+
+	;; A GPN[PERSON??] MAY HAVE A STRUCTURE.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (structure_27 ?x1))
+
+;; (FOCUS MODEL IN THE FIGURE ILLUSTRATES THAT THE OBJECTS CREATED INSIDE OF THE LOOP IS DISAPPEARED OUTSIDE
+ AND THE ASSIGNMENT-SET IS CREATED AS AN OUTPUT OF THE WHOLE LOOP)
+
+;; E
+
+;;  K
+
+	;; MODEL MAY ILLUSTRATE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (MODEL_27 ?x1) (MAY_27 ?x1) (illustrate_27 ?e1 ?x1 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; MODEL CAN BE IN A FIGURE.
+
+;;   F
+
+;;    S
+
+		(and (MODEL_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (FIGURE_27 ?x2))
+
+;;  K
+
+	;; A MODEL CAN BE FOCUS.
+
+;;   F
+
+;;    S
+
+		(and (MODEL_27 ?x1) (be_27 ?e1 ?x1 ?x2) (FOCUS_27 ?x2))
+
+;;  K
+
+	;; OBJECTS MAY CREATE.
+
+;;   F
+
+;;    S
+
+		(and (OBJECTS_27 ?x1) (MAY_27 ?x1) (CREATE_27 ?x1))
+
+;;  K
+
+	;; INSIDE OF A LOOP MAY BE DISAPPEAR -ED.
+
+;;   F
+
+;;    S
+
+		(and (of_27 ?x1) (A_27 ?x1) (LOOP_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (DISAPPEAR_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A LOOP MAY HAVE INSIDE.
+
+;;   F
+
+;;    S
+
+		(and (LOOP_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (INSIDE_27 ?x1))
+
+;;  K
+
+	;; AN ASSIGNMENT-SET MAY BE CREATE -ED AS AN OUTPUT OF A LOOP.
+
+;;   F
+
+;;    S
+
+		(and (ASSIGNMENT-SET_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (CREATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (as_27 ?x1 ?x2) (OUTPUT_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (LOOP_27 ?x3))
+
+;;  K
+
+	;; A LOOP MAY HAVE AN OUTPUT.
+
+;;   F
+
+;;    S
+
+		(and (LOOP_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (OUTPUT_27 ?x1))
+
+;; (ONCE THE GPN IS BUILT BY USERS , CLEPE INTERPRETS IT ON THE ASSUMPTION THAT HE\/SHE COMPLETELY AGREES
+ WITH ONTOLOGICAL COMMITMENT)
+
+;; E
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY INTERPRET A THING-REFERRED-TO A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (interpret_27 ?e1 ?x1)  (proposition_27 ?x1))
+
+;;  K
+
+	;; A GPN[PERSON??] MAY BE BUILD -ED BY USERS.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (BUILD_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (USERS_27 ?x2))
+
+;;  K
+
+	;; HE\/SHE MAY AGREE WITH COMMITMENT.
+
+;;   F
+
+;;    S
+
+		(and (HE_5C_2FSHE_27 ?x1) (MAY_27 ?x1) (AGREE_27 ?x1) (WITH_27 ?x1) (COMMITMENT_27 ?x1))
+
+;;  K
+
+	;; A COMMITMENT CAN BE ONTOLOGICAL.
+
+;;   F
+
+;;    S
+
+		(and (COMMITMENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGICAL_27 ?x1))
+
+;; (HOWEVER , THERE MIGHT BE A GAP BETWEEN THE INTERPRETATION AND THE USER 'S INTENTION BECAUSE THE
+ AGREEMENT IS PARTIAL)
+
+;; E
+
+;;  K
+
+	;; A GAP CAN BE BETWEEN AN INTERPRETATION.
+
+;;   F
+
+;;    S
+
+		(and (GAP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (AN_27 ?x1) (INTERPRETATION_27 ?x1))
+
+;;  K
+
+	;; A USER MAY HAVE AN INTENTION.
+
+;;   F
+
+;;    S
+
+		(and (USER_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (INTENTION_27 ?x1))
+
+;;  K
+
+	;; AN AGREEMENT CAN BE PARTIAL.
+
+;;   F
+
+;;    S
+
+		(and (AGREEMENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PARTIAL_27 ?x1))
+
+;; (IN SUCH A CASE , WE HAVE NO CHOICE BUT TO EXPECT THE USER TO REVISE THE GPN)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY HAVE A CHOICE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (CHOICE_27 ?x1))
+
+;; (TO SUPPORT THE USER 'S WORK , CLEPE PROVIDES CONCEPTUAL LEVEL EXECUTION OF GPN)
+
+;; E
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY PROVIDE LEVEL EXECUTION OF A GPN[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (PROVIDE_27 ?x1) (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (GPN_27 ?x2) (PERSON_27 ?x3))
+
+;;  K
+
+	;; A USER MAY HAVE WORK.
+
+;;   F
+
+;;    S
+
+		(and (USER_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (WORK_27 ?x1))
+
+;;  K
+
+	;; A LEVEL EXECUTION CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (ADVANTAGES OF CONCEPTUAL LEVEL EXECUTION ARE AS FOLLOWS : -LRB- 1 -RRB- A USER CAN RECOGNIZE THE
+ DIFFERENCE BETWEEN THE MEANING INTENDED BY HIM\/HER AND SYSTEM 'S INTERPRETATION)
+
+;; E
+
+;;  K
+
+	;; ADVANTAGES OF LEVEL EXECUTION CAN BE FOLLOWS.
+
+;;   F
+
+;;    S
+
+		(and (advantage_27 ?x1) (of_27 ?x1 ?x2) (LEVEL_27 ?x2) (EXECUTION_27 ?x2) (CAN_27 ?x2) (be_27 ?e1 ?x1 ?x3) (follow_27 ?x3))
+
+;;  K
+
+	;; ADVANTAGES CAN BE CONSTITUTED_OF_OR_FILLED_WITH LEVEL EXECUTION.
+
+;;   F
+
+;;    S
+
+		(and (advantage_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (LEVEL_27 ?x1) (EXECUTION_27 ?x1))
+
+;;  K
+
+	;; A LEVEL EXECUTION CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; A USER MAY RECOGNIZE A DIFFERENCE.
+
+;;   F
+
+;;    S
+
+		(and (USER_27 ?x1) (MAY_27 ?x1) (RECOGNIZE_27 ?x1) (A_27 ?x1) (DIFFERENCE_27 ?x1))
+
+;;  K
+
+	;; A DIFFERENCE CAN BE BETWEEN A MEANING.
+
+;;   F
+
+;;    S
+
+		(and (DIFFERENCE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (A_27 ?x1) (MEANING_27 ?x1))
+
+;;  K
+
+	;; A MEANING MAY BE INTEND -ED BY HIM\/HER.
+
+;;   F
+
+;;    S
+
+		(and (MEANING_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (INTEND_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (BY_27 ?x1) (HIM_5C_2FHER_27 ?x1))
+
+;;  K
+
+	;; SYSTEM MAY HAVE AN INTERPRETATION.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (INTERPRETATION_27 ?x1))
+
+;; (-LRB- 2 -RRB- A USER AND SYSTEM CAN REACH AN AGREEMENT ON THE PROBLEM SOLVING DESCRIPTION MORE
+ EXPLICITLY)
+
+;; E
+
+;;  K
+
+	;; A USER MAY REACH AN AGREEMENT.
+
+;;   F
+
+;;    S
+
+		(and (USER_27 ?x1) (MAY_27 ?x1) (REACH_27 ?x1) (AN_27 ?x1) (AGREEMENT_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE DESCRIPTION.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (DESCRIPTION_27 ?x1))
+
+;; (IN 4.2 WE WILL GIVE A DETAILED DESCRIPTION OF THE CONCEPTUAL LEVEL EXECUTION)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY GIVE A DESCRIPTION OF A LEVEL EXECUTION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (GIVE_27 ?x1) (A_27 ?x1) (DESCRIPTION_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (LEVEL_27 ?x2) (EXECUTION_27 ?x2))
+
+;;  K
+
+	;; A LEVEL EXECUTION MAY HAVE A DESCRIPTION.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (DESCRIPTION_27 ?x1))
+
+;;  K
+
+	;; A DESCRIPTION CAN BE DETAILED.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_27 ?x1) (be_27 ?e1 ?x1 ?e2) (detail_27 ?e2 ?x1))
+
+;;  K
+
+	;; A LEVEL EXECUTION CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (ONTOLOGY , IN GENERAL , IS AN AGREEMENT BETWEEN USERS AND SYSTEMS)
+
+;; E
+
+;;  K
+
+	;; AN AGREEMENT CAN BE BETWEEN USERS.
+
+;;   F
+
+;;    S
+
+		(and (AGREEMENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (USERS_27 ?x1))
+
+;; (THUS , THE GOAL OF ONTOLOGY AUTHOR IS TO BUILD AN ONTOLOGY WHICH CAN BE EASILY ACCEPTED BY MOST USERS)
+
+;; E
+
+;;  K
+
+	;; AUTHOR MAY UNDERGO A GOAL.
+
+;;   F
+
+;;    S
+
+		(and (AUTHOR_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (GOAL_27 ?x1))
+
+;;  K
+
+	;; AN AUTHOR CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (AUTHOR_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (BUT IN PRACTICE , WE CAN NOT IGNORE THE GAP BETWEEN THE MEANINGS WHICH USERS READ INTO THE TERMS AND THE
+ SEMANTICS RIGIDLY DEFINED BY ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY IGNORE A GAP.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (IGNORE_27 ?x1) (A_27 ?x1) (GAP_27 ?x1))
+
+;;  K
+
+	;; A GAP CAN BE BETWEEN MEANINGS.
+
+;;   F
+
+;;    S
+
+		(and (GAP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (MEANINGS_27 ?x1))
+
+;;  K
+
+	;; USERS MAY READ INTO TERMS.
+
+;;   F
+
+;;    S
+
+		(and (USERS_27 ?x1) (MAY_27 ?x1) (READ_27 ?x1) (INTO_27 ?x1) (TERMS_27 ?x1))
+
+;;  K
+
+	;; SEMANTICS MAY BE DEFINE -ED BY ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (SEMANTICS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (DEFINE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (BY_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (IT FOLLOWS FROM WHAT WE DISCUSSED THUS FAR THAT WE SHOULD REALIZE THE EXISTENCE OF THE GAP AND IMPLEMENT
+ THE FUNCTION TO SUPPORT USER 'S WORK OF FILLING THE GAP)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY DISCUSS A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (discuss_27 ?e1 ?x1 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; PERSON -S MAY REALIZE AN EXISTENCE OF A GAP.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (REALIZE_27 ?x1) (AN_27 ?x1) (EXISTENCE_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (GAP_27 ?x2))
+
+;;  K
+
+	;; A GAP MAY HAVE AN EXISTENCE.
+
+;;   F
+
+;;    S
+
+		(and (GAP_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (EXISTENCE_27 ?x1))
+
+;;  K
+
+	;; USER MAY HAVE WORK.
+
+;;   F
+
+;;    S
+
+		(and (USER_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (WORK_27 ?x1))
+
+;; (WE THINK THE FUNCTION IS ESSENTIAL TO ONTOLOGY ENGINEERING)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY THINK.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (THINK_27 ?x1))
+
+;; (CONCEPTUAL LEVEL PROGRAMMING ENVIRONMENT - CONSTRUCTION OF CLEPECLEPE SUPPORTS BOTH ONTOLOGY AUTHORS WHO
+ CONSTRUCT ONTOLOGY AND GPN AUTHORS WHO DESCRIBE GPNS USING THE ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; CONSTRUCTION OF A CLEPECLEPE[PERSON??] MAY SUPPORT SOME_NUMBER_OF AUTHORS.
+
+;;   F
+
+;;    S
+
+		(and (construction_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (CLEPECLEPE_27 ?x2) (person_27 ?x3))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (SUPPORT_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (AUTHORS_27 ?x1))
+
+;;  K
+
+	;; A CLEPECLEPE[PERSON??] MAY UNDERGO CONSTRUCTION.
+
+;;   F
+
+;;    S
+
+		(and (CLEPECLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (UNDERGO_27 ?x1) (CONSTRUCTION_27 ?x1))
+
+;;  K
+
+	;; AUTHORS CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (AUTHORS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; A GPNS[PERSON??] MAY USE AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (GPNS_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (USE_27 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1))

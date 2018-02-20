@@ -1,0 +1,161 @@
+In this sense, we believes
+that the conceptual level execution function, together with the
+reconstruction function of problem solving causality is indispensable
+one for end-user programming environment.
+As we discussed in the previous section, it is desirable that the
+problem solving causality would be presented to end-user in domainoriented manner, because end-users prefers domain-oriented
+representation to task-oriented one in general.
+To cope with domain
+oriented property of end-users' consciousness for the problem solving,
+the task-oriented representation of the causality, which is specified
+in task ontology, needs to be translated into domain-oriented
+representation.
+To embody such a hybrid representation, we
+introduced a task-domain binding (TD-binding) mechanism which
+act as glue to integrate the domain concepts into task context.
+For
+example, in Figure 1, we can say that the nurse of a domain concept
+is integrated into the task context and assigned the role as a scheduling
+recipient (RCP).
+In this case, TD-binding binds the domain concept,
+nurse, and the task concept, RCP, together, and serves either meaning
+of nurse or one of RCP in compliance with requests.
+6.2 Roles of Problem Solving Causality
+Figure 5 shows an overview of conceptual level programming
+environment CLEPE.
+The processes represented by arrows marked
+with (1) (2) and (3) are end-user's work for describing GPN, object
+flow model construction, and conceptual level execution respectively.
+All the processes are supported by task ontology, for example, lexical
+task ontology specifies syntax of GPN description in (1), conceptual
+task ontology and TD-binding specifies meaning of the object flow
+model in (2).
+In (3), as we discussed thus far, problem solving
+causality plays important role.
+In the next section, we would like to
+focus attention on what concepts we should prepare as axiom of
+problem solving causality to realize the function of (3) and how
+CLEPE uses them .
+Problem solving causality is specified as axioms among concepts
+of task ontology . In the conceptual level execution, CLEPE explicitly
+presents the process of how the domain objects changes through
+problem solving based on the causality.
+Thus end-users can easily
+understand the behavior of their own GPN by observing the
+conceptual level execution.
+We skip detailed explanation of the axiom because of space
+limitation, however, instead, rough classification of the causality is
+shown below.
+I. Activity causality which captures functional relation among
+activities, e.g. the activity as supplier provides the other
+activities as consumers with input objects.
+II.
+Object causality which captures how objects are generated,
+e.g. relation among material objects (input objects of an
+activity) and product objects (output objects of the activity)
+III.
+Control causality which captures causal relationship among
+activities based on control structure, e.g. loop structure.
+Causality I, II are adapted to the model based on object flow model
+and III is based on the control structure of GPN.
+We report the problem
+solving causality in detail in other papers.
+We explain the validity of task context through some examples of
+conceptual level execution and illustrate what a human friendly
+environment of execution is provided for end-users.
+7.
+Concluding remarks
+In this paper, we proposed a conceptual level programming
+environment based on task ontology.
+The system can answer for the
+continuity from the conceptual level description to problem solving
+and runnable code.
+Both COMMET workbench as an embodiment of Components of
+Expertise [Steels 90] and SBF (Spark, Burn, Firefighter) [Mcdermott
+88][Yost 95] are practical and sophisticated systems for end-users
+programming.
+However, knowledge level analysis has not been done
+in a systematic manner and ontological commitment assumed is not
+presented explicitly.
+The most related work to our research is TOVE (Toronto Virtual
+Enterprise) project headed by Mark S.Fox [Fox 93],[Gruninger 95].
+The idea concerning task ontology is almost same as ours.
+The
+important difference is that we think a great deal of the lexical aspect
+of ontology.
+We are currently implementing CLEPE based on the design
+principle presented in this paper .
+References
+[Chandrasekaran 86] Chandrasekaran,B. Generic tasks for
+knowledge based reasoning: the right level of abstraction for
+knowledge acquisition, IEEE Expert, Vol.1, Not.3, pp.23-30,
+1986.
+[Chandrasekaran 98] Chandrasekaran, B. et.
+al. Ontology of Task
+and Methods, ECAI98 Workshop on Applications of
+Ontologies and Problem solving Methods, 1998.
+[Clancey 85] Clancey, W.J. Heuristic classification, Artificial
+Intelligence, Vol.27, No.3, pp.289-350, 1985
+[DeBellis 95] Michael DeBellis: User-Centric Software
+Engineering,IEEE EXPERT, Februrary (1995).
+[Fischer 96] Fisher, G.: Seeding, Evolutionary Growth and
+Receeding: Constructing, Capturing and Knowledge in
+Domain-Oriented Environment, Domain Knowledge for
+Interface System Design,Chapman&Hall, pp.1-16 (1996)
+[Fox 93] Fox, M.S., Chionglo, J., Fadel, F.: A Common-Sense Model
+of the Enterprise, Proc.
+of the Industrial Engineering Research
+Conference (1993)
+[Mizoguchi 95] Mizoguchi, R., et.
+al., Task ontology for Reuse of
+Problem Solving Knowledge, Proc.
+of 2nd International
+Conference on Very L:arge-Scale Knowledge Bases,
+Tnschede, The Netherland, pp.46-59 (1995)
+[McDermott 1988] McDermot.
+J. Using problem solving methods
+to impose structure on knowledge.
+Proceedings of the
+International Conference on AI Applications, pp.
+7-11,(1988)
+[Mizoguchi 92] Mizoguchi, R. et al. Task ontology and its use in a
+task analysis interview system -- Two-level mediating
+representation in MULTIS --, Proc.
+of the JKAW'92, pp.185198.(1992)
+[Puerta, 1992] Puerta, A.R, et al., A multiple-method knowledgeacquisition shell for the automatic generation of knowledgeacquisition tools, Knowledge Acquisition, 4, pp.171-196,
+1992.
+[Seta 96] Kazuhisa Seta, Mitsuru Ikeda, Osamu Kakusho, Riichiro
+Mizoguchi: Design of a Conceptual Level Programming
+Environment Based on Task Ontology, Proc.
+of Successes
+and Failures of Knowledge Based Systems in Real World
+Applications, p.p. 11-20 (1996).
+[Steels 90] Components of Expertise, AI Magazine, Vol.11, No.2,
+pp.
+28-49 (1990).
+[Tijerino 90] Tijerino, A.Y. et al, (1990).
+A task analysis interview
+system that uses a problem solving model, Proc.
+of JKAW'90,
+pp.331-344
+[Tijerino 93a] Tijerino A.Y. et al., MULTIS II : Enabling End-Users
+to Design Problem-Solving Engines Via Two-Level Task
+Ontologies, Proc.
+of EKAW '93, pp.
+340-359, (1993)
+[Tijerino 93b] Tijerino.A, Ikeda, M., Kitahashi, T., and Mizoguchi,
+R.
+(1993).
+A Methodology for Building Expert Systems Based
+on Task Ontology and Reuse of Knowledge, Journal of
+Japanese Society for Artificial Intelligence, Vol.8, No.4,
+pp.476-487 (in Japanese)
+[Van Heijest 97] Van,Heist et.al., Using explicit ontologies in KBS
+development, Internatinal Journal of Human-Comupter
+Studies, Vol 47, pp.183-292 (1997)
+[Wielinga 92] Wielinga, B.J.KADS: A modeling approach to
+knowledge engineering, J. of Knowledge Acquisition, Vol.4,
+No.1, pp.5-53 (1992)
+[Yost 94] G.R.Yost et.al.:The SBF Framework,1989-1994: From
+Applications to Workplaces, Proc.
+of the EKAW-94, pp.318339 (1994).

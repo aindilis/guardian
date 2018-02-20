@@ -1,0 +1,4 @@
+#!/bin/sh
+
+tac /var/lib/myfrdcsa/codebases/minor/guardian/data-git/todos.txt
+out-of-date.pl -f /var/lib/myfrdcsa/codebases/minor/guardian/data-git/todos.txt

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /var/lib/myfrdcsa/codebases/minor/guardian/scripts/
+rm guard-repl
+ln -s guard-repl-dev guard-repl

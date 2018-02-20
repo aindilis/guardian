@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#!/usr/bin/perl -w
+
+# print STDERR "\n+ BRUSH YOUR TEETH, FLOSS AND MOUTHWASH NOW\n+ RECORD MEALS/VITAMIN-D\n+ TAKE VITAMIN-D/ANTI-TRIGLYCERIDE MEDICATION\n - Guard...\n";

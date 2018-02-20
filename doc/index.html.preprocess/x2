@@ -1,0 +1,551 @@
+Type            rdf:Property, rdfs:Resource
+    Domain          tmo:Attachment
+    Range           tmo:Task
+    Inverse         tmo:attachment
+    property
+    Maximal         1
+    cardinality
+    Superproperties pimo:associationMember
+    Subproperties   --
+                    Inverse of attachment, connects an Attachment Association
+    Description     to the associated Task.
+Is required for every instance of
+                    Attachment.
+containsTask
+Type            rdf:Property, rdfs:Resource
+    Domain          tmo:TaskContainer
+    Range           tmo:Task
+    Superproperties pimo:hasPart, pimo:objectProperty
+    Subproperties   --
+    Description
+contextTask
+Type                rdf:Property, rdfs:Resource
+    Domain              --
+    Range               tmo:Task
+    Inverse property    tmo:contextThread
+    Maximal cardinality 1
+    Superproperties     --
+    Subproperties       --
+    Description
+contextThread
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:Task
+    Range               x:MediumTermContextThread
+    Inverse property    tmo:contextTask
+    Maximal cardinality 1
+    Superproperties     --
+    Subproperties       --
+    Description
+createdBy
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:Attachment
+    Range               pimo:Person
+    Maximal cardinality 1
+    Superproperties     --
+    Subproperties       --
+    Description
+dateTime
+Type            rdf:Property, rdfs:Resource
+    Domain          --
+    Range           xsd:dateTime
+    Maximal         1
+    cardinality
+    Superproperties --
+                    tmo:actualEndTime, tmo:actualStartTime, tmo:actualTime,
+    Subproperties   tmo:dueDate, tmo:endTime, tmo:lastReviewDate,
+                    tmo:receiveDateTime, tmo:sendDateTime, tmo:startTime,
+                    tmo:targetEndTime, tmo:targetStartTime, tmo:targetTime
+                    dateTime subsumes various properties with Range
+    Description     XMLSchema:dateTime.
+If possible they are further grouped by
+                    "abstract" properties.
+delegability
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:Task
+    Range               tmo:Delegability
+    Maximal cardinality 1
+    Superproperties     tmo:timemanagement
+    Subproperties       --
+    Description
+dependency
+Type            rdf:Property, rdfs:Resource
+    Domain          tmo:Task
+    Range           tmo:TaskDependency
+    Superproperties --
+    Subproperties   --
+    Description
+dependencyDescription
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:TaskDependency
+    Range               --
+    Maximal cardinality 1
+    Superproperties     nao:annotation, rdfs:comment, nao:description
+    Subproperties       --
+    Description         Endusers can clarify why they created a depedency.
+dependencyMemberA
+Type            rdf:Property, rdfs:Resource
+    Domain          tmo:TaskDependency
+    Range           tmo:Task
+    Minimal         1
+    cardinality
+    Maximal         1
+    cardinality
+    Superproperties pimo:associationMember, tmo:taskReference
+    Subproperties   --
+                    The semantic of this relation is defined in the sublclass
+    Description     of undirected Dependency on which this property is stated.
+(The subject of the statment where this property is
+                    expressed)
+dependencyMemberB
+Type            rdf:Property, rdfs:Resource
+    Domain          tmo:TaskDependency
+    Range           tmo:Task
+    Minimal         1
+    cardinality
+    Maximal         1
+    cardinality
+    Superproperties pimo:associationMember, tmo:taskReference
+    Subproperties   --
+                    The semantic of this relation is defined in the sublclass
+    Description     of undirected Dependency on which this property is stated.
+(The subject of the statment where this property is
+                    expressed)
+dependencyOrderNumber
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:TaskDependency
+    Range               xsd:int
+    Minimal cardinality 1
+    Maximal cardinality 1
+    Superproperties     --
+    Subproperties       --
+    Description
+dependencyType
+Type                rdf:Property, rdfs:Resource
+    Domain              --
+    Range               rdfs:Resource
+    Minimal cardinality 1
+    Maximal cardinality 1
+    Superproperties     --
+    Subproperties       --
+    Description
+dueDate
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:Task
+    Range               xsd:dateTime
+    Maximal cardinality 1
+    Superproperties     pimo:datatypeProperty, tmo:dateTime, pimo:taskDueTime
+    Subproperties       --
+    Description
+endTime
+Type                rdf:Property, rdfs:Resource
+    Domain              --
+    Range               xsd:dateTime
+    Maximal cardinality 1
+    Superproperties     tmo:dateTime
+    Subproperties       tmo:actualEndTime, tmo:targetEndTime
+    Description
+importance
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:Task
+    Range               tmo:Importance
+    Maximal cardinality 1
+    Superproperties     tmo:timemanagement
+    Subproperties       --
+    Description
+indexPosition
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:Task
+    Range               rdfs:Literal
+    Maximal cardinality 1
+    Superproperties     --
+    Subproperties       --
+    Description
+involvedPerson
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:PersonInvolvement
+    Range               pimo:Person
+    Minimal cardinality 1
+    Maximal cardinality 1
+    Superproperties     pimo:associationMember
+    Subproperties       --
+    Description
+involvedPersonRole
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:PersonInvolvement
+    Range               tmo:PersonInvolvementRole
+    Minimal cardinality 1
+    Maximal cardinality 1
+    Superproperties     tmo:stateTypeRole
+    Subproperties       --
+    Description
+involvedPersonTask
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:PersonInvolvement
+    Range               tmo:Task
+    Inverse property    tmo:involvedPersons
+    Maximal cardinality 1
+    Superproperties     pimo:associationMember
+    Subproperties       --
+    Description
+involvedPersons
+Type             rdf:Property, rdfs:Resource
+    Domain           tmo:Task
+    Range            tmo:PersonInvolvement
+    Inverse property tmo:involvedPersonTask
+    Superproperties  --
+    Subproperties    --
+    Description
+lastReviewDate
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:Task
+    Range               xsd:dateTime
+    Maximal cardinality 1
+    Superproperties     tmo:dateTime
+    Subproperties       --
+    Description
+logEntry
+Type            rdf:Property, rdfs:Resource
+    Domain          tmo:Task
+    Range           rdfs:Resource
+    Superproperties --
+    Subproperties   --
+    Description
+nextReviewIntervall
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:Task
+    Range               xsd:integer
+    Maximal cardinality 1
+    Superproperties     --
+    Subproperties       --
+    Description
+priority
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:Task
+    Range               tmo:Priority
+    Maximal cardinality 1
+    Superproperties     tmo:timemanagement
+    Subproperties       --
+    Description
+progress
+Type                rdf:Property, rdfs:Resource
+    Domain              --
+    Range               rdfs:Literal
+    Maximal cardinality 1
+    Superproperties     --
+    Subproperties       tmo:actualCompletion, tmo:targetCompletion
+    Description
+receiveDateTime
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:TaskTransmission
+    Range               xsd:dateTime
+    Maximal cardinality 1
+    Superproperties     tmo:dateTime
+    Subproperties       --
+    Description
+sendDateTime
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:TaskTransmission
+    Range               xsd:dateTime
+    Maximal cardinality 1
+    Superproperties     tmo:dateTime
+    Subproperties       --
+    Description
+startTime
+Type                rdf:Property, rdfs:Resource
+    Domain              --
+    Range               xsd:dateTime
+    Maximal cardinality 1
+    Superproperties     tmo:dateTime
+    Subproperties       tmo:actualStartTime, tmo:targetStartTime
+    Description
+stateTypeRole
+Type            rdf:Property, rdfs:Resource
+    Domain          --
+    Range           rdfs:Resource
+    Maximal         1
+    cardinality
+    Superproperties --
+                    tmo:abilityCarrierRole, tmo:attachmentRole,
+                    tmo:involvedPersonRole, tmo:taskPrivacyState, tmo:taskState
+    Subproperties   , tmo:taskStateChangesFrom, tmo:taskStateChangesTo,
+                    tmo:transmissionState, tmo:transmissionStateChangesFrom,
+                    tmo:transmissionStateChangesTo, tmo:transmissionType
+    Description
+subTask
+Type             rdf:Property, rdfs:Resource
+    Domain           tmo:Task
+    Range            tmo:Task
+    Inverse property tmo:superTask
+    Superproperties  pimo:hasPart, pimo:objectProperty
+    Subproperties    --
+    Description
+subTaskOrdering
+Type            rdf:Property, rdfs:Resource
+    Domain          tmo:Task
+    Range           rdf:List
+    Maximal         1
+    cardinality
+    Superproperties --
+    Subproperties   --
+                    Ordering of the subtasks listed in the tmo:subTasks
+    Description     property of this Task.
+This is only for ordering/sorting in
+                    GUIs, the semantic relation is defined in subTasks, and if
+                    this and subTasks differ, subTasks is the correct list.
+superTask
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:Task
+    Range               tmo:Task
+    Inverse property    tmo:subTask
+    Maximal cardinality 1
+    Superproperties     pimo:objectProperty, pimo:partOf, tmo:taskReference
+    Subproperties       --
+    Description
+targetCompletion
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:Task
+    Range               rdfs:Literal
+    Maximal cardinality 1
+    Superproperties     tmo:progress
+    Subproperties       --
+    Description
+targetEndTime
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:Task
+    Range               xsd:dateTime
+    Maximal cardinality 1
+    Superproperties     tmo:dateTime, tmo:endTime, tmo:targetTime
+    Subproperties       --
+    Description
+targetStartTime
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:Task
+    Range               xsd:dateTime
+    Maximal cardinality 1
+    Superproperties     tmo:dateTime, tmo:startTime, tmo:targetTime
+    Subproperties       --
+    Description
+targetTime
+Type                rdf:Property, rdfs:Resource
+    Domain              --
+    Range               xsd:dateTime
+    Maximal cardinality 1
+    Superproperties     tmo:dateTime
+    Subproperties       tmo:targetEndTime, tmo:targetStartTime
+    Description
+taskDescription
+Type            rdf:Property, rdfs:Resource
+    Domain          tmo:Task
+    Range           --
+    Maximal         1
+    cardinality
+    Superproperties nao:annotation, rdfs:comment, nao:description
+    Subproperties   --
+                    The task description helps users to understand the goal and
+                    the proceeding of a task.
+It can also describe the context
+                    of a task.
+The task description is composed at minimum of a
+                    summary of what is done to reach the goal.
+The task
+                    description is the main source for identifying related
+    Description     information, e.g., suitable patterns.
+A Task Description
+                    can be either an informal, described textual content
+                    (TextualDescription) or it can be a more formally
+                    structured representation (FormalDescription).
+Technology
+                    considerations: Informal descriptions allow for text
+                    similarity processing, a formal description allows for
+                    applying case based similarity measures.
+taskGoal
+Type            rdf:Property, rdfs:Resource
+    Domain          tmo:Task
+    Range           rdfs:Resource
+    Superproperties --
+    Subproperties   --
+    Description
+taskId
+Type            rdf:Property, rdfs:Resource
+    Domain          tmo:Task
+    Range           rdfs:Literal
+    Minimal         1
+    cardinality
+    Maximal         1
+    cardinality
+    Superproperties --
+    Subproperties   --
+                    The Task Identifier allows a unique identification of a
+                    task object within the range of all Nepomuk objects.
+The
+    Description     Task Identifier is automatically generated during the
+                    creation of a task.
+The generation of identifiers (IDs) is
+                    a Nepomuk architecture issue (Wp2000/WP6000).
+taskName
+Type            rdf:Property, rdfs:Resource
+    Domain          tmo:Task
+    Range           rdfs:Literal
+    Maximal         1
+    cardinality
+    Superproperties rdfs:label, nao:prefLabel
+    Subproperties   --
+                    The Task Name helps the user to identify a task in a list.
+It should be expressive enough to give a meaningful
+    Description     recognition.
+Details should be written in the description
+                    attribute instead.
+A name attribute is not allowed to
+                    contain line breaks.
+taskPrivacyState
+Type            rdf:Property, rdfs:Resource
+    Domain          tmo:Task
+    Range           tmo:TaskPrivacyState
+    Maximal         1
+    cardinality
+    Superproperties tmo:stateTypeRole
+    Subproperties   --
+                    For the separation between professional and private purpose
+                    of a task, this attribute provides with the values
+                    "professional/private" a high level separation of privacy
+    Description     in terms of setting distribution rights to other users for
+                    the task.
+This separation may arise as a general Nepomuk
+                    issue and may therefore be handled in conjunction with a
+                    privacy preserving SSD architecture.
+taskReference
+Type            rdf:Property, rdfs:Resource
+    Domain          tmo:Task
+    Range           tmo:Task
+    Maximal         1
+    cardinality
+    Superproperties --
+    Subproperties   tmo:dependencyMemberA, tmo:dependencyMemberB, tmo:superTask
+                    , tmo:taskSource, tmo:transmissionTask
+    Description
+taskSource
+Type            rdf:Property, rdfs:Resource
+    Domain          tmo:Task
+    Range           rdfs:Resource
+    Maximal         1
+    cardinality
+    Superproperties tmo:taskReference
+    Subproperties   --
+    Description     here can be stated from which sources a task was derived.
+e.g from another task or from an task pattern
+taskState
+Type            rdf:Property, rdfs:Resource
+    Domain          tmo:Task
+    Range           tmo:TaskState
+    Minimal         1
+    cardinality
+    Maximal         1
+    cardinality
+    Superproperties tmo:stateTypeRole
+    Subproperties   --
+    Description     The task state describes the current state of the task as
+                    described in Section 5.2.7.
+taskStateChangesFrom
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:TaskState
+    Range               tmo:TaskState
+    Maximal cardinality 1
+    Superproperties     tmo:stateTypeRole
+    Subproperties       --
+    Description
+taskStateChangesTo
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:TaskState
+    Range               tmo:TaskState
+    Maximal cardinality 1
+    Superproperties     tmo:stateTypeRole
+    Subproperties       --
+    Description
+taskTransmission
+Type             rdf:Property, rdfs:Resource
+    Domain           tmo:Task
+    Range            tmo:TaskTransmission
+    Inverse property tmo:transmissionTask
+    Superproperties  --
+    Subproperties    --
+    Description
+timemanagement
+Type               rdf:Property, rdfs:Resource
+    Domain             --
+    Range              rdfs:Literal
+    Maximal            1
+    cardinality
+    Superproperties    --
+    Subproperties      tmo:delegability, tmo:importance, tmo:priority,
+                       tmo:urgency
+    Description
+transmissionFrom
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:TaskTransmission
+    Range               pimo:Person
+    Minimal cardinality 1
+    Maximal cardinality 1
+    Superproperties     --
+    Subproperties       --
+    Description
+transmissionState
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:TaskTransmission
+    Range               tmo:TransmissionState
+    Minimal cardinality 1
+    Maximal cardinality 1
+    Superproperties     tmo:stateTypeRole
+    Subproperties       --
+    Description
+transmissionStateChangesFrom
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:TransmissionState
+    Range               tmo:TransmissionState
+    Maximal cardinality 1
+    Superproperties     tmo:stateTypeRole
+    Subproperties       --
+    Description
+transmissionStateChangesTo
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:TransmissionState
+    Range               tmo:TransmissionState
+    Maximal cardinality 1
+    Superproperties     tmo:stateTypeRole
+    Subproperties       --
+    Description
+transmissionTask
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:TaskTransmission
+    Range               tmo:Task
+    Inverse property    tmo:taskTransmission
+    Minimal cardinality 1
+    Maximal cardinality 1
+    Superproperties     tmo:taskReference
+    Subproperties       --
+    Description
+transmissionTo
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:TaskTransmission
+    Range               pimo:Person
+    Minimal cardinality 1
+    Maximal cardinality 1
+    Superproperties     --
+    Subproperties       --
+    Description
+transmissionType
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:TaskTransmission
+    Range               tmo:TransmissionType
+    Minimal cardinality 1
+    Maximal cardinality 1
+    Superproperties     tmo:stateTypeRole
+    Subproperties       --
+    Description
+urgency
+Type                rdf:Property, rdfs:Resource
+    Domain              tmo:Task
+    Range               tmo:Urgency
+    Maximal cardinality 1
+    Superproperties     tmo:timemanagement
+    Subproperties       --
+    Description

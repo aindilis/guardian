@@ -1,0 +1,8032 @@
+;; (COMMONKADS WORK -- AND SUBSEQUENT WORK BUILT ON IT -LRB- SCHREIBER ET AL. , 1994 -RRB- , -LRB- COELHO &
+ LAPALME , 1996 -RRB- -- CONCERNING INFERENCE STRUCTURES TRIES TO MAKE EXPLICIT THE RELATION BETWEEN
+ DIFFERENT ELEMENTS OF A PROBLEM SOLVING KNOWLEDGE)
+
+;; E
+
+;;  K
+
+	;; WORK CAN BE COMMONKADS.
+
+;;   F
+
+;;    S
+
+		(and (work_27 ?x1) (be_27 ?e1 ?x1 ?x2) (commonkad_27 ?x2))
+
+;;  K
+
+	;; WORK MAY BE BUILD -ED ON A THING-REFERRED-TO.
+
+;;   F
+
+;;    S
+
+		(and (WORK_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (BUILD_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (on_27 ?x1 ?x2) (A_27 ?x2) (thing-referred-to_27 ?x2))
+
+;;  K
+
+	;; WORK CAN BE SUBSEQUENT.
+
+;;   F
+
+;;    S
+
+		(and (WORK_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SUBSEQUENT_27 ?x1))
+
+;;  K
+
+	;; STRUCTURES CAN BE INFERENCE.
+
+;;   F
+
+;;    S
+
+		(and (structure_27 ?x1) (be_27 ?e1 ?x1 ?x2) (INFERENCE_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM MAY UNDERGO ELEMENTS.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (ELEMENTS_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;; (LET US TAKE AN EXAMPLE USED BY COELHO AND LAPALME : SELECT_PARAMETER TASK -LRB- WHICH , TO LOOK AHEAD
+ SOMEWHAT , IS A SUBTASK IN THE PROPOSE-AND-REVISE METHOD -RRB-)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY TAKE AN EXAMPLE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (TAKE_27 ?x1) (AN_27 ?x1) (EXAMPLE_27 ?x1))
+
+;;  K
+
+	;; AN EXAMPLE MAY BE USE -ED BY A COELHO_AND_LAPALME[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (EXAMPLE_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (USE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (COELHO_5FAND_5FLAPALME_27 ?x2) (person_27 ?x3))
+
+;;  K
+
+	;; A SELECT_PARAMETER[PERSON??] MAY HAVE A TASK.
+
+;;   F
+
+;;    S
+
+		(and (SELECT_5FPARAMETER_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TASK_27 ?x1))
+
+;;  K
+
+	;; A SUBTASK CAN BE IN A METHOD.
+
+;;   F
+
+;;    S
+
+		(and (SUBTASK_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (METHOD_27 ?x2))
+
+;;  K
+
+	;; A METHOD CAN BE PROPOSE-AND-REVISE.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PROPOSE-AND-REVISE_27 ?x2))
+
+;; (SELECT IS AN ATTITUDE TERM)
+
+;; E
+
+;;  K
+
+	;; A SELECT[PERSON??] CAN BE ATTITUDE TERM.
+
+;;   F
+
+;;    S
+
+		(and (SELECT_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (ATTITUDE_27 ?x1) (TERM_27 ?x1))
+
+;; (PARAMETERS ARE PROPERTIES OF SOME OBJECTS IN THE DOMAIN)
+
+;; E
+
+;;  K
+
+	;; PARAMETERS CAN BE PROPERTIES OF SOME_NUMBER_OF OBJECTS.
+
+;;   F
+
+;;    S
+
+		(and (parameter_27 ?x1) (be_27 ?e1 ?x1 ?x2) (property_27 ?x2) (of_27 ?x2 ?x3) (SOME_5FNUMBER_5FOF_27 ?x3) (OBJECTS_27 ?x3))
+
+;;  K
+
+	;; PROPERTIES CAN BE CONSTITUTED_OF_OR_FILLED_WITH SOME_NUMBER_OF OBJECTS.
+
+;;   F
+
+;;    S
+
+		(and (property_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (OBJECTS_27 ?x2))
+
+;;  K
+
+	;; SOME_NUMBER_OF OBJECTS CAN BE IN A DOMAIN.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (OBJECTS_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (DOMAIN_27 ?x2))
+
+;; (USING OUR NOTATION , THIS UNIT OF PROBLEM-SOLVING KNOWLEDGE MAY BE DESCRIBED AS : -LRB- SUB -RRB- GOAL :
+ SELECT VALUE FOR PARAMETER ?)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY HAVE A NOTATION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (NOTATION_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;;  K
+
+	;; VALUE CAN BE FOR PARAMETER.
+
+;;   F
+
+;;    S
+
+		(and (value_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (PARAMETER_27 ?x2))
+
+;;  K
+
+	;; A SELECT[PERSON??] MAY HAVE A VALUE.
+
+;;   F
+
+;;    S
+
+		(and (SELECT_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (VALUE_27 ?x1))
+
+;; (P1 CONDITION ON PROBLEM INSTANCE DATA : VALUE OF PARAMETER ?)
+
+;; E
+
+;;  K
+
+	;; A P1_CONDITION[PERSON??] CAN BE ON A PROBLEM_INSTANCE_DATA[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (P1_5FCONDITION_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (on_27 ?x1) (A_27 ?x1) (PROBLEM_5FINSTANCE_5FDATA_27 ?x1) (person_27 ?x2))
+
+;; (P2 CONDITION ON PROBLEM STATE : PROBLEM STATE INCLUDES A PARAMETER ?)
+
+;; E
+
+;;  K
+
+	;; A P2_CONDITION[PERSON??] CAN BE ON A PROBLEM_STATE[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (P2_5FCONDITION_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (on_27 ?x1) (A_27 ?x1) (PROBLEM_5FSTATE_27 ?x1) (person_27 ?x2))
+
+;;  K
+
+	;; PROBLEM STATE MAY INCLUDE A PARAMETER.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (STATE_27 ?x1) (MAY_27 ?x1) (INCLUDE_27 ?x1) (A_27 ?x1) (PARAMETER_27 ?x1))
+
+;; (P1 WHICH HAS NOT BEEN ASSIGNED A VALUE CONDITION ON DOMAIN KNOWLEDGE : DOMAIN KNOWLEDGE HAS A CONSTRAINT
+ RELATING THE VALUES OF ?)
+
+;; E
+
+;;  K
+
+	;; DOMAIN KNOWLEDGE MAY HAVE A CONSTRAINT.
+
+;;   F
+
+;;    S
+
+		(and (DOMAIN_27 ?x1) (KNOWLEDGE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (CONSTRAINT_27 ?x1))
+
+;;  K
+
+	;; A CONSTRAINT MAY RELATE VALUES.
+
+;;   F
+
+;;    S
+
+		(and (CONSTRAINT_27 ?x1) (MAY_27 ?x1) (RELATE_27 ?x1) (VALUES_27 ?x1))
+
+;; (P2 CHANGES TO PROBLEM STATE : CHANGE THE PROBLEM STATE SUCH THAT ?)
+
+;; E
+
+;;  K
+
+	;; CHANGES CAN BE TO A PROBLEM_STATE[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (change_27 ?x1) (be_27 ?e1 ?x1 ?x3) (to_27 ?e1 ?x2) (A_27 ?x2) (PROBLEM_5FSTATE_27 ?x2) (person_27 ?x3))
+
+;;  K
+
+	;; CHANGES CAN BE P2.
+
+;;   F
+
+;;    S
+
+		(and (change_27 ?x1) (be_27 ?e1 ?x1 ?x2) (P2_27 ?x2))
+
+;; (P1 HAS THE VALUE ALLOWED BY THE CONSTRAINT , AND REMOVE SUBGOAL IT IS THIS CLOSE RELATIONSHIP BETWEEN
+ GOAL TYPES -LRB- TASKS -RRB- , PROBLEM-SOLVING KNOWLEDGE , AND DOMAIN KNOWLEDGE THAT MAKES POSSIBLE THE
+ SHARING OF PROBLEM-SOLVING KNOWLEDGE)
+
+;; E
+
+;;  K
+
+	;; P1 MAY HAVE A VALUE.
+
+;;   F
+
+;;    S
+
+		(and (P1_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (VALUE_27 ?x1))
+
+;;  K
+
+	;; A VALUE MAY BE ALLOW -ED BY A CONSTRAINT.
+
+;;   F
+
+;;    S
+
+		(and (VALUE_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (ALLOW_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (CONSTRAINT_27 ?x2))
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE A RELATIONSHIP.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (RELATIONSHIP_27 ?x2))
+
+;;  K
+
+	;; A RELATIONSHIP CAN BE BETWEEN GOAL TYPES.
+
+;;   F
+
+;;    S
+
+		(and (RELATIONSHIP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (GOAL_27 ?x1) (TYPES_27 ?x1))
+
+;;  K
+
+	;; A RELATIONSHIP CAN BE CLOSE.
+
+;;   F
+
+;;    S
+
+		(and (RELATIONSHIP_27 ?x1) (be_27 ?e1 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;; (PROBLEM-SOLVING KNOWLEDGE CAN BE REUSED IN A DIFFERENT DOMAIN AND TASK BY APPLYING IT TO KNOWLEDGE
+ STATED IN THE APPROPRIATE DOMAIN ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; KNOWLEDGE CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;;  K
+
+	;; KNOWLEDGE MAY BE STATE -ED IN A DOMAIN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (STATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (DOMAIN_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; A DOMAIN ONTOLOGY CAN BE APPROPRIATE.
+
+;;   F
+
+;;    S
+
+		(and (DOMAIN_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (APPROPRIATE_27 ?x1))
+
+;; (WE 'LL DISCUSS THIS IN SOME DETAIL LATER IN THE CONTEXT OF METHODS)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY DISCUSS A THING.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (discuss_27 ?e1 ?x1 ?x2) (thing_27 ?x2))
+
+;;  K
+
+	;; A THING CAN BE IN SOME_NUMBER_OF DETAIL.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (DETAIL_27 ?x2))
+
+;; (11 3 PROBLEM-SOLVING METHODS A PROBLEM SOLVING METHOD IS AN ORGANIZED PACKAGE OF PSK UNITS , INDEXED BY
+ THE PROBLEMSOLVING GOAL TO WHICH IT IS APPLICABLE)
+
+;; E
+
+;;  K
+
+	;; A PACKAGE CAN BE CONSTITUTED_OF_OR_FILLED_WITH UNITS.
+
+;;   F
+
+;;    S
+
+		(and (PACKAGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (UNITS_27 ?x1))
+
+;;  K
+
+	;; A PACKAGE CAN BE ORGANIZED.
+
+;;   F
+
+;;    S
+
+		(and (package_27 ?x1) (be_27 ?e1 ?x1 ?e2) (organize_27 ?e2 ?x1))
+
+;;  K
+
+	;; A PSK[PERSON??] MAY HAVE UNITS.
+
+;;   F
+
+;;    S
+
+		(and (PSK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (unit_27 ?x1))
+
+;;  K
+
+	;; A GOAL CAN BE PROBLEMSOLVING.
+
+;;   F
+
+;;    S
+
+		(and (GOAL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PROBLEMSOLVING_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE APPLICABLE.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (APPLICABLE_27 ?x1))
+
+;; (RECALL THAT A PSK UNIT MAY SET UP A SUBGOAL , AS A MEANS TO ACHIEVE THE GOAL FOR WHICH IT IS INVOKED)
+
+;; E
+
+;;  K
+
+	;; AN UNIT MAY SET_UP A SUBGOAL.
+
+;;   F
+
+;;    S
+
+		(and (UNIT_27 ?x1) (MAY_27 ?x1) (SET_5FUP_27 ?x1) (A_27 ?x1) (SUBGOAL_27 ?x1))
+
+;;  K
+
+	;; A PSK[PERSON??] MAY HAVE AN UNIT.
+
+;;   F
+
+;;    S
+
+		(and (PSK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (UNIT_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY BE INVOKE -ED.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (INVOKE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (SUPPOSE THERE IS A PSK INDEXED WITH GOAL G , AND THIS PSK SETS UP A SUBGOAL , G1)
+
+;; E
+
+;;  K
+
+	;; A PSK[PERSON??] MAY BE INDEX -ED WITH GOAL G.
+
+;;   F
+
+;;    S
+
+		(and (PSK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (INDEX_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (WITH_27 ?x2) (GOAL_27 ?x2) (G_27 ?x2))
+
+;;  K
+
+	;; A PSK[PERSON??] MAY SET_UP A SUBGOAL.
+
+;;   F
+
+;;    S
+
+		(and (PSK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (SET_5FUP_27 ?x1) (A_27 ?x1) (SUBGOAL_27 ?x1))
+
+;; (SUPPOSE THERE IS ANOTHER PSK FOR THE GOAL TYPE G1)
+
+;; E
+
+;;  K
+
+	;; A PSK[PERSON??] CAN BE FOR A GOAL TYPE G1.
+
+;;   F
+
+;;    S
+
+		(and (PSK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (for_27 ?x1) (A_27 ?x1) (GOAL_27 ?x1) (TYPE_27 ?x1) (G1_27 ?x1))
+
+;; (ONE MAY THEN USE THE COMBINATION OF THE TWO PSK 'S AS A PACKAGED UNIT , INDEX IT BY G AND INVOKE IT
+ WHENEVER G IS ENCOUNTERED)
+
+;; E
+
+;;  K
+
+	;; AN UNIT CAN BE PACKAGED.
+
+;;   F
+
+;;    S
+
+		(and (UNIT_27 ?x1) (be_27 ?e1 ?x1 ?e2) (package_27 ?e2 ?x1))
+
+;;  K
+
+	;; A G[PERSON??] MAY BE ENCOUNTER -ED.
+
+;;   F
+
+;;    S
+
+		(and (G_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (ENCOUNTER_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (IN GENERAL , HOWEVER , METHODS DERIVE THEIR VALUE BY THEIR LARGER GRANULARITY , SINCE A COMPLEX
+ REASONING STRATEGY MAY THUS BE REUSED)
+
+;; E
+
+;;  K
+
+	;; METHODS MAY DERIVE A VALUE BY A GRANULARITY.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (MAY_27 ?x1) (derive_27 ?e1 ?x1 ?x2) (A_27 ?x2) (VALUE_27 ?x2) (by_27 ?x2 ?x3) (A_27 ?x3) (GRANULARITY_27 ?x3))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE A VALUE.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (VALUE_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE A GRANULARITY.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (GRANULARITY_27 ?x1))
+
+;;  K
+
+	;; A GRANULARITY CAN BE LARGER.
+
+;;   F
+
+;;    S
+
+		(and (GRANULARITY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LARGER_27 ?x1))
+
+;;  K
+
+	;; A REASONING STRATEGY MAY BE REUSE -ED.
+
+;;   F
+
+;;    S
+
+		(and (REASONING_27 ?x1) (STRATEGY_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (REUSE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A REASONING STRATEGY CAN BE COMPLEX.
+
+;;   F
+
+;;    S
+
+		(and (REASONING_27 ?x1) (STRATEGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (COMPLEX_27 ?x1))
+
+;; (IN THE EXAMPLE WE JUST GAVE , THE SITUATION WAS QUITE SIMPLE : THE PSK UNIT FOR G SET UP G1 AND THE TWO
+ PSK UNITS THEN HELPED ACHIEVE G. HOWEVER , MORE COMPLEX SITUATIONS WILL COMMONLY ARISE)
+
+;; E
+
+;;  K
+
+	;; SITUATIONS MAY ARISE.
+
+;;   F
+
+;;    S
+
+		(and (SITUATIONS_27 ?x1) (MAY_27 ?x1) (ARISE_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY GIVE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (GIVE_27 ?x1))
+
+;;  K
+
+	;; A SITUATION CAN BE SIMPLE.
+
+;;   F
+
+;;    S
+
+		(and (SITUATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SIMPLE_27 ?x1))
+
+;;  K
+
+	;; AN UNIT MAY SET_UP A G1[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (UNIT_27 ?x1) (MAY_27 ?x1) (SET_5FUP_27 ?x1) (A_27 ?x1) (G1_27 ?x1) (person_27 ?x2))
+
+;;  K
+
+	;; AN UNIT CAN BE FOR A G[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (UNIT_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (G_27 ?x2) (PERSON_27 ?x3))
+
+;;  K
+
+	;; A PSK[PERSON??] MAY HAVE AN UNIT.
+
+;;   F
+
+;;    S
+
+		(and (PSK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (UNIT_27 ?x1))
+
+;;  K
+
+	;; SOME_NUMBER_OF UNITS MAY HELP.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (UNITS_27 ?x1) (MAY_27 ?x1) (HELP_27 ?x1))
+
+;;  K
+
+	;; A PSK[PERSON??] MAY HAVE UNITS.
+
+;;   F
+
+;;    S
+
+		(and (PSK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (unit_27 ?x1))
+
+;;  K
+
+	;; SITUATIONS CAN BE COMPLEX.
+
+;;   F
+
+;;    S
+
+		(and (situation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (COMPLEX_27 ?x2))
+
+;; (G MAY SET UP MORE THAN ONE SUBGOAL , AND A SUBGOAL G1 MAY HAVE MORE THAN ONE PSK UNIT AVAILABLE TO SOLVE
+ IT , DEPENDING ON CONDITIONS ON DATA AND DFK)
+
+;; E
+
+;;  K
+
+	;; A G1 CAN BE SUBGOAL.
+
+;;   F
+
+;;    S
+
+		(and (G1_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SUBGOAL_27 ?x1))
+
+;;  K
+
+	;; CONDITIONS CAN BE ON DATA.
+
+;;   F
+
+;;    S
+
+		(and (condition_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (DATA_27 ?x2))
+
+;; (THUS A METHOD MAY INCLUDE ALTERNATE WAYS OF ACCOMPLISHING SOME OF THE SUBGOALS)
+
+;; E
+
+;;  K
+
+	;; WAYS CAN BE ALTERNATE.
+
+;;   F
+
+;;    S
+
+		(and (WAYS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ALTERNATE_27 ?x1))
+
+;;  K
+
+	;; SUBGOALS MAY HAVE A THING.
+
+;;   F
+
+;;    S
+
+		(and (subgoal_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (thing_27 ?x1))
+
+;; (IT ALSO NEEDS TO INCLUDE CONTROL KNOWLEDGE TO ORGANIZE INVOCATION OF SUBGOALS , AND ALSO KNOWLEDGE ABOUT
+ EXCHANGING AND INTEGRATING INFORMATION BETWEEN SUBGOALS)
+
+;; E
+
+;;  K
+
+	;; INFORMATION CAN BE BETWEEN SUBGOALS.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (SUBGOALS_27 ?x1))
+
+;; (NOTE THAT , JUST AS PSK UNITS , A METHOD WILL EITHER ACHIEVE THE MAIN GOAL , OR SET UP ONE OR MORE
+ SUBGOALS THAT WILL NEED TO BE SOLVED BY ADDITIONAL METHODS)
+
+;; E
+
+;;  K
+
+	;; A METHOD MAY ACHIEVE A GOAL.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (MAY_27 ?x1) (ACHIEVE_27 ?x1) (A_27 ?x1) (GOAL_27 ?x1))
+
+;;  K
+
+	;; A PSK[PERSON??] MAY HAVE UNITS.
+
+;;   F
+
+;;    S
+
+		(and (PSK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (unit_27 ?x1))
+
+;; (HOW GENERAL IS THE CHARACTERIZATION OF METHODS AS COMPOSITIONS OF PROBLEM-SOLVING KNOWLEDGE UNITS ,
+ RELATED BY SUBGOAL RELATIONS ?)
+
+;; E
+
+;;  K
+
+	;; METHODS MAY UNDERGO A CHARACTERIZATION.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (CHARACTERIZATION_27 ?x1))
+
+;;  K
+
+	;; METHODS CAN BE AS COMPOSITIONS OF KNOWLEDGE UNITS.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1) (as_27 ?x1 ?x2) (composition_27 ?x2) (of_27 ?x2 ?x3) (KNOWLEDGE_27 ?x3) (UNITS_27 ?x3))
+
+;;  K
+
+	;; COMPOSITIONS CAN BE CONSTITUTED_OF_OR_FILLED_WITH KNOWLEDGE UNITS.
+
+;;   F
+
+;;    S
+
+		(and (composition_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x2) (KNOWLEDGE_27 ?x2) (UNITS_27 ?x2))
+
+;;  K
+
+	;; KNOWLEDGE UNITS CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (UNITS_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;;  K
+
+	;; RELATIONS CAN BE SUBGOAL.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (SUBGOAL_27 ?x2))
+
+;; (AGAIN , SIMILAR TO OUR POINT ABOUT OUR MODEL OF THE PROBLEM SOLVER ITSELF , THE DEFINITION DOES NOT
+ COVER EVERYTHING THAT WOULD INTUITIVELY APPEAR TO BE A METHOD)
+
+;; E
+
+;;  K
+
+	;; A POINT CAN BE ABOUT A MODEL OF A PROBLEM SOLVER.
+
+;;   F
+
+;;    S
+
+		(and (POINT_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ABOUT_27 ?x2) (A_27 ?x2) (MODEL_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (PROBLEM_27 ?x3) (SOLVER_27 ?x3))
+
+;;  K
+
+	;; PERSON -S MAY HAVE A POINT.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (POINT_27 ?x1))
+
+;;  K
+
+	;; A MODEL CAN BE SHOW A PROBLEM SOLVER.
+
+;;   F
+
+;;    S
+
+		(and (MODEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SHOW_27 ?x1) (A_27 ?x1) (PROBLEM_27 ?x1) (SOLVER_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY HAVE A MODEL.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (MODEL_27 ?x1))
+
+;; (OUR DEFINITION OF A METHOD IS INTENDED TO CAPTURE THE RANGE OF METHODS THAT A UNIVERSAL SUBGOALING
+ SYSTEM SUCH AS SOAR -LRB- LAIRD ET AL. , 1987 -RRB- CAN ACCOMPLISH)
+
+;; E
+
+;;  K
+
+	;; A METHOD MAY UNDERGO A DEFINITION.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (DEFINITION_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY HAVE A DEFINITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (DEFINITION_27 ?x1))
+
+;;  K
+
+	;; A SUBGOALING SYSTEM MAY ACCOMPLISH.
+
+;;   F
+
+;;    S
+
+		(and (SUBGOALING_27 ?x1) (SYSTEM_27 ?x1) (MAY_27 ?x1) (ACCOMPLISH_27 ?x1))
+
+;;  K
+
+	;; A SUBGOALING SYSTEM CAN BE UNIVERSAL.
+
+;;   F
+
+;;    S
+
+		(and (SUBGOALING_27 ?x1) (SYSTEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (UNIVERSAL_27 ?x1))
+
+;; (OUR GOAL HERE IS NOT TO ACCOUNT FOR ALL METHODS , BUT TO INDICATE WHAT METHOD ONTOLOGY LOOKS LIKE)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY HAVE A GOAL.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (GOAL_27 ?x1))
+
+;;  K
+
+	;; METHOD ONTOLOGY MAY LOOK.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (LOOK_27 ?x1))
+
+;; (FIRST-LEVEL ONTOLOGY FOR METHODS)
+
+;; E
+
+;;  K
+
+	;; A FIRST-LEVEL_ONTOLOGY[PERSON??] CAN BE FOR A METHODS[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (FIRST-LEVEL_5FONTOLOGY_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (for_27 ?x1) (A_27 ?x1) (METHODS_27 ?x1) (person_27 ?x2))
+
+;; (THE FIRST-LEVEL ONTOLOGY OF A PSM , THEN , IS SIMPLY THE ONTOLOGY OF PSK UNITS PLUS CONTROL KNOWLEDGE)
+
+;; E
+
+;;  K
+
+	;; AN ONTOLOGY OF A PSM[PERSON??] CAN BE AN ONTOLOGY OF UNITS.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (PSM_27 ?x2) (PERSON_27 ?x3))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1) (of_27 ?x1 ?x2) (unit_27 ?x2))
+
+;;  K
+
+	;; AN ONTOLOGY CAN BE FIRST-LEVEL.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FIRST-LEVEL_27 ?x1))
+
+;;  K
+
+	;; A PSK[PERSON??] MAY HAVE UNITS.
+
+;;   F
+
+;;    S
+
+		(and (PSK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (unit_27 ?x1))
+
+;; (WE HAVE DISCUSSED ALL THE ABOVE ELEMENTS EARLIER , EXCEPT FOR CONTROL KNOWLEDGE)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY DISCUSS ELEMENTS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DISCUSS_27 ?x1) (ELEMENTS_27 ?x1))
+
+;;  K
+
+	;; ELEMENTS CAN BE ABOVE.
+
+;;   F
+
+;;    S
+
+		(and (element_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ABOVE_27 ?x2))
+
+;; (CONTROL MAY BE EXPLICITLY SPECIFIED USING THE STANDARD VOCABULARY OF CONTROL : SEQUENTIAL CONTROL ,
+ CONDITIONAL BRANCHING , ITERATION , RECURSION , ETC.)
+
+;; E
+
+;;  K
+
+	;; A CONTROL[PERSON??] MAY BE SPECIFY -ED.
+
+;;   F
+
+;;    S
+
+		(and (control_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (SPECIFY_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A VOCABULARY CAN BE STANDARD.
+
+;;   F
+
+;;    S
+
+		(and (VOCABULARY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (STANDARD_27 ?x1))
+
+;;  K
+
+	;; A CONTROL CAN BE SEQUENTIAL.
+
+;;   F
+
+;;    S
+
+		(and (CONTROL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SEQUENTIAL_27 ?x1))
+
+;;  K
+
+	;; BRANCHING CAN BE CONDITIONAL.
+
+;;   F
+
+;;    S
+
+		(and (branch_27 ?e1 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONDITIONAL_27 ?x1))
+
+;; (THERE APPEARS TO BE NO TASKSPECIFIC VOCABULARY FOR CONTROL)
+
+;; E
+
+;;  K
+
+	;; A VOCABULARY CAN BE FOR CONTROL.
+
+;;   F
+
+;;    S
+
+		(and (VOCABULARY_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (CONTROL_27 ?x2))
+
+;;  K
+
+	;; A VOCABULARY CAN BE TASKSPECIFIC.
+
+;;   F
+
+;;    S
+
+		(and (VOCABULARY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TASKSPECIFIC_27 ?x1))
+
+;; (CONTROL FLOW OF SPECIFIC SORTS MAY ALSO EMERGE FROM AN INTERACTION OF DOMAIN KNOWLEDGE AND THE PROBLEM
+ STATE)
+
+;; E
+
+;;  K
+
+	;; FLOW OF SORTS MAY EMERGE FROM AN INTERACTION OF DOMAIN KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (flow_27 ?x1) (of_27 ?x1 ?x2) (SORTS_27 ?x2) (MAY_27 ?x2) (EMERGE_27 ?x2) (FROM_27 ?x2) (AN_27 ?x2) (INTERACTION_27 ?x2) (of_27 ?x2 ?x3) (DOMAIN_27 ?x3) (KNOWLEDGE_27 ?x3))
+
+;;  K
+
+	;; A CONTROL[PERSON??] MAY HAVE A FLOW.
+
+;;   F
+
+;;    S
+
+		(and (control_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (FLOW_27 ?x1))
+
+;;  K
+
+	;; DOMAIN KNOWLEDGE MAY UNDERGO AN INTERACTION.
+
+;;   F
+
+;;    S
+
+		(and (DOMAIN_27 ?x1) (KNOWLEDGE_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (INTERACTION_27 ?x1))
+
+;; (FOR EXAMPLE , IN HIERARCHICAL CLASSIFICATION , NAVIGATION OVER A HIERARCHY MAY BE EXPLICITLY PROGRAMMED)
+
+;; E
+
+;;  K
+
+	;; NAVIGATION MAY BE PROGRAM -ED.
+
+;;   F
+
+;;    S
+
+		(and (NAVIGATION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (PROGRAM_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A CLASSIFICATION CAN BE HIERARCHICAL.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFICATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HIERARCHICAL_27 ?x1))
+
+;;  K
+
+	;; NAVIGATION CAN BE OVER A HIERARCHY.
+
+;;   F
+
+;;    S
+
+		(and (NAVIGATION_27 ?x1) (be_27 ?e1 ?x1) (over_27 ?x1 ?x2) (A_27 ?x2) (HIERARCHY_27 ?x2))
+
+;; (OR , ONE MAY SIMPLY HAVE THE KNOWLEDGE , `` CONSIDER THE REFINEMENT OF CURRENT CONCEPT , '' AS IN -LRB-
+ JOHNSON , 1991 -RRB-)
+
+;; E
+
+;;  K
+
+	;; AN INDIVIDUAL MAY HAVE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;;  K
+
+	;; CONCEPT MAY UNDERGO A REFINEMENT.
+
+;;   F
+
+;;    S
+
+		(and (CONCEPT_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (REFINEMENT_27 ?x1))
+
+;; (IF THE DOMAIN KNOWLEDGE HAS INFORMATION ABOUT REFINEMENTS FOR THE CONCEPTS , THEN THE RESULTING BEHAVIOR
+ WILL BE HIERARCHICAL NAVIGATION , WITHOUT THIS STRATEGY BEING EXPLICITLY STATED)
+
+;; E
+
+;;  K
+
+	;; A BEHAVIOR CAN BE A NAVIGATION.
+
+;;   F
+
+;;    S
+
+		(and (BEHAVIOR_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (NAVIGATION_27 ?x2))
+
+;;  K
+
+	;; A DOMAIN KNOWLEDGE MAY HAVE INFORMATION.
+
+;;   F
+
+;;    S
+
+		(and (DOMAIN_27 ?x1) (KNOWLEDGE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (INFORMATION_27 ?x1))
+
+;;  K
+
+	;; INFORMATION CAN BE ABOUT REFINEMENTS.
+
+;;   F
+
+;;    S
+
+		(and (information_27 ?x1) (be_27 ?e1 ?x1 ?x2) (about_27 ?x2) (refinement_27 ?x2))
+
+;;  K
+
+	;; REFINEMENTS CAN BE FOR CONCEPTS.
+
+;;   F
+
+;;    S
+
+		(and (refinement_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (concept_27 ?x2))
+
+;;  K
+
+	;; A BEHAVIOR CAN BE RESULTING.
+
+;;   F
+
+;;    S
+
+		(and (BEHAVIOR_27 ?x1) (be_27 ?e1 ?x1 ?x2) (RESULTING_27 ?x2))
+
+;;  K
+
+	;; A NAVIGATION CAN BE HIERARCHICAL.
+
+;;   F
+
+;;    S
+
+		(and (NAVIGATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HIERARCHICAL_27 ?x1))
+
+;;  K
+
+	;; A STRATEGY MAY BE STATE -ED.
+
+;;   F
+
+;;    S
+
+		(and (STRATEGY_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (STATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (COMPLEX CONTROL BEHAVIORS MAY EMERGE AS A RESULT OF THE INTERACTION BETWEEN THE ARCHITECTURE AND THE
+ CONTENTS OF THE KNOWLEDGE BASE)
+
+;; E
+
+;;  K
+
+	;; CONTROL BEHAVIORS MAY EMERGE AS A RESULT OF AN INTERACTION.
+
+;;   F
+
+;;    S
+
+		(and (CONTROL_27 ?x1) (BEHAVIORS_27 ?x1) (MAY_27 ?x1) (EMERGE_27 ?x1) (as_27 ?x1 ?x2) (A_27 ?x2) (result_27 ?x2) (of_27 ?x2 ?x3) (interaction_27 ?x3))
+
+;;  K
+
+	;; CONTROL BEHAVIORS CAN BE COMPLEX.
+
+;;   F
+
+;;    S
+
+		(and (CONTROL_27 ?x1) (BEHAVIORS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (COMPLEX_27 ?x1))
+
+;;  K
+
+	;; AN INTERACTION MAY HAVE A RESULT.
+
+;;   F
+
+;;    S
+
+		(and (INTERACTION_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (RESULT_27 ?x1))
+
+;;  K
+
+	;; AN INTERACTION CAN BE BETWEEN ARCHITECTURE.
+
+;;   F
+
+;;    S
+
+		(and (INTERACTION_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (BETWEEN_27 ?x2) (ARCHITECTURE_27 ?x2))
+
+;;  K
+
+	;; A KNOWLEDGE BASE MAY HAVE CONTENTS.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (BASE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (content_27 ?x1))
+
+;; (12 INDEXING OF METHODS)
+
+;; E
+
+;;  K
+
+	;; A METHODS[PERSON??] MAY UNDERGO AN INDEXING.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (INDEXING_27 ?x1))
+
+;; (THE METHOD IS INDEXED BY ITS GOAL)
+
+;; E
+
+;;  K
+
+	;; A METHOD MAY BE INDEX -ED BY A GOAL.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (INDEX_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (GOAL_27 ?x2))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE A GOAL.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (GOAL_27 ?x1))
+
+;; (JUST AS IN THE CASE OF AN INDIVIDUAL PSK UNIT , THE GOALS AND SUBGOALS OF THE METHODS CAN OCCUR AT
+ DIFFERENT DEGREES OF GENERALITY)
+
+;; E
+
+;;  K
+
+	;; GOALS OF METHODS MAY OCCUR AT DEGREES OF GENERALITY.
+
+;;   F
+
+;;    S
+
+		(and (goal_27 ?x1) (of_27 ?x1 ?x2) (METHODS_27 ?x2) (MAY_27 ?x2) (OCCUR_27 ?x2) (AT_27 ?x2) (DEGREES_27 ?x2) (of_27 ?x2 ?x3) (GENERALITY_27 ?x3))
+
+;;  K
+
+	;; A PSK[PERSON??] MAY HAVE AN UNIT.
+
+;;   F
+
+;;    S
+
+		(and (PSK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (UNIT_27 ?x1))
+
+;;  K
+
+	;; METHODS MAY UNDERGO GOALS.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (GOALS_27 ?x1))
+
+;;  K
+
+	;; DEGREES CAN BE CONSTITUTED_OF_OR_FILLED_WITH GENERALITY.
+
+;;   F
+
+;;    S
+
+		(and (degree_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x2) (GENERALITY_27 ?x2))
+
+;; (IF THE GOALS ARE VERY ABSTRACT AND GENERAL − SAY , `` EXPLAIN '' − THEN THE USER OF THE METHOD HAS THE
+ TASK OF MAPPING IT TO HIS NEEDS)
+
+;; E
+
+;;  K
+
+	;; GOALS CAN BE ABSTRACT.
+
+;;   F
+
+;;    S
+
+		(and (goal_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ABSTRACT_27 ?x2))
+
+;;  K
+
+	;; − MAY SAY.
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (SAY_27 ?x1))
+
+;;  K
+
+	;; − CAN BE GENERAL.
+
+;;   F
+
+;;    S
+
+		(and (CAN_27 ?x1) (BE_27 ?x1) (GENERAL_27 ?x1))
+
+;;  K
+
+	;; A METHOD MAY HAVE A USER.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (USER_27 ?x1))
+
+;;  K
+
+	;; A MALE MAY HAVE NEEDS.
+
+;;   F
+
+;;    S
+
+		(and (MALE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (NEEDS_27 ?x1))
+
+;; (IF THE GOAL IS VERY SPECIFIC − SAY , `` DIAGNOSE TC TUNER CIRCUIT '' − THEN THE METHOD 'S REUSABILITY IS
+ LIMITED)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF TUNER CIRCUIT MAY −.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (TUNER_27 ?x1) (CIRCUIT_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_E2_88_92_27 ?x1))
+
+;;  K
+
+	;; A GOAL CAN BE SPECIFIC.
+
+;;   F
+
+;;    S
+
+		(and (GOAL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SPECIFIC_27 ?x1))
+
+;;  K
+
+	;; A −[PERSON??] MAY SAY.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_E2_88_92_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (SAY_27 ?x1))
+
+;;  K
+
+	;; A TC[PERSON??] MAY HAVE A TUNER CIRCUIT.
+
+;;   F
+
+;;    S
+
+		(and (TC_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TUNER_27 ?x1) (CIRCUIT_27 ?x1))
+
+;;  K
+
+	;; A REUSABILITY CAN BE LIMITED.
+
+;;   F
+
+;;    S
+
+		(and (REUSABILITY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LIMITED_27 ?x1))
+
+;;  K
+
+	;; A METHOD MAY HAVE A REUSABILITY.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (REUSABILITY_27 ?x1))
+
+;; (THIS HAS COME TO BE CALLED THE USABILITY-REUSABILITY TRADE-OFF -LRB- KLINKER ET AL. , 1991 -RRB-)
+
+;; E
+
+;;  K
+
+	;; A TRADE-OFF CAN BE USABILITY-REUSABILITY.
+
+;;   F
+
+;;    S
+
+		(and (trade-off_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (USABILITY-REUSABILITY_27 ?x1))
+
+;; (THERE HAVE BEEN PROPOSALS IN THE LITERATURE TO DISTINGUISH A CLASS OF METHODS CALLED TASK-NEUTRAL
+ METHODS -LRB- BEYS ET AL. , 1996 -RRB- I.E. , METHODS THAT ARE NOT INTENDED FOR A SPECIFIC GOAL TYPE)
+
+;; E
+
+;;  K
+
+	;; PROPOSALS CAN BE IN LITERATURE.
+
+;;   F
+
+;;    S
+
+		(and (proposal_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (LITERATURE_27 ?x2))
+
+;;  K
+
+	;; A CLASS CAN BE CONSTITUTED_OF_OR_FILLED_WITH METHODS.
+
+;;   F
+
+;;    S
+
+		(and (class_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x2) (METHODS_27 ?x2))
+
+;;  K
+
+	;; METHODS CAN BE TASK-NEUTRAL.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TASK-NEUTRAL_27 ?x1))
+
+;; (THE INTENT IS TO CAPTURE THE IDEA THAT SOME METHODS HAVE EXTREMELY GENERAL APPLICABILITY , WHILE OTHERS
+ SEEM TO BE MORE NARROWLY TAILORED TO TASKS OF GREAT SPECIFICITY)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF METHODS MAY HAVE APPLICABILITY.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (METHODS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (APPLICABILITY_27 ?x1))
+
+;;  K
+
+	;; AN APPLICABILITY CAN BE GENERAL.
+
+;;   F
+
+;;    S
+
+		(and (APPLICABILITY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERAL_27 ?x1))
+
+;;  K
+
+	;; TASKS CAN BE CONSTITUTED_OF_OR_FILLED_WITH SPECIFICITY.
+
+;;   F
+
+;;    S
+
+		(and (TASKS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (SPECIFICITY_27 ?x1))
+
+;;  K
+
+	;; A SPECIFICITY CAN BE GREAT.
+
+;;   F
+
+;;    S
+
+		(and (SPECIFICITY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GREAT_27 ?x1))
+
+;; (WE THINK THAT THERE IS NO BINARY SEPARATION BETWEEN TASK-SPECIFIC AND TASK-NEUTRAL METHODS)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY THINK A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (THINK_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; A SEPARATION CAN BE BINARY.
+
+;;   F
+
+;;    S
+
+		(and (SEPARATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BINARY_27 ?x1))
+
+;; (WE WILL REVISIT THIS ISSUE LATER WHEN WE DISCUSS THE ISSUES SURROUNDING SHARING AND USE OF METHODS)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY REVISIT AN ISSUE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (REVISIT_27 ?x1) (AN_27 ?x1) (ISSUE_27 ?x1))
+
+;;  K
+
+	;; ISSUES MAY SURROUND SHARING OF METHODS.
+
+;;   F
+
+;;    S
+
+		(and (ISSUES_27 ?x1) (MAY_27 ?x1) (SURROUND_27 ?x1) (SHARING_27 ?x1) (of_27 ?x1 ?x2) (METHODS_27 ?x2))
+
+;;  K
+
+	;; METHODS MAY UNDERGO A SHARING.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (SHARING_27 ?x1))
+
+;; (A METHOD OF THE SORT WE HAVE BEEN DISCUSSING IS OPERATIONALIZED)
+
+;; E
+
+;;  K
+
+	;; A METHOD OF A SORT MAY BE OPERATIONALIZE -ED.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (SORT_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (OPERATIONALIZE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2))
+
+;;  K
+
+	;; A SORT MAY HAVE A METHOD.
+
+;;   F
+
+;;    S
+
+		(and (SORT_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (METHOD_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY DISCUSS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DISCUSS_27 ?x1))
+
+;; (THAT IS , THE DESCRIPTION OF A METHOD CAN BE USED DIRECTLY TO IMPLEMENT A PROBLEM SOLVER)
+
+;; E
+
+;;  K
+
+	;; A DESCRIPTION OF A METHOD MAY BE USE -ED.
+
+;;   F
+
+;;    S
+
+		(and (description_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (METHOD_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (USE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2))
+
+;; (AS LONG AS DOMAIN KNOWLEDGE AND PROBLEM DATA OF THE TYPES REQUIRED BY THE METHOD DEFINITION ARE
+ AVAILABLE , THE METHOD SHOULD `` RUN)
+
+;; E
+
+;;  K
+
+	;; A METHOD MAY RUN.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (MAY_27 ?x1) (RUN_27 ?x1))
+
+;;  K
+
+	;; DATA OF TYPES CAN BE AVAILABLE.
+
+;;   F
+
+;;    S
+
+		(and (DATA_27 ?x1) (of_27 ?x1 ?x2) (TYPES_27 ?x2) (CAN_27 ?x2) (BE_27 ?x2) (AVAILABLE_27 ?x2))
+
+;;  K
+
+	;; TYPES MAY HAVE DATA.
+
+;;   F
+
+;;    S
+
+		(and (TYPES_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (DATA_27 ?x1))
+
+;;  K
+
+	;; TYPES MAY BE REQUIRE -ED BY A METHOD DEFINITION.
+
+;;   F
+
+;;    S
+
+		(and (TYPES_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (REQUIRE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (METHOD_27 ?x2) (DEFINITION_27 ?x2))
+
+;; (HOWEVER , THE TERM `` METHOD '' HAS OFTEN BEEN USED IN THE LITERATURE TO REFER , NOT TO OPERATIONALIZED
+ METHODS , BUT TO GENERAL APPROACHES AND STRATEGIES)
+
+;; E
+
+;;  K
+
+	;; A TERM METHOD MAY BE USE -ED IN LITERATURE.
+
+;;   F
+
+;;    S
+
+		(and (TERM_27 ?x1) (METHOD_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (USE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (LITERATURE_27 ?x2))
+
+;;  K
+
+	;; METHODS CAN BE OPERATIONALIZED.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (OPERATIONALIZED_27 ?x2))
+
+;;  K
+
+	;; APPROACHES CAN BE GENERAL.
+
+;;   F
+
+;;    S
+
+		(and (approach_27 ?x1) (BE_27 ?x2) (GENERAL_27 ?x2))
+
+;; (FOR EXAMPLE , ONE OFTEN SEES REFERENCES TO THE `` DIVIDE AND CONQUER '' METHOD ; THIS METHOD IS SO
+ GENERAL , AND POTENTIALLY SO UBIQUITOUSLY APPLICABLE , THAT IT IS IMPOSSIBLE A PRIORI TO OPERATIONALIZE
+ IT FOR ALL CASES TO WHICH IT IS APPLICABLE)
+
+;; E
+
+;;  K
+
+	;; AN INDIVIDUAL MAY SEE REFERENCES TO A METHOD.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (MAY_27 ?x1) (SEE_27 ?x1) (REFERENCES_27 ?x1) (to_27 ?x1 ?x2) (A_27 ?x2) (METHOD_27 ?x2))
+
+;;  K
+
+	;; A METHOD CAN BE DIVIDE.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DIVIDE_27 ?x1))
+
+;;  K
+
+	;; A METHOD CAN BE GENERAL.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERAL_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE IMPOSSIBLE.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IMPOSSIBLE_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE APPLICABLE.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (APPLICABLE_27 ?x1))
+
+;; (ON THE OTHER HAND , THAT METHOD HAS INDEED BEEN SUCCESSFULLY OPERATIONALIZED FOR SPECIFIC DOMAINS , SUCH
+ AS FOR COMPOSITION OF A CERTAIN CLASS OF ALGORITHMS -LRB- SMITH , 1991 -RRB-)
+
+;; E
+
+;;  K
+
+	;; A METHOD MAY BE OPERATIONALIZE -ED FOR DOMAINS.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (OPERATIONALIZE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (for_27 ?x1 ?x2) (domain_27 ?x2))
+
+;;  K
+
+	;; A CLASS CAN BE CONSTITUTED_OF_OR_FILLED_WITH ALGORITHMS.
+
+;;   F
+
+;;    S
+
+		(and (CLASS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (ALGORITHMS_27 ?x1))
+
+;; (THEN THERE ARE METHODS , SUCH AS `` PROPOSE-AND-REVISE , '' AND `` HEURISTIC CLASSIFICATION , '' THAT
+ ARE ALSO QUITE GENERAL AND MAY BE APPLIED TO ALMOST ANY PROBLEM IN PRINCIPLE)
+
+;; E
+
+;;  K
+
+	;; A CLASSIFICATION CAN BE HEURISTIC.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFICATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HEURISTIC_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM CAN BE IN PRINCIPLE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (PRINCIPLE_27 ?x2))
+
+;; (THESE METHODS HAVE BEEN OPERATIONALIZED : IF WE CAN FIND DOMAIN KNOWLEDGE TO SUIT THEIR REQUIREMENTS ,
+ THEY CAN BE APPLIED)
+
+;; E
+
+;;  K
+
+	;; METHODS MAY BE OPERATIONALIZE -ED.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (OPERATIONALIZE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY BE APPLY -ED.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (APPLY_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE REQUIREMENTS.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (requirement_27 ?x1))
+
+;; (ALMOST EVERY PROBLEM IN THE WORLD CAN IN THEORY BE SOLVED BY PROPOSING AN INITIAL SOLUTION OF THE RIGHT
+ SORT AND THEN CRITIQUING AND REVISING IT)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF PROBLEM CAN BE IN THE WORLD.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (PROBLEM_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (world_27 ?x2))
+
+;;  K
+
+	;; A SORT MAY UNDERGO A SOLUTION.
+
+;;   F
+
+;;    S
+
+		(and (SORT_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (SOLUTION_27 ?x1))
+
+;; (THE DIFFICULTY COMES IN IDENTIFYING THE RIGHT SORT OF INITIAL SOLUTION , AND RIGHT SORTS OF CRITICISMS
+ AND MODIFICATIONS FOR ARBITRARY PROBLEMS)
+
+;; E
+
+;;  K
+
+	;; PROBLEMS CAN BE ARBITRARY.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ARBITRARY_27 ?x1))
+
+;; (SIMILARLY , ANY PROBLEM CAN IN THEORY BE SOLVED BY CATEGORIZING ITS SOLUTION SPACE INTO CLASSES AND
+ MAPPING FROM THE PROBLEM STATEMENT INTO SOLUTION CATEGORIES)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE A SOLUTION SPACE.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SOLUTION_27 ?x1) (SPACE_27 ?x1))
+
+;; (IF THIS WERE EASY TO DO IN PRACTICE , THEN WE DO NOT NEED ANY OTHER METHODS AT ALL)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY DO.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DO_27 ?x1))
+
+;; (THE RUB COMES WHEN ONE TRIES TO IDENTIFY , FOR AN ARBITRARY PROBLEM , KNOWLEDGE CORRESPONDING TO GOOD
+ INITIAL SOLUTION , CRITICISM KNOWLEDGE , ETC. -LRB- FOR THE PROPOSE-AND-REVISE METHOD -RRB- , OR A
+ CATEGORIZATION OF THE SOLUTION SPACE AND MAPPING FROM THE PROBLEM STATEMENT TO THE SOLUTION CATEGORY
+ SPACE -LRB- FOR THE CLASSIFICATION METHOD -RRB-)
+
+;; E
+
+;;  K
+
+	;; A PROBLEM CAN BE ARBITRARY.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ARBITRARY_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE TO SOLUTION.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1) (to_27 ?x1 ?x2) (SOLUTION_27 ?x2))
+
+;;  K
+
+	;; A SOLUTION CAN BE GOOD.
+
+;;   F
+
+;;    S
+
+		(and (SOLUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GOOD_27 ?x1))
+
+;;  K
+
+	;; A METHOD CAN BE PROPOSE-AND-REVISE.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PROPOSE-AND-REVISE_27 ?x2))
+
+;;  K
+
+	;; A SOLUTION SPACE MAY UNDERGO A CATEGORIZATION.
+
+;;   F
+
+;;    S
+
+		(and (SOLUTION_27 ?x1) (SPACE_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (CATEGORIZATION_27 ?x1))
+
+;;  K
+
+	;; MAPPING CAN BE FROM A PROBLEM STATEMENT.
+
+;;   F
+
+;;    S
+
+		(and (MAPPING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FROM_27 ?x1) (A_27 ?x1) (PROBLEM_27 ?x1) (STATEMENT_27 ?x1))
+
+;; (THUS , IN PRACTICE , THESE METHODS , THOUGH OPERATIONALIZABLE IN GENERAL , CAN ONLY BE USEFULLY APPLIED
+ TO A NARROW RANGE OF PROBLEMS)
+
+;; E
+
+;;  K
+
+	;; METHODS MAY BE APPLY -ED TO A RANGE OF PROBLEMS.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (APPLY_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (to_27 ?x1 ?x2) (A_27 ?x2) (RANGE_27 ?x2) (of_27 ?x2 ?x3) (PROBLEMS_27 ?x3))
+
+;;  K
+
+	;; A RANGE CAN BE CONSTITUTED_OF_OR_FILLED_WITH PROBLEMS.
+
+;;   F
+
+;;    S
+
+		(and (RANGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (PROBLEMS_27 ?x1))
+
+;;  K
+
+	;; A RANGE CAN BE NARROW.
+
+;;   F
+
+;;    S
+
+		(and (RANGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (NARROW_27 ?x1))
+
+;; (FOR EXAMPLE , PROPOSE-AND-REVISE HAS BEEN USED TO SOLVE PARAMETRIC DESIGN PROBLEMS IN DOMAINS WHERE
+ THERE IS OFTEN CLEAR AND STRAIGHTFORWARD KNOWLEDGE AVAILABLE ABOUT INITIAL CANDIDATES AND ABOUT HOW TO
+ ASSESS AND MODIFY THE PARAMETERS -LRB- SCHREIBER & BIRMINGHAM , 1996 -RRB-)
+
+;; E
+
+;;  K
+
+	;; DESIGN PROBLEMS CAN BE PARAMETRIC.
+
+;;   F
+
+;;    S
+
+		(and (DESIGN_27 ?x1) (PROBLEMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PARAMETRIC_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE AVAILABLE ABOUT CANDIDATES.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (AVAILABLE_27 ?x1) (ABOUT_27 ?x1) (CANDIDATES_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE CLEAR.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CLEAR_27 ?x2))
+
+;; (SIMILARLY , CLASSIFICATION METHODS CAN BE OPERATIONALIZED AND APPLIED TO PROBLEMS WHERE KNOWLEDGE ABOUT
+ SOLUTION HIERARCHIES AND MAPPINGS FROM PROBLEM 13 DATA TO SOLUTION HIERARCHY ELEMENTS IS NOT HARD TO
+ GET)
+
+;; E
+
+;;  K
+
+	;; CLASSIFICATION METHODS MAY BE OPERATIONALIZE -ED.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFICATION_27 ?x1) (METHODS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (OPERATIONALIZE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE ABOUT SOLUTION HIERARCHIES.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ABOUT_27 ?x1) (SOLUTION_27 ?x1) (HIERARCHIES_27 ?x1))
+
+;;  K
+
+	;; SOLUTION HIERARCHIES CAN BE FROM SOME_NUMBER_OF DATA.
+
+;;   F
+
+;;    S
+
+		(and (SOLUTION_27 ?x1) (HIERARCHIES_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FROM_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (DATA_27 ?x1))
+
+;; (SIMPLE TYPES OF SELECTION PROBLEMS , AND DIAGNOSTIC PROBLEMS WHERE MALFUNCTION HIERARCHIES ARE AVAILABLE
+ , ARE EXAMPLES OF PROBLEMS FOR WHICH THE CLASSIFICATION METHOD HAS BEEN READILY APPLICABLE)
+
+;; E
+
+;;  K
+
+	;; SIMPLE TYPES OF SELECTION PROBLEMS CAN BE EXAMPLES OF PROBLEMS.
+
+;;   F
+
+;;    S
+
+		(and (SIMPLE_27 ?x1) (TYPES_27 ?x1) (of_27 ?x1 ?x2) (SELECTION_27 ?x2) (PROBLEMS_27 ?x2) (CAN_27 ?x2) (be_27 ?e1 ?x1 ?x3) (EXAMPLES_27 ?x3) (of_27 ?x3 ?x4) (PROBLEMS_27 ?x4))
+
+;;  K
+
+	;; SIMPLE TYPES CAN BE CONSTITUTED_OF_OR_FILLED_WITH SELECTION PROBLEMS.
+
+;;   F
+
+;;    S
+
+		(and (SIMPLE_27 ?x1) (TYPES_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (SELECTION_27 ?x1) (PROBLEMS_27 ?x1))
+
+;;  K
+
+	;; PROBLEMS CAN BE DIAGNOSTIC.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DIAGNOSTIC_27 ?x1))
+
+;;  K
+
+	;; MALFUNCTION HIERARCHIES CAN BE AVAILABLE.
+
+;;   F
+
+;;    S
+
+		(and (malfunction_27 ?x1) (hierarchy_27 ?e1 ?x1 ?x2) (CAN_27 ?x2) (BE_27 ?x2) (AVAILABLE_27 ?x2))
+
+;;  K
+
+	;; A CLASSIFICATION METHOD CAN BE APPLICABLE.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFICATION_27 ?x1) (METHOD_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (APPLICABLE_27 ?x1))
+
+;; (3.1 SECOND-LEVEL METHOD ONTOLOGY A SECOND LEVEL ONTOLOGY FOR METHODS WOULD IDENTIFY , CHARACTERIZE AND
+ NAME METHODS BASED ON HOW THEY ACHIEVE THEIR GOALS)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF SECOND LEVEL ONTOLOGY MAY IDENTIFY.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (SECOND_27 ?x1) (LEVEL_27 ?x1) (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (IDENTIFY_27 ?x1))
+
+;;  K
+
+	;; SOME_NUMBER_OF SECOND LEVEL ONTOLOGY CAN BE FOR METHODS.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (SECOND_27 ?x1) (LEVEL_27 ?x1) (ONTOLOGY_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (METHODS_27 ?x2))
+
+;;  K
+
+	;; A SECOND-LEVEL_METHOD_ONTOLOGY_A[PERSON??] MAY HAVE A SECOND LEVEL ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (SECOND-LEVEL_5FMETHOD_5FONTOLOGY_5FA_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SECOND_27 ?x1) (LEVEL_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY ACHIEVE GOALS.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (ACHIEVE_27 ?x1) (GOALS_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE GOALS.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (GOALS_27 ?x1))
+
+;; (HOW A METHOD WORKS IS THE GOAL-SUBGOAL STRUCTURE INDUCED BY ALL THE PSK UNITS IN THE METHOD)
+
+;; E
+
+;;  K
+
+	;; A METHOD MAY WORK.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (MAY_27 ?x1) (WORK_27 ?x1))
+
+;;  K
+
+	;; A STRUCTURE MAY BE INDUCE -ED BY UNITS.
+
+;;   F
+
+;;    S
+
+		(and (STRUCTURE_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (INDUCE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (unit_27 ?x2))
+
+;;  K
+
+	;; A STRUCTURE CAN BE GOAL-SUBGOAL.
+
+;;   F
+
+;;    S
+
+		(and (STRUCTURE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GOAL-SUBGOAL_27 ?x1))
+
+;;  K
+
+	;; UNITS CAN BE IN A METHOD.
+
+;;   F
+
+;;    S
+
+		(and (unit_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (METHOD_27 ?x2))
+
+;;  K
+
+	;; A PSK[PERSON??] MAY HAVE UNITS.
+
+;;   F
+
+;;    S
+
+		(and (PSK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (unit_27 ?x1))
+
+;; (THIS GOAL-SUBGOAL STRUCTURE CAN BE MODIFIED IN MANY WAYS : BY REPLACING ONE OF THE PSK UNITS WITH A NEW
+ ONE FOR THE SAME SUBGOAL , OR ADDING A NEW PSK UNIT FOR THE SUBGOAL , WE GET A DIFFERENT OVERALL
+ GOAL-SUBGOAL STRUCTURE)
+
+;; E
+
+;;  K
+
+	;; A STRUCTURE MAY BE MODIFY -ED IN SOME_NUMBER_OF WAYS.
+
+;;   F
+
+;;    S
+
+		(and (STRUCTURE_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (MODIFY_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (WAYS_27 ?x2))
+
+;;  K
+
+	;; PERSON -S MAY GET A STRUCTURE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (GET_27 ?x1) (A_27 ?x1) (STRUCTURE_27 ?x1))
+
+;;  K
+
+	;; A PSK[PERSON??] MAY HAVE UNITS.
+
+;;   F
+
+;;    S
+
+		(and (PSK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (unit_27 ?x1))
+
+;;  K
+
+	;; AN ONE CAN BE FOR A SUBGOAL.
+
+;;   F
+
+;;    S
+
+		(and (one_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (SUBGOAL_27 ?x2))
+
+;;  K
+
+	;; AN UNIT CAN BE FOR A SUBGOAL.
+
+;;   F
+
+;;    S
+
+		(and (UNIT_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (SUBGOAL_27 ?x2))
+
+;;  K
+
+	;; A PSK[PERSON??] MAY HAVE AN UNIT.
+
+;;   F
+
+;;    S
+
+		(and (PSK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (UNIT_27 ?x1))
+
+;;  K
+
+	;; A STRUCTURE CAN BE GOAL-SUBGOAL.
+
+;;   F
+
+;;    S
+
+		(and (STRUCTURE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GOAL-SUBGOAL_27 ?x1))
+
+;; (EACH VARIATION COUNTS AS A NEW METHOD)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF VARIATION MAY COUNT AS A METHOD.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (VARIATION_27 ?x1) (MAY_27 ?x1) (COUNT_27 ?x1) (as_27 ?x1 ?x2) (A_27 ?x2) (METHOD_27 ?x2))
+
+;; (BECAUSE OF THIS , EVEN FOR SIMPLE GOAL TYPES , THE NUMBER OF DISTINCT METHODS MAY BE TOO NUMEROUS TO
+ LIST AND NAME)
+
+;; E
+
+;;  K
+
+	;; A NUMBER OF METHODS CAN BE NUMEROUS TO LIST.
+
+;;   F
+
+;;    S
+
+		(and (number_27 ?x1) (of_27 ?x1 ?x2) (METHODS_27 ?x2) (CAN_27 ?x2) (be_27 ?e1 ?x1 ?x3) (NUMEROUS_27 ?x3) (to_27 ?e1 ?x4) (LIST_27 ?x4))
+
+;;  K
+
+	;; GOAL TYPES CAN BE SIMPLE.
+
+;;   F
+
+;;    S
+
+		(and (GOAL_27 ?x1) (TYPES_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SIMPLE_27 ?x1))
+
+;;  K
+
+	;; METHODS CAN BE DISTINCT.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DISTINCT_27 ?x1))
+
+;; (IN SPITE OF THE PROLIFERATION PROBLEM , ONE MIGHT STILL IDENTIFY ESPECIALLY USEFUL COMBINATIONS OF
+ GOAL-SUBGOAL STRUCTURES FOR VARIOUS GOAL TYPES , AND MAKE THESE METHODS AVAILABLE FOR SHARING)
+
+;; E
+
+;;  K
+
+	;; AN INDIVIDUAL MAY IDENTIFY COMBINATIONS OF STRUCTURES.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (MAY_27 ?x1) (IDENTIFY_27 ?x1) (COMBINATIONS_27 ?x1) (of_27 ?x1 ?x2) (structure_27 ?x2))
+
+;;  K
+
+	;; COMBINATIONS CAN BE CONSTITUTED_OF_OR_FILLED_WITH STRUCTURES.
+
+;;   F
+
+;;    S
+
+		(and (combination_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x2) (STRUCTURES_27 ?x2))
+
+;;  K
+
+	;; COMBINATIONS CAN BE USEFUL.
+
+;;   F
+
+;;    S
+
+		(and (combination_27 ?x1) (be_27 ?e1 ?x1 ?x2) (USEFUL_27 ?x2))
+
+;;  K
+
+	;; STRUCTURES CAN BE GOAL-SUBGOAL.
+
+;;   F
+
+;;    S
+
+		(and (structure_27 ?x1)  )
+
+;;  K
+
+	;; METHODS CAN BE AVAILABLE FOR SHARING.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (AVAILABLE_27 ?x1) (for_27 ?x1 ?x2) (SHARING_27 ?x2))
+
+;; (THIS WAS THE APPROACH ADOPTED IN THE MUCH OF THE WORK ON TASK-ORIENTED APPROACHES)
+
+;; E
+
+;;  K
+
+	;; A THING CAN BE AN APPROACH.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AN_27 ?x2) (APPROACH_27 ?x2))
+
+;;  K
+
+	;; WORK CAN BE ON APPROACHES.
+
+;;   F
+
+;;    S
+
+		(and (work_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (APPROACHES_27 ?x2))
+
+;;  K
+
+	;; APPROACHES CAN BE TASK-ORIENTED.
+
+;;   F
+
+;;    S
+
+		(and (approach_27 ?x1) (be_27 ?e1 ?x1 ?x2) (TASK-ORIENTED_27 ?x2))
+
+;; (THUS WORK ON HEURISTIC CLASSIFICATION -LRB- CLANCEY , 1985 -RRB- , GENERIC TASKS -LRB- CHANDRASEKARAN ,
+ 1986 -RRB- AND KADS ' INTERPRETATION MODELS -LRB- WIELINGA & BREUKER , 1986 -RRB- IDENTIFIED A NUMBER OF
+ SUCH GENERICALLY USEFUL PROBLEM-SOLVING TASKS AND PARTICULARLY APPROPRIATE PROBLEM-SOLVING METHODS FOR
+ THEM)
+
+;; E
+
+;;  K
+
+	;; WORK MAY IDENTIFY A NUMBER OF TASKS.
+
+;;   F
+
+;;    S
+
+		(and (WORK_27 ?x1) (MAY_27 ?x1) (IDENTIFY_27 ?x1) (A_27 ?x1) (NUMBER_27 ?x1) (of_27 ?x1 ?x2) (TASKS_27 ?x2))
+
+;;  K
+
+	;; WORK CAN BE ON CLASSIFICATION.
+
+;;   F
+
+;;    S
+
+		(and (work_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (CLASSIFICATION_27 ?x2))
+
+;;  K
+
+	;; A CLASSIFICATION CAN BE HEURISTIC.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFICATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HEURISTIC_27 ?x1))
+
+;;  K
+
+	;; TASKS CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (task_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;;  K
+
+	;; METHODS CAN BE APPROPRIATE.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (APPROPRIATE_27 ?x2))
+
+;;  K
+
+	;; METHODS CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;; (HEURISTIC CLASSIFICATION WAS A METHOD WITH THE SUBTASKS OF DATA ABSTRACTION , HEURISTIC MATCH , AND
+ CLASS REFINEMENT)
+
+;; E
+
+;;  K
+
+	;; A HEURISTIC_CLASSIFICATION[PERSON??] CAN BE A METHOD.
+
+;;   F
+
+;;    S
+
+		(and (HEURISTIC_5FCLASSIFICATION_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (A_27 ?x1) (METHOD_27 ?x1))
+
+;;  K
+
+	;; A METHOD CAN BE WITH SUBTASKS OF DATA ABSTRACTION.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (WITH_27 ?x2) (SUBTASKS_27 ?x2) (of_27 ?x2 ?x3) (DATA_27 ?x3) (ABSTRACTION_27 ?x3))
+
+;; (THE GENERIC TASK PARADIGM IDENTIFIED HIERARCHICAL CLASSIFICATION , ABDUCTIVE ASSEMBLY , HYPOTHESIS
+ ASSESSMENT , DESIGN-PLAN SELECTION AND REFINEMENT , AND DATA ABSTRACTION AS SOME OF THE MOST UBIQUITOUS
+ TASKS IN KNOWLEDGE SYSTEMS)
+
+;; E
+
+;;  K
+
+	;; A PARADIGM MAY IDENTIFY CLASSIFICATION.
+
+;;   F
+
+;;    S
+
+		(and (PARADIGM_27 ?x1) (MAY_27 ?x1) (IDENTIFY_27 ?x1) (CLASSIFICATION_27 ?x1))
+
+;;  K
+
+	;; A GENERIC_TASK[PERSON??] MAY HAVE A PARADIGM.
+
+;;   F
+
+;;    S
+
+		(and (GENERIC_5FTASK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PARADIGM_27 ?x1))
+
+;;  K
+
+	;; A CLASSIFICATION CAN BE HIERARCHICAL.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFICATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HIERARCHICAL_27 ?x1))
+
+;;  K
+
+	;; AN ASSEMBLY CAN BE ABDUCTIVE.
+
+;;   F
+
+;;    S
+
+		(and (ASSEMBLY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ABDUCTIVE_27 ?x1))
+
+;;  K
+
+	;; AN ASSESSMENT CAN BE HYPOTHESIS.
+
+;;   F
+
+;;    S
+
+		(and (ASSESSMENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HYPOTHESIS_27 ?x1))
+
+;;  K
+
+	;; A SELECTION CAN BE DESIGN-PLAN.
+
+;;   F
+
+;;    S
+
+		(and (SELECTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DESIGN-PLAN_27 ?x1))
+
+;; (THIS FRAMEWORK ALSO PROPOSED HOW COMPLEX PROBLEMS MIGHT BE SOLVED BY THE COMPOSITION OF SEVERAL
+ DIFFERENT GENERIC TASKS)
+
+;; E
+
+;;  K
+
+	;; PROBLEMS MAY BE SOLVE -ED BY A COMPOSITION OF SOME_NUMBER_OF TASKS.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEMS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (SOLVE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (COMPOSITION_27 ?x2) (of_27 ?x2 ?x3) (SOME_5FNUMBER_5FOF_27 ?x3) (TASKS_27 ?x3))
+
+;;  K
+
+	;; PROBLEMS CAN BE COMPLEX.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (COMPLEX_27 ?x1))
+
+;;  K
+
+	;; TASKS CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (TASKS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;; (FOR EXAMPLE , A DIAGNOSTIC SYSTEM MIGHT BE BUILT OUT OF THE METHODS FOR ABDUCTIVE ASSEMBLY ,
+ CLASSIFICATION , HYPOTHESIS ASSESSMENT , AND DATA ABSTRACTION)
+
+;; E
+
+;;  K
+
+	;; A SYSTEM MAY BE BUILD_OUT -ED OF METHODS.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (BUILD_5FOUT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (of_27 ?x1 ?x2) (METHODS_27 ?x2))
+
+;;  K
+
+	;; A SYSTEM CAN BE DIAGNOSTIC.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DIAGNOSTIC_27 ?x1))
+
+;;  K
+
+	;; METHODS CAN BE FOR ASSEMBLY.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (ASSEMBLY_27 ?x2))
+
+;;  K
+
+	;; AN ASSEMBLY CAN BE ABDUCTIVE.
+
+;;   F
+
+;;    S
+
+		(and (ASSEMBLY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ABDUCTIVE_27 ?x1))
+
+;;  K
+
+	;; AN ASSESSMENT CAN BE HYPOTHESIS.
+
+;;   F
+
+;;    S
+
+		(and (ASSESSMENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HYPOTHESIS_27 ?x1))
+
+;; (THIS ARCHITECTURE IS REALLY FOR THE GENERIC PROBLEM OF BEST-EXPLANATION FINDING , A TASK DISCUSSED IN
+ DETAIL IN -LRB- JOSEPHSON & JOSEPHSON , 1994 -RRB-)
+
+;; E
+
+;;  K
+
+	;; A TASK MAY DISCUSS IN DETAIL.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (MAY_27 ?x1) (DISCUSS_27 ?x1) (in_27 ?x1 ?x2) (DETAIL_27 ?x2))
+
+;;  K
+
+	;; ARCHITECTURE CAN BE FOR A PROBLEM OF FINDING.
+
+;;   F
+
+;;    S
+
+		(and (architecture_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (PROBLEM_27 ?x2) (of_27 ?x2 ?x3) (FINDING_27 ?x3))
+
+;;  K
+
+	;; A PROBLEM CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;;  K
+
+	;; A FINDING CAN BE BEST-EXPLANATION.
+
+;;   F
+
+;;    S
+
+		(and (FINDING_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (BEST-EXPLANATION_27 ?x2))
+
+;; (THIS TASK IS VERY IMPORTANT , SINCE PERCEPTION , NATURAL LANGUAGE UNDERSTANDING , DIAGNOSTIC
+ PROBLEM-SOLVING AND SCIENTIFIC DISCOVERY CAN ALL BE VIEWED AS BEST-EXPLANATION FINDING PROBLEMS)
+
+;; E
+
+;;  K
+
+	;; A TASK CAN BE IMPORTANT.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IMPORTANT_27 ?x1))
+
+;;  K
+
+	;; PERCEPTION MAY BE VIEW -ED AS FINDING PROBLEMS.
+
+;;   F
+
+;;    S
+
+		(and (PERCEPTION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (VIEW_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (AS_27 ?x1) (FINDING_27 ?x1) (PROBLEMS_27 ?x1))
+
+;;  K
+
+	;; A LANGUAGE UNDERSTANDING CAN BE NATURAL.
+
+;;   F
+
+;;    S
+
+		(and (LANGUAGE_27 ?x1) (UNDERSTANDING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (NATURAL_27 ?x1))
+
+;;  K
+
+	;; PROBLEM-SOLVING CAN BE DIAGNOSTIC.
+
+;;   F
+
+;;    S
+
+		(and (problem-solving_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DIAGNOSTIC_27 ?x1))
+
+;;  K
+
+	;; A DISCOVERY CAN BE SCIENTIFIC.
+
+;;   F
+
+;;    S
+
+		(and (DISCOVERY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SCIENTIFIC_27 ?x1))
+
+;;  K
+
+	;; FINDING PROBLEMS CAN BE BEST-EXPLANATION.
+
+;;   F
+
+;;    S
+
+		(and (FINDING_27 ?x1) (PROBLEMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BEST-EXPLANATION_27 ?x1))
+
+;; (IN RELATED LATER WORK , INSTEAD OF IDENTIFYING A UNIQUE PREFERRED METHOD WITH A TASK , THE NOTION OF A
+ TASK STRUCTURE WAS DEVELOPED -LRB- CHANDRASEKARAN , 1990 -RRB-)
+
+;; E
+
+;;  K
+
+	;; A NOTION OF A TASK STRUCTURE MAY BE DEVELOP -ED.
+
+;;   F
+
+;;    S
+
+		(and (notion_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2) (STRUCTURE_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (DEVELOP_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2))
+
+;;  K
+
+	;; WORK CAN BE RELATED.
+
+;;   F
+
+;;    S
+
+		(and (work_27 ?x1) (be_27 ?e1 ?x1 ?e2) (relate_27 ?e2 ?x1))
+
+;;  K
+
+	;; A METHOD CAN BE PREFERRED.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PREFERRED_27 ?x2))
+
+;; (THE TASK STRUCTURE IDENTIFIES A NUMBER OF ALTERNATIVE METHODS FOR A TASK)
+
+;; E
+
+;;  K
+
+	;; A TASK STRUCTURE MAY IDENTIFY A NUMBER OF METHODS.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (STRUCTURE_27 ?x1) (MAY_27 ?x1) (IDENTIFY_27 ?x1) (A_27 ?x1) (NUMBER_27 ?x1) (of_27 ?x1 ?x2) (METHODS_27 ?x2))
+
+;;  K
+
+	;; METHODS CAN BE FOR A TASK.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2))
+
+;;  K
+
+	;; METHODS CAN BE ALTERNATIVE.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ALTERNATIVE_27 ?x1))
+
+;; (EACH OF THE METHODS SETS UP SUBTASKS IN ITS TURN)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF THING OF METHODS MAY SET_UP SUBTASKS.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (thing_27 ?x1) (of_27 ?x1 ?x2) (METHODS_27 ?x2) (MAY_27 ?x2) (SET_5FUP_27 ?x2) (SUBTASKS_27 ?x2))
+
+;;  K
+
+	;; METHODS MAY HAVE A THING.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (thing_27 ?x1))
+
+;;  K
+
+	;; SUBTASKS CAN BE IN A TURN.
+
+;;   F
+
+;;    S
+
+		(and (subtask_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (TURN_27 ?x2))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE A TURN.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TURN_27 ?x1))
+
+;; (THE METHODS ARE TYPICALLY SHALLOW IN THE NESTING OF SUBGOALS , INCREASING THE CHANCES THAT A USER WOULD
+ USE THEM AS A UNIT WITHOUT MUCH MODIFICATION)
+
+;; E
+
+;;  K
+
+	;; METHODS MAY SHALE IN A NESTING OF SUBGOALS.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (MAY_27 ?x1) (SHALE_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (NESTING_27 ?x2) (of_27 ?x2 ?x3) (subgoal_27 ?x3))
+
+;;  K
+
+	;; SUBGOALS MAY UNDERGO A NESTING.
+
+;;   F
+
+;;    S
+
+		(and (subgoal_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (NESTING_27 ?x1))
+
+;;  K
+
+	;; A USER MAY USE INDIVIDUAL -S.
+
+;;   F
+
+;;    S
+
+		(and (USER_27 ?x1) (MAY_27 ?x1) (USE_27 ?x1) (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1))
+
+;; (THIS KIND OF TASK-METHOD-SUBTASK ANALYSIS CAN BE CARRIED ON TO A LEVEL OF DETAIL WHERE THE TASKS ARE
+ PRIMITIVE TASKS WITH RESPECT TO THE KNOWLEDGE IN THE KNOWLEDGE BASE)
+
+;; E
+
+;;  K
+
+	;; AN ANALYSIS CAN BE TASK-METHOD-SUBTASK.
+
+;;   F
+
+;;    S
+
+		(and (ANALYSIS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TASK-METHOD-SUBTASK_27 ?x1))
+
+;;  K
+
+	;; A LEVEL CAN BE CONSTITUTED_OF_OR_FILLED_WITH DETAIL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (DETAIL_27 ?x1))
+
+;;  K
+
+	;; TASKS CAN BE TASKS.
+
+;;   F
+
+;;    S
+
+		(and (task_27 ?x1) (be_27 ?e1 ?x1 ?x2) (TASKS_27 ?x2))
+
+;;  K
+
+	;; TASKS CAN BE WITH RESPECT.
+
+;;   F
+
+;;    S
+
+		(and (task_27 ?x1) (be_27 ?e1 ?x1 ?x2) (WITH_27 ?x2) (RESPECT_27 ?x2))
+
+;;  K
+
+	;; TASKS CAN BE PRIMITIVE.
+
+;;   F
+
+;;    S
+
+		(and (TASKS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PRIMITIVE_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE IN A KNOWLEDGE BASE.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (KNOWLEDGE_27 ?x2) (BASE_27 ?x2))
+
+;; (THE ADVANTAGE OF DEVELOPING TASK STRUCTURES FOR A TASK , AS OPPOSED TO A SPECIFIC METHOD , IS THAT THERE
+ IS GREATER FLEXIBILITY IN PUTTING TOGETHER A METHOD THAT MEETS WITH THE NEEDS OF THE SPECIFIC SITUATION)
+
+;; E
+
+;;  K
+
+	;; AN ADVANTAGE OF TASK STRUCTURES CAN BE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (ADVANTAGE_27 ?x1) (of_27 ?x1 ?x2) (TASK_27 ?x2) (STRUCTURES_27 ?x2) (be_27 ?e1 ?x1 ?x3) (proposition_27 ?x3))
+
+;;  K
+
+	;; TASK STRUCTURES CAN BE FOR A TASK.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (STRUCTURES_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2))
+
+;;  K
+
+	;; TASK STRUCTURES CAN BE DEVELOPING.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (STRUCTURES_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (DEVELOPING_27 ?x2))
+
+;;  K
+
+	;; A FLEXIBILITY CAN BE GREATER.
+
+;;   F
+
+;;    S
+
+		(and (FLEXIBILITY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GREATER_27 ?x1))
+
+;;  K
+
+	;; A SITUATION MAY HAVE NEEDS.
+
+;;   F
+
+;;    S
+
+		(and (SITUATION_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (NEEDS_27 ?x1))
+
+;; (METHODS WITH SHALLOW GOAL-SUBGOAL TREES HAVE RELATIVELY SMALL NUMBER OF PSK UNITS)
+
+;; E
+
+;;  K
+
+	;; METHODS MAY HAVE NUMBER OF UNITS.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (NUMBER_27 ?x1) (of_27 ?x1 ?x2) (unit_27 ?x2))
+
+;;  K
+
+	;; METHODS CAN BE WITH TREES.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (WITH_27 ?x2) (TREES_27 ?x2))
+
+;;  K
+
+	;; TREES CAN BE SHALLOW.
+
+;;   F
+
+;;    S
+
+		(and (tree_27 ?x1)  )
+
+;;  K
+
+	;; TREES CAN BE GOAL-SUBGOAL.
+
+;;   F
+
+;;    S
+
+		(and (tree_27 ?x1)  )
+
+;;  K
+
+	;; A NUMBER CAN BE SMALL.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SMALL_27 ?x1))
+
+;;  K
+
+	;; A PSK[PERSON??] MAY HAVE UNITS.
+
+;;   F
+
+;;    S
+
+		(and (PSK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (unit_27 ?x1))
+
+;; (OF COURSE , THESE METHODS WOULD LEAVE A NUMBER OF SUBGOALS UNSOLVED)
+
+;; E
+
+;;  K
+
+	;; METHODS MAY LEAVE A NUMBER OF SUBGOALS.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (MAY_27 ?x1) (LEAVE_27 ?x1) (A_27 ?x1) (NUMBER_27 ?x1) (of_27 ?x1 ?x2) (subgoal_27 ?x2))
+
+;;  K
+
+	;; SUBGOALS MAY BE UNSOLVE -ED.
+
+;;   F
+
+;;    S
+
+		(and (subgoal_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (UNSOLVE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (THE USER IS FREE TO SEEK OTHER METHODS FOR THESE SUBGOALS , THUS PROVIDING FLEXIBILITY)
+
+;; E
+
+;;  K
+
+	;; METHODS CAN BE FOR SUBGOALS.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (subgoal_27 ?x2))
+
+;; (THE LOGARITHM METHOD IS HIGHLY REUSABLE , WHILE GIVING THE USER FREEDOM TO USE APPROPRIATE METHODS FOR
+ THE SUBGOALS)
+
+;; E
+
+;;  K
+
+	;; A LOGARITHM METHOD CAN BE REUSABLE.
+
+;;   F
+
+;;    S
+
+		(and (LOGARITHM_27 ?x1) (METHOD_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (REUSABLE_27 ?x1))
+
+;;  K
+
+	;; METHODS CAN BE APPROPRIATE.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (APPROPRIATE_27 ?x2))
+
+;; (FIGURE 1 ILLUSTRATES TASK STRUCTURE)
+
+;; E
+
+;;  K
+
+	;; FIGURE MAY ILLUSTRATE TASK STRUCTURE.
+
+;;   F
+
+;;    S
+
+		(and (FIGURE_27 ?x1) (MAY_27 ?x1) (ILLUSTRATE_27 ?x1) (TASK_27 ?x1) (STRUCTURE_27 ?x1))
+
+;; (TASK A LTERNATIVE M ETHODS S U B TASKS A LTERNATIVE M ETHODS FIGURE 1)
+
+;; E
+
+;;  K
+
+	;; A TASK_A_LTERNATIVE_M[PERSON??] MAY ETHOD U.
+
+;;   F
+
+;;    S
+
+		(and (TASK_5FA_5FLTERNATIVE_5FM_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (ETHOD_27 ?x1) (U_27 ?x1))
+
+;;  K
+
+	;; A S[PERSON??] MAY HAVE A U.
+
+;;   F
+
+;;    S
+
+		(and (S_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (U_27 ?x1))
+
+;; (A TASK MAY BE SOLVED BY A NUMBER OF ALTERNATIVE METHODS)
+
+;; E
+
+;;  K
+
+	;; A TASK MAY BE SOLVE -ED BY A NUMBER OF METHODS.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (SOLVE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (number_27 ?x2) (of_27 ?x2 ?x3) (METHODS_27 ?x3))
+
+;;  K
+
+	;; METHODS CAN BE ALTERNATIVE.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ALTERNATIVE_27 ?x1))
+
+;; (EACH METHOD MAY SET UP SUBTASKS)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF METHOD MAY SET_UP SUBTASKS.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (METHOD_27 ?x1) (MAY_27 ?x1) (SET_5FUP_27 ?x1) (SUBTASKS_27 ?x1))
+
+;; (TASK STRUCTURES HAVE BEEN DEVELOPED FOR THE TASK OF DESIGN -LRB- CHANDRASEKARAN , 1990 -RRB- , DIAGNOSIS
+ -LRB- BENJAMINS , 1993 -RRB- , PLANNING -LRB- BARROS , L. NUNES DE ET AL. , 1996 -RRB- AND ABDUCTIVE
+ INFERENCE -LRB- JOSEPHSON & JOSEPHSON , 1994 -RRB-)
+
+;; E
+
+;;  K
+
+	;; STRUCTURES MAY BE DEVELOP -ED FOR A TASK OF DESIGN.
+
+;;   F
+
+;;    S
+
+		(and (STRUCTURES_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (DEVELOP_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2) (of_27 ?x2 ?x3) (DESIGN_27 ?x3))
+
+;;  K
+
+	;; A TASK[PERSON??] MAY HAVE STRUCTURES.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (STRUCTURES_27 ?x1))
+
+;;  K
+
+	;; AN INFERENCE CAN BE ABDUCTIVE.
+
+;;   F
+
+;;    S
+
+		(and (INFERENCE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ABDUCTIVE_27 ?x1))
+
+;; (THIS IS NOT THE PLACE TO GIVE THE DETAILS OF THESE TASK ANALYSES)
+
+;; E
+
+;;  K
+
+	;; A THING CAN BE A PLACE.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (place_27 ?x2))
+
+;;  K
+
+	;; TASK ANALYSES MAY HAVE DETAILS.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ANALYSES_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (DETAILS_27 ?x1))
+
+;; (THE MAIN POINTS TO BE MADE HERE ARE THE FOLLOWING)
+
+;; E
+
+;;  K
+
+	;; POINTS CAN BE A FOLLOWING.
+
+;;   F
+
+;;    S
+
+		(and (point_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (following_27 ?x2))
+
+;; (AS A RESULT OF THE GENERIC TASK AND TASK STRUCTURE WORK − AND IN GENERAL , OF WORK ON TASK ANALYSIS − WE
+ NOW HAVE A GOOD REPERTOIRE OF TASKS AND METHODS)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY HAVE A REPERTOIRE OF TASKS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (REPERTOIRE_27 ?x1) (of_27 ?x1 ?x2) (TASKS_27 ?x2))
+
+;;  K
+
+	;; WORK MAY HAVE A RESULT.
+
+;;   F
+
+;;    S
+
+		(and (WORK_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (RESULT_27 ?x1))
+
+;;  K
+
+	;; A GENERIC_TASK_AND_TASK_STRUCTURE[PERSON??] MAY HAVE WORK.
+
+;;   F
+
+;;    S
+
+		(and (GENERIC_5FTASK_5FAND_5FTASK_5FSTRUCTURE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (WORK_27 ?x1))
+
+;;  K
+
+	;; WORK CAN BE ON TASK ANALYSIS −.
+
+;;   F
+
+;;    S
+
+		(and (work_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (TASK_27 ?x2) (ANALYSIS_27 ?x2) (kbs2_kif_quote_E2_88_92_27 ?x2))
+
+;;  K
+
+	;; A REPERTOIRE CAN BE CONSTITUTED_OF_OR_FILLED_WITH TASKS.
+
+;;   F
+
+;;    S
+
+		(and (REPERTOIRE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (TASKS_27 ?x1))
+
+;;  K
+
+	;; A REPERTOIRE CAN BE GOOD.
+
+;;   F
+
+;;    S
+
+		(and (REPERTOIRE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GOOD_27 ?x1))
+
+;; (THE DESCRIPTIONS OF THE TASKS AND METHODS ARE A RICH SOURCE OF ONTOLOGIES FOR PROBLEM SOLVING)
+
+;; E
+
+;;  K
+
+	;; DESCRIPTIONS OF TASKS CAN BE A SOURCE OF ONTOLOGIES.
+
+;;   F
+
+;;    S
+
+		(and (description_27 ?x1) (of_27 ?x1 ?x2) (TASKS_27 ?x2) (be_27 ?e1 ?x1 ?x3) (A_27 ?x3) (SOURCE_27 ?x3) (of_27 ?x3 ?x4) (ONTOLOGIES_27 ?x4))
+
+;;  K
+
+	;; TASKS MAY HAVE DESCRIPTIONS.
+
+;;   F
+
+;;    S
+
+		(and (TASKS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (DESCRIPTIONS_27 ?x1))
+
+;;  K
+
+	;; A SOURCE CAN BE CONSTITUTED_OF_OR_FILLED_WITH ONTOLOGIES.
+
+;;   F
+
+;;    S
+
+		(and (SOURCE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (ONTOLOGIES_27 ?x1))
+
+;;  K
+
+	;; A SOURCE CAN BE RICH.
+
+;;   F
+
+;;    S
+
+		(and (SOURCE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (RICH_27 ?x1))
+
+;;  K
+
+	;; ONTOLOGIES CAN BE FOR PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (ontology_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;; (THE EXAMPLES WE GAVE IN THE EARLIER SECTION FOR DIAGNOSIS AND DESIGN ARE BUT A SMALL SUBSET OF THE
+ ONTOLOGIES THAT CAN BE CONSTRUCTED FOR PROBLEM SOLVING KNOWLEDGE FROM THE WORK ON TASK-ORIENTED
+ APPROACHES)
+
+;; E
+
+;;  K
+
+	;; EXAMPLES CAN BE A SUBSET OF ONTOLOGIES.
+
+;;   F
+
+;;    S
+
+		(and (example_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (SUBSET_27 ?x2) (of_27 ?x2 ?x3) (ONTOLOGIES_27 ?x3))
+
+;;  K
+
+	;; PERSON -S MAY GIVE IN A SECTION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (GIVE_27 ?x1) (in_27 ?x1 ?x2) (section_27 ?x2))
+
+;;  K
+
+	;; A SECTION CAN BE FOR DIAGNOSIS.
+
+;;   F
+
+;;    S
+
+		(and (section_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (DIAGNOSIS_27 ?x2))
+
+;;  K
+
+	;; ONTOLOGIES MAY HAVE A SUBSET.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGIES_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SUBSET_27 ?x1))
+
+;;  K
+
+	;; A SUBSET CAN BE SMALL.
+
+;;   F
+
+;;    S
+
+		(and (SUBSET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SMALL_27 ?x1))
+
+;;  K
+
+	;; WORK CAN BE ON APPROACHES.
+
+;;   F
+
+;;    S
+
+		(and (work_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (APPROACHES_27 ?x2))
+
+;;  K
+
+	;; APPROACHES CAN BE TASK-ORIENTED.
+
+;;   F
+
+;;    S
+
+		(and (approach_27 ?x1) (be_27 ?e1 ?x1 ?x2) (TASK-ORIENTED_27 ?x2))
+
+;; (THE FACT THAT THIS WORK FOCUSES ON TASKS OF CERTAIN GENERALITY MAKES THE ONTOLOGIES THAT ARISE FROM THEM
+ OF POTENTIAL GENERAL INTEREST AS WELL)
+
+;; E
+
+;;  K
+
+	;; A FACT MAY MAKE ONTOLOGIES.
+
+;;   F
+
+;;    S
+
+		(and (FACT_27 ?x1) (MAY_27 ?x1) (MAKE_27 ?x1) (ONTOLOGIES_27 ?x1))
+
+;;  K
+
+	;; WORK MAY FOCUSE ON TASKS OF GENERALITY.
+
+;;   F
+
+;;    S
+
+		(and (WORK_27 ?x1) (MAY_27 ?x1) (FOCUSE_27 ?x1) (ON_27 ?x1) (TASKS_27 ?x1) (of_27 ?x1 ?x2) (GENERALITY_27 ?x2))
+
+;;  K
+
+	;; TASKS CAN BE CONSTITUTED_OF_OR_FILLED_WITH GENERALITY.
+
+;;   F
+
+;;    S
+
+		(and (TASKS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (GENERALITY_27 ?x1))
+
+;;  K
+
+	;; INTEREST CAN BE GENERAL.
+
+;;   F
+
+;;    S
+
+		(and (interest_27 ?x1) (be_27 ?e1 ?x1 ?x2) (GENERAL_27 ?x2))
+
+;; (THE EARLIER GENERATION OF GENERIC TASK LANGUAGES CAN BE VIEWED IN THE LIGHT OF KNOWLEDGE REUSE)
+
+;; E
+
+;;  K
+
+	;; A GENERATION OF LANGUAGES MAY BE VIEW -ED IN A LIGHT OF KNOWLEDGE REUSE.
+
+;;   F
+
+;;    S
+
+		(and (GENERATION_27 ?x1) (of_27 ?x1 ?x2) (LANGUAGES_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (VIEW_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (in_27 ?x1 ?x3) (A_27 ?x3) (LIGHT_27 ?x3) (of_27 ?x1 ?x4) (KNOWLEDGE_27 ?x4) (REUSE_27 ?x4))
+
+;;  K
+
+	;; LANGUAGES MAY UNDERGO A GENERATION.
+
+;;   F
+
+;;    S
+
+		(and (LANGUAGES_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (GENERATION_27 ?x1))
+
+;;  K
+
+	;; A GENERIC_TASK[PERSON??] MAY HAVE LANGUAGES.
+
+;;   F
+
+;;    S
+
+		(and (GENERIC_5FTASK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (LANGUAGES_27 ?x1))
+
+;; (TO TAKE A SIMPLE EXAMPLE , A GENERIC TASK LANGUAGE CALLED CSRL -LRB- BYLANDER & MITTAL , 1990 -RRB- WAS
+ WIDELY USED TO BUILD CLASSIFICATION PROBLEM-SOLVING SYSTEMS)
+
+;; E
+
+;;  K
+
+	;; A LANGUAGE MAY CALL.
+
+;;   F
+
+;;    S
+
+		(and (LANGUAGE_27 ?x1) (MAY_27 ?x1) (CALL_27 ?x1))
+
+;;  K
+
+	;; AN EXAMPLE CAN BE SIMPLE.
+
+;;   F
+
+;;    S
+
+		(and (EXAMPLE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SIMPLE_27 ?x1))
+
+;;  K
+
+	;; A GENERIC_TASK[PERSON??] MAY HAVE A LANGUAGE.
+
+;;   F
+
+;;    S
+
+		(and (GENERIC_5FTASK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (LANGUAGE_27 ?x1))
+
+;;  K
+
+	;; SYSTEMS CAN BE CLASSIFICATION.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CLASSIFICATION_27 ?x1))
+
+;;  K
+
+	;; SYSTEMS CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEMS_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;; (SYNTHESIZE A CLASSIFICATION METHOD USING A METHOD - SPECIFIC ONTOLOGY CONSISTING OF TERMS SUCH AS ``
+ ESTABLISH CONCEPT '' AND `` REFINE CONCEPT , '' WITHIN A CONTROL VOCABULARY THAT ALLOWED VARIATIONS ON
+ TOP-DOWN NAVIGATION OF THE CLASSIFICATION HIERARCHY , AND 2)
+
+;; E
+
+;;  K
+
+	;; A CLASSIFICATION METHOD MAY USE A METHOD.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFICATION_27 ?x1) (METHOD_27 ?x1) (MAY_27 ?x1) (USE_27 ?x1) (A_27 ?x1) (METHOD_27 ?x1))
+
+;;  K
+
+	;; ONTOLOGY MAY CONSIST OF TERMS.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (CONSIST_27 ?x1) (of_27 ?x1 ?x2) (TERMS_27 ?x2))
+
+;;  K
+
+	;; A CONCEPT CAN BE ESTABLISH.
+
+;;   F
+
+;;    S
+
+		(and (CONCEPT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ESTABLISH_27 ?x1))
+
+;;  K
+
+	;; A CONCEPT CAN BE REFINE.
+
+;;   F
+
+;;    S
+
+		(and (CONCEPT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (REFINE_27 ?x1))
+
+;;  K
+
+	;; A CLASSIFICATION HIERARCHY MAY UNDERGO A NAVIGATION.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFICATION_27 ?x1) (HIERARCHY_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (NAVIGATION_27 ?x1))
+
+;;  K
+
+	;; A NAVIGATION CAN BE TOP-DOWN.
+
+;;   F
+
+;;    S
+
+		(and (NAVIGATION_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1) (top-down_27 ?x1))
+
+;; (REPRESENT DOMAIN FACTUAL KNOWLEDGE FOR CLASSIFICATION IN THE CHOSEN DOMAIN)
+
+;; E
+
+;;  K
+
+	;; DOMAIN CAN BE FOR CLASSIFICATION.
+
+;;   F
+
+;;    S
+
+		(and (DOMAIN_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (CLASSIFICATION_27 ?x2))
+
+;;  K
+
+	;; CLASSIFICATION CAN BE IN A DOMAIN.
+
+;;   F
+
+;;    S
+
+		(and (classification_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (DOMAIN_27 ?x2))
+
+;;  K
+
+	;; A DOMAIN CAN BE CHOSEN.
+
+;;   F
+
+;;    S
+
+		(and (DOMAIN_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CHOSEN_27 ?x1))
+
+;; (THUS , THE METHOD ONTOLOGY FOR CLASSIFICATION DIRECTLY RESULTED IN A NUMBER OF SYSTEM BUILDERS 15
+ REUSING THE PROBLEM-SOLVING KNOWLEDGE FOR CLASSIFICATION EMBEDDED IN CSRL)
+
+;; E
+
+;;  K
+
+	;; A METHOD ONTOLOGY MAY RESULT SOME NUMBER_OR_PORTION.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (RESULT_27 ?x1) (SOME_27 ?x1) (NUMBER_5FOR_5FPORTION_27 ?x1))
+
+;;  K
+
+	;; A METHOD ONTOLOGY CAN BE FOR CLASSIFICATION.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (ONTOLOGY_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (CLASSIFICATION_27 ?x2))
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY REUSE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (REUSE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;;  K
+
+	;; CLASSIFICATION MAY BE EMBED -ED IN A CSRL[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFICATION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (EMBED_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (CSRL_27 ?x2) (PERSON_27 ?x3))
+
+;; (ALTHOUGH THE NOTION OF PROBLEM-SOLVING ONTOLOGY AS INTRODUCED IN THIS PAPER IS RELATIVELY NEW COMPARED
+ TO THE WORK ON DOMAIN ONTOLOGIES , SOME WORK HAS BEEN PERFORMED IN THE FIELD OF KNOWLEDGE ENGINEERING
+ THAT PROVIDED IMPORTANT INPUT)
+
+;; E
+
+;;  K
+
+	;; WORK MAY BE PERFORM -ED IN A FIELD OF KNOWLEDGE ENGINEERING.
+
+;;   F
+
+;;    S
+
+		(and (WORK_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (PERFORM_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (FIELD_27 ?x2) (of_27 ?x2 ?x3) (KNOWLEDGE_27 ?x3) (ENGINEERING_27 ?x3))
+
+;;  K
+
+	;; A NOTION OF ONTOLOGY CAN BE NEW.
+
+;;   F
+
+;;    S
+
+		(and (NOTION_27 ?x1) (of_27 ?x1 ?x2) (ONTOLOGY_27 ?x2) (CAN_27 ?x2) (BE_27 ?x2) (NEW_27 ?x2))
+
+;;  K
+
+	;; ONTOLOGY MAY BE INTRODUCE -ED IN A PAPER.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (INTRODUCE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (PAPER_27 ?x2))
+
+;;  K
+
+	;; AN ONTOLOGY CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;;  K
+
+	;; WORK CAN BE ON DOMAIN ONTOLOGIES.
+
+;;   F
+
+;;    S
+
+		(and (work_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (DOMAIN_27 ?x2) (ONTOLOGIES_27 ?x2))
+
+;;  K
+
+	;; AN INPUT CAN BE IMPORTANT.
+
+;;   F
+
+;;    S
+
+		(and (INPUT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IMPORTANT_27 ?x1))
+
+;; (ALREADY IN THE BEGINNING OF THE NINETIES , IN JAPAN MIZOGUCHI 'S GROUP STARTED TO TALK ABOUT
+ TASK-ONTOLOGIES AS VALUABLE INSTRUMENTS TO LINK THE VOCABULARY AND VIEW OF A USER TO THAT OF A PROBLEM
+ SOLVER -LRB- MIZOGUCHI ET AL. -RRB-)
+
+;; E
+
+;;  K
+
+	;; NINETIES MAY HAVE A BEGINNING.
+
+;;   F
+
+;;    S
+
+		(and (NINETIES_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (BEGINNING_27 ?x1))
+
+;;  K
+
+	;; A JAPAN_MIZOGUCHI[PERSON??] MAY HAVE A GROUP.
+
+;;   F
+
+;;    S
+
+		(and (JAPAN_5FMIZOGUCHI_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (GROUP_27 ?x1))
+
+;;  K
+
+	;; INSTRUMENTS CAN BE VALUABLE.
+
+;;   F
+
+;;    S
+
+		(and (instrument_27 ?x1) (be_27 ?e1 ?x1 ?x2) (VALUABLE_27 ?x2))
+
+;; (THESE TASK ONTOLOGIES COMPRISE THE VOCABULARY AND THE REASONING STEPS OF SPECIFIC TASKS AND , IN THAT
+ SENSE , THEY RELATE TO OUR NOTIONS OF PROBLEM-SOLVING GOAL AND PROBLEM-SOLVING KNOWLEDGE WORK CARRIED
+ OUT AT STANFORD ON PROTÉGÉ ALSO IS RELEVANT FOR PROBLEM-SOLVING ONTOLOGIES)
+
+;; E
+
+;;  K
+
+	;; TASK ONTOLOGIES MAY COMPRISE A VOCABULARY.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ONTOLOGIES_27 ?x1) (MAY_27 ?x1) (COMPRISE_27 ?x1) (A_27 ?x1) (VOCABULARY_27 ?x1))
+
+;;  K
+
+	;; TASKS MAY UNDERGO REASONING STEPS.
+
+;;   F
+
+;;    S
+
+		(and (TASKS_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (REASONING_27 ?x1) (STEPS_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY RELATE TO NOTIONS OF GOAL.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (RELATE_27 ?x1) (to_27 ?x1 ?x2) (NOTIONS_27 ?x2) (of_27 ?x2 ?x3) (GOAL_27 ?x3))
+
+;;  K
+
+	;; PERSON -S MAY HAVE NOTIONS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (NOTIONS_27 ?x1))
+
+;;  K
+
+	;; A GOAL CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (GOAL_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;;  K
+
+	;; KNOWLEDGE WORK CAN BE RELEVANT FOR ONTOLOGIES.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (WORK_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (RELEVANT_27 ?x1) (for_27 ?x1 ?x2) (ONTOLOGIES_27 ?x2))
+
+;;  K
+
+	;; KNOWLEDGE WORK MAY BE CARRY_OUT -ED AT A MALE.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (WORK_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (CARRY_5FOUT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (AT_27 ?x1) (A_27 ?x1) (MALE_27 ?x1))
+
+;;  K
+
+	;; A KNOWLEDGE WORK CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (WORK_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;;  K
+
+	;; ONTOLOGIES CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (ontology_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;; (A METHOD ONTOLOGY , IN THEIR VIEW , DEFINES THE CONCEPTS AND RELATIONSHIPS THAT ARE USED BY THE METHOD
+ TO ACHIEVE ITS GOAL -LRB- GENNARI ET AL. , 1994 -RRB-)
+
+;; E
+
+;;  K
+
+	;; A METHOD ONTOLOGY MAY DEFINE CONCEPTS.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (DEFINE_27 ?x1) (concept_27 ?x1))
+
+;;  K
+
+	;; A METHOD ONTOLOGY CAN BE IN A VIEW.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (ONTOLOGY_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (VIEW_27 ?x2))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE A VIEW.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (VIEW_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE A GOAL.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (GOAL_27 ?x1))
+
+;; (THUS , `` METHOD ONTOLOGY '' IN THIS RESEARCH REFERS TO DOMAIN ONTOLOGY FROM A METHOD POINT OF VIEW)
+
+;; E
+
+;;  K
+
+	;; METHOD ONTOLOGY MAY REFER TO DOMAIN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (REFER_27 ?x1) (TO_27 ?x1) (DOMAIN_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; METHOD ONTOLOGY CAN BE IN RESEARCH.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (ONTOLOGY_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (RESEARCH_27 ?x2))
+
+;;  K
+
+	;; A METHOD POINT CAN BE CONSTITUTED_OF_OR_FILLED_WITH VIEW.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (POINT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (VIEW_27 ?x1))
+
+;; (IN THIS SENSE , PROTÉGÉ-II IS CLOSELY RELATED TO WHAT ARE CALLED ONTOLOGICAL ASSUMPTIONS OR REQUIREMENTS
+ OF PROBLEM-SOLVING METHODS -LRB- BENJAMINS ET AL. , 1996 -RRB-)
+
+;; E
+
+;;  K
+
+	;; METHODS MAY UNDERGO ASSUMPTIONS.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (ASSUMPTIONS_27 ?x1))
+
+;;  K
+
+	;; ASSUMPTIONS CAN BE ONTOLOGICAL.
+
+;;   F
+
+;;    S
+
+		(and (assumption_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ONTOLOGICAL_27 ?x2))
+
+;;  K
+
+	;; METHODS CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;; (SUCH ASSUMPTIONS MAY DEFINE ONTOLOGICAL COMMITMENTS OF PSMS IN A DOMAININDEPENDENT WAY)
+
+;; E
+
+;;  K
+
+	;; ASSUMPTIONS MAY DEFINE COMMITMENTS OF A PSMS[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (ASSUMPTIONS_27 ?x1) (MAY_27 ?x1) (define_27 ?e1 ?x1 ?x2) (commitment_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (PSMS_27 ?x3) (person_27 ?x4))
+
+;;  K
+
+	;; A PSMS[PERSON??] MAY UNDERGO COMMITMENTS.
+
+;;   F
+
+;;    S
+
+		(and (PSMS_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (UNDERGO_27 ?x1) (commitment_27 ?x1))
+
+;;  K
+
+	;; COMMITMENTS CAN BE ONTOLOGICAL.
+
+;;   F
+
+;;    S
+
+		(and (commitment_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ONTOLOGICAL_27 ?x2))
+
+;;  K
+
+	;; A WAY CAN BE DOMAININDEPENDENT.
+
+;;   F
+
+;;    S
+
+		(and (WAY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DOMAININDEPENDENT_27 ?x1))
+
+;; (HOWEVER , ASSUMPTIONS NOT ONLY REFER TO DOMAIN KNOWLEDGE NEEDED BY THE PSM , BUT ALSO TO THE TASK A
+ METHOD IS SUPPOSED TO REALIZE , IN WHICH CASE THEY ARE CALLED TELEOLOGICAL ASSUMPTIONS)
+
+;; E
+
+;;  K
+
+	;; DOMAIN KNOWLEDGE MAY BE NEED -ED BY A PSM[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (DOMAIN_27 ?x1) (KNOWLEDGE_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (NEED_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (PSM_27 ?x2) (PERSON_27 ?x3))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY BE CALL -ED.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (CALL_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; ASSUMPTIONS CAN BE TELEOLOGICAL.
+
+;;   F
+
+;;    S
+
+		(and (assumption_27 ?x1) (be_27 ?e1 ?x1 ?x2) (TELEOLOGICAL_27 ?x2))
+
+;; (SUCH ASSUMPTIONS DEFINE A WEAKENING OF THE GOAL TO BE ACHIEVED BY INTRODUCING ASSUMPTIONS ABOUT THE
+ PRECISE PROBLEM TYPE)
+
+;; E
+
+;;  K
+
+	;; ASSUMPTIONS MAY DEFINE A WEAKENING OF A GOAL.
+
+;;   F
+
+;;    S
+
+		(and (assumption_27 ?x1) (MAY_27 ?x1) (define_27 ?e1 ?x1 ?x2) (A_27 ?x2) (WEAKENING_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (GOAL_27 ?x3))
+
+;;  K
+
+	;; A GOAL MAY UNDERGO A WEAKENING.
+
+;;   F
+
+;;    S
+
+		(and (GOAL_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (WEAKENING_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM TYPE CAN BE PRECISE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (TYPE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PRECISE_27 ?x1))
+
+;; (FOR EXAMPLE , THE USE OF THE CLASSIFICATION METHOD FOR DIAGNOSIS TYPICALLY INVOLVES A WEAKENING OF THE
+ GOAL)
+
+;; E
+
+;;  K
+
+	;; A USE OF A CLASSIFICATION METHOD MAY INVOLVE A WEAKENING OF A GOAL.
+
+;;   F
+
+;;    S
+
+		(and (use_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (CLASSIFICATION_27 ?x2) (METHOD_27 ?x2) (MAY_27 ?x2) (INVOLVE_27 ?x2) (A_27 ?x2) (WEAKENING_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (GOAL_27 ?x3))
+
+;;  K
+
+	;; A CLASSIFICATION METHOD MAY HAVE A USE.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFICATION_27 ?x1) (METHOD_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (USE_27 ?x1))
+
+;;  K
+
+	;; A CLASSIFICATION METHOD CAN BE FOR DIAGNOSIS.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFICATION_27 ?x1) (METHOD_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (DIAGNOSIS_27 ?x2))
+
+;;  K
+
+	;; A GOAL MAY UNDERGO A WEAKENING.
+
+;;   F
+
+;;    S
+
+		(and (GOAL_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (WEAKENING_27 ?x1))
+
+;; (NORMALLY , WE WANT AN ANSWER FOR DIAGNOSIS THAT DOES N'T HAVE MORE MALFUNCTION HYPOTHESES THAN
+ NECESSARY)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY WANT AN ANSWER.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (WANT_27 ?x1) (AN_27 ?x1) (ANSWER_27 ?x1))
+
+;;  K
+
+	;; AN ANSWER CAN BE FOR DIAGNOSIS.
+
+;;   F
+
+;;    S
+
+		(and (ANSWER_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (DIAGNOSIS_27 ?x2))
+
+;; (THE CLASSIFICATION METHOD WOULD TYPICALLY PRODUCE A NUMBER OF PLAUSIBLE HYPOTHESIS CLASSES , THE METHOD
+ CAN NOT CHECK FOR REDUNDANCY)
+
+;; E
+
+;;  K
+
+	;; A METHOD MAY CHECK FOR REDUNDANCY.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (MAY_27 ?x1) (CHECK_27 ?x1) (for_27 ?x1 ?x2) (REDUNDANCY_27 ?x2))
+
+;; (THUS IN FACT THE PSM ACHIEVES A WEAKER GOAL)
+
+;; E
+
+;;  K
+
+	;; A PSM[PERSON??] MAY ACHIEVE A GOAL.
+
+;;   F
+
+;;    S
+
+		(and (PSM_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (achieve_27 ?e1 ?x1) (A_27 ?x1) (GOAL_27 ?x1))
+
+;;  K
+
+	;; A GOAL CAN BE WEAKER.
+
+;;   F
+
+;;    S
+
+		(and (GOAL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (WEAKER_27 ?x1))
+
+;; (SEVERAL DIFFERENT RESEARCH COMMUNITIES ARE NOWADAYS WORKING ON ONTOLOGIES)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF RESEARCH COMMUNITIES MAY WORK ON ONTOLOGIES.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (RESEARCH_27 ?x1) (COMMUNITIES_27 ?x1) (MAY_27 ?x1) (WORK_27 ?x1) (ON_27 ?x1) (ONTOLOGIES_27 ?x1))
+
+;; (THE SPAR INITIATIVE -LRB- SHARED PLANNING AND ACTIVITY REPRESENTATION -LRB- TATE , 1998 -RRB- -RRB- AIMS
+ AT DEVELOPING A STANDARD LANGUAGE FOR DESCRIBING PLANS AND DOMAIN KNOWLEDGE USED IN PLANNING)
+
+;; E
+
+;;  K
+
+	;; AN INITIATIVE MAY BE USE -ED IN PLANNING.
+
+;;   F
+
+;;    S
+
+		(and (INITIATIVE_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (USE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (PLANNING_27 ?x2))
+
+;;  K
+
+	;; AN INITIATIVE CAN BE SPAR.
+
+;;   F
+
+;;    S
+
+		(and (INITIATIVE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SPAR_27 ?x1))
+
+;;  K
+
+	;; A LANGUAGE CAN BE STANDARD.
+
+;;   F
+
+;;    S
+
+		(and (LANGUAGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (STANDARD_27 ?x1))
+
+;; (SPAR THEN CORRESPONDS TO A SECOND-LEVEL ONTOLOGY FOR PLANNING , BUT IT DOES NOT , HOWEVER , INCLUDE AN
+ ONTOLOGY OF PLANNING PROBLEM-SOLVING STEPS)
+
+;; E
+
+;;  K
+
+	;; A SPAR[PERSON??] MAY CORRESPOND TO AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (SPAR_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (correspond_27 ?e1) (to_27 ?e1 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; AN ONTOLOGY CAN BE FOR PLANNING.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (PLANNING_27 ?x2))
+
+;;  K
+
+	;; AN ONTOLOGY CAN BE SECOND-LEVEL.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SECOND-LEVEL_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY DO.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (DO_27 ?x1))
+
+;;  K
+
+	;; STEPS CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (step_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;; (4 SHARING OF METHOD KNOWLEDGE WE ARGUED THAT PROBLEM-SOLVING METHOD KNOWLEDGE IS A SOMEWHAT NEGLECTED
+ DIMENSION OF ONTOLOGY STUDIES , AND THAT A MOTIVATION FOR STUDYING ITS ONTOLOGY IS KNOWLEDGE SHARING)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF SHARING OF A METHOD_KNOWLEDGE[PERSON??] MAY ARGUE.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (SHARING_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (METHOD_5FKNOWLEDGE_27 ?x2) (person_27 ?x3))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (ARGUE_27 ?x1))
+
+;;  K
+
+	;; A METHOD_KNOWLEDGE[PERSON??] MAY UNDERGO SHARING.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_5FKNOWLEDGE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (UNDERGO_27 ?x1) (SHARING_27 ?x1))
+
+;;  K
+
+	;; A METHOD KNOWLEDGE CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (KNOWLEDGE_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;;  K
+
+	;; STUDIES CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (study_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; A MOTIVATION CAN BE KNOWLEDGE SHARING.
+
+;;   F
+
+;;    S
+
+		(and (MOTIVATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (KNOWLEDGE_27 ?x1) (SHARING_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (CONSIDER A KNOWLEDGE-SYSTEM BUILDER WHO WISHES TO BUILD A MEDICAL DECISION-MAKING SYSTEM)
+
+;; E
+
+;;  K
+
+	;; A BUILDER CAN BE KNOWLEDGE-SYSTEM.
+
+;;   F
+
+;;    S
+
+		(and (BUILDER_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (KNOWLEDGE-SYSTEM_27 ?x1))
+
+;;  K
+
+	;; A SYSTEM CAN BE MEDICAL.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MEDICAL_27 ?x1))
+
+;;  K
+
+	;; A SYSTEM CAN BE DECISION-MAKING.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DECISION-MAKING_27 ?x1))
+
+;; (HE WANTS A SYSTEM THAT WILL ACCEPT A DESCRIPTION OF A PATIENT 'S COMPLAINTS AND PRODUCE AN ANSWER
+ DESCRIBING WHAT IS WRONG WITH THE PATIENT)
+
+;; E
+
+;;  K
+
+	;; A MALE MAY WANT A SYSTEM.
+
+;;   F
+
+;;    S
+
+		(and (MALE_27 ?x1) (MAY_27 ?x1) (WANT_27 ?x1) (A_27 ?x1) (SYSTEM_27 ?x1))
+
+;;  K
+
+	;; COMPLAINTS MAY HAVE A DESCRIPTION.
+
+;;   F
+
+;;    S
+
+		(and (complaint_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (DESCRIPTION_27 ?x1))
+
+;;  K
+
+	;; A PATIENT MAY HAVE COMPLAINTS.
+
+;;   F
+
+;;    S
+
+		(and (PATIENT_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (complaint_27 ?x1))
+
+;; (WE HAVE DELIBERATELY NOT USED THE TERM DIAGNOSIS AT THIS POINT)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY USE A TERM DIAGNOSIS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (USE_27 ?x1) (A_27 ?x1) (TERM_27 ?x1) (DIAGNOSIS_27 ?x1))
+
+;;  K
+
+	;; A TERM DIAGNOSIS CAN BE AT A POINT.
+
+;;   F
+
+;;    S
+
+		(and (TERM_27 ?x1) (DIAGNOSIS_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AT_27 ?x2) (A_27 ?x2) (POINT_27 ?x2))
+
+;; (IN ORDER TO BUILD THE SYSTEM , HE IS TOLD THAT HE WILL HAVE TO FIND KNOWLEDGE LIBRARIES CONTAINING
+ KNOWLEDGE ABOUT HIS MEDICAL DOMAIN AND ALSO ABOUT PROBLEM-SOLVING METHODS)
+
+;; E
+
+;;  K
+
+	;; A MALE MAY BE TELL -ED.
+
+;;   F
+
+;;    S
+
+		(and (MALE_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (TELL_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A MALE MAY HAVE A DOMAIN.
+
+;;   F
+
+;;    S
+
+		(and (MALE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (DOMAIN_27 ?x1))
+
+;;  K
+
+	;; A DOMAIN CAN BE MEDICAL.
+
+;;   F
+
+;;    S
+
+		(and (DOMAIN_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MEDICAL_27 ?x1))
+
+;;  K
+
+	;; METHODS CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;; (HE WILL FIRST HAVE TO SEARCH THE METHOD LIBRARIES FOR A METHOD THAT RELATES TO THE GOAL TYPE FOR HIS
+ PROBLEM-SOLVER)
+
+;; E
+
+;;  K
+
+	;; A GOAL TYPE CAN BE FOR A PROBLEM-SOLVER.
+
+;;   F
+
+;;    S
+
+		(and (GOAL_27 ?x1) (TYPE_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (problem-solver_27 ?x2))
+
+;;  K
+
+	;; A MALE MAY HAVE A PROBLEM-SOLVER.
+
+;;   F
+
+;;    S
+
+		(and (MALE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PROBLEM-SOLVER_27 ?x1))
+
+;; (IF SUCCESSFUL IN FINDING AN APPROPRIATE METHOD , HE WILL HAVE TO USE ITS OPERATIONALIZED SPECIFICATIONS
+ TO IMPLEMENT IT)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE SPECIFICATIONS.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (SPECIFICATIONS_27 ?x1))
+
+;;  K
+
+	;; SPECIFICATIONS CAN BE OPERATIONALIZED.
+
+;;   F
+
+;;    S
+
+		(and (specification_27 ?x1) (be_27 ?e1 ?x1 ?x2) (OPERATIONALIZED_27 ?x2))
+
+;; (THEN HE WILL HAVE TO SEARCH KNOWLEDGE LIBRARIES FOR MEDICAL KNOWLEDGE OF THE TYPE THE METHOD NEEDS)
+
+;; E
+
+;;  K
+
+	;; A TYPE MAY HAVE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (TYPE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE MEDICAL.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MEDICAL_27 ?x1))
+
+;;  K
+
+	;; A METHOD MAY NEED.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (MAY_27 ?x1) (NEED_27 ?x1))
+
+;; (SUPPOSE IN A LIBRARY OF PROBLEM-SOLVING METHODS THERE IS A METHOD FOR THE GOAL TYPE OF 16
+ CLASSIFICATION)
+
+;; E
+
+;;  K
+
+	;; A LIBRARY CAN BE CONSTITUTED_OF_OR_FILLED_WITH METHODS.
+
+;;   F
+
+;;    S
+
+		(and (LIBRARY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (METHODS_27 ?x1))
+
+;;  K
+
+	;; METHODS CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;;  K
+
+	;; A METHOD CAN BE FOR A GOAL TYPE OF SOME_NUMBER_OF CLASSIFICATION.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (GOAL_27 ?x2) (TYPE_27 ?x2) (of_27 ?x2 ?x3) (SOME_5FNUMBER_5FOF_27 ?x3) (CLASSIFICATION_27 ?x3))
+
+;;  K
+
+	;; A CLASSIFICATION MAY UNDERGO A GOAL TYPE.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFICATION_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (GOAL_27 ?x1) (TYPE_27 ?x1))
+
+;; (WE KNOW THAT THIS METHOD IS A GOOD CANDIDATE − SIMPLE DIAGNOSTIC SYSTEMS HAVE BEEN BUILT BY VIEWING
+ DIAGNOSIS AS CLASSIFICATION OF GIVEN SYMPTOMS INTO A DISEASE\/MALFUNCTION HIERARCHY)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY KNOW A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (KNOW_27 ?x1) (A_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; A METHOD CAN BE A CANDIDATE.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (CANDIDATE_27 ?x2))
+
+;;  K
+
+	;; A CANDIDATE CAN BE GOOD.
+
+;;   F
+
+;;    S
+
+		(and (CANDIDATE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GOOD_27 ?x1))
+
+;;  K
+
+	;; SYSTEMS MAY BE BUILD -ED BY DIAGNOSIS.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEMS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (BUILD_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (BY_27 ?x1) (DIAGNOSIS_27 ?x1))
+
+;;  K
+
+	;; SYSTEMS CAN BE −.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEMS_27 ?x1) (be_27 ?e1 ?x1 ?x2) (kbs2_kif_quote_E2_88_92_27 ?x2))
+
+;;  K
+
+	;; SYSTEMS CAN BE SIMPLE.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SIMPLE_27 ?x1))
+
+;;  K
+
+	;; SYSTEMS CAN BE DIAGNOSTIC.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DIAGNOSTIC_27 ?x1))
+
+;;  K
+
+	;; DIAGNOSIS CAN BE AS CLASSIFICATION OF SYMPTOMS.
+
+;;   F
+
+;;    S
+
+		(and (diagnosi_27 ?x1) (be_27 ?e1 ?x1) (as_27 ?x1 ?x2) (CLASSIFICATION_27 ?x2) (of_27 ?x2 ?x3) (SYMPTOMS_27 ?x3))
+
+;;  K
+
+	;; A DIAGNOSIS CAN BE VIEWING.
+
+;;   F
+
+;;    S
+
+		(and (DIAGNOSIS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (VIEWING_27 ?x1))
+
+;;  K
+
+	;; SYMPTOMS MAY UNDERGO A CLASSIFICATION.
+
+;;   F
+
+;;    S
+
+		(and (SYMPTOMS_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (CLASSIFICATION_27 ?x1))
+
+;;  K
+
+	;; SYMPTOMS CAN BE INTO A DISEASE\/MALFUNCTION HIERARCHY.
+
+;;   F
+
+;;    S
+
+		(and (SYMPTOMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (INTO_27 ?x1) (A_27 ?x1) (DISEASE_5C_2FMALFUNCTION_27 ?x1) (HIERARCHY_27 ?x1))
+
+;;  K
+
+	;; SYMPTOMS CAN BE GIVEN.
+
+;;   F
+
+;;    S
+
+		(and (SYMPTOMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GIVEN_27 ?x1))
+
+;; (LET US ASSUME THAT HIS DIAGNOSTIC PROBLEM IS ACTUALLY SIMPLE ENOUGH FOR THIS APPROACH TO WORK)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY ASSUME A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (assume_27 ?e1 ?x1 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM CAN BE SIMPLE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SIMPLE_27 ?x1))
+
+;;  K
+
+	;; A MALE MAY HAVE A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (MALE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PROBLEM_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM CAN BE DIAGNOSTIC.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DIAGNOSTIC_27 ?x1))
+
+;; (OUR SYSTEM BUILDER SENDS OUT THE GOAL , `` DISCOVER WHAT IS WRONG WITH A PATIENT '' , HOPING THAT THIS
+ WOULD MATCH A METHOD IN THE LIBRARY)
+
+;; E
+
+;;  K
+
+	;; A SYSTEM BUILDER MAY SEND.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (BUILDER_27 ?x1) (MAY_27 ?x1) (SEND_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY HAVE A SYSTEM BUILDER.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SYSTEM_27 ?x1) (BUILDER_27 ?x1))
+
+;;  K
+
+	;; A THING MAY MATCH A METHOD.
+
+;;   F
+
+;;    S
+
+		(and (th_27 ?e1 ?x1) (MAY_27 ?x1) (MATCH_27 ?x1) (A_27 ?x1) (METHOD_27 ?x1))
+
+;;  K
+
+	;; A METHOD CAN BE IN A LIBRARY.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (LIBRARY_27 ?x2))
+
+;; (THE CLASSIFICATION METHOD IN THE LIBRARY IS INDEXED WITH THE GOAL : `` CLASSIFY A SITUATION INTO A
+ CLASSIFICATION HIERARCHY '')
+
+;; E
+
+;;  K
+
+	;; A CLASSIFICATION METHOD MAY BE INDEX -ED WITH A GOAL.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFICATION_27 ?x1) (METHOD_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (INDEX_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (WITH_27 ?x1) (A_27 ?x1) (GOAL_27 ?x1))
+
+;;  K
+
+	;; A CLASSIFICATION METHOD CAN BE IN A LIBRARY.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFICATION_27 ?x1) (METHOD_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (LIBRARY_27 ?x2))
+
+;; (BEFORE THE SYSTEM BUILDER CAN REALIZE THAT THIS METHOD IS APPLICABLE , HE WILL HAVE TO FIGURE OUT THE
+ RELATION BETWEEN THE LEVEL OF ABSTRACTION AT WHICH HIS GOAL IS STATED AND THAT OF THE METHOD INDEX)
+
+;; E
+
+;;  K
+
+	;; A SYSTEM BUILDER MAY REALIZE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (BUILDER_27 ?x1) (MAY_27 ?x1) (REALIZE_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; A METHOD CAN BE APPLICABLE.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (APPLICABLE_27 ?x1))
+
+;;  K
+
+	;; A RELATION CAN BE BETWEEN A LEVEL OF ABSTRACTION.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (A_27 ?x1) (LEVEL_27 ?x1) (of_27 ?x1 ?x2) (ABSTRACTION_27 ?x2))
+
+;;  K
+
+	;; A GOAL MAY BE STATE -ED.
+
+;;   F
+
+;;    S
+
+		(and (GOAL_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (STATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A MALE MAY HAVE A GOAL.
+
+;;   F
+
+;;    S
+
+		(and (MALE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (GOAL_27 ?x1))
+
+;;  K
+
+	;; A METHOD INDEX MAY HAVE A THING.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (INDEX_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (thing_27 ?x1))
+
+;; (NOTE THAT WE ARE NOT SIMPLY TALKING ABOUT THE VOCABULARY DIFFERENCES -- WE ARE ASSUMING THAT THIS
+ PROBLEM IS HANDLED BY THE STANDARDIZATION OF TERMS)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY ASSUME A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (assume_27 ?e1 ?x1 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM MAY BE HANDLE -ED BY A STANDARDIZATION OF TERMS.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (HANDLE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (STANDARDIZATION_27 ?x2) (of_27 ?x1 ?x3) (TERMS_27 ?x3))
+
+;;  K
+
+	;; TERMS MAY UNDERGO A STANDARDIZATION.
+
+;;   F
+
+;;    S
+
+		(and (TERMS_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (STANDARDIZATION_27 ?x1))
+
+;; (WE ARE TALKING ABOUT THE DEEPER PROBLEM OF REALIZING THAT `` FINDING WHAT IS WRONG WITH A PATIENT '' IS
+ AN INSTANCE OF `` DIAGNOSIS , '' WHICH UNDER SOME CONDITIONS IS SOLVABLE BY `` CLASSIFICATION)
+
+;; E
+
+;;  K
+
+	;; A PROBLEM CAN BE DEEPER.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DEEPER_27 ?x1))
+
+;; (ASSUMING THAT OUR SYSTEM BUILDER IS ABLE TO RECOGNIZE THAT HIS PROBLEM CAN BE SOLVED BY A CLASSIFICATION
+ METHOD , SUPPOSE HE RETRIEVES THAT METHOD AND IMPLEMENTS IT)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY HAVE A SYSTEM BUILDER.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SYSTEM_27 ?x1) (BUILDER_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY BE SOLVE -ED BY A CLASSIFICATION METHOD.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (SOLVE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (CLASSIFICATION_27 ?x2) (METHOD_27 ?x2))
+
+;;  K
+
+	;; A MALE MAY HAVE A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (MALE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PROBLEM_27 ?x1))
+
+;;  K
+
+	;; A MALE MAY RETRIEVE A METHOD.
+
+;;   F
+
+;;    S
+
+		(and (MALE_27 ?x1) (MAY_27 ?x1) (RETRIEVE_27 ?x1) (A_27 ?x1) (METHOD_27 ?x1))
+
+;; (THE CLASSIFICATION METHOD IN THE LIBRARY WOULD DESCRIBE THE NEEDED KNOWLEDGE IN TERMS OF CLASSIFICATION
+ HIERARCHY , OBSERVATIONS , AND CAUSAL ASSOCIATIONS BETWEEN OBSERVATIONS AND THE CLASSES)
+
+;; E
+
+;;  K
+
+	;; A CLASSIFICATION METHOD MAY DESCRIBE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFICATION_27 ?x1) (METHOD_27 ?x1) (MAY_27 ?x1) (DESCRIBE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;;  K
+
+	;; A CLASSIFICATION METHOD CAN BE IN A LIBRARY.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFICATION_27 ?x1) (METHOD_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (LIBRARY_27 ?x2))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE NEEDED.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (be_27 ?e1 ?x1 ?x2) (NEEDED_27 ?x2))
+
+;;  K
+
+	;; ASSOCIATIONS CAN BE BETWEEN OBSERVATIONS.
+
+;;   F
+
+;;    S
+
+		(and (association_27 ?x1) (be_27 ?e1 ?x1 ?x2) (BETWEEN_27 ?x2) (OBSERVATIONS_27 ?x2))
+
+;;  K
+
+	;; ASSOCIATIONS CAN BE CAUSAL.
+
+;;   F
+
+;;    S
+
+		(and (association_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CAUSAL_27 ?x2))
+
+;; (IN ORDER TO MAP THIS ONTOLOGY TO SOMETHING CLOSER TO HIS DOMAIN , HE WILL NEED TO MAP `` CLASSIFICATION
+ HIERARCHY '' TO `` DISEASE HIERARCHY , '' AND `` OBSERVATIONS '' TO `` SYMPTOMS , '' `` COMPLAINTS , ''
+ ETC.)
+
+;; E
+
+;;  K
+
+	;; A MALE MAY HAVE A DOMAIN.
+
+;;   F
+
+;;    S
+
+		(and (MALE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (DOMAIN_27 ?x1))
+
+;; (WE HAVE THUS SEEN THREE POSSIBLE GAPS THAT HAVE TO BE BRIDGED BEFORE WE CAN PERFORM EFFECTIVE METHOD
+ SHARING)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY SEE SOME_NUMBER_OF GAPS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (SEE_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (GAPS_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY PERFORM METHOD SHARING.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (PERFORM_27 ?x1) (METHOD_27 ?x1) (SHARING_27 ?x1))
+
+;;  K
+
+	;; A METHOD SHARING CAN BE EFFECTIVE.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (SHARING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (EFFECTIVE_27 ?x1))
+
+;; (THE TASK ASSOCIATED WITH THE THE METHOD MAY NOT BE STRONG ENOUGH FOR ACHIEVING THE TASK AT HAND)
+
+;; E
+
+;;  K
+
+	;; A TASK CAN BE STRONG.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (be_27 ?e1 ?x1 ?x2) (STRONG_27 ?x2))
+
+;;  K
+
+	;; A TASK MAY BE ASSOCIATE -ED WITH A METHOD.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (ASSOCIATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (WITH_27 ?x1) (A_27 ?x1) (METHOD_27 ?x1))
+
+;; (FENSEL -LRB- FENSEL , 1997 -RRB- PROPOSES ADAPTERS AS AN INSTRUMENT TO BRIDGE THESE GAPS)
+
+;; E
+
+;;  K
+
+	;; A FENSEL[PERSON??] MAY PROPOSE ADAPTERS.
+
+;;   F
+
+;;    S
+
+		(and (FENSEL_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (propose_27 ?e1 ?x1) (adapter_27 ?x1))
+
+;; (AN ADAPTER CAN ESTABLISH A MAPPING BETWEEN THE TASK AND METHOD ONTOLOGY , CAN INTRODUCE TELEOLOGICAL
+ ASSUMPTIONS TO WEAKEN TO GOAL TO BE ACHIEVED , AND CAN ESTABLISH A MAPPING BETWEEN METHOD AND THE DOMAIN
+ ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; AN ADAPTER MAY ESTABLISH A MAPPING.
+
+;;   F
+
+;;    S
+
+		(and (ADAPTER_27 ?x1) (MAY_27 ?x1) (ESTABLISH_27 ?x1) (A_27 ?x1) (MAPPING_27 ?x1))
+
+;;  K
+
+	;; A MAPPING CAN BE BETWEEN A TASK.
+
+;;   F
+
+;;    S
+
+		(and (MAPPING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (A_27 ?x1) (TASK_27 ?x1))
+
+;;  K
+
+	;; ASSUMPTIONS CAN BE TELEOLOGICAL.
+
+;;   F
+
+;;    S
+
+		(and (assumption_27 ?x1) (be_27 ?e1 ?x1 ?x2) (TELEOLOGICAL_27 ?x2))
+
+;;  K
+
+	;; A MAPPING CAN BE BETWEEN METHOD.
+
+;;   F
+
+;;    S
+
+		(and (MAPPING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (METHOD_27 ?x1))
+
+;; (IN ADDITION , ADAPTERS CAN INTRODUCE ONTOLOGICAL ASSUMPTIONS ON DOMAIN KNOWLEDGE IN ORDER TO SATISFY THE
+ REQUIREMENTS OF THE METHOD)
+
+;; E
+
+;;  K
+
+	;; ADAPTERS MAY INTRODUCE ASSUMPTIONS.
+
+;;   F
+
+;;    S
+
+		(and (ADAPTERS_27 ?x1) (MAY_27 ?x1) (INTRODUCE_27 ?x1) (ASSUMPTIONS_27 ?x1))
+
+;;  K
+
+	;; ASSUMPTIONS CAN BE ONTOLOGICAL.
+
+;;   F
+
+;;    S
+
+		(and (assumption_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ONTOLOGICAL_27 ?x2))
+
+;;  K
+
+	;; A METHOD MAY UNDERGO REQUIREMENTS.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (REQUIREMENTS_27 ?x1))
+
+;; (A SIGNIFICANT PART OF THE WORK OF ADAPTERS THUS AMOUNTS TO RELATING DIFFERENT ONTOLOGIES TO EACH OTHER)
+
+;; E
+
+;;  K
+
+	;; A PART CAN BE SIGNIFICANT.
+
+;;   F
+
+;;    S
+
+		(and (part_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SIGNIFICANT_27 ?x1))
+
+;; (HOW TO DO THIS IS STILL AN ONGOING ISSUE)
+
+;; E
+
+;;  K
+
+	;; AN ISSUE CAN BE ONGOING.
+
+;;   F
+
+;;    S
+
+		(and (ISSUE_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ONGOING_27 ?x2))
+
+;; (EARLIER WE SPOKE ABOUT TASK-NEUTRAL METHODS)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY SPEAK ABOUT METHODS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (SPEAK_27 ?x1) (ABOUT_27 ?x1) (METHODS_27 ?x1))
+
+;;  K
+
+	;; METHODS CAN BE TASK-NEUTRAL.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TASK-NEUTRAL_27 ?x1))
+
+;; (CLEARLY , THE MORE TASK-NEUTRAL A METHOD IS , THE MORE WORK NEEDS TO BE DONE BEFORE IT CAN BE APPLIED TO
+ A TASK AND A DOMAIN , OR , IN OTHER WORDS , THE MORE ADAPTERS NEED TO BE USED)
+
+;; E
+
+;;  K
+
+	;; A METHOD MAY BE.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY BE APPLY -ED TO A TASK.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (APPLY_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (to_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2))
+
+;; (ADAPTERS THUS HAVE THE CAPABILITY TO TURN TASKNEUTRAL PSMS INTO TASK - DEPENDENT ONES)
+
+;; E
+
+;;  K
+
+	;; ADAPTERS MAY HAVE A CAPABILITY.
+
+;;   F
+
+;;    S
+
+		(and (ADAPTERS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (CAPABILITY_27 ?x1))
+
+;;  K
+
+	;; PSMS CAN BE TASKNEUTRAL.
+
+;;   F
+
+;;    S
+
+		(and (PSMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TASKNEUTRAL_27 ?x1))
+
+;;  K
+
+	;; ONES CAN BE DEPENDENT.
+
+;;   F
+
+;;    S
+
+		(and (one_27 ?x1)  )
+
+;; (FIGURE 2 ILLUSTRATES HOW A SYSTEM BUILDER WITH A TASK INTERACTS WITH A METHOD LIBRARY AND SHOWS THE ROLE
+ OF THE ADAPTERS)
+
+;; E
+
+;;  K
+
+	;; A SYSTEM BUILDER MAY INTERACT WITH A METHOD LIBRARY.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (BUILDER_27 ?x1) (MAY_27 ?x1) (INTERACT_27 ?x1) (WITH_27 ?x1) (A_27 ?x1) (METHOD_27 ?x1) (LIBRARY_27 ?x1))
+
+;;  K
+
+	;; A SYSTEM BUILDER CAN BE WITH A TASK.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (BUILDER_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1) (with_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2))
+
+;;  K
+
+	;; ADAPTERS MAY HAVE A ROLE.
+
+;;   F
+
+;;    S
+
+		(and (ADAPTERS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (ROLE_27 ?x1))
+
+;; (THE SIMPLE EXAMPLE OF OUR SYSTEM BUILDER WHO WISHES TO BUILD A SYSTEM THAT WOULD DECIDE WHAT IS WRONG
+ WITH A PATIENT ILLUSTRATES THE PROBLEMS IN SHARING AND USING METHOD KNOWLEDGE IN A 17 SEAMLESS WAY)
+
+;; E
+
+;;  K
+
+	;; AN EXAMPLE OF A SYSTEM BUILDER MAY ILLUSTRATE PROBLEMS.
+
+;;   F
+
+;;    S
+
+		(and (EXAMPLE_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (SYSTEM_27 ?x2) (BUILDER_27 ?x2) (MAY_27 ?x2) (ILLUSTRATE_27 ?x2) (PROBLEMS_27 ?x2))
+
+;;  K
+
+	;; AN EXAMPLE CAN BE SIMPLE.
+
+;;   F
+
+;;    S
+
+		(and (EXAMPLE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SIMPLE_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY HAVE A SYSTEM BUILDER.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SYSTEM_27 ?x1) (BUILDER_27 ?x1))
+
+;; (NEVERTHELESS , METHOD-SHARING HAS BEEN PRACTICAL TO SOME EXTENT FOR MORE THAN A DECADE)
+
+;; E
+
+;;  K
+
+	;; METHOD-SHARING CAN BE PRACTICAL TO SOME_NUMBER_OF EXTENT.
+
+;;   F
+
+;;    S
+
+		(and (method-sharing_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PRACTICAL_27 ?x2) (TO_27 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (EXTENT_27 ?x2))
+
+;; (TYPICALLY , IN THIS LINE OF RESEARCH IT WAS REQUIRED THAT THE USER OF A METHOD AND THE METHOD INDEXING
+ SHARE THE SAME TERMS IN THE DESCRIPTION OF THE GOAL)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY BE REQUIRE -ED.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (REQUIRE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A USER OF A METHOD MAY SHARE TERMS.
+
+;;   F
+
+;;    S
+
+		(and (USER_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (METHOD_27 ?x2) (MAY_27 ?x2) (SHARE_27 ?x2) (TERMS_27 ?x2))
+
+;;  K
+
+	;; TERMS CAN BE IN A DESCRIPTION OF A GOAL.
+
+;;   F
+
+;;    S
+
+		(and (TERMS_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (description_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (GOAL_27 ?x3))
+
+;;  K
+
+	;; A GOAL MAY HAVE A DESCRIPTION.
+
+;;   F
+
+;;    S
+
+		(and (GOAL_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (DESCRIPTION_27 ?x1))
+
+;; (FOR EXAMPLE , ONCE ONE REALIZES THAT WHAT HE HAS IS A CLASSIFICATION PROBLEM , THE GENERIC TASK
+ FRAMEWORK PROVIDED THE CSRL LANGUAGE TO HELP BUILD A CLASSIFICATION PROBLEM-SOLVER)
+
+;; E
+
+;;  K
+
+	;; A MALE CAN BE CLASSIFICATION PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (MALE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CLASSIFICATION_27 ?x1) (PROBLEM_27 ?x1))
+
+;;  K
+
+	;; A GENERIC_TASK[PERSON??] MAY HAVE A FRAMEWORK.
+
+;;   F
+
+;;    S
+
+		(and (GENERIC_5FTASK_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (FRAMEWORK_27 ?x1))
+
+;;  K
+
+	;; A LANGUAGE CAN BE CSRL.
+
+;;   F
+
+;;    S
+
+		(and (LANGUAGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CSRL_27 ?x1))
+
+;; (THE LANGUAGE GUIDED THE SYSTEM-BUILDER IN INPUTTING DOMAIN KNOWLEDGE THAT WAS REQUIRED BY THE METHOD)
+
+;; E
+
+;;  K
+
+	;; A LANGUAGE MAY BE GUID -ED.
+
+;;   F
+
+;;    S
+
+		(and (LANGUAGE_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (GUID_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (SIMILARLY , DSPL HELPED USERS BUILD ROUTINE DESIGN SYSTEMS)
+
+;; E
+
+;;  K
+
+	;; A DSPL[PERSON??] MAY HELP.
+
+;;   F
+
+;;    S
+
+		(and (DSPL_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HELP_27 ?x1))
+
+;;  K
+
+	;; USERS MAY BUILD DESIGN SYSTEMS.
+
+;;   F
+
+;;    S
+
+		(and (USERS_27 ?x1) (MAY_27 ?x1) (BUILD_27 ?x1) (DESIGN_27 ?x1) (SYSTEMS_27 ?x1))
+
+;;  K
+
+	;; DESIGN SYSTEMS CAN BE ROUTINE.
+
+;;   F
+
+;;    S
+
+		(and (DESIGN_27 ?x1) (SYSTEMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ROUTINE_27 ?x1))
+
+;; (HOWEVER , NEITHER THE KNOWLEDGE REQUIREMENTS NOR THE METHODS WERE STATED IN A FORMAL WAY , MAKING IT
+ DIFFICULT TO SEARCH FOR KNOWLEDGE OR IMPORT METHODS FROM A DIFFERENT SOURCE)
+
+;; E
+
+;;  K
+
+	;; A WAY CAN BE FORMAL.
+
+;;   F
+
+;;    S
+
+		(and (WAY_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (FORMAL_27 ?x2))
+
+;; (5 CONCLUDING REMARKS IN THIS PAPER , WE MADE A DISTINCTION , WITHIN A PROBLEM-SOLVING AGENT , BETWEEN
+ KNOWLEDGE OF THE WORLD ABOUT WHICH THE AGENT IS DOING PROBLEM SOLVING , AND KNOWLEDGE ABOUT HOW TO SOLVE
+ PROBLEMS)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY MAKE A DISTINCTION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (MAKE_27 ?x1) (A_27 ?x1) (DISTINCTION_27 ?x1))
+
+;;  K
+
+	;; A CONCLUDING[PERSON??] MAY HAVE REMARKS.
+
+;;   F
+
+;;    S
+
+		(and (concluding_27 ?x1) (person_27 ?x1))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (REMARKS_27 ?x1))
+
+;;  K
+
+	;; AN AGENT CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (AGENT_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;;  K
+
+	;; THE WORLD MAY HAVE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (WORLD_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;;  K
+
+	;; AN AGENT MAY DO PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (AGENT_27 ?x1) (MAY_27 ?x1) (DO_27 ?x1) (PROBLEM_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;; (IN ONE VIEW , PROBLEM-SOLVING KNOWLEDGE IS A SEPARATE COMPONENT OF A PROBLEM SOLVER)
+
+;; E
+
+;;  K
+
+	;; KNOWLEDGE CAN BE A COMPONENT OF A PROBLEM SOLVER.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (be_27 ?e1 ?x1 ?x2) (component_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (PROBLEM_27 ?x3) (SOLVER_27 ?x3))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;;  K
+
+	;; A COMPONENT CAN BE SEPARATE.
+
+;;   F
+
+;;    S
+
+		(and (COMPONENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SEPARATE_27 ?x1))
+
+;; (IN ANOTHER VIEW , IT IS SIMPLY A KIND OF KNOWLEDGE , PART OF THE ONTOLOGY OF THE PHENOMENON CALLED
+ PROBLEM SOLVING THAT INTENSIONAL AGENTS ENGAGE IN , WHETHER THEY BE ARTIFICIAL OR NATURAL)
+
+;; E
+
+;;  K
+
+	;; PART OF AN ONTOLOGY OF A PHENOMENON MAY CALL PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (part_27 ?x1) (of_27 ?x1 ?x2) (ONTOLOGY_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (PHENOMENON_27 ?x3) (MAY_27 ?x3) (CALL_27 ?x3) (PROBLEM_27 ?x3))
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE A KIND OF KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (KIND_27 ?x2) (of_27 ?x2 ?x3) (KNOWLEDGE_27 ?x3))
+
+;;  K
+
+	;; A PHENOMENON MAY HAVE AN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (PHENOMENON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; AGENTS CAN BE INTENSIONAL.
+
+;;   F
+
+;;    S
+
+		(and (agent_27 ?x1) (be_27 ?e1 ?x1 ?x2) (INTENSIONAL_27 ?x2))
+
+;;  K
+
+	;; INDIVIDUAL -S CAN BE ARTIFICIAL.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ARTIFICIAL_27 ?x1))
+
+;; (WITHIN THE PERSPECTIVE OF DESIGNING PROBLEM SOLVING SYSTEMS , WE HAVE ARGUED FOR ONTOLOGICAL ENGINEERING
+ EFFORTS TO MOVE IN TWO PARALLEL TRACKS , ONE WITH THE CURRENT FOCUS ON REPRESENTING DOMAIN KNOWLEDGE ,
+ AND THE OTHER WITH A NEW FOCUS ON REPRESENTING PROBLEM-SOLVING KNOWLEDGE)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY ARGUE FOR ENGINEERING EFFORTS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (ARGUE_27 ?x1) (for_27 ?x1 ?x2) (ENGINEERING_27 ?x2) (EFFORTS_27 ?x2))
+
+;;  K
+
+	;; ENGINEERING EFFORTS CAN BE ONTOLOGICAL.
+
+;;   F
+
+;;    S
+
+		(and (engineering_27 ?x1) (EFFORTS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGICAL_27 ?x1))
+
+;;  K
+
+	;; TRACKS CAN BE PARALLEL.
+
+;;   F
+
+;;    S
+
+		(and (TRACKS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PARALLEL_27 ?x1))
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION CAN BE WITH A FOCUS.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (be_27 ?e1 ?x1) (with_27 ?x1 ?x2) (A_27 ?x2) (FOCUS_27 ?x2))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;; (ONE OF THE MAJOR BENEFITS OF IDENTIFYING AND STANDARDIZING ONTOLOGIES IS THE POTENTIAL FOR KNOWLEDGE
+ SHARING)
+
+;; E
+
+;;  K
+
+	;; POTENTIAL CAN BE FOR KNOWLEDGE SHARING.
+
+;;   F
+
+;;    S
+
+		(and (POTENTIAL_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (KNOWLEDGE_27 ?x2) (SHARING_27 ?x2))
+
+;; (WE SHOULD BE ABLE TO SHARE KNOWLEDGE OF PROBLEM SOLVING JUST AS EASILY AS FACTUAL KNOWLEDGE ABOUT
+ SPECIFIC DOMAINS)
+
+;; E
+
+;;  K
+
+	;; PROBLEM MAY SOLVE AS KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (AS_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE ABOUT DOMAINS.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ABOUT_27 ?x1) (DOMAINS_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE FACTUAL.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FACTUAL_27 ?x1))
+
+;; (WE HAVE PROVIDED IN THIS PAPER WHAT WE BELIEVE IS A CLEARER ANALYSIS OF THE COMPONENTS OF PROBLEM
+ SOLVING KNOWLEDGE AND RELATED IT TO DOMAIN FACTUAL KNOWLEDGE)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY BE PROVIDE -ED IN A PAPER.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (PROVIDE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (PAPER_27 ?x2))
+
+;;  K
+
+	;; PERSON -S MAY BELIEVE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (BELIEVE_27 ?x1))
+
+;;  K
+
+	;; AN ANALYSIS CAN BE CLEARER.
+
+;;   F
+
+;;    S
+
+		(and (ANALYSIS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CLEARER_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;; (IT TURNS OUT THAT MUCH RESEARCH ON TASK ANALYSIS FORMS A GOOD BASIS TO DEVELOP SUCH PROBLEM-SOLVING
+ ONTOLOGIES)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY TURN_OUT A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (TURN_5FOUT_27 ?x1) (A_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; RESEARCH MAY FORM A BASIS.
+
+;;   F
+
+;;    S
+
+		(and (RESEARCH_27 ?x1) (MAY_27 ?x1) (FORM_27 ?x1) (A_27 ?x1) (BASIS_27 ?x1))
+
+;;  K
+
+	;; RESEARCH CAN BE ON TASK ANALYSIS.
+
+;;   F
+
+;;    S
+
+		(and (research_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (TASK_27 ?x2) (ANALYSIS_27 ?x2))
+
+;;  K
+
+	;; A BASIS CAN BE GOOD.
+
+;;   F
+
+;;    S
+
+		(and (BASIS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GOOD_27 ?x1))
+
+;;  K
+
+	;; ONTOLOGIES CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (ontology_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;; (WE THUS BUILD ON PREVIOUS WORK IN THIS AREA , SOME OUR OWN)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY BUILD ON WORK.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (BUILD_27 ?x1) (ON_27 ?x1) (WORK_27 ?x1))
+
+;;  K
+
+	;; WORK CAN BE IN AN AREA.
+
+;;   F
+
+;;    S
+
+		(and (work_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (area_27 ?x2))
+
+;; (THE TOPIC THAT WE HAVE TREATED IN THIS PAPER IS IMPORTANT BECAUSE A KNOWLEDGE SYSTEM CONSISTS OF BOTH
+ DOMAIN KNOWLEDGE AND PROBLEM-SOLVING KNOWLEDGE)
+
+;; E
+
+;;  K
+
+	;; A TOPIC CAN BE IMPORTANT.
+
+;;   F
+
+;;    S
+
+		(and (TOPIC_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IMPORTANT_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY TREAT IN A PAPER.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (TREAT_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (PAPER_27 ?x2))
+
+;;  K
+
+	;; A KNOWLEDGE SYSTEM MAY CONSIST OF SOME_NUMBER_OF DOMAIN KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (SYSTEM_27 ?x1) (MAY_27 ?x1) (CONSIST_27 ?x1) (of_27 ?x1 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (DOMAIN_27 ?x2) (KNOWLEDGE_27 ?x2))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;; (THEREFORE , IT IS NECESSARY TO STUDY DOMAIN AND PROBLEM-SOLVING ONTOLOGIES TOGETHER AND PAY ATTENTION TO
+ THEIR INTEGRATION)
+
+;; E
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE INTEGRATION.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (INTEGRATION_27 ?x1))
+
+;; (MOREOVER , FOR PRACTICAL KNOWLEDGE SHARING AND REUSE IDENTIFYING ONLY THE ONTOLOGIES FOR DOMAIN AND
+ PROBLEM-SOLVING KNOWLEDGE IS NOT ENOUGH)
+
+;; E
+
+;;  K
+
+	;; SHARING CAN BE ENOUGH.
+
+;;   F
+
+;;    S
+
+		(and (share_27 ?e1 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ENOUGH_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE PRACTICAL.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PRACTICAL_27 ?x1))
+
+;;  K
+
+	;; SHARING MAY IDENTIFY ONTOLOGIES.
+
+;;   F
+
+;;    S
+
+		(and (share_27 ?e1 ?x1) (MAY_27 ?x1) (IDENTIFY_27 ?x1) (ONTOLOGIES_27 ?x1))
+
+;;  K
+
+	;; ONTOLOGIES CAN BE FOR DOMAIN.
+
+;;   F
+
+;;    S
+
+		(and (ontology_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (DOMAIN_27 ?x2))
+
+;; (SEVERAL NEW PROJECTS INCLUDE THESE GOALS IN THEIR OBJECTIVES SUCH AS DARPA 'S HPKB -LRB- 4 -RRB- PROJECT
+ AND ESPRIT 'S IBROW3 -LRB- 5 -RRB- PROJECT , BUT THERE IS STILL A LONG WAY TO GO)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF PROJECTS MAY INCLUDE GOALS.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (PROJECTS_27 ?x1) (MAY_27 ?x1) (INCLUDE_27 ?x1) (GOALS_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE OBJECTIVES.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (OBJECTIVES_27 ?x1))
+
+;;  K
+
+	;; A WAY CAN BE LONG.
+
+;;   F
+
+;;    S
+
+		(and (way_27 ?x1) (be_27 ?e1 ?x1))
+
+;; (18 GOAL : CLASSIFY SITUATION IN A CLASSIFICATION HIERARCHY LIBRARY OF PROBLEM SOLVING METHODS GOAL :
+ ...)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF GOAL OF A PROBLEM[PERSON??] MAY SOLVE A METHODS_GOAL[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (GOAL_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (PROBLEM_27 ?x2) (person_27 ?x3))
+
+;;   F
+
+;;    S
+
+		(and (solve_27 ?e1 ?x1) (A_27 ?x1) (METHODS_5FGOAL_27 ?x1) (PERSON_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM[PERSON??] MAY UNDERGO A GOAL.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (GOAL_27 ?x1))
+
+;;  K
+
+	;; SITUATION CAN BE IN A CLASSIFICATION HIERARCHY.
+
+;;   F
+
+;;    S
+
+		(and (situation_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (CLASSIFICATION_27 ?x2) (HIERARCHY_27 ?x2))
+
+;;  K
+
+	;; A CLASSIFY[PERSON??] MAY HAVE A SITUATION.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFY_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SITUATION_27 ?x1))
+
+;; (PSM1 PSM2 GOAL : ... GOAL : EXPLAIN PSMN ADAPTERS KBS TO SOLVE PROBLEMS OF THE TYPE : `` IDENTIFY CAUSE
+ OF TV SET MISBEHAVIOR TERM IN KBS TASK DOMAIN ONTOLOGY FIGURE 2)
+
+;; E
+
+;;  K
+
+	;; A GOAL[PERSON??] MAY SET MISBEHAVIOR TERM.
+
+;;   F
+
+;;    S
+
+		(and (GOAL_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (SET_27 ?x1) (MISBEHAVIOR_27 ?x1) (TERM_27 ?x1))
+
+;;  K
+
+	;; A TYPE MAY HAVE PROBLEMS.
+
+;;   F
+
+;;    S
+
+		(and (TYPE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (PROBLEMS_27 ?x1))
+
+;;  K
+
+	;; AN IDENTIFY[PERSON??] MAY HAVE A CAUSE.
+
+;;   F
+
+;;    S
+
+		(and (IDENTIFY_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (CAUSE_27 ?x1))
+
+;;  K
+
+	;; A KBS_TASK_DOMAIN_ONTOLOGY[PERSON??] MAY HAVE A FIGURE.
+
+;;   F
+
+;;    S
+
+		(and (KBS_5FTASK_5FDOMAIN_5FONTOLOGY_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (FIGURE_27 ?x1))
+
+;; (ADAPTERS HELP BRIDGE THE ONTOLOGY GAP BETWEEN A PROBLEM AND A METHOD)
+
+;; E
+
+;;  K
+
+	;; ADAPTERS MAY HELP.
+
+;;   F
+
+;;    S
+
+		(and (ADAPTERS_27 ?x1) (MAY_27 ?x1) (HELP_27 ?x1))
+
+;;  K
+
+	;; A GAP CAN BE BETWEEN A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (GAP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (A_27 ?x1) (PROBLEM_27 ?x1))
+
+;;  K
+
+	;; A GAP CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (GAP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (ADAPTERS HELP BRIDGE THE ONTOLOGY GAP BETWEEN A PROBLEM AND A METHOD)
+
+;; E
+
+;;  K
+
+	;; ADAPTERS MAY HELP.
+
+;;   F
+
+;;    S
+
+		(and (ADAPTERS_27 ?x1) (MAY_27 ?x1) (HELP_27 ?x1))
+
+;;  K
+
+	;; A GAP CAN BE BETWEEN A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (GAP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (A_27 ?x1) (PROBLEM_27 ?x1))
+
+;;  K
+
+	;; A GAP CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (GAP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; [2]>
+
+;; E
+
+;; (THE TRANSLATIONS OF TERMS SHOWN MAKES EXPLICIT WHAT THE TEXT CALLS `` ONTOLOGICAL ASSUMPTIONS)
+
+;; E
+
+;;  K
+
+	;; TRANSLATIONS OF TERMS MAY MAKE EXPLICIT.
+
+;;   F
+
+;;    S
+
+		(and (translation_27 ?x1) (of_27 ?x1 ?x2) (TERMS_27 ?x2) (MAY_27 ?x2) (MAKE_27 ?x2) (EXPLICIT_27 ?x2))
+
+;;  K
+
+	;; TERMS MAY UNDERGO TRANSLATIONS.
+
+;;   F
+
+;;    S
+
+		(and (TERMS_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (TRANSLATIONS_27 ?x1))
+
+;;  K
+
+	;; TERMS MAY BE SHOW -ED.
+
+;;   F
+
+;;    S
+
+		(and (TERMS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (SHOW_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A TEXT MAY CALL ASSUMPTIONS.
+
+;;   F
+
+;;    S
+
+		(and (TEXT_27 ?x1) (MAY_27 ?x1) (CALL_27 ?x1) (ASSUMPTIONS_27 ?x1))
+
+;;  K
+
+	;; ASSUMPTIONS CAN BE ONTOLOGICAL.
+
+;;   F
+
+;;    S
+
+		(and (assumption_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ONTOLOGICAL_27 ?x2))
+
+;; (THE TRANSLATIONS OF TERMS SHOWN MAKES EXPLICIT WHAT THE TEXT CALLS `` ONTOLOGICAL ASSUMPTIONS)
+
+;; E
+
+;;  K
+
+	;; TRANSLATIONS OF TERMS MAY MAKE EXPLICIT.
+
+;;   F
+
+;;    S
+
+		(and (translation_27 ?x1) (of_27 ?x1 ?x2) (TERMS_27 ?x2) (MAY_27 ?x2) (MAKE_27 ?x2) (EXPLICIT_27 ?x2))
+
+;;  K
+
+	;; TERMS MAY UNDERGO TRANSLATIONS.
+
+;;   F
+
+;;    S
+
+		(and (TERMS_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (TRANSLATIONS_27 ?x1))
+
+;;  K
+
+	;; TERMS MAY BE SHOW -ED.
+
+;;   F
+
+;;    S
+
+		(and (TERMS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (SHOW_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A TEXT MAY CALL ASSUMPTIONS.
+
+;;   F
+
+;;    S
+
+		(and (TEXT_27 ?x1) (MAY_27 ?x1) (CALL_27 ?x1) (ASSUMPTIONS_27 ?x1))
+
+;;  K
+
+	;; ASSUMPTIONS CAN BE ONTOLOGICAL.
+
+;;   F
+
+;;    S
+
+		(and (assumption_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ONTOLOGICAL_27 ?x2))
+
+;; (CLASSIFICATION CAN NOT ACHIEVE THE ORIGINAL GOAL COMPLETELY , SINCE IT CAN NOT ENSURE THAT THE
+ CLASSIFICATORY HYPOTHESES TOGETHER PARSIMONIOUSLY EXPLAIN THE DATA , I.E. , ALL THE CLASSIFICATORY
+ HYPOTHESES ARE IN FACT NEEDED)
+
+;; E
+
+;;  K
+
+	;; HYPOTHESES CAN BE IN FACT.
+
+;;   F
+
+;;    S
+
+		(and (hypothesis_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (FACT_27 ?x2))
+
+;;  K
+
+	;; CLASSIFICATION MAY ACHIEVE A GOAL.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFICATION_27 ?x1) (MAY_27 ?x1) (ACHIEVE_27 ?x1) (A_27 ?x1) (GOAL_27 ?x1))
+
+;;  K
+
+	;; A GOAL CAN BE ORIGINAL.
+
+;;   F
+
+;;    S
+
+		(and (GOAL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ORIGINAL_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY ENSURE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (ENSURE_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; A CLASSIFICATORY MAY HYPOTHESE_TOGETHER.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFICATORY_27 ?x1) (MAY_27 ?x1) (HYPOTHESE_5FTOGETHER_27 ?x1))
+
+;;  K
+
+	;; HYPOTHESES CAN BE CLASSIFICATORY.
+
+;;   F
+
+;;    S
+
+		(and (HYPOTHESES_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CLASSIFICATORY_27 ?x2))
+
+;;  K
+
+	;; FACT MAY BE NEED -ED.
+
+;;   F
+
+;;    S
+
+		(and (FACT_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (NEED_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (ADAPTER 'S MAPPING THUS NEEDS TO INCLUDE GOAL WEAKENING , I.E. , TELEOLOGICAL ASSUMPTIONS ARE CHANGED)
+
+;; E
+
+;;  K
+
+	;; AN ADAPTER[PERSON??] MAY HAVE A MAPPING.
+
+;;   F
+
+;;    S
+
+		(and (ADAPTER_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (mapping_27 ?x1))
+
+;;  K
+
+	;; ASSUMPTIONS MAY BE CHANGE -ED.
+
+;;   F
+
+;;    S
+
+		(and (ASSUMPTIONS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (CHANGE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (ADAPTER 1 : MAPPING TO PSM WITH GOAL `` EXPLAIN OBSERVATIONS)
+
+;; E
+
+;;  K
+
+	;; A MAPPING[PERSON??] CAN BE TO A PSM[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (mapping_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x2) (to_27 ?e1 ?x1) (A_27 ?x1) (PSM_27 ?x1) (PERSON_27 ?x2))
+
+;;  K
+
+	;; OBSERVATIONS CAN BE EXPLAIN.
+
+;;   F
+
+;;    S
+
+		(and (observation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (EXPLAIN_27 ?x2))
+
+;; (ADAPTER 2 : MAPPING TO PSM WITH GOAL `` CLASSIFY OBSERVATIONS)
+
+;; E
+
+;;  K
+
+	;; A MAPPING[PERSON??] CAN BE TO A PSM[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (mapping_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x2) (to_27 ?e1 ?x1) (A_27 ?x1) (PSM_27 ?x1) (PERSON_27 ?x2))
+
+;;  K
+
+	;; A CLASSIFY[PERSON??] MAY HAVE OBSERVATIONS.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFY_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (OBSERVATIONS_27 ?x1))
+
+;; (TERM IN PSM ONTOLOGY TERM IN PSM ONTOLOGY IDENTIFY CAUSE)
+
+;; E
+
+;;  K
+
+	;; TERM MAY CAUSE.
+
+;;   F
+
+;;    S
+
+		(and (TERM_27 ?x1) (MAY_27 ?x1) (CAUSE_27 ?x1))
+
+;;  K
+
+	;; TERM CAN BE IN A PSM_ONTOLOGY_TERM[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (TERM_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (PSM_5FONTOLOGY_5FTERM_27 ?x2) (PERSON_27 ?x3))
+
+;;  K
+
+	;; A PSM_ONTOLOGY_TERM[PERSON??] CAN BE IN A PSM_ONTOLOGY_IDENTIFY[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (PSM_5FONTOLOGY_5FTERM_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (in_27 ?x1) (A_27 ?x1) (PSM_5FONTOLOGY_5FIDENTIFY_27 ?x1) (PERSON_27 ?x2))
+
+;; (EXPLAIN OBSERVATION CLASSIFY OBSERVATIONS INTO CLASSES -LRB- CHANGE IN TELEOLOGICAL ASSUMPTION : CLASSES
+ ARE NOT NECESSARILY THE MOST PARSIMONIOUS ACCOUNT OF CAUSES)
+
+;; E
+
+;;  K
+
+	;; AN EXPLAIN[PERSON??] MAY OBSERVATION OBSERVATIONS.
+
+;;   F
+
+;;    S
+
+		(and (EXPLAIN_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (OBSERVATION_27 ?x1) (OBSERVATIONS_27 ?x1))
+
+;;  K
+
+	;; A CLASSIFY[PERSON??] MAY HAVE OBSERVATIONS.
+
+;;   F
+
+;;    S
+
+		(and (CLASSIFY_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (OBSERVATIONS_27 ?x1))
+
+;;  K
+
+	;; A CLASSES_-LRB-_CHANGE[PERSON??] CAN BE IN ASSUMPTION.
+
+;;   F
+
+;;    S
+
+		(and (classes_5F-lrb-_5Fchange_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (in_27 ?x1) (ASSUMPTION_27 ?x1))
+
+;;  K
+
+	;; A TELEOLOGICAL[PERSON??] MAY HAVE AN ASSUMPTION.
+
+;;   F
+
+;;    S
+
+		(and (TELEOLOGICAL_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ASSUMPTION_27 ?x1))
+
+;;  K
+
+	;; CLASSES CAN BE AN ACCOUNT OF CAUSES.
+
+;;   F
+
+;;    S
+
+		(and (class_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ACCOUNT_27 ?x2) (of_27 ?x2 ?x3) (CAUSES_27 ?x3))
+
+;;  K
+
+	;; AN ACCOUNT CAN BE PARSIMONIOUS.
+
+;;   F
+
+;;    S
+
+		(and (ACCOUNT_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PARSIMONIOUS_27 ?x2))
+
+;; (ONLY A WEAKER GOAL CAN BE ACHIEVED)
+
+;; E
+
+;;  K
+
+	;; A GOAL MAY BE ACHIEVE -ED.
+
+;;   F
+
+;;    S
+
+		(and (GOAL_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (ACHIEVE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A GOAL CAN BE WEAKER.
+
+;;   F
+
+;;    S
+
+		(and (GOAL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (WEAKER_27 ?x1))
+
+;; (SYMPTOMS ABNORMAL OBSERVATIONS ABNORMAL OBSERVATIONS DEVICE BEHAVIOR DATA OBSERVATIONS OBSERVATIONS
+ MALFUNCTION CAUSES EXPLANATORY HYPOTHESES MALFUNCTION HYPOTHESIS CLASSES <MALFUNCTION> CAN CAUSE
+ <BEHAVIOR DATA> <HYPOTHESIS> CAN EXPLAIN <OBSERVATION> <OBSERVATIONS> CATEGORIZED AS <CLASS HYPOTHESIS>
+ 19 THE SITUATED COGNITION -LRB- SC -RRB- MOVEMENT -LRB- WINOGRAD & FLORES , 1987 -RRB- RAISES ISSUES
+ THAT CHALLENGE THE HOPE FOR REUSING KNOWLEDGE)
+
+;; E
+
+;;  K
+
+	;; A SYMPTOMS_ABNORMAL_OBSERVATIONS_ABNORMAL_OBSERVATIONS_DEVICE_BEHAVIOR_DATA_OBSERVATIONS_OBSERVATIONS_MALFUNCTION[PERSON??] MAY CAUSE.
+
+;;   F
+
+;;    S
+
+		(and (SYMPTOMS_5FABNORMAL_5FOBSERVATIONS_5FABNORMAL_5FOBSERVATIONS_5FDEVICE_5FBEHAVIOR_5FDATA_5FOBSERVATIONS_5FOBSERVATIONS_5FMALFUNCTION_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (CAUSE_27 ?x1))
+
+;;  K
+
+	;; AN EXPLANATORY_HYPOTHESES_MALFUNCTION[PERSON??] MAY HYPOTHESI.
+
+;;   F
+
+;;    S
+
+		(and (EXPLANATORY_5FHYPOTHESES_5FMALFUNCTION_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HYPOTHESI_27 ?x1))
+
+;;  K
+
+	;; A <BEHAVIOR_DATA>_<HYPOTHESIS>[PERSON??] MAY EXPLAIN A <OBSERVATION>_<OBSERVATIONS>[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (BEHAVIOR_5FDATA_27 ?x2) (HYPOTHESIS_27 ?x1) (kbs2_kif_quote_3E_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (EXPLAIN_27 ?x1) (A_27 ?x1) (OBSERVATION_27 ?x1)  (PERSON_27 ?x1))
+
+;;  K
+
+	;; A <OBSERVATION>_<OBSERVATIONS>[PERSON??] MAY BE CATEGORIZE -ED.
+
+;;   F
+
+;;    S
+
+		(and (OBSERVATION_27 ?x2) (OBSERVATIONS_27 ?x1) (kbs2_kif_quote_3E_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (CATEGORIZE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (SC ARGUES THAT KNOWLEDGE IS CONSTRUCTED IN RESPONSE TO THE SITUATION , RATHER THAN RETRIEVED AND REUSED)
+
+;; E
+
+;;  K
+
+	;; A US-STATE MAY ARGUE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (US-STATE_27 ?x1) (MAY_27 ?x1) (ARGUE_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE MAY BE CONSTRUCT -ED IN RESPONSE.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (CONSTRUCT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (RESPONSE_27 ?x2))
+
+;; (SC PROPONENTS HOLD THAT THESE KINDS OF ADDITIONAL CONDITIONS MAY BE ADDED INDEFINITELY , THUS MAKING THE
+ PROSPECT OF REPRESENTING THE ESSENCE OF THAT ITEM OF KNOWLEDGE , ONCE AND FOR ALL AT THE KNOWLEDGE LEVEL
+ , RATHER SLIM)
+
+;; E
+
+;;  K
+
+	;; PROPONENTS MAY HOLD A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (proponent_27 ?x1) (hold_27 ?e1 ?x1 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; A US-STATE MAY HAVE PROPONENTS.
+
+;;   F
+
+;;    S
+
+		(and (US-STATE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (proponent_27 ?x1))
+
+;;  K
+
+	;; KINDS OF CONDITIONS MAY BE ADD -ED.
+
+;;   F
+
+;;    S
+
+		(and (kind_27 ?x1) (of_27 ?x1 ?x2) (CONDITIONS_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (ADD_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2))
+
+;;  K
+
+	;; AN ESSENCE OF AN ITEM OF KNOWLEDGE CAN BE SLIM.
+
+;;   F
+
+;;    S
+
+		(and (ESSENCE_27 ?x1) (of_27 ?x1 ?x2) (AN_27 ?x2) (ITEM_27 ?x2) (of_27 ?x1 ?x3) (KNOWLEDGE_27 ?x3) (CAN_27 ?x3) (BE_27 ?x3) (SLIM_27 ?x3))
+
+;;  K
+
+	;; SOME_NUMBER_OF THING CAN BE AT A KNOWLEDGE_LEVEL[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (THING_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AT_27 ?x2) (A_27 ?x2) (KNOWLEDGE_5FLEVEL_27 ?x2) (PERSON_27 ?x3))
+
+;; (SIMILAR COMMENTS MAY ALSO BE MADE ABOUT THE REPRESENTATION OF PROBLEM-SOLVING METHODS)
+
+;; E
+
+;;  K
+
+	;; COMMENTS MAY BE MAKE -ED ABOUT A REPRESENTATION OF METHODS.
+
+;;   F
+
+;;    S
+
+		(and (comment_27 ?x1) (MAY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (MAKE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (ABOUT_27 ?x2) (A_27 ?x2) (REPRESENTATION_27 ?x2) (of_27 ?x2 ?x3) (METHODS_27 ?x3))
+
+;;  K
+
+	;; A REPRESENTATION CAN BE SHOW METHODS.
+
+;;   F
+
+;;    S
+
+		(and (REPRESENTATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SHOW_27 ?x1) (METHODS_27 ?x1))
+
+;;  K
+
+	;; METHODS CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;; (ADDITIONALLY , GIVEN THE RATHER UNSETTLED STATE OF THE PHILOSOPHICAL FOUNDATIONS OF UPPER ONTOLOGY − AS
+ EVIDENCED BY THE QUOTE FROM A CONFERENCE ANNOUNCEMENT EARLIER IN THE PAPER − THERE ARE ADDITIONAL
+ REASONS TO BE CONCERNED ABOUT THE VISION OF MASSIVE REUSE OF KNOWLEDGE)
+
+;; E
+
+;;  K
+
+	;; A STATE CAN BE UNSETTLED.
+
+;;   F
+
+;;    S
+
+		(and (state_27 ?x1) (be_27 ?e1 ?x1 ?e2) (unsettle_27 ?e2 ?x1))
+
+;;  K
+
+	;; FOUNDATIONS CAN BE PHILOSOPHICAL.
+
+;;   F
+
+;;    S
+
+		(and (foundation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PHILOSOPHICAL_27 ?x2))
+
+;;  K
+
+	;; A QUOTE CAN BE FROM A CONFERENCE ANNOUNCEMENT.
+
+;;   F
+
+;;    S
+
+		(and (QUOTE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FROM_27 ?x1) (A_27 ?x1) (CONFERENCE_27 ?x1) (ANNOUNCEMENT_27 ?x1))
+
+;;  K
+
+	;; A REUSE CAN BE MASSIVE.
+
+;;   F
+
+;;    S
+
+		(and (REUSE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MASSIVE_27 ?x1))
+
+;; (THERE ARE A NUMBER OF THINGS THAT MAKE US OPTIMISTIC , IN SPITE OF THESE CONCERNS)
+
+;; E
+
+;;  K
+
+	;; PERSON -S CAN BE OPTIMISTIC.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (OPTIMISTIC_27 ?x1))
+
+;; (FOR ONE THING , IN THESE EXAMPLES , WHAT CHANGES RADICALLY FROM SITUATION TO SITUATION IS NOT THE
+ ONTOLOGY ITSELF , BUT ASSERTIONS MADE USING THE ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; ASSERTIONS MAY MAKE.
+
+;;   F
+
+;;    S
+
+		(and (ASSERTIONS_27 ?x1) (MAY_27 ?x1) (MAKE_27 ?x1))
+
+;; (THUS , IT IS VERY LIKELY THAT CHANGES IN ONTOLOGY WILL BE NEEDED LESS OFTEN THAN CHANGES TO A KNOWLEDGE
+ BASE)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE LIKELY.
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (LIKELY_27 ?x1))
+
+;;  K
+
+	;; CHANGES MAY BE NEED -ED.
+
+;;   F
+
+;;    S
+
+		(and (CHANGES_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (NEED_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; CHANGES CAN BE IN ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (change_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; CHANGES CAN BE TO A KNOWLEDGE BASE.
+
+;;   F
+
+;;    S
+
+		(and (change_27 ?x1) (be_27 ?e1 ?x1) (to_27 ?x1 ?x2) (A_27 ?x2) (KNOWLEDGE_27 ?x2) (BASE_27 ?x2))
+
+;; (SECONDLY , SITUATIONAL CHANGE IN KNOWLEDGE FOR CLASSES OF WELL-DEFINED TASKS AND DOMAINS IS LIKELY TO BE
+ RELATIVELY CONTROLLABLE)
+
+;; E
+
+;;  K
+
+	;; CHANGE CAN BE IN KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (change_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (KNOWLEDGE_27 ?x2))
+
+;;  K
+
+	;; A CHANGE CAN BE SITUATIONAL.
+
+;;   F
+
+;;    S
+
+		(and (CHANGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SITUATIONAL_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE FOR CLASSES OF TASKS.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (class_27 ?x2) (of_27 ?x2 ?x3) (TASKS_27 ?x3))
+
+;;  K
+
+	;; CLASSES CAN BE CONSTITUTED_OF_OR_FILLED_WITH TASKS.
+
+;;   F
+
+;;    S
+
+		(and (class_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x2) (TASKS_27 ?x2))
+
+;;  K
+
+	;; TASKS CAN BE WELL-DEFINED.
+
+;;   F
+
+;;    S
+
+		(and (task_27 ?x1) (be_27 ?e1 ?x1) (well-defined_27 ?x1))
+
+;; (FOR EXAMPLE , KNOWLEDGE SHARING FOR ENGINEERING DESIGN IN THE DOMAIN OF OPERATIONAL AMPLIFIERS IS MUCH
+ LESS SUBJECT TO THE CHANGES IN KNOWLEDGE THAT SC PROPONENTS POINT TO)
+
+;; E
+
+;;  K
+
+	;; KNOWLEDGE SHARING CAN BE SUBJECT.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (SHARING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SUBJECT_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE SHARING CAN BE FOR ENGINEERING DESIGN.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (SHARING_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (ENGINEERING_27 ?x2) (DESIGN_27 ?x2))
+
+;;  K
+
+	;; ENGINEERING DESIGN CAN BE IN A DOMAIN OF AMPLIFIERS.
+
+;;   F
+
+;;    S
+
+		(and (ENGINEERING_27 ?x1) (DESIGN_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (DOMAIN_27 ?x2) (of_27 ?x2 ?x3) (amplifier_27 ?x3))
+
+;;  K
+
+	;; AMPLIFIERS CAN BE OPERATIONAL.
+
+;;   F
+
+;;    S
+
+		(and (amplifier_27 ?x1) (be_27 ?e1 ?x1 ?x2) (OPERATIONAL_27 ?x2))
+
+;;  K
+
+	;; CHANGES CAN BE IN KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (change_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (KNOWLEDGE_27 ?x2))
+
+;;  K
+
+	;; A US-STATE MAY HAVE PROPONENTS.
+
+;;   F
+
+;;    S
+
+		(and (US-STATE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (proponent_27 ?x1))
+
+;; (THIRDLY , KNOWLEDGE SHARING IS NOT AN ALL-OR-NOTHING PROPOSITION)
+
+;; E
+
+;;  K
+
+	;; KNOWLEDGE SHARING CAN BE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (SHARING_27 ?x1) (be_27 ?e1 ?x1 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; A PROPOSITION CAN BE ALL-OR-NOTHING.
+
+;;   F
+
+;;    S
+
+		(and (proposition_27 ?x1) (be_27 ?e1 ?x1) (all-or-nothing_27 ?x1))
+
+;; (KNOWLEDGE MAY BE IMPORTED FROM A LIBRARY AND MODIFIED TO MEET THE NEEDS OF A SPECIFIC TASK)
+
+;; E
+
+;;  K
+
+	;; A KNOWLEDGE[PERSON??] MAY BE IMPORT -ED FROM A LIBRARY.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (BE_27 ?x1) (IMPORT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (FROM_27 ?x1) (A_27 ?x1) (LIBRARY_27 ?x1))
+
+;; (THE WORK NEEDED FOR MODIFYING KNOWLEDGE THAT IS CLOSE TO WHAT ONE NEEDS WOULD AS A RULE BE MUCH LESS
+ THAN THE WORK NEEDED FOR IDENTIFYING AND ENCODING KNOWLEDGE FROM SCRATCH FOR EACH SYSTEM)
+
+;; E
+
+;;  K
+
+	;; NEEDS CAN BE LESS.
+
+;;   F
+
+;;    S
+
+		(and (need_27 ?x1) (be_27 ?e1 ?x1))
+
+;;  K
+
+	;; SCRATCH CAN BE FOR SOME_NUMBER_OF SYSTEM.
+
+;;   F
+
+;;    S
+
+		(and (SCRATCH_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (SYSTEM_27 ?x2))
+
+;; (EXACTLY HOW MUCH KNOWLEDGE CAN BE SHARED FOR WHAT TASK DOMAINS REMAINS AN EMPIRICAL ISSUE , AND NOT ONE
+ THAT CAN BE SETTLED BY A PRIORI ARGUMENTS)
+
+;; E
+
+;;  K
+
+	;; TASK DOMAINS MAY REMAIN AN ISSUE.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (DOMAINS_27 ?x1) (MAY_27 ?x1) (REMAIN_27 ?x1) (AN_27 ?x1) (ISSUE_27 ?x1))
+
+;;  K
+
+	;; AN ISSUE CAN BE EMPIRICAL.
+
+;;   F
+
+;;    S
+
+		(and (ISSUE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (EMPIRICAL_27 ?x1))
+
+;;  K
+
+	;; ARGUMENTS CAN BE PRIORI.
+
+;;   F
+
+;;    S
+
+		(and (argument_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PRIORI_27 ?x2))
+
+;; (WE FEEL THAT REUSE ISSUES SHOULD BE INVESTIGATED BY VARYING THE SITUATIONS AND TASK SPECIFICATIONS
+ AROUND A STARTING SITUATION IN SUCH A WAY THAT WE CAN TRACK THE NEEDED CHANGES TO ONTOLOGY AND THE
+ KNOWLEDGE BASE)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY FEEL A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (FEEL_27 ?x1) (A_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; ISSUES CAN BE REUSE.
+
+;;   F
+
+;;    S
+
+		(and (issue_27 ?x1) (be_27 ?e1 ?x1 ?x2) (REUSE_27 ?x2))
+
+;;  K
+
+	;; A SITUATION CAN BE IN A WAY.
+
+;;   F
+
+;;    S
+
+		(and (SITUATION_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (way_27 ?x2))
+
+;;  K
+
+	;; A SITUATION CAN BE STARTING.
+
+;;   F
+
+;;    S
+
+		(and (SITUATION_27 ?x1) (be_27 ?e1 ?x1 ?x2) (starting_27 ?x2))
+
+;;  K
+
+	;; PERSON -S MAY TRACK CHANGES TO ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (TRACK_27 ?x1) (CHANGES_27 ?x1) (TO_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; CHANGES CAN BE NEEDED.
+
+;;   F
+
+;;    S
+
+		(and (change_27 ?x1) (be_27 ?e1 ?x1 ?e2) (need_27 ?e2 ?x1))
+
+;; (THIS SUGGESTS THAT WE NEED SYSTEMS THAT SUPPORT THE CHANGES NEEDED FOR KNOWLEDGE AND METHOD ONTOLOGIES
+ AS SITUATIONS ARE CHANGED)
+
+;; E
+
+;;  K
+
+	;; A THING MAY SUGGEST A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (suggest_27 ?e1 ?x1 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; PERSON -S MAY NEED SYSTEMS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (NEED_27 ?x1) (SYSTEMS_27 ?x1))
+
+;;  K
+
+	;; CHANGES MAY NEED FOR KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (CHANGES_27 ?x1) (MAY_27 ?x1) (NEED_27 ?x1) (for_27 ?x1 ?x2) (KNOWLEDGE_27 ?x2))
+
+;;  K
+
+	;; SITUATIONS MAY BE CHANGE -ED.
+
+;;   F
+
+;;    S
+
+		(and (SITUATIONS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (CHANGE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (THIS APPEARS TO BE AN IMPORTANT NEW DIRECTION OF RESEARCH)
+
+;; E
+
+;;  K
+
+	;; A DIRECTION CAN BE CONSTITUTED_OF_OR_FILLED_WITH RESEARCH.
+
+;;   F
+
+;;    S
+
+		(and (DIRECTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (RESEARCH_27 ?x1))
+
+;;  K
+
+	;; A DIRECTION CAN BE IMPORTANT.
+
+;;   F
+
+;;    S
+
+		(and (DIRECTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IMPORTANT_27 ?x1))

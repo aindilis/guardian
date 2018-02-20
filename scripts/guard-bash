@@ -1,0 +1,8 @@
+#!/usr/bin/perl -w
+
+print "Guard, guard, guard, guard, guard...\n";
+# print "Contact Mary via facebook or phone and ask her about the things mentioned in the CW planning doc.\n"
+
+# load the prolog here, have it run through all of our scheduling
+# issues.
+

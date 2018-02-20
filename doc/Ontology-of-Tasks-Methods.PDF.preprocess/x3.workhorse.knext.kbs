@@ -1,0 +1,1783 @@
+;; (METHOD SHARING RAISES ADDITIONAL ISSUES , SOME OF THAT WE DISCUSSED)
+
+;; E
+
+;;  K
+
+	;; SHARING MAY RAISE ISSUES.
+
+;;   F
+
+;;    S
+
+		(and (share_27 ?e1 ?x1) (MAY_27 ?x1) (RAISE_27 ?x1) (ISSUES_27 ?x1))
+
+;;  K
+
+	;; A SHARING CAN BE METHOD.
+
+;;   F
+
+;;    S
+
+		(and (SHARING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (METHOD_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY DISCUSS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DISCUSS_27 ?x1))
+
+;; (SITUATIONS ARE DESCRIBED BY THE CONCRETE TASK THAT A SYSTEM-BUILDER WISHES HIS KNOWLEDGE SYSTEM TO
+ SOLVE)
+
+;; E
+
+;;  K
+
+	;; SITUATIONS MAY BE DESCRIBE -ED BY A TASK.
+
+;;   F
+
+;;    S
+
+		(and (SITUATIONS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (DESCRIBE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2))
+
+;;  K
+
+	;; A TASK CAN BE CONCRETE.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONCRETE_27 ?x2))
+
+;;  K
+
+	;; A MALE MAY HAVE A KNOWLEDGE SYSTEM.
+
+;;   F
+
+;;    S
+
+		(and (MALE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (KNOWLEDGE_27 ?x1) (SYSTEM_27 ?x1))
+
+;; (AS WE SAW , THERE WILL OFTEN BE GAPS BETWEEN THE WAY A SYSTEM-BUILDER CONCEIVED THE TASK AND THE WAY
+ METHODS WOULD BE INDEXED IN A LIBRARY)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY SEE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (SEE_27 ?x1))
+
+;;  K
+
+	;; GAPS CAN BE BETWEEN A WAY.
+
+;;   F
+
+;;    S
+
+		(and (GAPS_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (BETWEEN_27 ?x2) (A_27 ?x2) (way_27 ?x2))
+
+;;  K
+
+	;; A SYSTEM-BUILDER MAY CONCEIVE.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM-BUILDER_27 ?x1) (MAY_27 ?x1) (CONCEIVE_27 ?x1))
+
+;;  K
+
+	;; A TASK MAY BE INDEX -ED IN A LIBRARY.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (INDEX_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (LIBRARY_27 ?x2))
+
+;; (SUCH A GAP CAN PROBABLY NEVER BE COMPLETELY ELIMINATED)
+
+;; E
+
+;;  K
+
+	;; A GAP MAY BE ELIMINATE -ED.
+
+;;   F
+
+;;    S
+
+		(and (GAP_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (ELIMINATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (HOWEVER , SOME OF THE CURRENT IDEAS IN THE FIELD THAT WE DISCUSSED − ASSUMPTIONS THAT ARE ATTACHED TO
+ THE METHODS AND ADAPTORS THAT USE THESE ASSUMPTIONS − CAN HELP TO SPAN THIS CONCEPTUAL GAP)
+
+;; E
+
+;;  K
+
+	;; IDEAS MAY HAVE A THING.
+
+;;   F
+
+;;    S
+
+		(and (IDEAS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (thing_27 ?x1))
+
+;;  K
+
+	;; IDEAS CAN BE IN A FIELD.
+
+;;   F
+
+;;    S
+
+		(and (idea_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (FIELD_27 ?x2))
+
+;;  K
+
+	;; PERSON -S MAY DISCUSS ASSUMPTIONS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DISCUSS_27 ?x1) (ASSUMPTIONS_27 ?x1))
+
+;;  K
+
+	;; ASSUMPTIONS CAN BE −.
+
+;;   F
+
+;;    S
+
+		(and (assumption_27 ?x1) (be_27 ?e1 ?x1 ?x2) (kbs2_kif_quote_E2_88_92_27 ?x2))
+
+;;  K
+
+	;; A GAP CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (GAP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (ACKNOWLEDGMENT THIS MATERIAL IS BASED UPON WORK SUPPORTED BY THE OFFICE OF NAVAL RESEARCH , GRANT NUMBER
+ N00014-96-1 - 701 , DARPA ORDER NUMBER D594)
+
+;; E
+
+;;  K
+
+	;; A MATERIAL MAY BE BASE -ED UPON WORK.
+
+;;   F
+
+;;    S
+
+		(and (MATERIAL_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (BASE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (UPON_27 ?x1) (WORK_27 ?x1))
+
+;;  K
+
+	;; WORK MAY BE SUPPORT -ED BY AN OFFICE[PERSON??] OF A COMPANY.
+
+;;   F
+
+;;    S
+
+		(and (WORK_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (SUPPORT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (BY_27 ?x1) (AN_27 ?x1) (OFFICE_27 ?x1) (PERSON_27 ?x1))
+
+;;   F
+
+;;    S
+
+		(and (of_27 ?x1) (company_27 ?x1))
+
+;;  K
+
+	;; A GOVERNMENT-AGENCY MAY HAVE AN ORDER NUMBER D594.
+
+;;   F
+
+;;    S
+
+		(and (GOVERNMENT-AGENCY_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (ORDER_27 ?x1) (NUMBER_27 ?x1) (D594_27 ?x1))
+
+;; (RICHARD BENJAMINS IS SUPPORTED BY THE NETHERLANDS COMPUTER SCIENCE RESEARCH FOUNDATION WITH FINANCIAL
+ SUPPORT FROM THE NETHERLANDS ORGANISATION FOR SCIENTIFIC RESEARCH -LRB- NWO -RRB-)
+
+;; E
+
+;;  K
+
+	;; A MALE MAY BE SUPPORT -ED BY A NETHERLANDS_COMPUTER_SCIENCE_RESEARCH_FOUNDATION[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (MALE_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (SUPPORT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (NETHERLANDS_5FCOMPUTER_5FSCIENCE_5FRESEARCH_5FFOUNDATION_27 ?x2) (person_27 ?x3))
+
+;;  K
+
+	;; A SUPPORT CAN BE FINANCIAL.
+
+;;   F
+
+;;    S
+
+		(and (SUPPORT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FINANCIAL_27 ?x1))
+
+;;  K
+
+	;; A NETHERLANDS_ORGANISATION[PERSON??] CAN BE FOR A COMPANY.
+
+;;   F
+
+;;    S
+
+		(and (NETHERLANDS_5FORGANISATION_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (for_27 ?x1) (A_27 ?x1) (company_27 ?x1))
+
+;; (PROBLEM SOLVING METHODS FOR DIAGNOSIS)
+
+;; E
+
+;;  K
+
+	;; A PROBLEM_SOLVING[PERSON??] MAY METHOD FOR DIAGNOSIS.
+
+;;   F
+
+;;    S
+
+		(and (problem_5Fsolving_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (METHOD_27 ?x1) (for_27 ?x1 ?x2) (DIAGNOSIS_27 ?x2))
+
+;; (-LRB- 1996 -RRB-)
+
+;; E
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY -RRB.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_2DRRB_27 ?x1))
+
+;; (ASSUMPTIONS OF PROBLEM-SOLVING METHODS AND THEIR ROLE IN KNOWLEDGE ENGINEERING)
+
+;; E
+
+;;  K
+
+	;; METHODS MAY UNDERGO ASSUMPTIONS.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (ASSUMPTIONS_27 ?x1))
+
+;;  K
+
+	;; METHODS CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE A ROLE.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (ROLE_27 ?x1))
+
+;; (ASSUMPTIONS OF PROBLEM-SOLVING METHODS AND THEIR ROLE IN KNOWLEDGE ENGINEERING)
+
+;; E
+
+;;  K
+
+	;; METHODS MAY UNDERGO ASSUMPTIONS.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (ASSUMPTIONS_27 ?x1))
+
+;;  K
+
+	;; METHODS CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE A ROLE.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (ROLE_27 ?x1))
+
+;; (REMEDYING THE REUSABILITY-USABILITY TRADEOFF FOR PROBLEM-SOLVING METHODS)
+
+;; E
+
+;;  K
+
+	;; A TRADEOFF CAN BE REUSABILITY-USABILITY.
+
+;;   F
+
+;;    S
+
+		(and (TRADEOFF_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (REUSABILITY-USABILITY_27 ?x1))
+
+;;  K
+
+	;; METHODS CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;; (REMEDYING THE REUSABILITY-USABILITY TRADEOFF FOR PROBLEM-SOLVING METHODS)
+
+;; E
+
+;;  K
+
+	;; A TRADEOFF CAN BE REUSABILITY-USABILITY.
+
+;;   F
+
+;;    S
+
+		(and (TRADEOFF_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (REUSABILITY-USABILITY_27 ?x1))
+
+;;  K
+
+	;; METHODS CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;; (-LRB- 1990 -RRB-)
+
+;; E
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY -RRB.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_2DRRB_27 ?x1))
+
+;; (CSRL A LANGUAGE FOR CLASSIFICATORY PROBLEM SOLVING AND UNCERTAINTY HANDLING)
+
+;; E
+
+;;  K
+
+	;; A LANGUAGE CAN BE FOR PROBLEM SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (LANGUAGE_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (PROBLEM_27 ?x2) (SOLVING_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM SOLVING CAN BE CLASSIFICATORY.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (SOLVING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CLASSIFICATORY_27 ?x1))
+
+;; (GENERIC TASKS IN KNOWLEDGE BASED REASONING : HIGH LEVEL BUILDING BLOCKS FOR EXPERT SYSTEM DESIGN)
+
+;; E
+
+;;  K
+
+	;; TASKS CAN BE IN KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (task_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (KNOWLEDGE_27 ?x2))
+
+;;  K
+
+	;; TASKS CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (TASKS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;;  K
+
+	;; KNOWLEDGE MAY BE BASE -ED.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (BASE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; LEVEL BUILDING BLOCKS CAN BE FOR EXPERT SYSTEM DESIGN.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (BUILDING_27 ?x1) (BLOCKS_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (EXPERT_27 ?x2) (SYSTEM_27 ?x2) (DESIGN_27 ?x2))
+
+;;  K
+
+	;; LEVEL BUILDING BLOCKS CAN BE HIGH.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (BUILDING_27 ?x1) (BLOCKS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HIGH_27 ?x1))
+
+;; (-LRB- 1994 -RRB-)
+
+;; E
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY -RRB.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_2DRRB_27 ?x1))
+
+;; (AI , KNOWLEDGE AND THE QUEST FOR SMART SYSTEMS)
+
+;; E
+
+;;  K
+
+	;; A QUEST CAN BE FOR SYSTEMS.
+
+;;   F
+
+;;    S
+
+		(and (QUEST_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (SYSTEMS_27 ?x2))
+
+;;  K
+
+	;; SYSTEMS CAN BE SMART.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SMART_27 ?x1))
+
+;; (HEURISTIC CLASSIFICATION)
+
+;; E
+
+;;  K
+
+	;; A HEURISTIC[PERSON??] MAY CLASSIFICATIO.
+
+;;   F
+
+;;    S
+
+		(and (HEURISTIC_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (CLASSIFICATIO_27 ?x1))
+
+;; (DESCRIBING REUSABLE PROBLEM-SOLVING METHODS WITH A METHOD ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; METHODS CAN BE REUSABLE.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (REUSABLE_27 ?x1))
+
+;;  K
+
+	;; METHODS CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;; (DESCRIBING REUSABLE PROBLEM-SOLVING METHODS WITH A METHOD ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; METHODS CAN BE REUSABLE.
+
+;;   F
+
+;;    S
+
+		(and (METHODS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (REUSABLE_27 ?x1))
+
+;;  K
+
+	;; METHODS CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;; (THE TOWER-OF-ADAPTERS METHOD FOR DEVELOPING AND REUSING PROBLEMSOLVING METHODS)
+
+;; E
+
+;;  K
+
+	;; A METHOD CAN BE TOWER-OF-ADAPTERS.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TOWER-OF-ADAPTERS_27 ?x1))
+
+;;  K
+
+	;; METHODS CAN BE PROBLEMSOLVING.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PROBLEMSOLVING_27 ?x2))
+
+;; (THE TOWER-OF-ADAPTERS METHOD FOR DEVELOPING AND REUSING PROBLEMSOLVING METHODS)
+
+;; E
+
+;;  K
+
+	;; A METHOD CAN BE TOWER-OF-ADAPTERS.
+
+;;   F
+
+;;    S
+
+		(and (METHOD_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TOWER-OF-ADAPTERS_27 ?x1))
+
+;;  K
+
+	;; METHODS CAN BE PROBLEMSOLVING.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PROBLEMSOLVING_27 ?x2))
+
+;; (ASSUMPTIONS IN MODEL-BASED DIAGNOSIS)
+
+;; E
+
+;;  K
+
+	;; ASSUMPTIONS CAN BE IN DIAGNOSIS.
+
+;;   F
+
+;;    S
+
+		(and (assumption_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (DIAGNOSIS_27 ?x2))
+
+;;  K
+
+	;; A DIAGNOSIS CAN BE MODEL-BASED.
+
+;;   F
+
+;;    S
+
+		(and (DIAGNOSIS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MODEL-BASED_27 ?x1))
+
+;; (ASSUMPTIONS IN MODEL-BASED DIAGNOSIS)
+
+;; E
+
+;;  K
+
+	;; ASSUMPTIONS CAN BE IN DIAGNOSIS.
+
+;;   F
+
+;;    S
+
+		(and (assumption_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (DIAGNOSIS_27 ?x2))
+
+;;  K
+
+	;; A DIAGNOSIS CAN BE MODEL-BASED.
+
+;;   F
+
+;;    S
+
+		(and (DIAGNOSIS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MODEL-BASED_27 ?x1))
+
+;; (USING ONTOLOGIES FOR DEFINING TASKS , PROBLEM-SOLVING METHODS AND THEIR MAPPINGS)
+
+;; E
+
+;;  K
+
+	;; TASKS CAN BE DEFINING.
+
+;;   F
+
+;;    S
+
+		(and (task_27 ?x1) (be_27 ?e1 ?x1 ?x2) (DEFINING_27 ?x2))
+
+;;  K
+
+	;; METHODS CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE MAPPINGS.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (MAPPINGS_27 ?x1))
+
+;; (USING ONTOLOGIES FOR DEFINING TASKS , PROBLEM-SOLVING METHODS AND THEIR MAPPINGS)
+
+;; E
+
+;;  K
+
+	;; TASKS CAN BE DEFINING.
+
+;;   F
+
+;;    S
+
+		(and (task_27 ?x1) (be_27 ?e1 ?x1 ?x2) (DEFINING_27 ?x2))
+
+;;  K
+
+	;; METHODS CAN BE PROBLEM-SOLVING.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1 ?x2) (problem-solving_27 ?x2))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE MAPPINGS.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (MAPPINGS_27 ?x1))
+
+;; (THE STATE OF THE ART IN ONTOLOGY DESIGN)
+
+;; E
+
+;;  K
+
+	;; AN ART MAY HAVE A STATE.
+
+;;   F
+
+;;    S
+
+		(and (ART_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (state_27 ?x1))
+
+;;  K
+
+	;; A DESIGN CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (DESIGN_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (-LRB- 1994 -RRB-)
+
+;; E
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY -RRB.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_2DRRB_27 ?x1))
+
+;; (MAPPING DOMAINS TO METHODS IN SUPPORT OF REUSE)
+
+;; E
+
+;;  K
+
+	;; A MAPPING[PERSON??] MAY DOMAIN TO METHODS.
+
+;;   F
+
+;;    S
+
+		(and (mapping_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (DOMAIN_27 ?x1) (TO_27 ?x1) (METHODS_27 ?x1))
+
+;;  K
+
+	;; METHODS CAN BE IN SUPPORT OF REUSE.
+
+;;   F
+
+;;    S
+
+		(and (method_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (SUPPORT_27 ?x2) (of_27 ?x2 ?x3) (REUSE_27 ?x3))
+
+;; (A TRANSLATION APPROACH TO PORTABLE ONTOLOGY SPECIFICATIONS)
+
+;; E
+
+;;  K
+
+	;; A TRANSLATION MAY APPROACH TO ONTOLOGY SPECIFICATIONS.
+
+;;   F
+
+;;    S
+
+		(and (TRANSLATION_27 ?x1) (MAY_27 ?x1) (APPROACH_27 ?x1) (TO_27 ?x1) (ONTOLOGY_27 ?x1) (SPECIFICATIONS_27 ?x1))
+
+;;  K
+
+	;; ONTOLOGY SPECIFICATIONS CAN BE PORTABLE.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (SPECIFICATIONS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PORTABLE_27 ?x1))
+
+;; (FORMAL ONTOLOGY , CONCEPTUAL ANALYSIS AND KNOWLEDGE REPRESENTATION)
+
+;; E
+
+;;  K
+
+	;; AN ONTOLOGY CAN BE FORMAL.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FORMAL_27 ?x1))
+
+;;  K
+
+	;; AN ANALYSIS CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (ANALYSIS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (SPECIAL ISSUE ON THE 22 ROLE OF FORMAL ONTOLOGY IN THE INFORMATION TECHNOLOGY)
+
+;; E
+
+;;  K
+
+	;; ISSUE CAN BE ON SOME_NUMBER_OF ROLE.
+
+;;   F
+
+;;    S
+
+		(and (issue_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (ROLE_27 ?x2))
+
+;;  K
+
+	;; A FORMAL_ONTOLOGY[PERSON??] CAN BE IN AN INFORMATION_TECHNOLOGY[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (FORMAL_5FONTOLOGY_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (in_27 ?x1) (INFORMATION_5FTECHNOLOGY_27 ?x1) (PERSON_27 ?x2))
+
+;; (GENERIC TASKS IN THE PROBLEM-SPACE PARADIGM : BUILDING FLEXIBLE KNOWLEDGE SYSTEMS WHILE USING TASK-LEVEL
+ CONSTRAINTS)
+
+;; E
+
+;;  K
+
+	;; A GENERIC_TASKS[PERSON??] CAN BE IN A PROBLEM-SPACE_PARADIGM[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (GENERIC_5FTASKS_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (in_27 ?x1) (A_27 ?x1) (PROBLEM-SPACE_5FPARADIGM_27 ?x1) (person_27 ?x2))
+
+;; (-LRB- 1994 -RRB-)
+
+;; E
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY -RRB.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_2DRRB_27 ?x1))
+
+;; (-LRB- 1991 -RRB-)
+
+;; E
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY -RRB.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_2DRRB_27 ?x1))
+
+;; (USABLE AND REUSABLE PROGRAMMING CONSTRUCTS)
+
+;; E
+
+;;  K
+
+	;; PROGRAMMING MAY CONSTRUCT.
+
+;;   F
+
+;;    S
+
+		(and (program_27 ?e1 ?x1) (MAY_27 ?x1) (CONSTRUCT_27 ?x1))
+
+;;  K
+
+	;; A PROGRAMMING CAN BE USABLE.
+
+;;   F
+
+;;    S
+
+		(and (programming_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (USABLE_27 ?x1))
+
+;; (SOAR : AN ARCHITECTURE FOR GENERAL INTELLIGENCE)
+
+;; E
+
+;;  K
+
+	;; ARCHITECTURE CAN BE FOR INTELLIGENCE.
+
+;;   F
+
+;;    S
+
+		(and (ARCHITECTURE_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (INTELLIGENCE_27 ?x2))
+
+;;  K
+
+	;; INTELLIGENCE CAN BE GENERAL.
+
+;;   F
+
+;;    S
+
+		(and (INTELLIGENCE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERAL_27 ?x1))
+
+;; (BUILDING LARGE KNOWLEDGE-BASED SYSTEMS)
+
+;; E
+
+;;  K
+
+	;; SYSTEMS CAN BE LARGE.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEMS_27 ?x1) (be_27 ?e1 ?x1) (large_27 ?x1))
+
+;;  K
+
+	;; SYSTEMS CAN BE KNOWLEDGE-BASED.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (KNOWLEDGE-BASED_27 ?x1))
+
+;; (REPRESENTATION AND INFERENCE IN THE CYC PROJECT)
+
+;; E
+
+;;  K
+
+	;; REPRESENTATION CAN BE IN A PROJECT.
+
+;;   F
+
+;;    S
+
+		(and (representation_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (project_27 ?x2))
+
+;;  K
+
+	;; A CYC[PERSON??] MAY HAVE A PROJECT.
+
+;;   F
+
+;;    S
+
+		(and (CYC_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (project_27 ?x1))
+
+;; (READING , MASSACHUSETTS , ADDISON-WESLEY)
+
+;; E
+
+;;  K
+
+	;; A US-CITY MAY ADDISON-WESLE.
+
+;;   F
+
+;;    S
+
+		(and (US-CITY_27 ?x1) (MAY_27 ?x1) (ADDISON-WESLE_27 ?x1))
+
+;; (VISION : A COMPUTATIONAL INVESTIGATION INTO THE HUMAN REPRESENTATION AND PROCESSING OF VISUAL
+ INFORMATION)
+
+;; E
+
+;;  K
+
+	;; AN INVESTIGATION CAN BE INTO A REPRESENTATION OF INFORMATION.
+
+;;   F
+
+;;    S
+
+		(and (INVESTIGATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (INTO_27 ?x1) (A_27 ?x1) (REPRESENTATION_27 ?x1) (of_27 ?x1 ?x2) (INFORMATION_27 ?x2))
+
+;;  K
+
+	;; AN INVESTIGATION CAN BE COMPUTATIONAL.
+
+;;   F
+
+;;    S
+
+		(and (INVESTIGATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (COMPUTATIONAL_27 ?x1))
+
+;;  K
+
+	;; A REPRESENTATION CAN BE SHOW INFORMATION.
+
+;;   F
+
+;;    S
+
+		(and (REPRESENTATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SHOW_27 ?x1) (INFORMATION_27 ?x1))
+
+;;  K
+
+	;; A REPRESENTATION CAN BE HUMAN.
+
+;;   F
+
+;;    S
+
+		(and (REPRESENTATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HUMAN_27 ?x1))
+
+;;  K
+
+	;; AN INFORMATION CAN BE VISUAL.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (VISUAL_27 ?x1))
+
+;; (SOME PHILOSOPHICAL PROBLEMS FROM THE STANDPOINT OF ARTIFICIAL INTELLIGENCE)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF PROBLEMS CAN BE FROM A STANDPOINT.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (PROBLEMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FROM_27 ?x1) (A_27 ?x1) (STANDPOINT_27 ?x1))
+
+;;  K
+
+	;; PROBLEMS CAN BE PHILOSOPHICAL.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PHILOSOPHICAL_27 ?x1))
+
+;;  K
+
+	;; INTELLIGENCE CAN BE ARTIFICIAL.
+
+;;   F
+
+;;    S
+
+		(and (INTELLIGENCE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ARTIFICIAL_27 ?x1))
+
+;; (-LRB- 1995 -RRB-)
+
+;; E
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY -RRB.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_2DRRB_27 ?x1))
+
+;; (TASK ONTOLOGY FOR REUSE OF PROBLEM SOLVING KNOWLEDGE)
+
+;; E
+
+;;  K
+
+	;; REUSE OF PROBLEM MAY SOLVE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (reuse_27 ?e1) (of_27 ?e1 ?x1) (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;; (TASK ONTOLOGY FOR REUSE OF PROBLEM SOLVING KNOWLEDGE)
+
+;; E
+
+;;  K
+
+	;; REUSE OF PROBLEM MAY SOLVE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (reuse_27 ?e1) (of_27 ?e1 ?x1) (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;; [2]>
+
+;; E
+
+;; (-LRB- 1989 -RRB-)
+
+;; E
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY -RRB.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_2DRRB_27 ?x1))
+
+;; (AUTOMATED GENERATION OF MODEL-BASED KNOWLEDGE-ACQUISITION TOOLS)
+
+;; E
+
+;;  K
+
+	;; TOOLS CAN BE MODEL-BASED.
+
+;;   F
+
+;;    S
+
+		(and (tool_27 ?x1) (be_27 ?e1 ?x1 ?x2) (MODEL-BASED_27 ?x2))
+
+;;  K
+
+	;; TOOLS CAN BE KNOWLEDGE-ACQUISITION.
+
+;;   F
+
+;;    S
+
+		(and (tool_27 ?x1) (be_27 ?e1 ?x1 ?x2) (KNOWLEDGE-ACQUISITION_27 ?x2))
+
+;; (RESEARCH NOTES IN ARTIFICIAL INTELLIGENCE)
+
+;; E
+
+;;  K
+
+	;; A RESEARCH_NOTES[PERSON??] CAN BE IN AN ARTIFICIAL_INTELLIGENCE[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (RESEARCH_5FNOTES_27 ?x1) (person_27 ?x1))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (in_27 ?x1) (ARTIFICIAL_5FINTELLIGENCE_27 ?x1) (person_27 ?x2))
+
+;; (-LRB- 1982 -RRB-)
+
+;; E
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY -RRB.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_2DRRB_27 ?x1))
+
+;; (THE KNOWLEDGE LEVEL)
+
+;; E
+
+;;  K
+
+	;; KNOWLEDGE MAY LEVEL.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (MAY_27 ?x1) (LEVEL_27 ?x1))
+
+;; (THE SISYPHUS-VT INITIATIVE)
+
+;; E
+
+;;  K
+
+	;; AN INITIATIVE CAN BE SISYPHUS-VT.
+
+;;   F
+
+;;    S
+
+		(and (INITIATIVE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SISYPHUS-VT_27 ?x1))
+
+;; (-LRB- 1994 -RRB-)
+
+;; E
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY -RRB.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_2DRRB_27 ?x1))
+
+;; (COMMONKADS : A COMPREHENSIVE METHODOLOGY FOR KBS DEVELOPMENT)
+
+;; E
+
+;;  K
+
+	;; A METHODOLOGY CAN BE FOR DEVELOPMENT.
+
+;;   F
+
+;;    S
+
+		(and (METHODOLOGY_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (DEVELOPMENT_27 ?x2))
+
+;;  K
+
+	;; A METHODOLOGY CAN BE COMPREHENSIVE.
+
+;;   F
+
+;;    S
+
+		(and (METHODOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (COMPREHENSIVE_27 ?x1))
+
+;;  K
+
+	;; A KBS[PERSON??] MAY HAVE A DEVELOPMENT.
+
+;;   F
+
+;;    S
+
+		(and (KBS_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (DEVELOPMENT_27 ?x1))
+
+;; (-LRB- 1998 -RRB-)
+
+;; E
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY -RRB.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_2DRRB_27 ?x1))
+
+;; (ROOTS OF SPAR - SHARED PLANNING AND ACTIVITY REPRESENTATION)
+
+;; E
+
+;;  K
+
+	;; PLANNING CAN BE SHARED.
+
+;;   F
+
+;;    S
+
+		(and (planning_27 ?x1) (be_27 ?e1 ?x1 ?e2) (share_27 ?e2 ?x1))
+
+;; (SPECIAL ISSUE ON ONTOLOGIES)
+
+;; E
+
+;;  K
+
+	;; A SPECIAL_ISSUE[PERSON??] CAN BE ON AN ONTOLOGIES[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (SPECIAL_5FISSUE_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (on_27 ?x1) (ONTOLOGIES_27 ?x1) (person_27 ?x2))
+
+;; (-LRB- 1997 -RRB-)
+
+;; E
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY -RRB.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_2DRRB_27 ?x1))
+
+;; (USING EXPLICIT ONTOLOGIES IN KBS DEVELOPMENT)
+
+;; E
+
+;;  K
+
+	;; ONTOLOGIES CAN BE EXPLICIT.
+
+;;   F
+
+;;    S
+
+		(and (ontology_27 ?x1)  )
+
+;;  K
+
+	;; A KBS[PERSON??] MAY HAVE A DEVELOPMENT.
+
+;;   F
+
+;;    S
+
+		(and (KBS_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (DEVELOPMENT_27 ?x1))
+
+;; *** - STRING: argument 292 should be a string, a symbol or a character
+The following restarts are available:
+USE-VALUE      :R1      Input a value to be used instead.
+ABORT          :R2      Abort main loop
+Break 1 [20]>
+
+;; E
+
+;; (MODELS OF EXPERTISE)
+
+;; E
+
+;;  K
+
+	;; MODELS CAN BE SHOW EXPERTISE.
+
+;;   F
+
+;;    S
+
+		(and (model_27 ?x1) (be_27 ?e1 ?x1 ?x2) (SHOW_27 ?x2) (EXPERTISE_27 ?x2))
+
+;; *** - GET: 306 is not a symbol
+The following restarts are available:
+USE-VALUE      :R1      Input a value to be used instead.
+ABORT          :R2      Abort main loop
+Break 1 [6]>
+
+;; E
+
+;; (-LRB- 1995 -RRB-)
+
+;; E
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY -RRB.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_2DRRB_27 ?x1))
+
+;; (OBJECT IDENTIFIERS , KEYS AND SURROGATES -- OBJECT 24 IDENTIFIERS REVISITED)
+
+;; E
+
+;;  K
+
+	;; IDENTIFIERS CAN BE OBJECT.
+
+;;   F
+
+;;    S
+
+		(and (identifier_27 ?x1) (be_27 ?e1 ?x1 ?x2) (OBJECT_27 ?x2))
+
+;; (ON UNDERSTANDING COMPUTERS AND COGNITION : A NEW FOUNDATION FOR DESIGN : A RESPONSE TO THE REVIEWS)
+
+;; E
+
+;;  K
+
+	;; A FOUNDATION CAN BE FOR DESIGN.
+
+;;   F
+
+;;    S
+
+		(and (foundation_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (DESIGN_27 ?x2))
+
+;;  K
+
+	;; A RESPONSE CAN BE TO REVIEWS.
+
+;;   F
+
+;;    S
+
+		(and (RESPONSE_27 ?x1) (be_27 ?e1 ?x1) (to_27 ?x1 ?x2) (REVIEWS_27 ?x2))
+
+;; (FOOTNOTES NOTE-1 CALL FOR PAPERS FOR A SPECIAL ISSUE ON `` TEMPORAL PARTS '' FOR THE MONIST , AN
+ INTERNATIONAL QUARTERLY JOURNAL OF GENERAL PHILOSOPHICAL INQUIRY)
+
+;; E
+
+;;  K
+
+	;; CALL CAN BE FOR PAPERS.
+
+;;   F
+
+;;    S
+
+		(and (call_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (paper_27 ?x2))
+
+;;  K
+
+	;; A CALL CAN BE FOOTNOTES.
+
+;;   F
+
+;;    S
+
+		(and (CALL_27 ?x1) (be_27 ?e1 ?x1 ?x2) (footnote_27 ?x2))
+
+;;  K
+
+	;; A CALL CAN BE NOTE-1.
+
+;;   F
+
+;;    S
+
+		(and (CALL_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (NOTE-1_27 ?x2))
+
+;;  K
+
+	;; PAPERS CAN BE FOR AN ISSUE.
+
+;;   F
+
+;;    S
+
+		(and (paper_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (ISSUE_27 ?x2))
+
+;;  K
+
+	;; AN ISSUE CAN BE ON A TEMPORAL_PARTS[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (ISSUE_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (A_27 ?x2) (TEMPORAL_5FPARTS_27 ?x2) (person_27 ?x2))
+
+;;  K
+
+	;; A TEMPORAL_PARTS[PERSON??] CAN BE FOR A MONIST[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (TEMPORAL_5FPARTS_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (for_27 ?x1) (A_27 ?x1) (MONIST_27 ?x1) (PERSON_27 ?x2))
+
+;; (IN ONE USAGE , TASK IS A SET OR SEQUENCE OF THINGS TO DO : THAT IS , TASK IS SOMETHING YOU DO)
+
+;; E
+
+;;  K
+
+	;; TASK CAN BE A SET OF THINGS.
+
+;;   F
+
+;;    S
+
+		(and (task_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (SET_27 ?x2) (of_27 ?x2 ?x3) (thing_27 ?x3))
+
+;;  K
+
+	;; A SET CAN BE CONSTITUTED_OF_OR_FILLED_WITH THINGS.
+
+;;   F
+
+;;    S
+
+		(and (SET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (THINGS_27 ?x1))
+
+;;  K
+
+	;; TASK CAN BE A SOMETHING.
+
+;;   F
+
+;;    S
+
+		(and (task_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (SOMETHING_27 ?x2))
+
+;;  K
+
+	;; A PERSON MAY DO.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (DO_27 ?x1))
+
+;; (ANOTHER USAGE HAS TASK AS A TERM FOR A GOAL TYPE , LEAVING OPEN WHAT THE STEPS ARE IN ACHIEVING IT)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF USAGE MAY HAVE TASK.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (USAGE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (TASK_27 ?x1))
+
+;;  K
+
+	;; TASK CAN BE AS A TERM.
+
+;;   F
+
+;;    S
+
+		(and (task_27 ?x1) (be_27 ?e1 ?x1) (as_27 ?x1 ?x2) (A_27 ?x2) (TERM_27 ?x2))
+
+;;  K
+
+	;; A TERM CAN BE FOR A GOAL TYPE.
+
+;;   F
+
+;;    S
+
+		(and (TERM_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (GOAL_27 ?x2) (TYPE_27 ?x2))
+
+;; (WE USE IT IN THE LATTER SENSE ; THAT IS , TASKS ARE GOAL TYPES , WHAT NEEDS TO BE ACCOMPLISHED)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY USE A THING-REFERRED-TO.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (USE_27 ?x1) (A_27 ?x1) (THING-REFERRED-TO_27 ?x1))
+
+;;  K
+
+	;; A SENSE CAN BE LATTER.
+
+;;   F
+
+;;    S
+
+		(and (SENSE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LATTER_27 ?x1))
+
+;;  K
+
+	;; TASKS CAN BE GOAL TYPES.
+
+;;   F
+
+;;    S
+
+		(and (TASKS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GOAL_27 ?x1) (TYPES_27 ?x1))
+
+;; (NOTE-3 OUR EXAMPLES THROUGHOUT ARE CHOSEN MAINLY FOR CLARITY IN MAKING THE CONCEPTUAL POINTS RATHER THAN
+ FOR ACCURACY OR COMPLETENESS IN DESCRIBING THE KNOWLEDGE)
+
+;; E
+
+;;  K
+
+	;; EXAMPLES MAY BE CHOOSE -ED.
+
+;;   F
+
+;;    S
+
+		(and (EXAMPLES_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (CHOOSE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY HAVE EXAMPLES.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (EXAMPLES_27 ?x1))
+
+;;  K
+
+	;; POINTS CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (point_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONCEPTUAL_27 ?x2))
+
+;; (IN PARTICULAR , IN THIS EXAMPLE , THE KNOWLEDGE FOR ESTABLISHING HYPOTHESES IS USUALLY SUBSTANTIALLY
+ MORE COMPLEX THAN THE EXAMPLE)
+
+;; E
+
+;;  K
+
+	;; KNOWLEDGE CAN BE COMPLEX.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (COMPLEX_27 ?x1))

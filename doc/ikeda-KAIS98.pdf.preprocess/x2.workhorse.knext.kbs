@@ -1,0 +1,6255 @@
+;; (IN FIGURE 5 , ONTOLOGY AUTHOR -LRB- OA -RRB- IS ARRANGED ABOVE SIDE AND GPN AUTHOR -LRB- GPNA -RRB- LEFT
+ SIDE)
+
+;; E
+
+;;  K
+
+	;; AUTHOR MAY BE ARRANGE -ED ABOVE SIDE.
+
+;;   F
+
+;;    S
+
+		(and (AUTHOR_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (ARRANGE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (ABOVE_27 ?x1) (SIDE_27 ?x1))
+
+;;  K
+
+	;; AN AUTHOR CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (AUTHOR_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (THIN PLANES STAND FOR LANGUAGES , E.G. THE BASE AND THE LEFT SIDE CORRESPOND TO THE DESCRIPTION LEVEL OF
+ CLOS)
+
+;; E
+
+;;  K
+
+	;; PLANES MAY STAND FOR LANGUAGES.
+
+;;   F
+
+;;    S
+
+		(and (PLANES_27 ?x1) (MAY_27 ?x1) (STAND_27 ?x1) (for_27 ?x1 ?x2) (LANGUAGES_27 ?x2))
+
+;;  K
+
+	;; PLANES CAN BE THIN.
+
+;;   F
+
+;;    S
+
+		(and (plane_27 ?x1) (be_27 ?e1 ?x1))
+
+;;  K
+
+	;; A BASE MAY CORRESPOND TO A DESCRIPTION LEVEL OF A CLOS[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (BASE_27 ?x1) (MAY_27 ?x1) (CORRESPOND_27 ?x1) (to_27 ?x1 ?x2) (A_27 ?x2) (DESCRIPTION_27 ?x2) (LEVEL_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (CLOS_27 ?x3) (person_27 ?x4))
+
+;; (CORE TASK -LRB- C-TASK -RRB- ONTOLOGY IS THE TASK ONTOLOGY INDEPENDENT OF TASK TYPES)
+
+;; E
+
+;;  K
+
+	;; TASK CAN BE A TASK.
+
+;;   F
+
+;;    S
+
+		(and (task_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2))
+
+;;  K
+
+	;; A CORE[PERSON??] MAY HAVE A TASK.
+
+;;   F
+
+;;    S
+
+		(and (core_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TASK_27 ?x1))
+
+;;  K
+
+	;; A TASK CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (IDEALLY CORE TASK ONTOLOGY SHOULD BE CONSTANT AND AN ONTOLOGY AUTHORS CONCENTRATE ON BUILDING THE TASK
+ SPECIFIC -LRB- TASK-S -RRB- ONTOLOGIES FOR NEW TASK TYPES)
+
+;; E
+
+;;  K
+
+	;; TASK ONTOLOGY CAN BE CONSTANT.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTANT_27 ?x1))
+
+;;  K
+
+	;; A CORE[PERSON??] MAY HAVE A TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (core_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TASK_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; AUTHORS CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (AUTHORS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (CLEPE PROVIDES ONTOLOGY AUTHORS WITH FUNCTIONS OF EDITING AND BROWSING BOTH CORE TASK ONTOLOGY , TASK
+ SPECIFIC ONTOLOGY AND SYMBOL LEVEL ONTOLOGY , BECAUSE OUR CURRENT RESEARCH INTERESTS INCLUDE TO FIX THE
+ BOUNDARY BETWEEN THE THREE ONTOLOGIES)
+
+;; E
+
+;;  K
+
+	;; AUTHORS CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (AUTHORS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; FUNCTIONS CAN BE CONSTITUTED_OF_OR_FILLED_WITH EDITING.
+
+;;   F
+
+;;    S
+
+		(and (function_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x2) (EDITING_27 ?x2))
+
+;;  K
+
+	;; A TASK ONTOLOGY CAN BE CORE.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CORE_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY HAVE RESEARCH INTERESTS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (RESEARCH_27 ?x1) (INTERESTS_27 ?x1))
+
+;;  K
+
+	;; A BOUNDARY CAN BE BETWEEN SOME_NUMBER_OF ONTOLOGIES.
+
+;;   F
+
+;;    S
+
+		(and (BOUNDARY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (ONTOLOGIES_27 ?x1))
+
+;; (FIGURE 6 SHOWS THE MODULE STRUCTURE OF CLEPE)
+
+;; E
+
+;;  K
+
+	;; FIGURE MAY SHOW A STRUCTURE OF A CLEPE[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (FIGURE_27 ?x1) (MAY_27 ?x1) (SHOW_27 ?x1) (A_27 ?x1) (STRUCTURE_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (CLEPE_27 ?x2) (person_27 ?x3))
+
+;;  K
+
+	;; A STRUCTURE CAN BE MODULE.
+
+;;   F
+
+;;    S
+
+		(and (STRUCTURE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MODULE_27 ?x1))
+
+;; (IN THIS FIGURE , RECTANGLES AND ELLIPSES STAND FOR THE FUNCTIONAL MODULES AND DATA , RESPECTIVELY)
+
+;; E
+
+;;  K
+
+	;; RECTANGLES MAY STAND FOR MODULES.
+
+;;   F
+
+;;    S
+
+		(and (RECTANGLES_27 ?x1) (MAY_27 ?x1) (STAND_27 ?x1) (for_27 ?x1 ?x2) (MODULES_27 ?x2))
+
+;;  K
+
+	;; MODULES CAN BE FUNCTIONAL.
+
+;;   F
+
+;;    S
+
+		(and (module_27 ?x1) (be_27 ?e1 ?x1 ?x2) (FUNCTIONAL_27 ?x2))
+
+;; (ARROWS LINKING MODULES STAND FOR THE DATA FLOW)
+
+;; E
+
+;;  K
+
+	;; ARROWS MAY STAND FOR A DATA FLOW.
+
+;;   F
+
+;;    S
+
+		(and (ARROWS_27 ?x1) (MAY_27 ?x1) (STAND_27 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (DATA_27 ?x2) (FLOW_27 ?x2))
+
+;;  K
+
+	;; ARROWS MAY LINK MODULES.
+
+;;   F
+
+;;    S
+
+		(and (ARROWS_27 ?x1) (MAY_27 ?x1) (LINK_27 ?x1) (MODULES_27 ?x1))
+
+;; (IN THE FOLLOWING , WE EXPLAIN EACH MODULE BRIEFLY)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY EXPLAIN SOME_NUMBER_OF MODULE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (EXPLAIN_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (MODULE_27 ?x1))
+
+;; (THE EXECUTION PROCESS TO USERS)
+
+;; E
+
+;;  K
+
+	;; AN EXECUTION MAY PROCESS TO USERS.
+
+;;   F
+
+;;    S
+
+		(and (EXECUTION_27 ?x1) (MAY_27 ?x1) (PROCESS_27 ?x1) (to_27 ?x1 ?x2) (USERS_27 ?x2))
+
+;; (IN PREPARATION FOR INTERPRETATION OF THE GPN OA -LRB- C-TASK -RRB- WRITTEN BY A GPN AUTHOR , CLEPE READS
+ TASK OA -LRB- TASK-S -RRB- ONTOLOGY DESCRIPTION REPRESENTED WITH TOL)
+
+;; E
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY READ TASK OA.
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (READ_27 ?x1) (TASK_27 ?x1) (OA_27 ?x1))
+
+;;  K
+
+	;; PREPARATION CAN BE FOR INTERPRETATION OF A GPN_OA[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (preparation_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (interpretation_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (GPN_5FOA_27 ?x3) (PERSON_27 ?x4))
+
+;;  K
+
+	;; A GPN_OA[PERSON??] MAY UNDERGO AN INTERPRETATION.
+
+;;   F
+
+;;    S
+
+		(and (GPN_5FOA_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (interpretation_27 ?x1))
+
+;;  K
+
+	;; A GPN[PERSON??] MAY HAVE AN AUTHOR.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (AUTHOR_27 ?x1))
+
+;;  K
+
+	;; DESCRIPTION MAY REPRESENT WITH A TOL[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_27 ?x1) (MAY_27 ?x1) (REPRESENT_27 ?x1) (WITH_27 ?x1) (A_27 ?x1) (TOL_27 ?x1) (PERSON_27 ?x2))
+
+;;  K
+
+	;; A DESCRIPTION CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (EXECUTION MODEL THE TASK ONTOLOGY DESCRIPTION IS TRANSLATED INTO GPN TO-EDITOR INTERNAL FORM BY
+ TOL-PARSER AND STORED INTO INFORMATION OF TO-BROWSER ONTOLOGY BASE)
+
+;; E
+
+;;  K
+
+	;; AN EXECUTION_MODEL[PERSON??] MAY BE TRANSLATE -ED INTO INTERNAL FORM BY A TOL-PARSER[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (EXECUTION_5FMODEL_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (TRANSLATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (INTO_27 ?x1) (INTERNAL_27 ?x1) (FORM_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (TOL-PARSER_27 ?x2) (person_27 ?x3))
+
+;;  K
+
+	;; A GPN_TO-EDITOR[PERSON??] MAY HAVE AN INTERNAL FORM.
+
+;;   F
+
+;;    S
+
+		(and (GPN_5FTO-EDITOR_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (INTERNAL_27 ?x1) (FORM_27 ?x1))
+
+;;  K
+
+	;; A BASE CAN BE TO-BROWSER.
+
+;;   F
+
+;;    S
+
+		(and (BASE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TO-BROWSER_27 ?x1))
+
+;;  K
+
+	;; A BASE CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (BASE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (ONTOLOGY MANAGER MANAGES THE EXECUTION MODEL ONTOLOGY BASE AND DEALS WITH THE REQUESTS TO\/S RELATED TO
+ THE ONTOLOGY MADE BY OTHER MODULES , TO\/K-C GPNA TASK-S ONTOLOGY FOR EXAMPLE , INQUIRIES FOR CLASS
+ INFORMATION , TO\/K-L CREATION OF A CLASS INSTANCE AND SO ON)
+
+;; E
+
+;;  K
+
+	;; AN ONTOLOGY_MANAGER[PERSON??] MAY MANAGE A MODEL ONTOLOGY BASE.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_5FMANAGER_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (manage_27 ?e1 ?x1) (A_27 ?x1) (MODEL_27 ?x1) (ONTOLOGY_27 ?x1) (BASE_27 ?x1))
+
+;;  K
+
+	;; AN EXECUTION[PERSON??] MAY HAVE A MODEL ONTOLOGY BASE.
+
+;;   F
+
+;;    S
+
+		(and (EXECUTION_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (MODEL_27 ?x1) (ONTOLOGY_27 ?x1) (BASE_27 ?x1))
+
+;;  K
+
+	;; AN ONTOLOGY MAY BE MAKE -ED BY MODULES.
+
+;;   F
+
+;;    S
+
+		(and (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (MAKE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (MODULES_27 ?x2))
+
+;;  K
+
+	;; A |\|\\\|TO\\\\\\\\/K-C\\\|_GPNA_TASK-S_ONTOLOGY\||[PERSON??] CAN BE FOR EXAMPLE.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_7C_5C_7C_5C_5C_5C_7CTO_5C_5C_5C_5C_5C_5C_5C_5C_2FK-C_5C_5C_5C_7C_5FGPNA_5FTASK-S_5FONTOLOGY_5C_7C_7C_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (for_27 ?x1) (EXAMPLE_27 ?x1))
+
+;;  K
+
+	;; INQUIRIES CAN BE FOR CLASS INFORMATION.
+
+;;   F
+
+;;    S
+
+		(and (inquiry_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (CLASS_27 ?x2) (INFORMATION_27 ?x2))
+
+;;  K
+
+	;; A CLASS INSTANCE MAY UNDERGO A CREATION.
+
+;;   F
+
+;;    S
+
+		(and (CLASS_27 ?x1) (INSTANCE_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (CREATION_27 ?x1))
+
+;;  K
+
+	;; A CREATION CAN BE TO\/K-L.
+
+;;   F
+
+;;    S
+
+		(and (CREATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TO_5C_2FK-L_27 ?x1))
+
+;; (ONCE A GPNA GPN AUTHOR COMPLETES EDITING HIS\/HER OWN CLOS GPN , CLEPE INITIATES THE GPN INTERPRETATION
+ C-TASK ONTOLOGY EXECUTERINTERFACE PROCESS)
+
+;; E
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY INITIATE A PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (INITIATE_27 ?x1) (A_27 ?x1) (process_27 ?x1))
+
+;;  K
+
+	;; AN AUTHOR MAY COMPLETE.
+
+;;   F
+
+;;    S
+
+		(and (AUTHOR_27 ?x1) (MAY_27 ?x1) (COMPLETE_27 ?x1))
+
+;;  K
+
+	;; A GPNA_GPN[PERSON??] MAY HAVE AN AUTHOR.
+
+;;   F
+
+;;    S
+
+		(and (GPNA_5FGPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (AUTHOR_27 ?x1))
+
+;;  K
+
+	;; EDITING HIS\/HER MAY OWN A CLOS_GPN[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (EDITING_27 ?x1) (HIS_5C_2FHER_27 ?x1) (MAY_27 ?x1) (OWN_27 ?x1) (A_27 ?x1) (CLOS_5FGPN_27 ?x1) (person_27 ?x2))
+
+;;  K
+
+	;; A GPN_INTERPRETATION_C-TASK_ONTOLOGY_EXECUTERINTERFACE[PERSON??] MAY HAVE A PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (GPN_5FINTERPRETATION_5FC-TASK_5FONTOLOGY_5FEXECUTERINTERFACE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (process_27 ?x1))
+
+;; (THE FUNCTIONAL MODULES IN SHADED GPNPORTION OF FIGURE 6 TAKES AN INTERNAL FORM OF EDITOR TOL-INTERPRETER
+ GPN-C GPN FROM GPN-PARSER AND GENERATES THE TO\/0 TOL CONCEPTUAL-LEVEL EXECUTION MODEL)
+
+;; E
+
+;;  K
+
+	;; MODULES MAY TAKE A FORM OF AN EDITOR_TOL-INTERPRETER_GPN-C_GPN[PERSON??] FROM A GPN-PARSER[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (module_27 ?x1) (MAY_27 ?x1) (take_27 ?e1 ?x1 ?x2) (A_27 ?x2) (FORM_27 ?x2) (of_27 ?x2 ?x3) (EDITOR_5FTOL-INTERPRETER_5FGPN-C_5FGPN_27 ?x3) (PERSON_27 ?x4))
+
+;;   F
+
+;;    S
+
+		(and (FROM_27 ?x1) (A_27 ?x1) (GPN-PARSER_27 ?x1) (person_27 ?x2))
+
+;;  K
+
+	;; MODULES CAN BE FUNCTIONAL.
+
+;;   F
+
+;;    S
+
+		(and (module_27 ?x1) (be_27 ?e1 ?x1 ?x2) (FUNCTIONAL_27 ?x2))
+
+;;  K
+
+	;; A FORM CAN BE INTERNAL.
+
+;;   F
+
+;;    S
+
+		(and (FORM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (INTERNAL_27 ?x1))
+
+;;  K
+
+	;; A |\|\\\|TO\\\\\\\\/0\\\|_TOL\||[PERSON??] MAY HAVE A CONCEPTUAL-LEVEL EXECUTION MODEL.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_7C_5C_7C_5C_5C_5C_7CTO_5C_5C_5C_5C_5C_5C_5C_5C_2F0_5C_5C_5C_7C_5FTOL_5C_7C_7C_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (CONCEPTUAL-LEVEL_27 ?x1) (EXECUTION_27 ?x1) (MODEL_27 ?x1))
+
+;; (WE CALL THE SHADED PORTION ARM : ANAPHORIC RESOLUTION MODULE)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY CALL A PORTION ARM.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (CALL_27 ?x1) (A_27 ?x1) (PORTION_27 ?x1) (ARM_27 ?x1))
+
+;;  K
+
+	;; A PORTION ARM CAN BE SHADED.
+
+;;   F
+
+;;    S
+
+		(and (PORTION_27 ?x1) (ARM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SHADED_27 ?x1))
+
+;; (WE ADOPT A FOCUS MODEL AS A BASIC FIGURE .5 OVERVIEW OF CLEPE FRAMEWORK OF ANAPHORIC RESOLUTION)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY ADOPT A FOCUS MODEL.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (ADOPT_27 ?x1) (A_27 ?x1) (FOCUS_27 ?x1) (MODEL_27 ?x1))
+
+;;  K
+
+	;; AN EXEMPLAR_OF A |\|FIGURE_\\\|.5\\\|_OVERVIEW\||[PERSON??] CAN BE BASIC.
+
+;;   F
+
+;;    S
+
+		(and (EXEMPLAR_5FOF_27 ?x1) (A_27 ?x1) (kbs2_kif_quote_7C_5C_7CFIGURE_5F_5C_5C_5C_7C_2E5_5C_5C_5C_7C_5FOVERVIEW_5C_7C_7C_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (BASIC_27 ?x1))
+
+;;  K
+
+	;; A RESOLUTION CAN BE ANAPHORIC.
+
+;;   F
+
+;;    S
+
+		(and (RESOLUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ANAPHORIC_27 ?x1))
+
+;; (FOCUS MANAGER UPDATES THE FOCUS TOL-PARSER PARSES THE TASK ONTOLOGY DESCRIBED WITH TOL)
+
+;; E
+
+;;  K
+
+	;; MANAGER UPDATES MAY PARSE A TASK.
+
+;;   F
+
+;;    S
+
+		(and (MANAGER_27 ?x1) (UPDATES_27 ?x1) (MAY_27 ?x1) (PARSE_27 ?x1) (A_27 ?x1) (TASK_27 ?x1))
+
+;;  K
+
+	;; MANAGER UPDATES CAN BE FOCUS.
+
+;;   F
+
+;;    S
+
+		(and (MANAGER_27 ?x1) (UPDATES_27 ?x1) (be_27 ?e1 ?x1 ?x2) (FOCUS_27 ?x2))
+
+;;  K
+
+	;; A TASK MAY BE DESCRIBE -ED WITH A TOL[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (DESCRIBE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (WITH_27 ?x1) (A_27 ?x1) (TOL_27 ?x1) (PERSON_27 ?x2))
+
+;; (MODEL DYNAMICALLY BASED ON THE CONSTRAINTS GENERATED BY THE OTHER ONTOLOGY MANAGER MANAGES ONTOLOGY BASE
+ AND DEALS WITH THE MODULES)
+
+;; E
+
+;;  K
+
+	;; MODEL DYNAMICALLY MAY MANAGE BASE WITH MODULES.
+
+;;   F
+
+;;    S
+
+		(and (MODEL_27 ?x1) (DYNAMICALLY_27 ?x1) (MAY_27 ?x1) (MANAGE_27 ?x1) (BASE_27 ?x1) (WITH_27 ?x1) (MODULES_27 ?x1))
+
+;;  K
+
+	;; MODEL DYNAMICALLY MAY BE BASE -ED ON CONSTRAINTS.
+
+;;   F
+
+;;    S
+
+		(and (MODEL_27 ?x1) (DYNAMICALLY_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (BASE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (on_27 ?x1 ?x2) (constraint_27 ?x2))
+
+;;  K
+
+	;; CONSTRAINTS MAY BE GENERATE -ED BY AN EXEMPLAR_OF AN ONTOLOGY_MANAGER[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (constraint_27 ?x1) (MAY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (GENERATE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (by_27 ?x2 ?x3) (AN_27 ?x3) (EXEMPLAR_5FOF_27 ?x3) (AN_27 ?x3) (ONTOLOGY_5FMANAGER_27 ?x3) (PERSON_27 ?x4))
+
+;;  K
+
+	;; A BASE CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (BASE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (TWO TYPES OF CONSTRAINTS , THAT IS , LOCAL CONSTRAINTS AND GLOBAL REQUESTS FOR THE CLASS INFORMATION OR
+ INSTANCE GENERATION)
+
+;; E
+
+;;  K
+
+	;; REQUESTS CAN BE FOR A CLASS INFORMATION.
+
+;;   F
+
+;;    S
+
+		(and (request_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (CLASS_27 ?x2) (INFORMATION_27 ?x2))
+
+;;  K
+
+	;; REQUESTS CAN BE GLOBAL.
+
+;;   F
+
+;;    S
+
+		(and (request_27 ?x1) (be_27 ?e1 ?x1 ?x2) (GLOBAL_27 ?x2))
+
+;; (CONSTRAINTS , ARE GENERATED IN DIFFERENT MANNERS)
+
+;; E
+
+;;  K
+
+	;; CONSTRAINTS MAY BE GENERATE -ED IN MANNERS.
+
+;;   F
+
+;;    S
+
+		(and (constraint_27 ?x1) (MAY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (GENERATE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (in_27 ?x2 ?x3) (MANNERS_27 ?x3))
+
+;; (FOR EACH GENERIC GPN-PARSER PARSES A GPN PROCESS , LOCAL CONSTRAINTS ARE COMPOSED BASED ON THE SYNTACTIC
+ MODEL GENERATOR GENERATES CONCEPTUAL LEVEL EXECUTION MODEL STRUCTURE OF THE GENERIC PROCESS AND THE
+ ONTOLOGICAL MEANING OF EACH BY REFERRING THE OBJECT FLOW ANALYZED)
+
+;; E
+
+;;  K
+
+	;; PARSES CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (pars_27 ?x1) (be_27 ?e1 ?x1 ?x2) (GENERIC_27 ?x2))
+
+;;  K
+
+	;; PARSES CAN BE GPN-PARSER.
+
+;;   F
+
+;;    S
+
+		(and (pars_27 ?x1) (be_27 ?e1 ?x1 ?x2) (GPN-PARSER_27 ?x2))
+
+;;  K
+
+	;; A GPN[PERSON??] MAY HAVE A PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (process_27 ?x1))
+
+;;  K
+
+	;; A PROCESS MAY HAVE LEVEL EXECUTION MODEL STRUCTURE.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (MODEL_27 ?x1) (STRUCTURE_27 ?x1))
+
+;;  K
+
+	;; A LEVEL EXECUTION MODEL STRUCTURE CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (MODEL_27 ?x1) (STRUCTURE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; A PROCESS CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;;  K
+
+	;; A MEANING CAN BE ONTOLOGICAL.
+
+;;   F
+
+;;    S
+
+		(and (MEANING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGICAL_27 ?x1))
+
+;;  K
+
+	;; AN OBJECT FLOW MAY ANALYZE.
+
+;;   F
+
+;;    S
+
+		(and (OBJECT_27 ?x1) (FLOW_27 ?x1) (MAY_27 ?x1) (ANALYZE_27 ?x1))
+
+;; (AFTER ALL THE LOCAL CONSTRAINTS FOR THE WHOLE GPN ARE GENERATED , WORKING MEMORY MANAGER MANAGES ALL THE
+ DATA RELATED TO THE GLOBAL CONSTRAINTS ARE SYNTHESIZED ALONG THE STRUCTURE OF THE GPN BY OBJECT FLOW
+ ANALYSIS)
+
+;; E
+
+;;  K
+
+	;; A WORKING_MEMORY_MANAGER[PERSON??] MAY MANAGE.
+
+;;   F
+
+;;    S
+
+		(and (WORKING_5FMEMORY_5FMANAGER_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (MANAGE_27 ?x1))
+
+;;  K
+
+	;; CONSTRAINTS MAY BE GENERATE -ED.
+
+;;   F
+
+;;    S
+
+		(and (constraint_27 ?x1) (MAY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (GENERATE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2))
+
+;;  K
+
+	;; CONSTRAINTS CAN BE FOR A GPN.
+
+;;   F
+
+;;    S
+
+		(and (constraint_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (GPN_27 ?x2))
+
+;;  K
+
+	;; DATA MAY BE SYNTHESIZE -ED.
+
+;;   F
+
+;;    S
+
+		(and (DATA_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (SYNTHESIZE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; DATA MAY BE RELATE -ED TO CONSTRAINTS.
+
+;;   F
+
+;;    S
+
+		(and (DATA_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (RELATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (to_27 ?x1 ?x2) (constraint_27 ?x2))
+
+;;  K
+
+	;; CONSTRAINTS CAN BE GLOBAL.
+
+;;   F
+
+;;    S
+
+		(and (constraint_27 ?x1) (be_27 ?e1 ?x1 ?x2) (GLOBAL_27 ?x2))
+
+;; (ANAPHORIC RESOLUTION ENGINE)
+
+;; E
+
+;;  K
+
+	;; A RESOLUTION CAN BE ANAPHORIC.
+
+;;   F
+
+;;    S
+
+		(and (RESOLUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ANAPHORIC_27 ?x1))
+
+;; (IT TRIES TO FIND THE CONSISTENT CONSTRAINT GENERATOR GENERATES SYNTACTIC OR PRAGMATIC CORRESPONDENCE
+ RELATIONS AMONG THE OBJECTS APPEARED IN THE GPN CONSTRAINTS AS RESULTS OF OBJECT FLOW ANALYSIS)
+
+;; E
+
+;;  K
+
+	;; AN ANALYSIS CAN BE CONSISTENT.
+
+;;   F
+
+;;    S
+
+		(and (ANALYSIS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSISTENT_27 ?x1))
+
+;;  K
+
+	;; A CONSTRAINT_GENERATOR[PERSON??] MAY GENERATE.
+
+;;   F
+
+;;    S
+
+		(and (CONSTRAINT_5FGENERATOR_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (GENERATE_27 ?x1))
+
+;;  K
+
+	;; CORRESPONDENCE RELATIONS MAY APPEAR IN CONSTRAINTS.
+
+;;   F
+
+;;    S
+
+		(and (CORRESPONDENCE_27 ?x1) (RELATIONS_27 ?x1) (MAY_27 ?x1) (APPEAR_27 ?x1) (in_27 ?x1 ?x2) (constraint_27 ?x2))
+
+;;  K
+
+	;; CORRESPONDENCE RELATIONS CAN BE AMONG OBJECTS.
+
+;;   F
+
+;;    S
+
+		(and (CORRESPONDENCE_27 ?x1) (RELATIONS_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AMONG_27 ?x2) (OBJECTS_27 ?x2))
+
+;;  K
+
+	;; CORRESPONDENCE RELATIONS CAN BE SYNTACTIC.
+
+;;   F
+
+;;    S
+
+		(and (CORRESPONDENCE_27 ?x1) (RELATIONS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SYNTACTIC_27 ?x1))
+
+;;  K
+
+	;; A GPN[PERSON??] MAY HAVE CONSTRAINTS.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (constraint_27 ?x1))
+
+;;  K
+
+	;; RESULTS CAN BE CONSTITUTED_OF_OR_FILLED_WITH OBJECT FLOW.
+
+;;   F
+
+;;    S
+
+		(and (result_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x2) (OBJECT_27 ?x2) (FLOW_27 ?x2))
+
+;; (FOCUS ANAPHORIC RESOLUTION ENGINE IDENTIFIES ANAPHORIC REFERENCE REPRESENTS A SET OF OBJECTS WHICH CAN
+ BE ACCESSIBLE FROM A CERTAIN AMONG OBJECTS BASED ON THE FOCUS AND CONSTRAINTS GENERATED)
+
+;; E
+
+;;  K
+
+	;; A FOCUS_ANAPHORIC_RESOLUTION_ENGINE[PERSON??] MAY IDENTIFY.
+
+;;   F
+
+;;    S
+
+		(and (FOCUS_5FANAPHORIC_5FRESOLUTION_5FENGINE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (IDENTIFY_27 ?x1))
+
+;;  K
+
+	;; REFERENCE MAY REPRESENT A SET OF OBJECTS.
+
+;;   F
+
+;;    S
+
+		(and (REFERENCE_27 ?x1) (MAY_27 ?x1) (REPRESENT_27 ?x1) (A_27 ?x1) (SET_27 ?x1) (of_27 ?x1 ?x2) (OBJECTS_27 ?x2))
+
+;;  K
+
+	;; A REFERENCE CAN BE ANAPHORIC.
+
+;;   F
+
+;;    S
+
+		(and (REFERENCE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ANAPHORIC_27 ?x1))
+
+;;  K
+
+	;; A SET CAN BE CONSTITUTED_OF_OR_FILLED_WITH OBJECTS.
+
+;;   F
+
+;;    S
+
+		(and (SET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (OBJECTS_27 ?x1))
+
+;;  K
+
+	;; OBJECTS MAY BE BASE -ED ON A FOCUS.
+
+;;   F
+
+;;    S
+
+		(and (OBJECTS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (BASE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (on_27 ?x1 ?x2) (A_27 ?x2) (FOCUS_27 ?x2))
+
+;;  K
+
+	;; CONSTRAINTS MAY GENERATE.
+
+;;   F
+
+;;    S
+
+		(and (constraint_27 ?x1) (MAY_27 ?x1) (GENERATE_27 ?x1))
+
+;; (GENERIC PROCESS)
+
+;; E
+
+;;  K
+
+	;; A PROCESS CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERIC_27 ?x1))
+
+;; (FOCUS MANAGER INTERPRETS CONSTRAINTS NEWLY ADDED FOCUS MANAGER MANAGES THE FOCUS WHICH PLAYS A KEY ROLE
+ IN OBJECT INTO WM AND INFER WHETHER THE PRESENCE OF OBJECTS REFERRED TO BY THE FLOW ANALYSIS)
+
+;; E
+
+;;  K
+
+	;; MANAGER MAY INTERPRET.
+
+;;   F
+
+;;    S
+
+		(and (MANAGER_27 ?x1) (MAY_27 ?x1) (INTERPRET_27 ?x1))
+
+;;  K
+
+	;; A MANAGER CAN BE FOCUS.
+
+;;   F
+
+;;    S
+
+		(and (MANAGER_27 ?x1) (be_27 ?e1 ?x1 ?x2) (FOCUS_27 ?x2))
+
+;;  K
+
+	;; CONSTRAINTS MAY ADD.
+
+;;   F
+
+;;    S
+
+		(and (constraint_27 ?x1) (MAY_27 ?x1) (ADD_27 ?x1))
+
+;;  K
+
+	;; A FOCUS_MANAGER[PERSON??] MAY MANAGE A FOCUS.
+
+;;   F
+
+;;    S
+
+		(and (FOCUS_5FMANAGER_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (manage_27 ?e1 ?x1) (A_27 ?x1) (FOCUS_27 ?x1))
+
+;;  K
+
+	;; A ROLE CAN BE IN OBJECT.
+
+;;   F
+
+;;    S
+
+		(and (ROLE_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (OBJECT_27 ?x2))
+
+;;  K
+
+	;; A ROLE CAN BE KEY.
+
+;;   F
+
+;;    S
+
+		(and (ROLE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (KEY_27 ?x1))
+
+;; (6 MODULE STRUCTURE OF CLEPE GENERATE EXECUTION MODEL EXECUTER IS ESTABLISHED BY ARM , THE GPN IS
+ TRANSLATED INTO CONCEPTUAL LEVEL EXECUTION MODEL)
+
+;; E
+
+;;  K
+
+	;; A GPN[PERSON??] MAY BE TRANSLATE -ED INTO LEVEL EXECUTION MODEL.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (TRANSLATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (INTO_27 ?x1) (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (MODEL_27 ?x1))
+
+;;  K
+
+	;; SOME_NUMBER_OF STRUCTURE OF A CLEPE_GENERATE_EXECUTION_MODEL_EXECUTER[PERSON??] MAY BE ESTABLISH -ED BY AN ARM[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (STRUCTURE_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (CLEPE_5FGENERATE_5FEXECUTION_5FMODEL_5FEXECUTER_27 ?x2) (person_27 ?x3))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (ESTABLISH_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (AN_27 ?x2) (ARM_27 ?x2) (person_27 ?x3))
+
+;;  K
+
+	;; A STRUCTURE CAN BE MODULE.
+
+;;   F
+
+;;    S
+
+		(and (STRUCTURE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MODULE_27 ?x1))
+
+;;  K
+
+	;; A LEVEL EXECUTION MODEL CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (MODEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (A GPN AUTHOR CAN RUN THE EXECUTION MODEL WITH EXECUTOR)
+
+;; E
+
+;;  K
+
+	;; AN AUTHOR MAY RUN AN EXECUTION MODEL WITH EXECUTOR.
+
+;;   F
+
+;;    S
+
+		(and (AUTHOR_27 ?x1) (MAY_27 ?x1) (RUN_27 ?x1) (AN_27 ?x1) (EXECUTION_27 ?x1) (MODEL_27 ?x1) (WITH_27 ?x1) (EXECUTOR_27 ?x1))
+
+;;  K
+
+	;; A GPN[PERSON??] MAY HAVE AN AUTHOR.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (AUTHOR_27 ?x1))
+
+;; (IN THE FOLLOWING SECTIONS , WE DESCRIBE TOL AND CONCEPTUAL LEVEL EXECUTION)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY DESCRIBE AND CONCEPTUAL LEVEL EXECUTION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DESCRIBE_27 ?x1) (and_27 ?x2 ?x1 ?x3) (CONCEPTUAL_27 ?x3) (LEVEL_27 ?x3) (EXECUTION_27 ?x3))
+
+;;  K
+
+	;; SECTIONS CAN BE FOLLOWING.
+
+;;   F
+
+;;    S
+
+		(and (section_27 ?x1) (be_27 ?e1 ?x1) (following_27 ?x1))
+
+;;  K
+
+	;; A TOL[PERSON??] MAY HAVE AN AND CONCEPTUAL LEVEL EXECUTION.
+
+;;   F
+
+;;    S
+
+		(and (TOL_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (and_27 ?x2 ?x1 ?x3) (CONCEPTUAL_27 ?x3) (LEVEL_27 ?x3) (EXECUTION_27 ?x3))
+
+;; (WHILE DYNAMIC CONSTRAINT DEPENDS ON TASK CONTEXT)
+
+;; E
+
+;;  K
+
+	;; CONSTRAINT MAY DEPEND ON TASK CONTEXT.
+
+;;   F
+
+;;    S
+
+		(and (CONSTRAINT_27 ?x1) (MAY_27 ?x1) (DEPEND_27 ?x1) (ON_27 ?x1) (TASK_27 ?x1) (CONTEXT_27 ?x1))
+
+;;  K
+
+	;; A CONSTRAINT CAN BE DYNAMIC.
+
+;;   F
+
+;;    S
+
+		(and (CONSTRAINT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DYNAMIC_27 ?x1))
+
+;; (FOR INSTANCE , THE MEMBERSHIP OF A SOLUTION IN THE SOLUTION CLASS IS PERMANENTLY TRUE)
+
+;; E
+
+;;  K
+
+	;; A MEMBERSHIP OF A SOLUTION CAN BE TRUE.
+
+;;   F
+
+;;    S
+
+		(and (MEMBERSHIP_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (SOLUTION_27 ?x2) (be_27 ?e1 ?x1 ?x3) (TRUE_27 ?x3))
+
+;;  K
+
+	;; A SOLUTION CAN BE IN A SOLUTION CLASS.
+
+;;   F
+
+;;    S
+
+		(and (SOLUTION_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (SOLUTION_27 ?x2) (CLASS_27 ?x2))
+
+;; (ON THE OTHER HAND , A DYNAMIC CONSTRAINT OF THE OPTIMALITY OF A SOLUTION DEPENDS ON THE CONTEXT OF
+ OBJECT FLOW)
+
+;; E
+
+;;  K
+
+	;; A CONSTRAINT OF AN OPTIMALITY OF A SOLUTION MAY DEPEND ON A CONTEXT OF OBJECT FLOW.
+
+;;   F
+
+;;    S
+
+		(and (constraint_27 ?x1) (of_27 ?x1 ?x2) (AN_27 ?x2) (OPTIMALITY_27 ?x2) (of_27 ?x1 ?x3) (A_27 ?x3) (SOLUTION_27 ?x3) (MAY_27 ?x3) (DEPEND_27 ?x3) (on_27 ?x1 ?x4) (A_27 ?x4) (CONTEXT_27 ?x4) (of_27 ?x4 ?x5) (OBJECT_27 ?x5) (FLOW_27 ?x5))
+
+;;  K
+
+	;; A CONSTRAINT CAN BE DYNAMIC.
+
+;;   F
+
+;;    S
+
+		(and (CONSTRAINT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DYNAMIC_27 ?x1))
+
+;; (IN THE CONCEPTUAL LEVEL EXECUTION MODEL , AN OBJECT IS GENERATED BASED ON STATIC MEMBERSHIP AND ITS
+ HISTORY IS REPRESENTED BY DYNAMIC CONSTRAINTS)
+
+;; E
+
+;;  K
+
+	;; A LEVEL EXECUTION MODEL CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (MODEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; A MEMBERSHIP CAN BE STATIC.
+
+;;   F
+
+;;    S
+
+		(and (MEMBERSHIP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (STATIC_27 ?x1))
+
+;;  K
+
+	;; A HISTORY MAY BE REPRESENT -ED BY CONSTRAINTS.
+
+;;   F
+
+;;    S
+
+		(and (HISTORY_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (REPRESENT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (constraint_27 ?x2))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE A HISTORY.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (HISTORY_27 ?x1))
+
+;;  K
+
+	;; CONSTRAINTS CAN BE DYNAMIC.
+
+;;   F
+
+;;    S
+
+		(and (constraint_27 ?x1) (be_27 ?e1 ?x1 ?x2) (DYNAMIC_27 ?x2))
+
+;; (SO EXECUTION AT THE LEVEL OF CONCEPTUAL LEVEL IS DEFINED AS A HISTORY OF THE CHANGES OF OBJECTS)
+
+;; E
+
+;;  K
+
+	;; EXECUTION MAY BE DEFINE -ED AS A HISTORY OF CHANGES OF OBJECTS.
+
+;;   F
+
+;;    S
+
+		(and (EXECUTION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (DEFINE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (as_27 ?x1 ?x2) (A_27 ?x2) (HISTORY_27 ?x2) (of_27 ?x2 ?x3) (CHANGES_27 ?x3) (of_27 ?x2 ?x4) (object_27 ?x4))
+
+;;  K
+
+	;; EXECUTION CAN BE AT A LEVEL OF LEVEL.
+
+;;   F
+
+;;    S
+
+		(and (execution_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AT_27 ?x2) (A_27 ?x2) (LEVEL_27 ?x2) (of_27 ?x2 ?x3) (LEVEL_27 ?x3))
+
+;;  K
+
+	;; A LEVEL CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (THESE TWO CONSTRAINTS ARE EXPLICITLY SEPARATED IN THE DEFINITION OF TASK ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF CONSTRAINTS MAY BE SEPARATE -ED IN A DEFINITION OF TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (CONSTRAINTS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (SEPARATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (DEFINITION_27 ?x2) (of_27 ?x2 ?x3) (TASK_27 ?x3) (ONTOLOGY_27 ?x3))
+
+;;  K
+
+	;; TASK ONTOLOGY MAY UNDERGO A DEFINITION.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (DEFINITION_27 ?x1))
+
+;; (FIGURE 7 SHOWS A ROUGH IMAGE OF A CONCEPTUAL LEVEL EXECUTION)
+
+;; E
+
+;;  K
+
+	;; FIGURE MAY SHOW AN IMAGE OF A LEVEL EXECUTION.
+
+;;   F
+
+;;    S
+
+		(and (FIGURE_27 ?x1) (MAY_27 ?x1) (SHOW_27 ?x1) (AN_27 ?x1) (IMAGE_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (LEVEL_27 ?x2) (EXECUTION_27 ?x2))
+
+;;  K
+
+	;; AN IMAGE CAN BE ROUGH.
+
+;;   F
+
+;;    S
+
+		(and (IMAGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ROUGH_27 ?x1))
+
+;;  K
+
+	;; A LEVEL EXECUTION CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (THE LEFT SIDE OF THE FIGURE REPRESENTS A PROBLEM SOLVING KNOWLEDGE -LRB- TO\/K-L MODEL -RRB- ABOUT A 24
+ HOUR JOB ASSIGNMENT TASK)
+
+;; E
+
+;;  K
+
+	;; A SIDE OF A FIGURE MAY REPRESENT A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (side_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (FIGURE_27 ?x2) (MAY_27 ?x2) (REPRESENT_27 ?x2) (A_27 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; A FIGURE MAY HAVE A SIDE.
+
+;;   F
+
+;;    S
+
+		(and (FIGURE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SIDE_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;;  K
+
+	;; A MODEL CAN BE TO\/K-L.
+
+;;   F
+
+;;    S
+
+		(and (MODEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TO_5C_2FK-L_27 ?x1))
+
+;; (IN THE TO\/KL DESCRIPTION , THE PROBLEM SOLVING KNOWLEDGE IS DESCRIBED WITH A SET OF HUMAN FRIENDLY
+ PRIMITIVES)
+
+;; E
+
+;;  K
+
+	;; A PROBLEM MAY BE DESCRIBE -ED WITH A SET OF PRIMITIVES.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (DESCRIBE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (WITH_27 ?x1) (A_27 ?x1) (SET_27 ?x1) (of_27 ?x1 ?x2) (PRIMITIVES_27 ?x2))
+
+;;  K
+
+	;; A |\|TO\\\\/KL\||[PERSON??] MAY HAVE A DESCRIPTION.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_7C_5C_7CTO_5C_5C_5C_5C_2FKL_5C_7C_7C_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (DESCRIPTION_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;;  K
+
+	;; A SET CAN BE CONSTITUTED_OF_OR_FILLED_WITH PRIMITIVES.
+
+;;   F
+
+;;    S
+
+		(and (SET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (PRIMITIVES_27 ?x1))
+
+;;  K
+
+	;; PRIMITIVES CAN BE HUMAN.
+
+;;   F
+
+;;    S
+
+		(and (primitive_27 ?x1)  )
+
+;;  K
+
+	;; PRIMITIVES CAN BE FRIENDLY.
+
+;;   F
+
+;;    S
+
+		(and (primitive_27 ?x1)  )
+
+;; (THE RIGHT SIDE SHOWS THE CONCEPTUAL LEVEL EXECUTION MODEL CORRESPONDING TO THE PROBLEM SOLVING
+ KNOWLEDGE)
+
+;; E
+
+;;  K
+
+	;; A SIDE MAY SHOW A LEVEL EXECUTION MODEL TO A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (SIDE_27 ?x1) (MAY_27 ?x1) (SHOW_27 ?x1) (A_27 ?x1) (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (MODEL_27 ?x1) (to_27 ?x1 ?x2) (A_27 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; A LEVEL EXECUTION MODEL CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (MODEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (KNOWLEDGE_27 ?x1))
+
+;; (FRAGMENTS HEADED BY : SC AND : DC ARE CONSTRAINTS INFERRED BY OBJECT FLOW ANALYSIS)
+
+;; E
+
+;;  K
+
+	;; FRAGMENTS CAN BE CONSTRAINTS.
+
+;;   F
+
+;;    S
+
+		(and (fragment_27 ?x1) (be_27 ?e1 ?x1 ?x2) (constraint_27 ?x2))
+
+;;  K
+
+	;; CONSTRAINTS MAY BE INFER -ED BY OBJECT FLOW ANALYSIS.
+
+;;   F
+
+;;    S
+
+		(and (constraint_27 ?x1) (MAY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (INFER_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (BY_27 ?x2) (OBJECT_27 ?x2) (FLOW_27 ?x2) (ANALYSIS_27 ?x2))
+
+;; (: SC AND : DC FRAGMENTS CORRESPOND TO STATIC MEMBERSHIP AND A DYNAMIC CONSTRAINT , RESPECTIVELY)
+
+;; E
+
+;;  K
+
+	;; A MEMBERSHIP CAN BE STATIC.
+
+;;   F
+
+;;    S
+
+		(and (MEMBERSHIP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (STATIC_27 ?x1))
+
+;;  K
+
+	;; A CONSTRAINT CAN BE DYNAMIC.
+
+;;   F
+
+;;    S
+
+		(and (CONSTRAINT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DYNAMIC_27 ?x1))
+
+;; (THE TRANSITION FROM THE INPUT OBJECTS TO THE OUTPUT ONE OF ASSIGN PROCESS SHOWS THAT THE OUTPUT OBJECT
+ IS AN INSTANCE OF THE ASSIGNMENT CLASS AND COMPOSED OF THE TWO OBJECTS WHICH ARE THE OUTPUT OF THE ``
+ PICK-UP '' PROCESS AND ONE OF THE `` SELECT '' PROCESS)
+
+;; E
+
+;;  K
+
+	;; A TRANSITION MAY SHOW A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (TRANSITION_27 ?x1) (MAY_27 ?x1) (SHOW_27 ?x1) (A_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; A TRANSITION CAN BE FROM INPUT OBJECTS TO AN OUTPUT ONE OF PROCESS.
+
+;;   F
+
+;;    S
+
+		(and       (to_27 ?x1) (AN_27 ?x1) (OUTPUT_27 ?x1) (of_27 ?x2) (PROCESS_27 ?x2))
+
+;;  K
+
+	;; INPUT OBJECTS CAN BE TO AN OUTPUT ONE OF PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (INPUT_27 ?x1) (OBJECTS_27 ?x1) (be_27 ?e1 ?x1) (to_27 ?e1 ?x2) (AN_27 ?x2) (OUTPUT_27 ?x2) (of_27 ?x3) (PROCESS_27 ?x3))
+
+;;  K
+
+	;; A PROCESS CAN BE ASSIGN.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ASSIGN_27 ?x2))
+
+;;  K
+
+	;; AN OUTPUT OBJECT CAN BE AN INSTANCE OF AN ASSIGNMENT CLASS.
+
+;;   F
+
+;;    S
+
+		(and (OUTPUT_27 ?x1) (OBJECT_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AN_27 ?x2) (INSTANCE_27 ?x2) (of_27 ?x2 ?x3) (ASSIGNMENT_27 ?x3) (CLASS_27 ?x3))
+
+;;  K
+
+	;; A PROCESS MAY HAVE AN OUTPUT.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (OUTPUT_27 ?x1))
+
+;;  K
+
+	;; A PROCESS CAN BE PICK-UP.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PICK-UP_27 ?x1))
+
+;;  K
+
+	;; A PROCESS CAN BE SELECT.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SELECT_27 ?x1))
+
+;; (IN TERMS OF THE CONCEPTUAL LEVEL VOCABULARY , WE COULD SAY THE ROLE OF `` ASSIGN '' PROCESS IS TO BIND
+ THE `` PICKED-UP JOB '' AND `` SELECTED NURSE '' TOGETHER AND PRODUCE A NEW ASSIGNMENT)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY SAY.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (SAY_27 ?x1))
+
+;;  K
+
+	;; A LEVEL VOCABULARY CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (VOCABULARY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; A PROCESS CAN BE ASSIGN.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ASSIGN_27 ?x2))
+
+;;  K
+
+	;; A JOB CAN BE PICKED-UP.
+
+;;   F
+
+;;    S
+
+		(and (JOB_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PICKED-UP_27 ?x1))
+
+;;  K
+
+	;; A NURSE CAN BE SELECTED.
+
+;;   F
+
+;;    S
+
+		(and (NURSE_27 ?x1) (be_27 ?e1 ?x1 ?e2) (select_27 ?e2 ?x1))
+
+;; (THE ASSIGNMENT SET IN THE RECTANGLE REPRESENTS THE OUTPUT , `` PARTIAL SOLUTION , '' OF LOOP STRUCTURE)
+
+;; E
+
+;;  K
+
+	;; AN ASSIGNMENT MAY REPRESENT AN OUTPUT OF LOOP STRUCTURE.
+
+;;   F
+
+;;    S
+
+		(and (ASSIGNMENT_27 ?x1) (MAY_27 ?x1) (REPRESENT_27 ?x1) (AN_27 ?x1) (OUTPUT_27 ?x1) (of_27 ?x1 ?x2) (LOOP_27 ?x2) (STRUCTURE_27 ?x2))
+
+;;  K
+
+	;; AN ASSIGNMENT MAY BE SET -ED IN A RECTANGLE.
+
+;;   F
+
+;;    S
+
+		(and (ASSIGNMENT_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (SET_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (RECTANGLE_27 ?x2))
+
+;; (ONE MIGHT SAY `` I CA N'T FIND ANY DIFFERENCE BETWEEN THE EXECUTION MODEL ITSELF AS A RESULT OF OBJECT
+ FLOW ANALYSIS AND THE CONCEPTUAL LEVEL EXECUTION)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY FIND A DIFFERENCE A THING-REFERRED-TO.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (FIND_27 ?x1) (A_27 ?x1) (DIFFERENCE_27 ?x1) (A_27 ?x1) (THING-REFERRED-TO_27 ?x1))
+
+;;  K
+
+	;; A DIFFERENCE CAN BE BETWEEN AN EXECUTION MODEL.
+
+;;   F
+
+;;    S
+
+		(and (DIFFERENCE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (AN_27 ?x1) (EXECUTION_27 ?x1) (MODEL_27 ?x1))
+
+;;  K
+
+	;; A RESULT CAN BE CONSTITUTED_OF_OR_FILLED_WITH OBJECT FLOW ANALYSIS.
+
+;;   F
+
+;;    S
+
+		(and (RESULT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (OBJECT_27 ?x1) (FLOW_27 ?x1) (ANALYSIS_27 ?x1))
+
+;;  K
+
+	;; A LEVEL EXECUTION CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (THE MAJOR DIFFERENCE BETWEEN THE MODEL AND EXECUTION IS THAT THE MODEL CAPTURES THE DESCRIPTIVE AND
+ STATIC ASPECT OF TASK STRUCTURE , WHILE THE EXECUTION CAPTURES THE SUBSTANTIAL AND DYNAMIC ASPECT BASED
+ ON CONCEPTUAL LEVEL COMPUTATIONAL SEMANTICS)
+
+;; E
+
+;;  K
+
+	;; A DIFFERENCE CAN BE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (DIFFERENCE_27 ?x1) (be_27 ?e1 ?x1 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; A DIFFERENCE CAN BE BETWEEN A MODEL.
+
+;;   F
+
+;;    S
+
+		(and (DIFFERENCE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (A_27 ?x1) (MODEL_27 ?x1))
+
+;;  K
+
+	;; A MODEL MAY CAPTURE AN ASPECT OF TASK STRUCTURE.
+
+;;   F
+
+;;    S
+
+		(and (MODEL_27 ?x1) (MAY_27 ?x1) (CAPTURE_27 ?x1) (AN_27 ?x1) (ASPECT_27 ?x1) (of_27 ?x1 ?x2) (TASK_27 ?x2) (STRUCTURE_27 ?x2))
+
+;;  K
+
+	;; AN ASPECT CAN BE DESCRIPTIVE.
+
+;;   F
+
+;;    S
+
+		(and (ASPECT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DESCRIPTIVE_27 ?x1))
+
+;;  K
+
+	;; LEVEL COMPUTATIONAL SEMANTICS CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (COMPUTATIONAL_27 ?x1) (SEMANTICS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (AT ANY TIME POINT DURING THE EXECUTION , USER CAN MAKE INQUIRIES ABOUT ANY EVENT OF THE EXECUTION , FOR
+ EXAMPLE , 4.1 TOL : A LANGUAGE FOR DESCRIBING TASK ONTOLOGY FIGURE 5 SHOWS A HIERARCHY OF ONTOLOGY
+ DESCRIPTION LANGUAGE)
+
+;; E
+
+;;  K
+
+	;; USER MAY MAKE INQUIRIES ABOUT AN EVENT OF AN EXECUTION.
+
+;;   F
+
+;;    S
+
+		(and (USER_27 ?x1) (MAY_27 ?x1) (MAKE_27 ?x1) (INQUIRIES_27 ?x1) (ABOUT_27 ?x1) (AN_27 ?x1) (EVENT_27 ?x1) (of_27 ?x1 ?x2) (EXECUTION_27 ?x2))
+
+;;  K
+
+	;; A TIME POINT CAN BE DURING AN EXECUTION.
+
+;;   F
+
+;;    S
+
+		(and (TIME_27 ?x1) (POINT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DURING_27 ?x1) (AN_27 ?x1) (EXECUTION_27 ?x1))
+
+;;  K
+
+	;; AN EXECUTION MAY UNDERGO AN EVENT.
+
+;;   F
+
+;;    S
+
+		(and (EXECUTION_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (EVENT_27 ?x1))
+
+;;  K
+
+	;; FIGURE MAY SHOW A HIERARCHY OF DESCRIPTION LANGUAGE.
+
+;;   F
+
+;;    S
+
+		(and (FIGURE_27 ?x1) (MAY_27 ?x1) (SHOW_27 ?x1) (A_27 ?x1) (HIERARCHY_27 ?x1) (of_27 ?x1 ?x2) (DESCRIPTION_27 ?x2) (LANGUAGE_27 ?x2))
+
+;;  K
+
+	;; A HIERARCHY CAN BE CONSTITUTED_OF_OR_FILLED_WITH DESCRIPTION LANGUAGE.
+
+;;   F
+
+;;    S
+
+		(and (HIERARCHY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (DESCRIPTION_27 ?x1) (LANGUAGE_27 ?x1))
+
+;;  K
+
+	;; A DESCRIPTION LANGUAGE CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_27 ?x1) (LANGUAGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;; (TOL \/ 0 AT THE BOTTOM OF THE HIERARCHY PROVIDES DESCRIPTION PRIMITIVES FOR ONTOLOGY AUTHOR AND DEFINES
+ SEMANTICS OF UPPER-LAYER LANGUAGE)
+
+;; E
+
+;;  K
+
+	;; A |\|TOL_\\\|\\\\\\\\/\\\|_0\||[PERSON??] MAY PROVIDE DESCRIPTION PRIMITIVES.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_7C_5C_7CTOL_5F_5C_5C_5C_7C_5C_5C_5C_5C_5C_5C_5C_5C_2F_5C_5C_5C_7C_5F0_5C_7C_7C_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (PROVIDE_27 ?x1) (DESCRIPTION_27 ?x1) (PRIMITIVES_27 ?x1))
+
+;;  K
+
+	;; A |\|TOL_\\\|\\\\\\\\/\\\|_0\||[PERSON??] CAN BE AT A BOTTOM OF A HIERARCHY.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_7C_5C_7CTOL_5F_5C_5C_5C_7C_5C_5C_5C_5C_5C_5C_5C_5C_2F_5C_5C_5C_7C_5F0_5C_7C_7C_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (AT_27 ?x1) (A_27 ?x1) (BOTTOM_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (HIERARCHY_27 ?x2))
+
+;;  K
+
+	;; A HIERARCHY MAY HAVE A BOTTOM.
+
+;;   F
+
+;;    S
+
+		(and (HIERARCHY_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (BOTTOM_27 ?x1))
+
+;;  K
+
+	;; AN AUTHOR CAN BE ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (AUTHOR_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; SEMANTICS CAN BE CONSTITUTED_OF_OR_FILLED_WITH LANGUAGE.
+
+;;   F
+
+;;    S
+
+		(and (SEMANTICS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (LANGUAGE_27 ?x1))
+
+;;  K
+
+	;; A LANGUAGE CAN BE UPPER-LAYER.
+
+;;   F
+
+;;    S
+
+		(and (LANGUAGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (UPPER-LAYER_27 ?x1))
+
+;; (THEREFORE ALL THE SEMANTICS OF TASK ONTOLOGY DESCRIBED WITH TOL IS SPECIFIED ULTIMATELY AT THE LEVEL OF
+ TOL\/0)
+
+;; E
+
+;;  K
+
+	;; SEMANTICS OF TASK ONTOLOGY MAY DESCRIBE.
+
+;;   F
+
+;;    S
+
+		(and (semantic_27 ?x1) (of_27 ?x1 ?x2) (TASK_27 ?x2) (ONTOLOGY_27 ?x2) (MAY_27 ?x2) (DESCRIBE_27 ?x2))
+
+;;  K
+
+	;; A TOL[PERSON??] MAY BE SPECIFY -ED.
+
+;;   F
+
+;;    S
+
+		(and (TOL_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (SPECIFY_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (TO SAY CONCRETELY , TOL \/ 0 SPECIFIES THE MEANING OF GENERIC CONCEPTS FOR DESCRIBING PROBLEM SOLVING
+ KNOWLEDGE AND PROVIDES SOME PRIMITIVES FOR CONSTRUCTING CORE TASK ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; A |\|TOL_\\\|\\\\\\\\/\\\|_0\||[PERSON??] MAY SPECIFY A MEANING OF CONCEPTS.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_7C_5C_7CTOL_5F_5C_5C_5C_7C_5C_5C_5C_5C_5C_5C_5C_5C_2F_5C_5C_5C_7C_5F0_5C_7C_7C_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (SPECIFY_27 ?x1) (A_27 ?x1) (MEANING_27 ?x1) (of_27 ?x1 ?x2) (concept_27 ?x2))
+
+;;  K
+
+	;; CONCEPTS CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (concept_27 ?x1) (be_27 ?e1 ?x1 ?x2) (GENERIC_27 ?x2))
+
+;;  K
+
+	;; A TASK CAN BE CORE.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CORE_27 ?x2))
+
+;; (CORE TASK ONTOLOGY AUTHOR -LRB- OA -LRB- C-TASK -RRB- -RRB- SPECIFIES THE LEXICAL ENTITIES AND
+ CONCEPTUAL ONES USING TOL\/0 PRIMITIVES , E.G. DEFINETOL-CORE-LEXICAL-WORD , DEFINE-TOL-CORE-CONCEPT ,
+ ETC.)
+
+;; E
+
+;;  K
+
+	;; TASK ONTOLOGY AUTHOR MAY SPECIFY ENTITIES.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (AUTHOR_27 ?x1) (MAY_27 ?x1) (SPECIFY_27 ?x1) (ENTITIES_27 ?x1))
+
+;;  K
+
+	;; A CORE[PERSON??] MAY HAVE A TASK ONTOLOGY AUTHOR.
+
+;;   F
+
+;;    S
+
+		(and (core_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (AUTHOR_27 ?x1))
+
+;;  K
+
+	;; ENTITIES CAN BE LEXICAL.
+
+;;   F
+
+;;    S
+
+		(and (entity_27 ?x1) (be_27 ?e1 ?x1 ?x2) (LEXICAL_27 ?x2))
+
+;; (BY READING THE SPECIFICATION OF CORE TASK ONTOLOGY INTO CLEPE , A SET OF CONCEPTUAL PRIMITIVES AT THE
+ TOL LEVEL IS INTRODUCED)
+
+;; E
+
+;;  K
+
+	;; A SET OF PRIMITIVES MAY BE INTRODUCE -ED.
+
+;;   F
+
+;;    S
+
+		(and (SET_27 ?x1) (of_27 ?x1 ?x2) (PRIMITIVES_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (INTRODUCE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2))
+
+;;  K
+
+	;; TASK ONTOLOGY MAY UNDERGO A SPECIFICATION.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (SPECIFICATION_27 ?x1))
+
+;;  K
+
+	;; A TASK ONTOLOGY CAN BE CORE.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CORE_27 ?x1))
+
+;;  K
+
+	;; A SET CAN BE CONSTITUTED_OF_OR_FILLED_WITH PRIMITIVES.
+
+;;   F
+
+;;    S
+
+		(and (SET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (PRIMITIVES_27 ?x1))
+
+;;  K
+
+	;; PRIMITIVES CAN BE AT A LEVEL.
+
+;;   F
+
+;;    S
+
+		(and (primitive_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AT_27 ?x2) (A_27 ?x2) (LEVEL_27 ?x2))
+
+;;  K
+
+	;; PRIMITIVES CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (primitive_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONCEPTUAL_27 ?x2))
+
+;;  K
+
+	;; A TOL[PERSON??] MAY HAVE A LEVEL.
+
+;;   F
+
+;;    S
+
+		(and (TOL_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (LEVEL_27 ?x1))
+
+;; (TASK SPECIFIC ONTOLOGY AUTHOR -LRB- OA -LRB- TASK-S -RRB- -RRB- SPECIFIES THE CONCEPTS APPEARING IN THE
+ TARGET TASK TYPE WITH TOL)
+
+;; E
+
+;;  K
+
+	;; SPECIFIC ONTOLOGY AUTHOR MAY SPECIFY CONCEPTS.
+
+;;   F
+
+;;    S
+
+		(and (SPECIFIC_27 ?x1) (ONTOLOGY_27 ?x1) (AUTHOR_27 ?x1) (MAY_27 ?x1) (SPECIFY_27 ?x1) (CONCEPTS_27 ?x1))
+
+;;  K
+
+	;; A TASK[PERSON??] MAY HAVE A SPECIFIC ONTOLOGY AUTHOR.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SPECIFIC_27 ?x1) (ONTOLOGY_27 ?x1) (AUTHOR_27 ?x1))
+
+;;  K
+
+	;; CONCEPTS MAY APPEAR IN A TARGET TASK TYPE.
+
+;;   F
+
+;;    S
+
+		(and (concept_27 ?x1) (MAY_27 ?x1) (APPEAR_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (TARGET_27 ?x2) (TASK_27 ?x2) (TYPE_27 ?x2))
+
+;; (FOR EXAMPLE , THE SEMANTICS OF THE VERB `` ASSIGN , '' WHICH APPEARS IN THE SCHEDULING TASK TYPE , IS
+ DEFINED AT TOL-LEVEL BY USING DEFINE-TOL-VERB)
+
+;; E
+
+;;  K
+
+	;; AN EXEMPLAR_OF AN ASSIGN[PERSON??] CAN BE VERB.
+
+;;   F
+
+;;    S
+
+		(and (EXEMPLAR_5FOF_27 ?x1) (AN_27 ?x1) (ASSIGN_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (VERB_27 ?x1))
+
+;; (4.2 CONCEPTUAL LEVEL EXECUTION ONCE CLEPE ESTABLISHED THE CONSISTENT OBJECT FLOW OF A GPN BY OBJECT FLOW
+ ANALYSIS , A CONCEPTUAL LEVEL EXECUTION MODEL IS GENERATED)
+
+;; E
+
+;;  K
+
+	;; A LEVEL EXECUTION MODEL MAY BE GENERATE -ED.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (MODEL_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (GENERATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A |\|\\\|4.2\\\|_CONCEPTUAL\||[PERSON??] MAY HAVE A LEVEL EXECUTION.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_7C_5C_7C_5C_5C_5C_7C4_2E2_5C_5C_5C_7C_5FCONCEPTUAL_5C_7C_7C_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (LEVEL_27 ?x1) (EXECUTION_27 ?x1))
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY ESTABLISH AN OBJECT FLOW OF A GPN[PERSON??] BY OBJECT FLOW ANALYSIS.
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (ESTABLISH_27 ?x1) (AN_27 ?x1) (OBJECT_27 ?x1) (FLOW_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (GPN_27 ?x2) (PERSON_27 ?x3))
+
+;;   F
+
+;;    S
+
+		(and (by_27 ?x1) (OBJECT_27 ?x1) (FLOW_27 ?x1) (ANALYSIS_27 ?x1))
+
+;;  K
+
+	;; AN OBJECT FLOW CAN BE CONSISTENT.
+
+;;   F
+
+;;    S
+
+		(and (OBJECT_27 ?x1) (FLOW_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSISTENT_27 ?x1))
+
+;;  K
+
+	;; A LEVEL EXECUTION MODEL CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (MODEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (OBJECT FLOW SPECIFIES THE HISTORY OF EACH OBJECT RUN THROUGH THE PROBLEM SOLVING MODEL , FOR EXAMPLE ,
+ `` WHEN AN OBJECT APPEARS AND DISAPPEARS , '' OR `` HOW THE STATUS OF THE OBJECT CHANGES '')
+
+;; E
+
+;;  K
+
+	;; FLOW MAY SPECIFY A HISTORY OF SOME_NUMBER_OF OBJECT.
+
+;;   F
+
+;;    S
+
+		(and (FLOW_27 ?x1) (MAY_27 ?x1) (SPECIFY_27 ?x1) (A_27 ?x1) (HISTORY_27 ?x1) (of_27 ?x1 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (OBJECT_27 ?x2))
+
+;;  K
+
+	;; A FLOW CAN BE OBJECT.
+
+;;   F
+
+;;    S
+
+		(and (FLOW_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (OBJECT_27 ?x1))
+
+;;  K
+
+	;; SOME_NUMBER_OF OBJECT MAY BE RUN -ED THROUGH A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (OBJECT_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (RUN_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (through_27 ?x1 ?x2) (A_27 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE MODEL.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (MODEL_27 ?x1))
+
+;;  K
+
+	;; AN OBJECT MAY APPEAR.
+
+;;   F
+
+;;    S
+
+		(and (OBJECT_27 ?x1) (MAY_27 ?x1) (APPEAR_27 ?x1))
+
+;;  K
+
+	;; A STATUS OF AN OBJECT MAY CHANGE.
+
+;;   F
+
+;;    S
+
+		(and (statu_27 ?x1) (of_27 ?x1 ?x2) (OBJECT_27 ?x2) (MAY_27 ?x2) (CHANGE_27 ?x2))
+
+;;  K
+
+	;; AN OBJECT MAY HAVE A STATUS.
+
+;;   F
+
+;;    S
+
+		(and (OBJECT_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (STATUS_27 ?x1))
+
+;; (SINCE THE HISTORY IS DESCRIBED AT KNOWLEDGE-LEVEL TASK ONTOLOGY -LRB- TO\/K -RRB- LEVEL , A GPN AUTHOR
+ COULD EASILY UNDERSTAND THE EXECUTION PROCESS OF HIS \/ HER OWN GPN)
+
+;; E
+
+;;  K
+
+	;; AN AUTHOR MAY UNDERSTAND AN EXECUTION PROCESS OF A \/.
+
+;;   F
+
+;;    S
+
+		(and (AUTHOR_27 ?x1) (MAY_27 ?x1) (UNDERSTAND_27 ?x1) (AN_27 ?x1) (EXECUTION_27 ?x1) (PROCESS_27 ?x1) (of_27 ?x1 ?x2) (kbs2_kif_quote_2DSLASH-_27 ?x2))
+
+;;  K
+
+	;; A HISTORY MAY BE DESCRIBE -ED AT TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (HISTORY_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (DESCRIBE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (AT_27 ?x1) (TASK_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; A TASK ONTOLOGY CAN BE KNOWLEDGE-LEVEL.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (KNOWLEDGE-LEVEL_27 ?x1))
+
+;;  K
+
+	;; A GPN[PERSON??] MAY HAVE AN AUTHOR.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (AUTHOR_27 ?x1))
+
+;;  K
+
+	;; A \/ MAY UNDERGO AN EXECUTION PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (EXECUTION_27 ?x1) (PROCESS_27 ?x1))
+
+;;  K
+
+	;; A MALE MAY HAVE A \/.
+
+;;   F
+
+;;    S
+
+		(and (MALE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (kbs2_kif_quote_5C_2F_27 ?x1))
+
+;;  K
+
+	;; A FEMALE MAY HAVE A GPN.
+
+;;   F
+
+;;    S
+
+		(and (FEMALE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (GPN_27 ?x1))
+
+;; (RELATED TO THIS , THERE ARE SOME DIFFERENCES BETWEEN AN OBJECT CONSTRAINT AND A STATUS CONSTRAINT)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF DIFFERENCES CAN BE BETWEEN AN OBJECT CONSTRAINT.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (DIFFERENCES_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (AN_27 ?x1) (OBJECT_27 ?x1) (CONSTRAINT_27 ?x1))
+
+;; (THE FORMER IS STATIC AND THE LATTER IS DYNAMIC)
+
+;; E
+
+;;  K
+
+	;; A LATTER CAN BE A DYNAMIC.
+
+;;   F
+
+;;    S
+
+		(and (LATTER_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (DYNAMIC_27 ?x2))
+
+;; (THE FORMER IS STATIC AND THE LATTER IS DYNAMIC)
+
+;; E
+
+;;  K
+
+	;; A LATTER CAN BE A DYNAMIC.
+
+;;   F
+
+;;    S
+
+		(and (LATTER_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (DYNAMIC_27 ?x2))
+
+;; (BY KEEPING THE CONTINUITY FROM THE SYMBOL LEVEL PROGRAM CODE TO CONCEPTUAL LEVEL MODEL , CLEPE CAN GIVE
+ THE CONCEPTUAL LEVEL EXECUTION ABOUT THE EXECUTION RESULT AT THE SYMBOL LEVEL)
+
+;; E
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY GIVE A LEVEL EXECUTION ABOUT AN EXECUTION RESULT.
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (GIVE_27 ?x1) (A_27 ?x1) (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (ABOUT_27 ?x1) (AN_27 ?x1) (EXECUTION_27 ?x1) (RESULT_27 ?x1))
+
+;;  K
+
+	;; A LEVEL MODEL CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (MODEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; A LEVEL EXECUTION CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; AN EXECUTION RESULT CAN BE AT A SYMBOL LEVEL.
+
+;;   F
+
+;;    S
+
+		(and (EXECUTION_27 ?x1) (RESULT_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AT_27 ?x2) (A_27 ?x2) (SYMBOL_27 ?x2) (LEVEL_27 ?x2))
+
+;; (5 COMPETENCE OF CONCEPTUAL MODEL OF PROBLEM SOLVING TASK ONTOLOGY CONSISTS OF A VARIETY OF AXIOMS WHICH
+ PLAY THE IMPORTANT ROLE TO REALIZE MOST FUNCTIONS OF CLEPE)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF COMPETENCE OF A CONCEPTUAL_MODEL[PERSON??] OF A PROBLEM_SOLVING_TASK[PERSON??] MAY CONSIST OF VARIETY OF AXIOMS.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (COMPETENCE_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (CONCEPTUAL_5FMODEL_27 ?x2) (person_27 ?x3))
+
+;;   F
+
+;;    S
+
+		(and (of_27 ?x1) (PROBLEM_5FSOLVING_5FTASK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (consist_27 ?e1) (of_27 ?e1 ?x1) (VARIETY_27 ?x1) (of_27 ?x1 ?x2) (AXIOMS_27 ?x2))
+
+;;  K
+
+	;; VARIETY CAN BE CONSTITUTED_OF_OR_FILLED_WITH AXIOMS.
+
+;;   F
+
+;;    S
+
+		(and (VARIETY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (AXIOMS_27 ?x1))
+
+;;  K
+
+	;; A ROLE CAN BE IMPORTANT.
+
+;;   F
+
+;;    S
+
+		(and (ROLE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IMPORTANT_27 ?x1))
+
+;; (BECAUSE OF SPACE LIMITATION , HERE WE WILL TAKE UP SOME OF THE AXIOMS NEEDED FOR CONCEPTUAL LEVEL
+ EXECUTION AND SHOW AN EXAMPLE OF CONCEPTUAL PROBLEM SOLVING MODEL AND ITS COMPETENCE)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY TAKE_UP SOME_NUMBER_OF THING OF AXIOMS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (TAKE_5FUP_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (THING_27 ?x1) (of_27 ?x1 ?x2) (AXIOMS_27 ?x2))
+
+;;  K
+
+	;; AXIOMS MAY HAVE A THING.
+
+;;   F
+
+;;    S
+
+		(and (AXIOMS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (thing_27 ?x1))
+
+;;  K
+
+	;; AXIOMS MAY BE NEED -ED FOR LEVEL EXECUTION.
+
+;;   F
+
+;;    S
+
+		(and (AXIOMS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (NEED_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (for_27 ?x1 ?x2) (LEVEL_27 ?x2) (EXECUTION_27 ?x2))
+
+;;  K
+
+	;; A LEVEL EXECUTION CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE MODEL.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (MODEL_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE A COMPETENCE.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (COMPETENCE_27 ?x1))
+
+;; (CONCEPTUAL LEVEL EXECUTION IS A FUNCTION WHICH PROVIDES THE TRACE INFORMATION OF EXECUTION PROCESS OF
+ GPN IN THE APPROPRIATE ABSTRACT LEVEL)
+
+;; E
+
+;;  K
+
+	;; LEVEL EXECUTION CAN BE A FUNCTION.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (be_27 ?e1 ?x1 ?x2) (function_27 ?x2))
+
+;;  K
+
+	;; A LEVEL EXECUTION CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; AN INFORMATION CAN BE TRACE.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (be_27 ?e1 ?x1 ?x2) (TRACE_27 ?x2))
+
+;;  K
+
+	;; A GPN[PERSON??] MAY UNDERGO AN EXECUTION PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (EXECUTION_27 ?x1) (PROCESS_27 ?x1))
+
+;;  K
+
+	;; A LEVEL CAN BE APPROPRIATE.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (APPROPRIATE_27 ?x1))
+
+;;  K
+
+	;; A LEVEL CAN BE ABSTRACT.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ABSTRACT_27 ?x1))
+
+;; (THE FUNCTION REDUCES THE LOAD OF THE END-USERS ' WORK WHILE THEY ARE DEBUGGING THE GPN)
+
+;; E
+
+;;  K
+
+	;; A FUNCTION MAY REDUCE A LOAD OF WORK.
+
+;;   F
+
+;;    S
+
+		(and (FUNCTION_27 ?x1) (MAY_27 ?x1) (REDUCE_27 ?x1) (A_27 ?x1) (LOAD_27 ?x1) (of_27 ?x1 ?x2) (WORK_27 ?x2))
+
+;;  K
+
+	;; WORK MAY HAVE A LOAD.
+
+;;   F
+
+;;    S
+
+		(and (WORK_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (LOAD_27 ?x1))
+
+;;  K
+
+	;; END-USERS MAY HAVE WORK.
+
+;;   F
+
+;;    S
+
+		(and (END-USERS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (WORK_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY DEBUG A GPN[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DEBUG_27 ?x1) (A_27 ?x1) (GPN_27 ?x1) (PERSON_27 ?x2))
+
+;; (IN GENERAL , AN END-USER USING A CONVENTIONAL PROGRAMMING ENVIRONMENT OFTEN FEELS UNCOMFORTABLE ,
+ BECAUSE THE ABSTRACT LEVEL OF THE TRACE INFORMATION SUCH AS REAL DATA IS TOO LOW FOR THEM TO MATCHED IT
+ OFF AGAINST THEIR UNDERSTANDING OF PROBLEM SOLVING)
+
+;; E
+
+;;  K
+
+	;; AN END-USER MAY FEEL UNCOMFORTABLE.
+
+;;   F
+
+;;    S
+
+		(and (END-USER_27 ?x1) (MAY_27 ?x1) (FEEL_27 ?x1) (UNCOMFORTABLE_27 ?x1))
+
+;;  K
+
+	;; AN END-USER MAY USE A PROGRAMMING ENVIRONMENT.
+
+;;   F
+
+;;    S
+
+		(and (END-USER_27 ?x1) (MAY_27 ?x1) (USE_27 ?x1) (A_27 ?x1) (PROGRAMMING_27 ?x1) (ENVIRONMENT_27 ?x1))
+
+;;  K
+
+	;; A PROGRAMMING ENVIRONMENT CAN BE CONVENTIONAL.
+
+;;   F
+
+;;    S
+
+		(and (PROGRAMMING_27 ?x1) (ENVIRONMENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONVENTIONAL_27 ?x1))
+
+;;  K
+
+	;; A LEVEL OF AN INFORMATION CAN BE LOW FOR INDIVIDUAL -S.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (of_27 ?x1 ?x2) (INFORMATION_27 ?x2) (CAN_27 ?x2) (BE_27 ?x2) (LOW_27 ?x2) (for_27 ?x2 ?x3) (INDIVIDUAL_27 ?x3) (kbs2_kif_quote_2DS_27 ?x3))
+
+;;  K
+
+	;; AN INFORMATION MAY HAVE A LEVEL.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (LEVEL_27 ?x1))
+
+;;  K
+
+	;; A LEVEL CAN BE ABSTRACT.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ABSTRACT_27 ?x1))
+
+;;  K
+
+	;; AN INFORMATION CAN BE TRACE.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (be_27 ?e1 ?x1 ?x2) (TRACE_27 ?x2))
+
+;;  K
+
+	;; DATA CAN BE REAL.
+
+;;   F
+
+;;    S
+
+		(and (DATA_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (REAL_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY UNDERGO AN UNDERSTANDING.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (UNDERSTANDING_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE AN UNDERSTANDING.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (UNDERSTANDING_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;; (ON THE OTHER HAND , CONCEPTUAL LEVEL EXECUTION PROVIDES END-USERS WITH THE CONCEPTUAL LEVEL INFORMATION
+ WHICH CAN BE EASILY MAPPED OFF AGAINST THEIR UNDERSTANDING OF THE INTENDED BEHAVIOR OF GPN)
+
+;; E
+
+;;  K
+
+	;; LEVEL EXECUTION MAY PROVIDE END-USERS WITH A LEVEL INFORMATION.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (MAY_27 ?x1) (PROVIDE_27 ?x1) (END-USERS_27 ?x1) (WITH_27 ?x1) (A_27 ?x1) (LEVEL_27 ?x1) (INFORMATION_27 ?x1))
+
+;;  K
+
+	;; A LEVEL EXECUTION CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; A LEVEL INFORMATION CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (INFORMATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE AN UNDERSTANDING.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (UNDERSTANDING_27 ?x1))
+
+;;  K
+
+	;; A BEHAVIOR CAN BE INTENDED.
+
+;;   F
+
+;;    S
+
+		(and (BEHAVIOR_27 ?x1) (be_27 ?e1 ?x1 ?e2) (intend_27 ?e2 ?x1))
+
+;; (IN THE FOLLOWING , WE INTRODUCE THE CONCEPT OF PROBLEM SOLVING CAUSALITY WHICH PLAYS MOST IMPORTANT ROLE
+ FOR GENERATING APPROPRIATE INFORMATION ABOUT THE BEHAVIOR OF GPN)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY INTRODUCE A CONCEPT OF PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (INTRODUCE_27 ?x1) (A_27 ?x1) (CONCEPT_27 ?x1) (of_27 ?x1 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;;  K
+
+	;; A ROLE CAN BE IMPORTANT.
+
+;;   F
+
+;;    S
+
+		(and (ROLE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IMPORTANT_27 ?x1))
+
+;;  K
+
+	;; AN INFORMATION CAN BE APPROPRIATE.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (APPROPRIATE_27 ?x2))
+
+;; (THE INFORMATION PROVIDED BY THE CONCEPTUAL LEVEL EXECUTION MAINLY CONCERNS ON HOW OBJECTS AND THE
+ RELATION AMONG THEM CHANGE DURING PROBLEM SOLVING)
+
+;; E
+
+;;  K
+
+	;; AN INFORMATION MAY BE PROVIDE -ED BY A LEVEL EXECUTION.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (PROVIDE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (LEVEL_27 ?x2) (EXECUTION_27 ?x2))
+
+;;  K
+
+	;; A LEVEL EXECUTION CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; OBJECTS MAY CHANGE DURING PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (OBJECTS_27 ?x1) (MAY_27 ?x1) (CHANGE_27 ?x1) (DURING_27 ?x1) (PROBLEM_27 ?x1))
+
+;;  K
+
+	;; A RELATION CAN BE AMONG INDIVIDUAL -S.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (AMONG_27 ?x1) (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;; (AN IDEA OF ` VERSION ' OF OBJECTS IS INTRODUCED AS A SOURCE OF THE INFORMATION)
+
+;; E
+
+;;  K
+
+	;; AN IDEA OF VERSION OF OBJECTS MAY BE INTRODUCE -ED AS A SOURCE OF AN INFORMATION.
+
+;;   F
+
+;;    S
+
+		(and (IDEA_27 ?x1) (of_27 ?x1 ?x2) (VERSION_27 ?x2) (OF_27 ?x2) (OBJECTS_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (INTRODUCE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (as_27 ?x1 ?x3) (A_27 ?x3) (SOURCE_27 ?x3) (of_27 ?x1 ?x4) (INFORMATION_27 ?x4))
+
+;;  K
+
+	;; AN INFORMATION MAY HAVE A SOURCE.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SOURCE_27 ?x1))
+
+;; (CHANGE OF VERSION REPRESENTS WHEN AND HOW THE CHANGE OF AN OBJECT OR RELATION HAPPENED)
+
+;; E
+
+;;  K
+
+	;; A CHANGE OF AN OBJECT MAY HAPPEN.
+
+;;   F
+
+;;    S
+
+		(and (change_27 ?x1) (of_27 ?x1 ?x2) (OBJECT_27 ?x2) (MAY_27 ?x2) (HAPPEN_27 ?x2))
+
+;; (FURTHERMORE , CHANGES OF VERSION ARE PROPAGATED OVER THE MODEL , FOR EXAMPLE , THE VERSION CHANGE OF
+ PART OF AN OBJECT IS PROPAGATED TO THE WHOLE OBJECT)
+
+;; E
+
+;;  K
+
+	;; A VERSION CHANGE OF PART OF AN OBJECT MAY BE PROPAGATE -ED TO AN OBJECT.
+
+;;   F
+
+;;    S
+
+		(and (VERSION_27 ?x1) (CHANGE_27 ?x1) (of_27 ?x1 ?x2) (part_27 ?x2) (of_27 ?x2 ?x3) (OBJECT_27 ?x3) (MAY_27 ?x3) (BE_27 ?x3) (PROPAGATE_27 ?x3) (kbs2_kif_quote_2DED_27 ?x3) (to_27 ?x3 ?x4) (AN_27 ?x4) (OBJECT_27 ?x4))
+
+;;  K
+
+	;; CHANGES OF VERSION MAY BE PROPAGATE -ED OVER A MODEL.
+
+;;   F
+
+;;    S
+
+		(and (change_27 ?x1) (of_27 ?x1 ?x2) (VERSION_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (PROPAGATE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (OVER_27 ?x2) (A_27 ?x2) (MODEL_27 ?x2))
+
+;;  K
+
+	;; CHANGES CAN BE CONSTITUTED_OF_OR_FILLED_WITH VERSION.
+
+;;   F
+
+;;    S
+
+		(and (change_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x2) (VERSION_27 ?x2))
+
+;; (IT REFLECTS HOW END-USERS RECOGNIZE THE CHANGES OF OBJECTS IN DOMAIN WORLD)
+
+;; E
+
+;;  K
+
+	;; END-USERS MAY RECOGNIZE CHANGES OF OBJECTS.
+
+;;   F
+
+;;    S
+
+		(and (END-USERS_27 ?x1) (MAY_27 ?x1) (RECOGNIZE_27 ?x1) (CHANGES_27 ?x1) (of_27 ?x1 ?x2) (object_27 ?x2))
+
+;;  K
+
+	;; OBJECTS CAN BE IN DOMAIN WORLD.
+
+;;   F
+
+;;    S
+
+		(and (object_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (DOMAIN_27 ?x2) (WORLD_27 ?x2))
+
+;; (AN IMPORTANT POINT , HERE , IS THAT ALL THE CHANGES HAPPENED IN DOMAIN WORLD SHOULD NOT BE REPORTED TO
+ END-USERS , BECAUSE TOO MUCH INFORMATION WOULD BATHER THEM)
+
+;; E
+
+;;  K
+
+	;; A POINT CAN BE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (POINT_27 ?x1) (be_27 ?e1 ?x1 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; A POINT CAN BE IMPORTANT.
+
+;;   F
+
+;;    S
+
+		(and (POINT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IMPORTANT_27 ?x1))
+
+;;  K
+
+	;; CHANGES MAY BE REPORT -ED TO END-USERS.
+
+;;   F
+
+;;    S
+
+		(and (CHANGES_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (REPORT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (to_27 ?x1 ?x2) (END-USERS_27 ?x2))
+
+;;  K
+
+	;; CHANGES MAY BE HAPPEN -ED IN DOMAIN WORLD.
+
+;;   F
+
+;;    S
+
+		(and (CHANGES_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (HAPPEN_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (DOMAIN_27 ?x2) (WORLD_27 ?x2))
+
+;;  K
+
+	;; INFORMATION MAY BATHER INDIVIDUAL -S.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (MAY_27 ?x1) (BATHER_27 ?x1) (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1))
+
+;; (INSTEAD , THE REPORT SHOULD INCLUDE ONLY THE INFORMATION REALLY USEFUL FOR END-USER TO GRASP PROBLEM
+ SOLVING BEHAVIOR CLEARLY)
+
+;; E
+
+;;  K
+
+	;; A REPORT MAY INCLUDE AN INFORMATION.
+
+;;   F
+
+;;    S
+
+		(and (REPORT_27 ?x1) (MAY_27 ?x1) (INCLUDE_27 ?x1) (AN_27 ?x1) (INFORMATION_27 ?x1))
+
+;;  K
+
+	;; AN INFORMATION CAN BE USEFUL.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (USEFUL_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE BEHAVIOR.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (BEHAVIOR_27 ?x1))
+
+;; (PROBLEM SOLVING CAUSALITY IS A SET OF AXIOMS NEEDED TO REALIZE THIS SUMMARIZATION FUNCTION)
+
+;; E
+
+;;  K
+
+	;; A PROBLEM_SOLVING[PERSON??] CAN BE A SET OF AXIOMS.
+
+;;   F
+
+;;    S
+
+		(and (problem_5Fsolving_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (A_27 ?x1) (SET_27 ?x1) (of_27 ?x1 ?x2) (AXIOMS_27 ?x2))
+
+;;  K
+
+	;; A SET CAN BE CONSTITUTED_OF_OR_FILLED_WITH AXIOMS.
+
+;;   F
+
+;;    S
+
+		(and (SET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (AXIOMS_27 ?x1))
+
+;; (HERE , WE SHOW '' -LRB- 1 -RRB- PART-WHOLE CAUSALITY '' AND '' -LRB- 2 -RRB- LOOP-INVARIANT GENERATE
+ CAUSALITY '' AS EXAMPLES)
+
+;; E
+
+;;  K
+
+	;; A CAUSALITY CAN BE PART-WHOLE.
+
+;;   F
+
+;;    S
+
+		(and (CAUSALITY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PART-WHOLE_27 ?x1))
+
+;; (FIGURE 8 SHOWS OBJECT FLOW MODEL -LRB- PARTIALLY -RRB- AND DOMAIN MODEL CORRESPONDING TO IT)
+
+;; E
+
+;;  K
+
+	;; FLOW MAY MODEL.
+
+;;   F
+
+;;    S
+
+		(and (FLOW_27 ?x1) (MAY_27 ?x1) (MODEL_27 ?x1))
+
+;; (IN OBJECT FLOW MODEL , ALL THE EFFECTS OF AN ACTIVITY AT EACH STEP OF GPN ARE REPRESENTED)
+
+;; E
+
+;;  K
+
+	;; EFFECTS OF AN ACTIVITY MAY BE REPRESENT -ED.
+
+;;   F
+
+;;    S
+
+		(and (effect_27 ?x1) (of_27 ?x1 ?x2) (ACTIVITY_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (REPRESENT_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2))
+
+;;  K
+
+	;; AN ACTIVITY CAN BE AT SOME_NUMBER_OF STEP OF A GPN[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (ACTIVITY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (AT_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (STEP_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (GPN_27 ?x2) (PERSON_27 ?x3))
+
+;; (IN THE DOMAIN MODEL WHICH CORRESPONDS TO THE GIVEN TASK FLOW MODEL , CHANGES OF DOMAIN OBJECTS CAUSED BY
+ THE ACTIVITIES AND THE CHANGES OF RELATIONS AMONG THE OBJECTS ARE ALSO REPRESENTED IN TERMS OF `
+ VERSION)
+
+;; E
+
+;;  K
+
+	;; CHANGES OF DOMAIN OBJECTS MAY CAUSE BY ACTIVITIES.
+
+;;   F
+
+;;    S
+
+		(and (change_27 ?x1) (of_27 ?x1 ?x2) (DOMAIN_27 ?x2) (OBJECTS_27 ?x2) (MAY_27 ?x2) (CAUSE_27 ?x2) (by_27 ?x2 ?x3) (ACTIVITIES_27 ?x3))
+
+;;  K
+
+	;; A TASK FLOW MODEL CAN BE GIVEN.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (FLOW_27 ?x1) (MODEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GIVEN_27 ?x1))
+
+;;  K
+
+	;; CHANGES CAN BE CONSTITUTED_OF_OR_FILLED_WITH DOMAIN OBJECTS.
+
+;;   F
+
+;;    S
+
+		(and (change_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x2) (DOMAIN_27 ?x2) (OBJECTS_27 ?x2))
+
+;;  K
+
+	;; CHANGES OF RELATIONS MAY BE REPRESENT -ED.
+
+;;   F
+
+;;    S
+
+		(and (change_27 ?x1) (of_27 ?x1 ?x2) (RELATIONS_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (REPRESENT_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2))
+
+;;  K
+
+	;; RELATIONS CAN BE AMONG OBJECTS.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AMONG_27 ?x2) (OBJECTS_27 ?x2))
+
+;; (IN FIGURE 8 , WE DISCUSS THE RELATION AMONG TASK FLOW AND CHANGES OF DOMAIN WORLD OBJECTS TAKING THE
+ PART-WHOLE CAUSAL RELATION AS AN EXAMPLE)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY DISCUSS A RELATION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DISCUSS_27 ?x1) (A_27 ?x1) (RELATION_27 ?x1))
+
+;;  K
+
+	;; A RELATION CAN BE AMONG TASK FLOW.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AMONG_27 ?x2) (TASK_27 ?x2) (FLOW_27 ?x2))
+
+;;  K
+
+	;; CHANGES CAN BE CONSTITUTED_OF_OR_FILLED_WITH DOMAIN WORLD OBJECTS.
+
+;;   F
+
+;;    S
+
+		(and (change_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x2) (DOMAIN_27 ?x2) (WORLD_27 ?x2) (OBJECTS_27 ?x2))
+
+;;  K
+
+	;; A RELATION CAN BE PART-WHOLE.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PART-WHOLE_27 ?x2))
+
+;;  K
+
+	;; A RELATION CAN BE CAUSAL.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CAUSAL_27 ?x1))
+
+;; (LET 'S FOCUS ON THE CAUSAL RELATION BETWEEN THE UPDATE PROCESS IN KTH ITERATION OF THE LOOP AND THE
+ SELECT PROCESS -LRB- WHICH SELECTS A NURSE WITH MINIMUM LOAD FROM A SET OF NURSES -RRB- IN -LRB- K 1
+ -RRB- TH ITERATION)
+
+;; E
+
+;;  K
+
+	;; A RELATION CAN BE BETWEEN A PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (BETWEEN_27 ?x2) (A_27 ?x2) (PROCESS_27 ?x2))
+
+;;  K
+
+	;; A RELATION CAN BE CAUSAL.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CAUSAL_27 ?x1))
+
+;;  K
+
+	;; A PROCESS CAN BE IN KTH ITERATION.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (KTH_27 ?x2) (ITERATION_27 ?x2))
+
+;;  K
+
+	;; A PROCESS CAN BE UPDATE.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (UPDATE_27 ?x1))
+
+;;  K
+
+	;; A PROCESS CAN BE SELECT.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SELECT_27 ?x1))
+
+;;  K
+
+	;; A NURSE CAN BE WITH LOAD.
+
+;;   F
+
+;;    S
+
+		(and (NURSE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (WITH_27 ?x1) (LOAD_27 ?x1))
+
+;;  K
+
+	;; A SET CAN BE CONSTITUTED_OF_OR_FILLED_WITH NURSES.
+
+;;   F
+
+;;    S
+
+		(and (SET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (NURSES_27 ?x1))
+
+;; (WHEN UPDATE PROCESS UPDATES THE LOAD DATA OF THE NURSE WHO IS ASSIGNED TO A JOB IN ASSIGN PROCESS IN KTH
+ ITERATION , WE CAN SAY THE VERSION OF THE NURSE CHANGES)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY SAY A VERSION OF NURSE CHANGES.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (SAY_27 ?x1) (A_27 ?x1) (VERSION_27 ?x1) (of_27 ?x1 ?x2) (NURSE_27 ?x2) (CHANGES_27 ?x2))
+
+;;  K
+
+	;; UPDATE PROCESS MAY UPDATE LOAD DATA OF A NURSE.
+
+;;   F
+
+;;    S
+
+		(and (UPDATE_27 ?x1) (PROCESS_27 ?x1) (MAY_27 ?x1) (UPDATE_27 ?x1) (LOAD_27 ?x1) (DATA_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (NURSE_27 ?x2))
+
+;;  K
+
+	;; A NURSE MAY HAVE LOAD DATA.
+
+;;   F
+
+;;    S
+
+		(and (NURSE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (LOAD_27 ?x1) (DATA_27 ?x1))
+
+;;  K
+
+	;; A JOB CAN BE IN PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (JOB_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (PROCESS_27 ?x2))
+
+;;  K
+
+	;; PROCESS CAN BE IN KTH ITERATION.
+
+;;   F
+
+;;    S
+
+		(and (process_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (KTH_27 ?x2) (ITERATION_27 ?x2))
+
+;;  K
+
+	;; A PROCESS CAN BE ASSIGN.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ASSIGN_27 ?x2))
+
+;;  K
+
+	;; NURSE CHANGES MAY HAVE A VERSION.
+
+;;   F
+
+;;    S
+
+		(and (NURSE_27 ?x1) (CHANGES_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (VERSION_27 ?x1))
+
+;; (IN ADDITION TO THIS , THE SET OF NURSES INCLUDING THE NURSE ALSO CHANGES ITS STATUS)
+
+;; E
+
+;;  K
+
+	;; A SET OF NURSES MAY CHANGE A STATUS.
+
+;;   F
+
+;;    S
+
+		(and (SET_27 ?x1) (of_27 ?x1 ?x2) (NURSES_27 ?x2) (MAY_27 ?x2) (CHANGE_27 ?x2) (A_27 ?x2) (STATUS_27 ?x2))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE A STATUS.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (STATUS_27 ?x1))
+
+;; (THIS IS THE CASE THAT THE CHANGE OF THE PART IS PROPAGATED TO THE WHOLE THROUGH THE COMPONENTOF
+ RELATIONS AMONG OBJECTS SPECIFIED IN THE DOMAIN WORLD)
+
+;; E
+
+;;  K
+
+	;; A THING CAN BE A CASE.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1 ?x2) (case_27 ?x2))
+
+;;  K
+
+	;; A CHANGE OF A PART MAY BE PROPAGATE -ED TO A WHOLE.
+
+;;   F
+
+;;    S
+
+		(and (change_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (PART_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (PROPAGATE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (to_27 ?x1 ?x3) (A_27 ?x3) (WHOLE_27 ?x3))
+
+;;  K
+
+	;; A PART MAY HAVE A CHANGE.
+
+;;   F
+
+;;    S
+
+		(and (PART_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (CHANGE_27 ?x1))
+
+;;  K
+
+	;; RELATIONS CAN BE AMONG OBJECTS.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AMONG_27 ?x2) (OBJECTS_27 ?x2))
+
+;;  K
+
+	;; RELATIONS CAN BE COMPONENTOF.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (COMPONENTOF_27 ?x2))
+
+;;  K
+
+	;; OBJECTS MAY BE SPECIFY -ED IN THE DOMAIN WORLD.
+
+;;   F
+
+;;    S
+
+		(and (OBJECTS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (SPECIFY_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (DOMAIN_27 ?x2) (WORLD_27 ?x2))
+
+;; (HOWEVER , WHETHER THIS PROPAGATION SHOULD BE REPORTED TO END-USERS OR NOT IS A MATTER FOR ARGUMENT ON
+ PROBLEM SOLVING CAUSALITY)
+
+;; E
+
+;;  K
+
+	;; A PROPAGATION MAY BE REPORT -ED TO END-USERS.
+
+;;   F
+
+;;    S
+
+		(and (PROPAGATION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (REPORT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (to_27 ?x1 ?x2) (END-USERS_27 ?x2))
+
+;;  K
+
+	;; A MATTER CAN BE FOR ARGUMENT.
+
+;;   F
+
+;;    S
+
+		(and (MATTER_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (ARGUMENT_27 ?x2))
+
+;;  K
+
+	;; ARGUMENT CAN BE ON PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (ARGUMENT_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;; (PROBLEM SOLVING CAUSALITY ANSWERS THE QUESTION BASED ON WHETHER THE CHANGE IS IMPORTANT OR NOT FROM
+ PROBLEM SOLVING VIEWPOINT)
+
+;; E
+
+;;  K
+
+	;; A PROBLEM_SOLVING[PERSON??] MAY ANSWER A QUESTION.
+
+;;   F
+
+;;    S
+
+		(and (problem_5Fsolving_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (ANSWER_27 ?x1) (A_27 ?x1) (QUESTION_27 ?x1))
+
+;;  K
+
+	;; A CHANGE CAN BE IMPORTANT.
+
+;;   F
+
+;;    S
+
+		(and (CHANGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IMPORTANT_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE VIEWPOINT.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (VIEWPOINT_27 ?x1))
+
+;; (IN THIS CASE , IT IS IMPORTANT BECAUSE THE CHANGE OF THE SET OF NURSE GUARANTEES CORRECTNESS OF THE
+ INPUT TO THE SELECT PROCESS IN THE SUCCEEDING ITERATION)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE IMPORTANT.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IMPORTANT_27 ?x1))
+
+;;  K
+
+	;; A CHANGE OF A SET OF NURSE MAY GUARANTEE CORRECTNESS OF AN INPUT TO A PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (change_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (SET_27 ?x2) (of_27 ?x1 ?x3) (NURSE_27 ?x3) (MAY_27 ?x3) (GUARANTEE_27 ?x3) (CORRECTNESS_27 ?x3) (of_27 ?x1 ?x4) (INPUT_27 ?x4) (to_27 ?x4 ?x5) (A_27 ?x5) (process_27 ?x5))
+
+;;  K
+
+	;; AN INPUT MAY HAVE CORRECTNESS.
+
+;;   F
+
+;;    S
+
+		(and (INPUT_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (CORRECTNESS_27 ?x1))
+
+;;  K
+
+	;; A PROCESS CAN BE IN AN ITERATION.
+
+;;   F
+
+;;    S
+
+		(and (process_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (AN_27 ?x2) (ITERATION_27 ?x2))
+
+;;  K
+
+	;; A PROCESS CAN BE SELECT.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SELECT_27 ?x1))
+
+;;  K
+
+	;; AN ITERATION CAN BE SUCCEEDING.
+
+;;   F
+
+;;    S
+
+		(and (ITERATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SUCCEEDING_27 ?x1))
+
+;; (FOR EXAMPLE , CONCERNING THE ROLES OF SELECT PROCESS AT EVERY LOOP ITERATION , `` THE SELECT PROCESS ,
+ THROUGH ALL THE LOOP ITERATION , SELECTS A NURSE WITH MINIMAL LOAD FROM THE SET OF THE NURSES WHOSE LOAD
+ ARE ADEQUATELY UPDATED BY UPDATE PROCESS IN THE LAST ITELATION OF THE LOOP)
+
+;; E
+
+;;  K
+
+	;; A PROCESS MAY SELECT A NURSE FROM A SET OF NURSES.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (MAY_27 ?x1) (SELECT_27 ?x1) (A_27 ?x1) (NURSE_27 ?x1) (FROM_27 ?x1) (A_27 ?x1) (SET_27 ?x1) (of_27 ?x1 ?x2) (NURSES_27 ?x2))
+
+;;  K
+
+	;; PROCESS CAN BE AT SOME_NUMBER_OF LOOP ITERATION.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AT_27 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (LOOP_27 ?x2) (ITERATION_27 ?x2))
+
+;;  K
+
+	;; A PROCESS CAN BE THROUGH A LOOP ITERATION.
+
+;;   F
+
+;;    S
+
+		(and (process_27 ?x1) (be_27 ?e1 ?x1) (through_27 ?x1 ?x2) (A_27 ?x2) (LOOP_27 ?x2) (ITERATION_27 ?x2))
+
+;;  K
+
+	;; A PROCESS CAN BE SELECT.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SELECT_27 ?x1))
+
+;;  K
+
+	;; A NURSE CAN BE WITH LOAD.
+
+;;   F
+
+;;    S
+
+		(and (NURSE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (WITH_27 ?x1) (LOAD_27 ?x1))
+
+;;  K
+
+	;; A LOAD CAN BE MINIMAL.
+
+;;   F
+
+;;    S
+
+		(and (LOAD_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MINIMAL_27 ?x1))
+
+;;  K
+
+	;; NURSES MAY HAVE A SET.
+
+;;   F
+
+;;    S
+
+		(and (NURSES_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SET_27 ?x1))
+
+;;  K
+
+	;; A LOOP MAY UNDERGO AN ITELATION.
+
+;;   F
+
+;;    S
+
+		(and (LOOP_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (ITELATION_27 ?x1))
+
+;; (ANOTHER EXAMPLE IS THE ONE WE CALL LOOP-INVARIANT GENERATE CAUSALITY)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF EXAMPLE CAN BE AN ONE.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (EXAMPLE_27 ?x1) (be_27 ?e1 ?x1))
+
+;;  K
+
+	;; LOOP-INVARIANT MAY GENERATE.
+
+;;   F
+
+;;    S
+
+		(and (LOOP-INVARIANT_27 ?x1) (MAY_27 ?x1) (GENERATE_27 ?x1))
+
+;; (IN PREPARATION , LET US CONSIDER THE LIFE OF A RELATION AMONG OBJECTS)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY CONSIDER A LIFE OF A RELATION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (CONSIDER_27 ?x1) (A_27 ?x1) (LIFE_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (RELATION_27 ?x2))
+
+;;  K
+
+	;; A RELATION CAN BE AMONG OBJECTS.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AMONG_27 ?x2) (OBJECTS_27 ?x2))
+
+;; (IN FIGURE 8 , WE CAN SEE TWO TYPES OF RELATIONS , THAT IS , LOOPTEMPORAL RELATIONS AND PERMANENT
+ RELATIONS)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY SEE SOME_NUMBER_OF TYPES OF RELATIONS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (SEE_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (TYPES_27 ?x1) (of_27 ?x1 ?x2) (RELATIONS_27 ?x2))
+
+;;  K
+
+	;; RELATIONS CAN BE LOOPTEMPORAL.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (LOOPTEMPORAL_27 ?x2))
+
+;;  K
+
+	;; RELATIONS CAN BE PERMANENT.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PERMANENT_27 ?x2))
+
+;; (` PICKED_UP ' BINARY RELATION FOR THE JOBK IS AN EXAMPLE OF LOOP-TEMPORAL RELATION)
+
+;; E
+
+;;  K
+
+	;; A RELATION CAN BE AN EXAMPLE OF RELATION.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AN_27 ?x2) (EXAMPLE_27 ?x2) (of_27 ?x2 ?x3) (RELATION_27 ?x3))
+
+;;  K
+
+	;; A RELATION CAN BE FOR A JOBK[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (JOBK_27 ?x2) (PERSON_27 ?x3))
+
+;;  K
+
+	;; A PICKED_UP[PERSON??] MAY HAVE A RELATION.
+
+;;   F
+
+;;    S
+
+		(and (PICKED_5FUP_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (relation_27 ?x1))
+
+;;  K
+
+	;; A RELATION CAN BE BINARY.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BINARY_27 ?x1))
+
+;;  K
+
+	;; A RELATION CAN BE LOOP-TEMPORAL.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LOOP-TEMPORAL_27 ?x1))
+
+;; (THIS APPEARS WHEN PICKUP PROCESS OUTPUTS THE JOBK IN KTH ITERATION OF THE LOOP AND DISAPPEARS WHEN THE
+ ITERATION IS COMPLETED)
+
+;; E
+
+;;  K
+
+	;; PICKUP PROCESS MAY OUTPUT A JOBK.
+
+;;   F
+
+;;    S
+
+		(and (PICKUP_27 ?x1) (PROCESS_27 ?x1) (MAY_27 ?x1) (OUTPUT_27 ?x1) (A_27 ?x1) (JOBK_27 ?x1))
+
+;;  K
+
+	;; A LOOP MAY HAVE KTH ITERATION.
+
+;;   F
+
+;;    S
+
+		(and (LOOP_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (KTH_27 ?x1) (ITERATION_27 ?x1))
+
+;;  K
+
+	;; AN ITERATION MAY BE COMPLETE -ED.
+
+;;   F
+
+;;    S
+
+		(and (ITERATION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (COMPLETE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (THE SAME THING IS TRUE FOR ` SELECTED FOR ' RELATION FOR THE NURSEK)
+
+;; E
+
+;;  K
+
+	;; A THING CAN BE TRUE FOR A SELECTED[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1) (true_27 ?x1) (for_27 ?e1 ?x2) (A_27 ?x2) (SELECTED_27 ?x2) (person_27 ?x3))
+
+;;  K
+
+	;; RELATION CAN BE FOR A NURSEK[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (NURSEK_27 ?x2) (PERSON_27 ?x3))
+
+;; (THE LIFE SPAN OF THE ` PICKED_UP ' RELATION IN THE PICKUP-CHECK LOOP STRUCTURE IS SPECIFIED BY THE AXIOM
+ OF TASK ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; A LIFE SPAN OF A RELATION MAY BE SPECIFY -ED BY AN AXIOM OF TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (LIFE_27 ?x1) (SPAN_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (RELATION_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (SPECIFY_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (by_27 ?x1 ?x3) (AN_27 ?x3) (AXIOM_27 ?x3) (of_27 ?x1 ?x4) (TASK_27 ?x4) (ONTOLOGY_27 ?x4))
+
+;;  K
+
+	;; A RELATION MAY HAVE A LIFE SPAN.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (LIFE_27 ?x1) (SPAN_27 ?x1))
+
+;;  K
+
+	;; A RELATION CAN BE IN A LOOP STRUCTURE.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (LOOP_27 ?x2) (STRUCTURE_27 ?x2))
+
+;;  K
+
+	;; A RELATION CAN BE PICKED_UP.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PICKED_5FUP_27 ?x1))
+
+;;  K
+
+	;; A PICKUP-CHECK[PERSON??] MAY HAVE A LOOP STRUCTURE.
+
+;;   F
+
+;;    S
+
+		(and (PICKUP-CHECK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (LOOP_27 ?x1) (STRUCTURE_27 ?x1))
+
+;; (THE VERSION MAINTENANCE FUNCTION OF CLEPE SETS UP THE LIFE SPAN OF EACH INSTANCE OF THE RELATION BASED
+ ON THE AXIOM)
+
+;; E
+
+;;  K
+
+	;; A VERSION MAINTENANCE FUNCTION OF A CLEPE[PERSON??] MAY SET_UP A LIFE SPAN OF SOME_NUMBER_OF INSTANCE OF A RELATION.
+
+;;   F
+
+;;    S
+
+		(and (VERSION_27 ?x1) (MAINTENANCE_27 ?x1) (FUNCTION_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (CLEPE_27 ?x2) (person_27 ?x3))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (SET_5FUP_27 ?x1) (A_27 ?x1) (LIFE_27 ?x1) (SPAN_27 ?x1) (of_27 ?x1 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (INSTANCE_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (RELATION_27 ?x3))
+
+;;  K
+
+	;; A RELATION MAY BE BASE -ED ON AN AXIOM.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (BASE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (ON_27 ?x1) (AN_27 ?x1) (AXIOM_27 ?x1))
+
+;; (IN CASE OF THE ` SELECTED_FOR ' RELATION , IT BECOMES MORE COMPLEX)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE COMPLEX.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (COMPLEX_27 ?x1))
+
+;;  K
+
+	;; A RELATION MAY HAVE CASE.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (CASE_27 ?x1))
+
+;;  K
+
+	;; A RELATION CAN BE SELECTED_FOR.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SELECTED_5FFOR_27 ?x1))
+
+;; (IN THE AXIOM RELATED TO SELECT PROCESS , THERE IS NO SPECIFICATION FOR THE LIFE SPAN OF THE RELATION)
+
+;; E
+
+;;  K
+
+	;; AN AXIOM MAY BE RELATE -ED TO PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (AXIOM_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (RELATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (to_27 ?x1 ?x2) (PROCESS_27 ?x2))
+
+;;  K
+
+	;; A SELECT[PERSON??] MAY HAVE A PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (SELECT_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (process_27 ?x1))
+
+;;  K
+
+	;; A SPECIFICATION CAN BE FOR A LIFE SPAN OF A RELATION.
+
+;;   F
+
+;;    S
+
+		(and (SPECIFICATION_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (LIFE_27 ?x2) (SPAN_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (RELATION_27 ?x3))
+
+;;  K
+
+	;; A RELATION MAY HAVE A LIFE SPAN.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (LIFE_27 ?x1) (SPAN_27 ?x1))
+
+;; (INSTEAD , THE GENERAL AXIOM OF TASK ONTOLOGY SAYS THAT `` IF A CONCEPTUAL ENTITY DEPENDS TIGHTLY ON THE
+ OTHER CONCEPTUAL ENTITIES , THE LIFE SPAN OF THEM SHOULD BE SAME AS A GENERAL RULE)
+
+;; E
+
+;;  K
+
+	;; AN AXIOM OF TASK MAY SAY A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (AXIOM_27 ?x1) (of_27 ?x1 ?x2) (TASK_27 ?x2) (MAY_27 ?x2) (SAY_27 ?x2) (A_27 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; AN AXIOM CAN BE GENERAL.
+
+;;   F
+
+;;    S
+
+		(and (AXIOM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERAL_27 ?x1))
+
+;;  K
+
+	;; A LIFE SPAN OF INDIVIDUAL -S CAN BE SAME AS A RULE.
+
+;;   F
+
+;;    S
+
+		(and (LIFE_27 ?x1) (SPAN_27 ?x1) (of_27 ?x1 ?x2) (INDIVIDUAL_27 ?x2) (kbs2_kif_quote_2DS_27 ?x2) (be_27 ?e1 ?x1) (same_27 ?x1) (as_27 ?e1 ?x3) (A_27 ?x3) (RULE_27 ?x3))
+
+;;  K
+
+	;; AN ENTITY MAY DEPEND.
+
+;;   F
+
+;;    S
+
+		(and (ENTITY_27 ?x1) (MAY_27 ?x1) (DEPEND_27 ?x1))
+
+;;  K
+
+	;; AN ENTITY CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (ENTITY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; ENTITIES CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (entity_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONCEPTUAL_27 ?x2))
+
+;;  K
+
+	;; A RULE CAN BE GENERAL.
+
+;;   F
+
+;;    S
+
+		(and (RULE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERAL_27 ?x1))
+
+;; (FOLLOWING THE PRINCIPLE , ` SELECTED_FOR -LRB- NURSEK , PICKED_UP -LRB- JOBK -RRB- -RRB- ' SHOULD
+ DISAPPEAR AT THE SAME TIME THAT ` PICKED_UP -LRB- JOBK -RRB- DISAPPEARS , BECAUSE NURSEK IS SELECTED_FOR
+ ` PICKED_UP -LRB- JOBK -RRB-)
+
+;; E
+
+;;  K
+
+	;; A SELECTED_FOR_-LRB-_NURSEK[PERSON??] MAY DISAPPEAR A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (SELECTED_5FFOR_5F-LRB-_5FNURSEK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (disappear_27 ?e1 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; A PICKED_UP_-LRB-_JOBK[PERSON??] MAY DISAPPEAR.
+
+;;   F
+
+;;    S
+
+		(and (PICKED_5FUP_5F-LRB-_5FJOBK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (DISAPPEAR_27 ?x1))
+
+;;  K
+
+	;; A NURSEK[PERSON??] CAN BE A SELECTED_FOR[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (NURSEK_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (A_27 ?x1) (SELECTED_5FFOR_27 ?x1) (person_27 ?x2))
+
+;; (HERE , HOWEVER , WE SHOULD NOTICE THAT THE GENERIC RELATIONS , PICKUP_UP -LRB- \* -RRB- AND SELECTED_FOR
+ -LRB- \* , \* -RRB- , FORM AN INVARIANT STRUCTURE THROUGH THE ITERATION OF THE LOOP)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY NOTICE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (NOTICE_27 ?x1) (A_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; RELATIONS MAY FORM A STRUCTURE.
+
+;;   F
+
+;;    S
+
+		(and (RELATIONS_27 ?x1) (MAY_27 ?x1) (FORM_27 ?x1) (A_27 ?x1) (structure_27 ?x1))
+
+;;  K
+
+	;; RELATIONS CAN BE GENERIC.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (GENERIC_27 ?x2))
+
+;;  K
+
+	;; A STRUCTURE CAN BE INVARIANT.
+
+;;   F
+
+;;    S
+
+		(and (STRUCTURE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (INVARIANT_27 ?x1))
+
+;;  K
+
+	;; A LOOP MAY UNDERGO AN ITERATION.
+
+;;   F
+
+;;    S
+
+		(and (LOOP_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (ITERATION_27 ?x1))
+
+;; (ON THE OTHER HAND , THE CONSIST-OF RELATION AMONG ASSIGNMENT , JOB AND NURSE IS AN EXAMPLE OF PERMANENT
+ RELATION)
+
+;; E
+
+;;  K
+
+	;; A RELATION CAN BE AN EXAMPLE OF RELATION.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AN_27 ?x2) (EXAMPLE_27 ?x2) (of_27 ?x2 ?x3) (RELATION_27 ?x3))
+
+;;  K
+
+	;; A RELATION CAN BE AMONG AN |\|ASSIGNMENT_\\\|,\\\|_JOB_AND_NURSE\||[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AMONG_27 ?x2) (AN_27 ?x2) (kbs2_kif_quote_7C_5C_7CASSIGNMENT_5F_5C_5C_5C_7C_27 ?x2) (kbs2_kif_quote_5C_5C_5C_7C_5FJOB_5FAND_5FNURSE_5C_7C_7C_27 ?x3) (PERSON_27 ?x4))
+
+;;  K
+
+	;; A RELATION CAN BE CONSIST-OF.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSIST-OF_27 ?x2))
+
+;;  K
+
+	;; A RELATION CAN BE PERMANENT.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PERMANENT_27 ?x2))
+
+;; (THERE ARE TWO KINDS OF PERMANENCIES IN OUR TASK ONTOLOGY , THAT IS , THE PROBLEM SOLVING PERMANENCY AND
+ THE PROBLEM PERMANENCY)
+
+;; E
+
+;;  K
+
+	;; PERMANENCIES CAN BE IN A TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (permanency_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; PERSON -S MAY HAVE A TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TASK_27 ?x1) (ONTOLOGY_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE PERMANENCY.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (PERMANENCY_27 ?x1))
+
+;; (THE FORMER MEANS THAT A CONCEPTUAL ENTITY REMAINS THROUGHOUT PROBLEM SOLVING BUT DISAPPEARS WHEN
+ COMPLETION)
+
+;; E
+
+;;  K
+
+	;; AN ENTITY MAY REMAIN THROUGHOUT PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (ENTITY_27 ?x1) (MAY_27 ?x1) (REMAIN_27 ?x1) (THROUGHOUT_27 ?x1) (PROBLEM_27 ?x1))
+
+;;  K
+
+	;; AN ENTITY CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (ENTITY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;; (THE LATTER MEAN THAT AN ENTITY NEVER DISAPPEARS TO REPRESENT THE RESULTS OF PROBLEM SOLVING AS THE
+ CONSIST-OF RELATION IN OUR EXAMPLE)
+
+;; E
+
+;;  K
+
+	;; A LATTER MAY MEAN A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (LATTER_27 ?x1) (MAY_27 ?x1) (MEAN_27 ?x1) (A_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE AS A RELATION.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (as_27 ?x1 ?x2) (A_27 ?x2) (RELATION_27 ?x2))
+
+;;  K
+
+	;; A RELATION CAN BE IN AN EXAMPLE.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (AN_27 ?x2) (EXAMPLE_27 ?x2))
+
+;;  K
+
+	;; A RELATION CAN BE CONSIST-OF.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSIST-OF_27 ?x2))
+
+;;  K
+
+	;; PERSON -S MAY HAVE AN EXAMPLE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (EXAMPLE_27 ?x1))
+
+;; (THE LIFE OF EACH CONCEPTUAL ENTITIES APPEARING IN PROBLEM SOLVING PROCESSES IS MAINTAINED BY THE VERSION
+ MANAGEMENT MECHANISM OF CLEPE)
+
+;; E
+
+;;  K
+
+	;; A LIFE OF SOME_NUMBER_OF ENTITIES MAY BE MAINTAIN -ED BY A VERSION MANAGEMENT MECHANISM OF A CLEPE[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (LIFE_27 ?x1) (of_27 ?x1 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (ENTITIES_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (MAINTAIN_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (by_27 ?x1 ?x3) (A_27 ?x3) (VERSION_27 ?x3) (MANAGEMENT_27 ?x3) (MECHANISM_27 ?x3) (of_27 ?x1 ?x4) (A_27 ?x4) (CLEPE_27 ?x4) (PERSON_27 ?x5))
+
+;;  K
+
+	;; SOME_NUMBER_OF ENTITIES MAY APPEAR IN PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (ENTITIES_27 ?x1) (MAY_27 ?x1) (APPEAR_27 ?x1) (in_27 ?x1 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; ENTITIES CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (entity_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONCEPTUAL_27 ?x2))
+
+;; (THE PROBLEM SOLVING CAUSALITY IS SPECIFIED IN TERMS OF THE RELATION AMONG THE VERSION CHANGES OF THE
+ CONCEPTUAL ENTITIES)
+
+;; E
+
+;;  K
+
+	;; A PROBLEM MAY BE SPECIFY -ED.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (SPECIFY_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;;  K
+
+	;; ENTITIES MAY HAVE VERSION CHANGES.
+
+;;   F
+
+;;    S
+
+		(and (ENTITIES_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (VERSION_27 ?x1) (CHANGES_27 ?x1))
+
+;;  K
+
+	;; ENTITIES CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (entity_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONCEPTUAL_27 ?x2))
+
+;; (` LOOP-INVARIANT GENERATE CAUSALITY ' IS SPECIFIED AS `` IF A PORTION OF PROBLEM SOLVING MODEL GENERATES
+ PERMANENT CONCEPTUAL ENTITIES FROM LOOP-INVARIANT ONES , THERE MAY EXIST LOOP-INVARIANT GENERATE
+ CAUSALITY)
+
+;; E
+
+;;  K
+
+	;; A LOOP-INVARIANT[PERSON??] MAY GENERATE.
+
+;;   F
+
+;;    S
+
+		(and (LOOP-INVARIANT_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (GENERATE_27 ?x1))
+
+;;  K
+
+	;; A PORTION OF PROBLEM MAY GENERATE ENTITIES FROM ONES.
+
+;;   F
+
+;;    S
+
+		(and (portion_27 ?x1) (of_27 ?x1 ?x2) (PROBLEM_27 ?x2) (MAY_27 ?x2) (GENERATE_27 ?x2) (ENTITIES_27 ?x2) (FROM_27 ?x2) (ONES_27 ?x2))
+
+;;  K
+
+	;; A PORTION CAN BE CONSTITUTED_OF_OR_FILLED_WITH PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (PORTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (PROBLEM_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE MODEL.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (MODEL_27 ?x1))
+
+;;  K
+
+	;; ENTITIES CAN BE PERMANENT.
+
+;;   F
+
+;;    S
+
+		(and (entity_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PERMANENT_27 ?x2))
+
+;;  K
+
+	;; ENTITIES CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (entity_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONCEPTUAL_27 ?x2))
+
+;;  K
+
+	;; ONES CAN BE LOOP-INVARIANT.
+
+;;   F
+
+;;    S
+
+		(and (one_27 ?x1)  )
+
+;;  K
+
+	;; LOOP-INVARIANT MAY GENERATE.
+
+;;   F
+
+;;    S
+
+		(and (LOOP-INVARIANT_27 ?x1) (MAY_27 ?x1) (GENERATE_27 ?x1))
+
+;; (IN OUR CASE , THE CAUSAL RELATION EXTRACTED BY THE CAUSALITY IS THAT `` ASSIGN PROCESS GENERATES AN
+ ASSIGNMENT WHICH CONSISTS OF PICKED-UP JOB AND NURSE SELECTED FOR THE JOB IN EACH ITERATION OF THE LOOP)
+
+;; E
+
+;;  K
+
+	;; A RELATION CAN BE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; PERSON -S MAY HAVE A CASE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (case_27 ?x1))
+
+;;  K
+
+	;; A RELATION MAY BE EXTRACT -ED BY A CAUSALITY.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (EXTRACT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (CAUSALITY_27 ?x2))
+
+;;  K
+
+	;; A RELATION CAN BE CAUSAL.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CAUSAL_27 ?x1))
+
+;;  K
+
+	;; PROCESS MAY GENERATE AN ASSIGNMENT.
+
+;;   F
+
+;;    S
+
+		(and (PROCESS_27 ?x1) (MAY_27 ?x1) (GENERATE_27 ?x1) (AN_27 ?x1) (ASSIGNMENT_27 ?x1))
+
+;;  K
+
+	;; AN ASSIGN[PERSON??] MAY HAVE A PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (ASSIGN_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (process_27 ?x1))
+
+;;  K
+
+	;; A NURSE_SELECTED[PERSON??] CAN BE FOR A JOB[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (NURSE_5FSELECTED_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (for_27 ?x1) (A_27 ?x1) (JOB_27 ?x1) (person_27 ?x2))
+
+;;  K
+
+	;; A LOOP MAY UNDERGO AN ITERATION.
+
+;;   F
+
+;;    S
+
+		(and (LOOP_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (ITERATION_27 ?x1))
+
+;; (THE ASSIGNMENT IS ADDED TO THE ASSIGNMENT-SET WHICH IS THE SOLUTION TO THE GIVEN PROBLEM)
+
+;; E
+
+;;  K
+
+	;; AN ASSIGNMENT[PERSON??] MAY BE ADD -ED TO AN ASSIGNMENT-SET.
+
+;;   F
+
+;;    S
+
+		(and (ASSIGNMENT_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (ADD_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (to_27 ?e1 ?x2) (AN_27 ?x2) (ASSIGNMENT-SET_27 ?x2))
+
+;;  K
+
+	;; A SOLUTION CAN BE TO A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (SOLUTION_27 ?x1) (be_27 ?e1 ?x1) (to_27 ?x1 ?x2) (A_27 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM CAN BE GIVEN.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GIVEN_27 ?x1))
+
+;; (AS WE CAN SEE IN THE ABOVE TWO EXAMPLES , THE PROBLEM SOLVING CAUSALITY CAN EXTRACT A MEANINGFUL SET OF
+ RELATIONS FROM THE LARGE NUMBER OF RELATIONS ON THE PROBLEM SOLVING MODEL)
+
+;; E
+
+;;  K
+
+	;; A PROBLEM MAY EXTRACT A SET OF RELATIONS FROM A NUMBER OF RELATIONS.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (EXTRACT_27 ?x1) (A_27 ?x1) (SET_27 ?x1) (of_27 ?x1 ?x2) (RELATIONS_27 ?x2) (FROM_27 ?x2) (A_27 ?x2) (NUMBER_27 ?x2) (of_27 ?x1 ?x3) (RELATIONS_27 ?x3))
+
+;;  K
+
+	;; PERSON -S MAY SEE IN SOME_NUMBER_OF EXAMPLES.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (SEE_27 ?x1) (in_27 ?x1 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (EXAMPLES_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;;  K
+
+	;; A SET CAN BE CONSTITUTED_OF_OR_FILLED_WITH RELATIONS.
+
+;;   F
+
+;;    S
+
+		(and (SET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (RELATIONS_27 ?x1))
+
+;;  K
+
+	;; A SET CAN BE MEANINGFUL.
+
+;;   F
+
+;;    S
+
+		(and (SET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MEANINGFUL_27 ?x1))
+
+;;  K
+
+	;; A NUMBER CAN BE LARGE.
+
+;;   F
+
+;;    S
+
+		(and (number_27 ?x1) (be_27 ?e1 ?x1) (large_27 ?x1))
+
+;;  K
+
+	;; RELATIONS CAN BE ON A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (A_27 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE MODEL.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (MODEL_27 ?x1))
+
+;; (WITHOUT IT , ENDUSERS WOULD BE BORED WITH AN INCONTINENT TALK OF MEANINGLESS RELATIONS)
+
+;; E
+
+;;  K
+
+	;; ENDUSERS CAN BE BORED WITH A TALK OF RELATIONS.
+
+;;   F
+
+;;    S
+
+		(and (enduser_27 ?x1) (be_27 ?e1 ?x1 ?e2) (bore_27 ?e2 ?x1) (with_27 ?e2 ?x2) (A_27 ?x2) (TALK_27 ?x2) (of_27 ?x2 ?x3) (RELATIONS_27 ?x3))
+
+;;  K
+
+	;; A TALK CAN BE CONSTITUTED_OF_OR_FILLED_WITH RELATIONS.
+
+;;   F
+
+;;    S
+
+		(and (TALK_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (RELATIONS_27 ?x1))
+
+;;  K
+
+	;; A TALK CAN BE INCONTINENT.
+
+;;   F
+
+;;    S
+
+		(and (TALK_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (INCONTINENT_27 ?x1))
+
+;;  K
+
+	;; RELATIONS CAN BE MEANINGLESS.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (MEANINGLESS_27 ?x2))
+
+;; (6 CAPTURING THE PROBLEM SOLVING MODEL PROBLEM SOLVING CAUSALITY IS BUILT IN THE TASK ONTOLOGY AS GENERAL
+ RELATION AMONG PROBLEM SOLVING PROCESSES AND OBJECTS)
+
+;; E
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY BE BUILD -ED IN A TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (BUILD_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (TASK_27 ?x2) (ONTOLOGY_27 ?x2))
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY CAPTURE A PROBLEM_SOLVING_MODEL_PROBLEM[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (CAPTURE_27 ?x1) (A_27 ?x1) (PROBLEM_5FSOLVING_5FMODEL_5FPROBLEM_27 ?x1) (person_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM_SOLVING_MODEL_PROBLEM[PERSON??] MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_5FSOLVING_5FMODEL_5FPROBLEM_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;;  K
+
+	;; RELATION MAY SOLVE PROCESSES.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (PROCESSES_27 ?x1))
+
+;;  K
+
+	;; RELATION CAN BE AMONG PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AMONG_27 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; A RELATION CAN BE GENERAL.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERAL_27 ?x1))
+
+;; (THE PRESENTATION WOULD BE WELL ACCEPTABLE TO END-USERS BECAUSE IT APPROPRIATELY REFLECTS THE EPISTEMIC
+ CHARACTERISTIC OF THEIR UNDERSTANDING OF THE PROBLEM SOLVING PROCESS)
+
+;; E
+
+;;  K
+
+	;; A PRESENTATION CAN BE ACCEPTABLE TO END-USERS.
+
+;;   F
+
+;;    S
+
+		(and (PRESENTATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ACCEPTABLE_27 ?x1) (to_27 ?x1 ?x2) (END-USERS_27 ?x2))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY REFLECT A CHARACTERISTIC OF AN UNDERSTANDING OF A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (REFLECT_27 ?x1) (A_27 ?x1) (CHARACTERISTIC_27 ?x1) (of_27 ?x1 ?x2) (UNDERSTANDING_27 ?x2) (of_27 ?x2 ?x3) (PROBLEM_27 ?x3))
+
+;;  K
+
+	;; A CHARACTERISTIC CAN BE EPISTEMIC.
+
+;;   F
+
+;;    S
+
+		(and (CHARACTERISTIC_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (EPISTEMIC_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY UNDERGO AN UNDERSTANDING.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (UNDERSTANDING_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE AN UNDERSTANDING.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (UNDERSTANDING_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (PROCESS_27 ?x1))
+
+;; (THUS , WE COULD SAY THAT PROBLEM SOLVING CAUSALITY IS ONE OF THE MOST IMPORTANT PARTS OF TASK ONTOLOGY
+ AS USER MODEL)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY SAY A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (SAY_27 ?x1) (A_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; PROBLEM CAN BE SOME NUMBER_OR_PORTION OF PARTS OF TASK ONTOLOGY.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (be_27 ?e1 ?x1 ?x2) (SOME_27 ?x2) (NUMBER_5FOR_5FPORTION_27 ?x2) (of_27 ?x2 ?x3) (PARTS_27 ?x3) (of_27 ?x2 ?x4) (TASK_27 ?x4) (ONTOLOGY_27 ?x4))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;;  K
+
+	;; PARTS CAN BE IMPORTANT.
+
+;;   F
+
+;;    S
+
+		(and (part_27 ?x1) (be_27 ?e1 ?x1 ?x2) (IMPORTANT_27 ?x2))
+
+;;  K
+
+	;; TASK ONTOLOGY CAN BE AS USER MODEL.
+
+;;   F
+
+;;    S
+
+		(and (TASK_27 ?x1) (ONTOLOGY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (as_27 ?x1 ?x2) (USER_27 ?x2) (MODEL_27 ?x2))
+
+;; (IN THIS SECTION , WE WILL EXEMPLIFY THE ROLES OF THE PROBLEM SOLVING CAUSALITY AS A STATIC USER MODEL)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY EXEMPLIFY ROLES OF A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (EXEMPLIFY_27 ?x1) (ROLES_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM MAY HAVE ROLES.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (ROLES_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE AS A USER MODEL.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (as_27 ?x1 ?x2) (A_27 ?x2) (USER_27 ?x2) (MODEL_27 ?x2))
+
+;;  K
+
+	;; A USER MODEL CAN BE STATIC.
+
+;;   F
+
+;;    S
+
+		(and (USER_27 ?x1) (MODEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (STATIC_27 ?x1))
+
+;; (6.1 PROBLEM SOLVING CAUSALITY PROBLEM SOLVING CAUSALITY IS CAUSAL RELATION AMONG THE PARTS OF PROBLEM
+ SOLVING MODEL)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF PROBLEM CAN BE A RELATION.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (PROBLEM_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (RELATION_27 ?x2))
+
+;;  K
+
+	;; SOME_NUMBER_OF PROBLEM MAY SOLVE A CAUSALITY_PROBLEM[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (A_27 ?x1) (CAUSALITY_5FPROBLEM_27 ?x1) (person_27 ?x2))
+
+;;  K
+
+	;; A CAUSALITY_PROBLEM[PERSON??] MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (CAUSALITY_5FPROBLEM_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;;  K
+
+	;; RELATION CAN BE AMONG PARTS OF PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AMONG_27 ?x2) (PARTS_27 ?x2) (of_27 ?x2 ?x3) (PROBLEM_27 ?x3))
+
+;;  K
+
+	;; A RELATION CAN BE CAUSAL.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CAUSAL_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE MODEL.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (MODEL_27 ?x1))
+
+;; (ONCE THE OBJECT FLOW MODEL CORRESPONDING TO THE GIVEN GPN IS IDENTIFIED , CLEPE TRIES TO FIND OUT CAUSAL
+ RELATION UNDERLYING THE PROBLEM SOLVING MODEL BASED ON THE ONTOLOGY OF PROBLEM SOLVING CAUSALITY AND
+ THEN BUILD A CONCEPTUAL LEVEL EXECUTION MODEL)
+
+;; E
+
+;;  K
+
+	;; AN OBJECT FLOW MODEL TO A GPN MAY BE IDENTIFY -ED.
+
+;;   F
+
+;;    S
+
+		(and (OBJECT_27 ?x1) (FLOW_27 ?x1) (MODEL_27 ?x1) (TO_27 ?x1) (A_27 ?x1) (GPN_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (IDENTIFY_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; AN OBJECT FLOW MODEL CAN BE TO A GPN.
+
+;;   F
+
+;;    S
+
+		(and (OBJECT_27 ?x1) (FLOW_27 ?x1) (MODEL_27 ?x1) (be_27 ?e1 ?x1) (to_27 ?x1 ?x2) (A_27 ?x2) (GPN_27 ?x2))
+
+;;  K
+
+	;; A GPN CAN BE GIVEN.
+
+;;   F
+
+;;    S
+
+		(and (GPN_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GIVEN_27 ?x1))
+
+;;  K
+
+	;; RELATION MAY UNDERLY A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (MAY_27 ?x1) (UNDERLY_27 ?x1) (A_27 ?x1) (PROBLEM_27 ?x1))
+
+;;  K
+
+	;; A RELATION CAN BE CAUSAL.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CAUSAL_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE MODEL.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (MODEL_27 ?x1))
+
+;;  K
+
+	;; PROBLEM MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;;  K
+
+	;; A LEVEL EXECUTION MODEL CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (MODEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;; (WHEN CLEPE PROVIDES END-USERS WITH THE TRACE INFORMATION OF CONCEPTUAL LEVEL EXECUTION , THE PROBLEM
+ SOLVING CAUSALITY PLAYS AN IMPORTANT ROLE AS A BASIC AGREEMENT AMONG END-USERS AND CLEPE TO SHARE THE
+ COMMON UNDERSTANDING OF THE PROBLEM SOLVING PROCESS)
+
+;; E
+
+;;  K
+
+	;; A PROBLEM MAY PLAY A ROLE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (PLAY_27 ?x1) (A_27 ?x1) (ROLE_27 ?x1))
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY PROVIDE END-USERS WITH AN INFORMATION OF LEVEL EXECUTION.
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (PROVIDE_27 ?x1) (END-USERS_27 ?x1) (WITH_27 ?x1) (AN_27 ?x1) (INFORMATION_27 ?x1) (of_27 ?x1 ?x2) (LEVEL_27 ?x2) (EXECUTION_27 ?x2))
+
+;;  K
+
+	;; AN INFORMATION CAN BE TRACE.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (be_27 ?e1 ?x1 ?x2) (TRACE_27 ?x2))
+
+;;  K
+
+	;; A LEVEL EXECUTION CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1))
+
+;;  K
+
+	;; A ROLE CAN BE IMPORTANT.
+
+;;   F
+
+;;    S
+
+		(and (ROLE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IMPORTANT_27 ?x1))
+
+;;  K
+
+	;; AN AGREEMENT CAN BE AMONG END-USERS.
+
+;;   F
+
+;;    S
+
+		(and (AGREEMENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (AMONG_27 ?x1) (END-USERS_27 ?x1))
+
+;;  K
+
+	;; AN AGREEMENT CAN BE BASIC.
+
+;;   F
+
+;;    S
+
+		(and (AGREEMENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BASIC_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY UNDERGO AN UNDERSTANDING.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (UNDERSTANDING_27 ?x1))
+
+;;  K
+
+	;; AN UNDERSTANDING CAN BE COMMON.
+
+;;   F
+
+;;    S
+
+		(and (UNDERSTANDING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (COMMON_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (PROCESS_27 ?x1))
+
+;; (THE MAJOR ROLE OF THE CAUSALITY , IN GENERAL , IS TO ASSIGN THE ROLE MEANINGFUL FROM PROBLEM SOLVING
+ VIEWPOINT TO EACH OF THE OBJECTS REFERRED BY THE RELATION AS ARGUMENTS)
+
+;; E
+
+;;  K
+
+	;; A CAUSALITY MAY HAVE A ROLE.
+
+;;   F
+
+;;    S
+
+		(and (CAUSALITY_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (ROLE_27 ?x1))
+
+;;  K
+
+	;; OBJECTS MAY HAVE A THING.
+
+;;   F
+
+;;    S
+
+		(and (OBJECTS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (thing_27 ?x1))
+
+;;  K
+
+	;; OBJECTS MAY BE REFER -ED BY A RELATION.
+
+;;   F
+
+;;    S
+
+		(and (OBJECTS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (REFER_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (RELATION_27 ?x2))
+
+;;  K
+
+	;; A RELATION CAN BE AS ARGUMENTS.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1) (as_27 ?x1 ?x2) (argument_27 ?x2))
+
+;; (IN GENERAL , THE CAUSAL RELATION UNDERLYING A PROBLEM SOLVING MODEL IS QUITE COMPLICATED AND ENTANGLED)
+
+;; E
+
+;;  K
+
+	;; A RELATION CAN BE COMPLICATED.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?e2) (complicate_27 ?e2 ?x1))
+
+;;  K
+
+	;; A RELATION MAY UNDERLY A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (MAY_27 ?x1) (UNDERLY_27 ?x1) (A_27 ?x1) (PROBLEM_27 ?x1))
+
+;;  K
+
+	;; A RELATION CAN BE CAUSAL.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CAUSAL_27 ?x1))
+
+;; (IF ONE TRIES TO DRAW THE FIGURE TO SHOW THE CAUSAL RELATION OF A CERTAIN PROBLEM SOLVING MODEL , HE\/SHE
+ WILL FIND THAT IT IS TOO COMPLICATED TO DRAW IT ON ONE PLANE)
+
+;; E
+
+;;  K
+
+	;; HE\/SHE MAY FIND A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (HE_5C_2FSHE_27 ?x1) (MAY_27 ?x1) (FIND_27 ?x1) (A_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY UNDERGO A RELATION.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (RELATION_27 ?x1))
+
+;;  K
+
+	;; A RELATION CAN BE CAUSAL.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CAUSAL_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE MODEL.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (MODEL_27 ?x1))
+
+;; (THUS , IT IS QUITE DIFFICULT FOR END-USERS TO DESCRIBE THE CAUSAL RELATION EXPLICITLY BY THEMSELVES ,
+ EVEN IF IT IS OBVIOUS FOR THEM)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE DIFFICULT FOR END-USERS.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DIFFICULT_27 ?x1) (for_27 ?x1 ?x2) (END-USERS_27 ?x2))
+
+;;  K
+
+	;; A RELATION CAN BE CAUSAL.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CAUSAL_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE OBVIOUS FOR INDIVIDUAL -S.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (OBVIOUS_27 ?x2) (for_27 ?e1 ?x3) (INDIVIDUAL_27 ?x3) (kbs2_kif_quote_2DS_27 ?x3))
+
+;; (SO , IN ORDER FOR ENDUSERS AND CLEPE TO SHARE THE COMMON UNDERSTANDING OF THE PROBLEM SOLVING MODEL , WE
+ CAN NOT EXPECT THAT END-USERS TO EXPRESS THEIR INTENTION BY THEMSELVES AS INPUT TO CLEPE)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY EXPECT A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (EXPECT_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; ORDER CAN BE FOR ENDUSERS.
+
+;;   F
+
+;;    S
+
+		(and (order_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (enduser_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM MAY UNDERGO AN UNDERSTANDING.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (AN_27 ?x1) (UNDERSTANDING_27 ?x1))
+
+;;  K
+
+	;; AN UNDERSTANDING CAN BE COMMON.
+
+;;   F
+
+;;    S
+
+		(and (UNDERSTANDING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (COMMON_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE MODEL.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (MODEL_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE AN INTENTION.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (INTENTION_27 ?x1))
+
+;; (INSTEAD , CLEPE ACCEPTS RATHER SIMPLE DESCRIPTION OF PROBLEM SOLVING PROCESS , SUCH AS GPNS , AND THEN
+ RECONSTRUCTS THE OBJECT FLOW MODEL AND REVEALS THE CAUSAL RELATION UNDERLYING IT BASED ON TASK ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY ACCEPT DESCRIPTION OF PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (ACCEPT_27 ?x1) (DESCRIPTION_27 ?x1) (of_27 ?x1 ?x2) (PROBLEM_27 ?x2))
+
+;;  K
+
+	;; A DESCRIPTION CAN BE SIMPLE.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SIMPLE_27 ?x1))
+
+;;  K
+
+	;; A RELATION MAY UNDERLY A THING-REFERRED-TO.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (MAY_27 ?x1) (UNDERLY_27 ?x1) (A_27 ?x1) (THING-REFERRED-TO_27 ?x1))
+
+;;  K
+
+	;; A RELATION CAN BE CAUSAL.
+
+;;   F
+
+;;    S
+
+		(and (RELATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CAUSAL_27 ?x1))
+
+;; (IN PRACTICE , OF COURSE , THE RECONSTRUCTION TASK IS NOT EASY ONE EVEN WITH AID OF TASK ONTOLOGY)
+
+;; E
+
+;;  K
+
+	;; A RECONSTRUCTION TASK CAN BE EASY.
+
+;;   F
+
+;;    S
+
+		(and (RECONSTRUCTION_27 ?x1) (TASK_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (EASY_27 ?x1))
+
+;; (TO OVERCOME THE DIFFICULTY , CLEPE INTERACTS WITH END-USERS TO REVEAL END-USERS ' REAL INTENTIONS OF
+ GPN)
+
+;; E
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY INTERACT WITH END-USERS.
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (INTERACT_27 ?x1) (WITH_27 ?x1) (END-USERS_27 ?x1))
+
+;;  K
+
+	;; END-USERS MAY HAVE INTENTIONS.
+
+;;   F
+
+;;    S
+
+		(and (END-USERS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (INTENTIONS_27 ?x1))
+
+;;  K
+
+	;; INTENTIONS CAN BE REAL.
+
+;;   F
+
+;;    S
+
+		(and (intention_27 ?x1) (be_27 ?e1 ?x1 ?x2) (REAL_27 ?x2))
+
+;; (NEVERTHELESS , IF THERE STILL REMAINS SOME GAP BETWEEN END-USERS ' INTENTION AND CLEPE 'S UNDERSTANDING
+ , CLEPE PROVIDES END-USERS WITH THE CONCEPTUAL LEVEL EXECUTION FUNCTION AND EXPECTS THEM TO ADAPT -LRB-
+ DEBUG -RRB- THEIR PROBLEM SOLVING DESCRIPTION TO TASK ONTOLOGY BY THEMSELVES)
+
+;; E
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY PROVIDE END-USERS WITH A LEVEL EXECUTION FUNCTION.
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (provide_27 ?e1 ?x1) (END-USERS_27 ?x1) (WITH_27 ?x1) (A_27 ?x1) (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (FUNCTION_27 ?x1))
+
+;;  K
+
+	;; SOME_NUMBER_OF GAP CAN BE BETWEEN AN INTENTION.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (GAP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETWEEN_27 ?x1) (AN_27 ?x1) (INTENTION_27 ?x1))
+
+;;  K
+
+	;; END-USERS MAY HAVE AN INTENTION.
+
+;;   F
+
+;;    S
+
+		(and (END-USERS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (INTENTION_27 ?x1))
+
+;;  K
+
+	;; A CLEPE[PERSON??] MAY HAVE AN UNDERSTANDING.
+
+;;   F
+
+;;    S
+
+		(and (CLEPE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (UNDERSTANDING_27 ?x1))
+
+;;  K
+
+	;; A LEVEL EXECUTION FUNCTION CAN BE CONCEPTUAL.
+
+;;   F
+
+;;    S
+
+		(and (LEVEL_27 ?x1) (EXECUTION_27 ?x1) (FUNCTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONCEPTUAL_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PROBLEM_27 ?x1))

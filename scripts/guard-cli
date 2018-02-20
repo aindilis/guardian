@@ -1,0 +1,119 @@
+#!/usr/bin/perl -w
+
+use BOSS::Config;
+use PerlLib::SwissArmyKnife;
+use UniLang::Util::TempAgent;
+
+use Error qw(:try);
+
+$specification = q(
+	--restart		Restart
+
+	-a <arg>...    		Extra Args to add to data of message
+
+	-r			Reload
+	-t			List tasks
+	-c <command>		Run the query for command
+);
+
+
+my $config =
+  BOSS::Config->new
+  (Spec => $specification);
+my $conf = $config->CLIConfig;
+# $UNIVERSAL::systemdir = "/var/lib/myfrdcsa/codebases/minor/guardian";
+
+$UNIVERSAL::exitnow = 0;
+my $notconnected = 0;
+my $tempagent;
+my %tempagentargs =
+  (
+   Name => 'Guardian-Client',
+  );
+
+try {
+  $tempagent = UniLang::Util::TempAgent->new
+    (
+     %tempagentargs,
+    );
+}
+  catch Error with {
+    GuardMessage
+      (
+       Guards => [
+		  'Could not connect to UniLang Guardian Agent',
+		 ],
+      );
+    $notconnected = 1;
+  };
+
+# Send a message to the guard agent
+unless ($notconnected) {
+  my @res;
+  try {
+    if (exists $conf->{'-c'}) {
+      push @send, {Command => $conf->{'-c'}};
+    }
+    if (exists $conf->{'-t'}) {
+      push @send, {Command => 'list-tasks'};
+    }
+    if (exists $conf->{'-r'}) {
+      push @send, {Command => 'reload'};
+    }
+    if (exists $conf->{'--restart'}) {
+      push @send, {Command => 'restart'};
+    }
+
+    foreach my $tosend (@send) {
+      print Dumper({Conf => $conf});
+      if (exists $conf->{'-a'}) {
+	my %hash = @{$conf->{'-a'}};
+	foreach my $item (keys %hash) {
+	  $tosend->{$item} = $hash{$item};
+	}
+      }
+      print Dumper({ToSend => $tosend});
+      $tosend->{_DoNotLog} = 1;
+      push @res, $tempagent->MyAgent->QueryAgent
+      	(
+      	 Receiver => 'Guardian',
+      	 Data => $tosend,
+      	);
+    }
+    if (exists $conf->{'--restart'}) {
+      sleep 100;
+    }
+    print Dumper(\@res);
+  }
+    catch Error with {
+      print "No reply from tempagent\n";
+    };
+}
+
+sub GuardMessage {
+  my (%args) = @_;
+  if (scalar @{$args{Guards}}) {
+    my $guardline = "---------GUARD---------\n";
+    my      $line = "-----------------------\n";
+    print $guardline.
+      PrintGuards(Guards => $args{Guards}).
+      # "\n - Guard...\n".
+      $line;
+  }
+}
+
+sub MyReceiver {
+  my (%args) = @_;
+  $UNIVERSAL::exitnow = 1;
+  $notconnected = 1;
+  if (exists $args{Message}->{Data}{Result}) {
+    my @items = @{$args{Message}->{Data}{Result}};
+    GuardMessage(Guards => \@items);
+  }
+}
+
+sub PrintGuards {
+  my (%args) = @_;
+  return join("\n",map {'('.$_.')'} @{$args{Guards}})."\n";
+  # return join("\n",map {'+ '.$_} @{$args{Guards}})."\n";
+}

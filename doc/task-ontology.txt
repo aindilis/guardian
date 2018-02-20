@@ -1,0 +1,274 @@
+A TASK ANALYSIS INTERVIEW SYSTEM MAY PRO
+A TASK CAN BE COLLABORATIVE
+A TASK CAN BE CONCRETE
+A TASK CAN BE CONSTITUTED_OF_OR_FILLED_WITH INTEREST
+A TASK CAN BE CORE
+A TASK CAN BE IMPORTANT
+A TASK CAN BE IN A LIST
+A TASK CAN BE LEXICAL
+A TASK CAN BE ONTOLOGY
+A TASK CAN BE STRONG
+A TASK DESCRIPTION CAN BE A SOURCE
+A TASK DESCRIPTION MAY BE COMPOSE -ED AT MINIMUM OF A SUMMARY
+A TASK FLOW MODEL CAN BE GIVEN
+A TASK FULFILLMENT MAY HAVE RESULTS
+A TASK INFORMATION MAY BE NEED -ED FOR A KNOWLEDGE WORKER
+A TASK MANAGEMENT CAN BE EFFICIENT
+A TASK MANAGEMENT CAN BE PERSONAL
+A TASK MAY BE ASSOCIATE -ED WITH A METHOD
+A TASK MAY BE DESCRIBE -ED WITH A TOL[PERSON??]
+A TASK MAY BE INDEX -ED IN A LIBRARY
+A TASK MAY BE REALIZE -ED BY TASK TRANSMISSION
+A TASK MAY BE SOLVE -ED BY A NUMBER OF METHODS
+A TASK MAY DISCUSS IN DETAIL
+A TASK MAY GO_THROUGH DURING TRANSMISSION OF A TASK
+A TASK MAY HAVE A SENDER
+A TASK MAY HAVE POWER
+A TASK MAY UNDERGO AN EXECUTION
+A TASK MAY UNDERGO A TRANSMISSION
+A TASK ONTOLOGY AUTHOR CAN BE CORE
+A TASK ONTOLOGY CAN BE CONCEPTUAL
+A TASK ONTOLOGY CAN BE CORE
+A TASK ONTOLOGY CAN BE KNOWLEDGE-LEVEL
+A TASK ONTOLOGY RESEARCH MAY BE INITIATE -ED
+A TASK REPRESENTATION CAN BE DEDICATED
+A TASK SPACE CAN BE PERSONAL
+A TASK STRUCTURE MAY IDENTIFY A NUMBER OF METHODS
+
+
+(task-forces)-does-undergo-a-creation
+(task-management-skills)-does-undergo-a-development
+a-(task-description)-is-comprehensive
+a-(task-force)-does-move-into-a-country
+a-(task-force)-has-members
+a-(task-force)-is-internal
+a-(task-master)-is-hard
+a-(task-planning)-is-intelligent
+a-(task-space)-is-a-digraph
+a-commission-has-a-(task-force)
+a-country-has-a-(task-force)
+a-male-has-a-(task-force)
+a-person-does-want-a-(task-schedule)
+does-await-a-female
+does-complete
+does-confront-a-management
+does-face-(home-countries)
+does-face-a-government
+does-face-a-male
+does-face-a-person
+does-face-persons
+does-fall-to-a-parliament
+does-involve
+does-involve-stimuli
+does-lay
+does-lie
+does-lie-flat-before-persons
+does-manifest-seriousness
+does-undergo-a-completion
+does-undergo-a-definition
+does-undergo-a-perception
+does-undergo-a-performance
+does-undergo-an-accomplishment
+does-undergo-an-achievement
+does-undergo-an-acquisition
+does-undergo-an-execution
+does-undergo-an-importance
+does-undergo-an-understanding
+does-undergo-requirements
+has-a-(search-space)
+has-a-beginning
+has-a-complexity
+has-a-context
+has-a-difficulty
+has-a-goal
+has-a-magnitude
+has-a-nature
+has-a-part
+has-a-reality
+has-a-scale
+has-a-scope
+has-a-size
+has-a-state
+has-a-version
+has-an-end
+has-an-enormity
+has-an-offshoot
+has-an-urgency
+has-aspects
+has-components
+has-demands
+has-details
+has-difficulties
+has-elements
+has-nature
+has-operators
+has-part
+is-a-challenge
+is-a-defence-of-a-realm
+is-a-diversion
+is-accomplished
+is-achieved
+is-allotted
+is-ambitious
+is-appointed
+is-arduous
+is-assigned
+is-assigned-to-a-male
+is-at-hand
+is-auditory
+is-awesome
+is-awkward
+is-basic
+is-before-persons
+is-by-means
+is-carry_outed
+is-causal
+is-challenging
+is-clear
+is-complete
+is-completed
+is-complex
+is-complicated
+is-concurrent
+is-considerable
+is-constituted-of-or-filled-with-complexity
+is-constituted-of-or-filled-with-difficulty
+is-constituted-of-or-filled-with-magnitude
+is-continuous
+is-daily
+is-dangerous
+is-daunting
+is-defined
+is-delicate
+is-delightful
+is-demanding
+is-depressing
+is-diagnostic
+is-different
+is-difficult
+is-distasteful
+is-easier
+is-easy
+is-endless
+is-enjoyable
+is-enormous
+is-enough
+is-entailed
+is-enviable
+is-everyday
+is-evidential
+is-experimental
+is-finished
+is-finite
+is-fixed
+is-for-a-female
+is-for-a-male
+is-for-a-person
+is-for-a-teacher
+is-for-artists
+is-for-persons
+is-for-runners
+is-for-someone
+is-for-teachers
+is-formidable
+is-fruitless
+is-fundamental
+is-given
+is-global
+is-greater
+is-grim
+is-gruesome
+is-happy
+is-hard
+is-harder
+is-hazardous
+is-herculean
+is-heroic
+is-high
+is-hopeless
+is-impossible
+is-in-a-country
+is-in-a-section
+is-in-hand
+is-in-itself
+is-in-some-years
+is-in-the-world
+is-insurmountable
+is-interesting
+is-intricate
+is-involved
+is-laborious
+is-large
+is-legitimate
+is-lengthy
+is-lonely
+is-lovely
+is-made
+is-made-difficult
+is-made-easier
+is-manual
+is-menial
+is-microscopic
+is-mindless
+is-monotonous
+is-monumental
+is-mountainous
+is-much
+is-mundane
+is-onerous
+is-open-ended
+is-painful
+is-painstaking
+is-performed
+is-personal
+is-philosophical
+is-physical
+is-pleasant
+is-pleasurable
+is-popular
+is-practical
+is-reactive
+is-regular
+is-repetitive
+is-required
+is-responsible
+is-sacred
+is-satisfying
+is-self-appointed
+is-self-imposed
+is-sensitive
+is-shared
+is-simple
+is-simplified
+is-skilled
+is-specialised
+is-stated-in-terms
+is-stiff
+is-straightforward
+is-tackled
+is-tedious
+is-terrible
+is-thankless
+is-tiresome
+is-to-date
+is-tough
+is-tricky
+is-trivial
+is-true
+is-twofold
+is-understood
+is-undertaken
+is-unenviable
+is-unpleasant
+is-unrewarding
+is-uphill
+is-urgent
+is-useful
+is-vain
+is-verbal
+is-vital
+is-wearisome
+is-well-defined
+is-yours
+persons-does-set_up-a-(task-force)
+persons-is-(task-force)
